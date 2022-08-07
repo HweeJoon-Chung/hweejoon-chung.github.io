@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    [UNITY] 유니티와 게임 - HWEE JOON&#39;s Persona
+    
+  </title>
+
+  <meta name="description" content="Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2020/01/30/prophecy.html">
+  <link rel="alternate" type="application/rss+xml" title="HWEE JOON&#39;s Persona" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">HWEE JOON&#39;s Persona</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/posts/04.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>[UNITY] 유니티와 게임</h1>
+            
+            <h2 class="subheading">유니티를 통한 게임 프로그래밍</h2>
+            
+            <span class="meta">Posted by
+              <a href="#">Chung Hwee Joon</a>
+              on January 30, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   3 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <h2>Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</h2>
+
+
+<p>게임 엔진 - 2D 및 3D 비디오 게임의 개발 환경을 제공하여 모든 작업을 하나하나 코딩해줘야 하는 번거로움을 줄이고 이미 개발되어 있는 다양한 기능들을 조립 방식으로 사용. 게임을 만드는 데 도움이 되거나 필요한 다양한 라이브러리/툴들과 기능들을 모아 놓은 소프트웨어._
+</p>
+
+<p>Windows 64bit 버전과 Mac OS X Sierra 10.12.6+, Ubuntu 16.04/18.04 지원
+</p>
+<p>
+DX10+ 지원 GPU 그래픽 카드
+</p>
+
+<p>
+Unity Hub는 여러 버전의 유니티를 설치 가능.
+</p>
+
+<h2>기본 개념</h2>
+
+<p>
+객체(Object) : 게임의 캐릭터 처럼 게임에서 보이는 물체
+</p>
+<p>
+컴포넌트 : 게임객체의 모양, 재질, 물리적 특성, 동작 등을 정의 (객체는 컴포넌트로 이뤄짐). 인스펙터 윈도우에서 설정.
+</p>
+<p>
+스크립트 : 컴포넌트 중 객체의 동작을 정의하는 것. C# 또는 Javascript 지원.
+</p>
+<p>
+유니티에서 프로그래머가 원하는 대로 게임객체를 동작하게 하려면 스크립트에 원하는 코드를 정의하면 됨.
+</p>
+<p>
+게임에서 플레이어의 몹사냥, 다른 플레이어와의 전투 등 게임객체 간 상호작용이 많이 발생하는데, 유니티에서는 이벤트 기반으로 처리함.(플레이어가 몹 공격 시 충돌 이벤트 발생하여 몹 객체 안에 코딩된 스크립트에서 다음 동작 결정)
+</p>
+
+<h2>인터페이스**</h2>
+<p>
+1. 툴바(Toolbar) : 씬뷰(Scene view)와 게임객체들(GameObjects)을 조작하는 기본 툴, 게임 실행/멈춤/정지/스텝 컨트롤, 서비스 관련 접근, 레이어 메뉴, 에디터 레이아웃 메뉴
+</p>
+<p>
+2. 계층 윈도우(Hierarchy Window) : Scene 내에 만든 모든 게임객체들(GameObjects)의 계층화된 목록. 
+</p>
+<span>
+Scene 내 아이템을 추가하려면 계층 윈도우에서 시작하고 씬뷰와 연결되어 있음. 계층화되어 있어 부모 자식 관계 존재. 
+</span>
+<span>
+자식은 부모의 이동과 회전 속성을 상속 가능.
+</span>
+<p>
+3. 씬뷰(Scene View) : 개발자가 생성한 모든 객체와 카메라/조명과 같은 게임에 필요한 기본 객체가 배치. 
+</p>
+<span>
+씬뷰에서 객체를 조작하고 설정하는 것이 유니티의 핵심. 
+</span>
+<span>
+프로젝트의 종류에 따라 2D 또는 3D 관점.
+</span>
+
+<p>
+4. 게임뷰(Game View) : 씬 카메라로 보이는 최종 만들어진 게임 모습. 
+</p>
+<span>
+유니티에서는 카메라 개념을 통해 사용자에게 보여지는 화면을 제어하는데, 카메라가 바라보는 게임의 최종 모습이 게임뷰에 나타남. 
+</span>
+<span>
+툴바의 게임 실행 버튼을 누르면 게임뷰 이동하여 게임이 실행.
+</span>
+<p>
+5. 인스펙터 윈도우(Inspector Window) : 현재 선택된 게임객체(GameObject)의 모든 속성이 표시되고 편집 가능. 
+</p>
+<span>
+게임객체에 따라 다른 종류의 속성들을 가지므로 인스펙터 윈도우의 레이아웃과 항목들도 선택한 게임객체에 따라 변화. 
+</span>
+<span>
+게임객체의 위치, 외형, 중력, 사용자 정의 스크립트 등 다양한 속성 설정/변경 가능 
+</span>
+
+<p>
+6. 프로젝트 윈도우(Project Window) : 프로젝트 내에서 사용가능한 모든 에셋(Asset) 목록 표시.
+</p>
+<span>
+프로젝트로 에셋을 Import하면 프로젝트 윈도우에 표시됨.
+</span>
+<span>
+좌측 계층구조창에는 폴더 목록, 우측화면에는 폴더 목록에서 선택한 폴더의 에셋 목록 표시.
+</span>
+<span>
+에셋 목록에서 에셋을 선택하면 인스펙터 윈도우에 관련 정보 표시됨.
+</span>
+<p>
+7. 콘솔 윈도우( Console Window) : 유니티에서 생성되는 오류, 경고 등 다양한 메시지 출력.
+</p>
+<p>
+Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.
+</p>
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          
+          <a class="btn btn-primary float-right" href="/2020/01/31/heartbeats.html" data-toggle="tooltip" data-placement="top" title="[MATH] 미분 개념">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:hweejoonchung@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/Secret">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/Secret">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/HweeJoon-Chung">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Chung Hwee Joon 2022</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
+
+</body>
+
+</html>
