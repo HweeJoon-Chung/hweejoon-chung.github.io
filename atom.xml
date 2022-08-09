@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>정휘준 - Articles</title>
+    <description>CHUNG HWEE JOON&apos;s Personal Blog</description>
+    <link>
+    http://localhost:4000</link>
+    
+      
+      <item>
+        <title>Unity - 기본</title>
+        
+          <description>&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 26 Mar 2021 04:32:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/unity-basic</link>
+        <guid isPermaLink="true">http://localhost:4000/unity-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>OOP - 기본</title>
+        
+          <description>&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sun, 21 Feb 2021 05:32:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/oop-basic</link>
+        <guid isPermaLink="true">http://localhost:4000/oop-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Git - Github Page - 기본</title>
+        
+          <description>&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 09 Feb 2021 01:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/git-github-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/git-github-jekyll</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>dev - 개발환경설정 기본</title>
+        
+          <description>&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 03 Feb 2021 08:24:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/dev-env</link>
+        <guid isPermaLink="true">http://localhost:4000/dev-env</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Git - Github - 기본</title>
+        
+          <description>&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Mon, 25 Jan 2021 08:34:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/git-githubbasic</link>
+        <guid isPermaLink="true">http://localhost:4000/git-githubbasic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Git - 기본</title>
+        
+          <description>&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 19 Jan 2021 08:14:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/git-basic</link>
+        <guid isPermaLink="true">http://localhost:4000/git-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Git - Github - ruby 기본</title>
+        
+          <description>&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 08 Jan 2021 08:47:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/git-github-rubybasic</link>
+        <guid isPermaLink="true">http://localhost:4000/git-github-rubybasic</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

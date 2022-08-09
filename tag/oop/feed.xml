@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/oop/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2022-08-09T11:58:53+09:00</updated>
+  <id>http://localhost:4000/tag/oop/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">HWEE JOON’s Persona | </title>
+  
+
+  
+    <subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle>
+  
+
+  
+    <author>
+        <name>Chung Hwee Joon</name>
+      
+      
+    </author>
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">OOP - 기본</title>
+      <link href="http://localhost:4000/oop-basic" rel="alternate" type="text/html" title="OOP - 기본" />
+      <published>2021-02-21T05:32:00+09:00</published>
+      <updated>2021-02-21T05:32:00+09:00</updated>
+      <id>http://localhost:4000/oop-basic</id>
+      <content type="html" xml:base="http://localhost:4000/oop-basic">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
+  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
+    &lt;ul&gt;
+      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
+  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
+  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
+    &lt;ul&gt;
+      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
+  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
+  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
+  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>hweejoon</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html">프로그래밍 언어</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

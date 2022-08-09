@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="http://localhost:4000/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2022-08-09T11:58:53+09:00</updated>
+  <id>http://localhost:4000/tag/dev/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">HWEE JOON’s Persona | </title>
+  
+
+  
+    <subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle>
+  
+
+  
+    <author>
+        <name>Chung Hwee Joon</name>
+      
+      
+    </author>
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">dev - 개발환경설정 기본</title>
+      <link href="http://localhost:4000/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" />
+      <published>2021-02-03T08:24:00+09:00</published>
+      <updated>2021-02-03T08:24:00+09:00</updated>
+      <id>http://localhost:4000/dev-env</id>
+      <content type="html" xml:base="http://localhost:4000/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+
+&lt;p&gt;현재 ruby, python, c++ 등의 코딩을 주로하는지라&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;버전관리는 &lt;strong&gt;git&lt;/strong&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CLI는 &lt;strong&gt;git bash&lt;/strong&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;에디터는 &lt;strong&gt;Visual studio code&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;를 활용한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;설치-windows-x64&quot;&gt;설치 (windows x64)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Visual Studio Code(이후 VS Code) 설치
+    &lt;ul&gt;
+      &lt;li&gt;https://code.visualstudio.com/Download 에서 windows 64 bit 버전을 다운로드함
+        &lt;ul&gt;
+          &lt;li&gt;어떤 버전을 설치할 지 모르겠다면 system installer 64bit를 다운로드!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;설치파일 실행
+        &lt;ul&gt;
+          &lt;li&gt;추가작업선택에서 기타: 옵션들은 전부선택 추천 (탐색기에서 코드 열기 유용함)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;설치 완료 후 VS Code 첫 실행 시 설정
+    &lt;ul&gt;
+      &lt;li&gt;Color theme는  개인적으로 기본인 Dark가 편함(원하는 설정 선택)&lt;/li&gt;
+      &lt;li&gt;나머지 설정들 중 원하는 기능 선택
+        &lt;ul&gt;
+          &lt;li&gt;git 설치가 안되었음 install git 기능 추가 가능&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git 설치
+    &lt;ul&gt;
+      &lt;li&gt;참고. git-basic.md&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git-설치-후-vs-code의-환경설정&quot;&gt;git 설치 후 VS Code의 환경설정&lt;/h2&gt;
+
+&lt;h4 id=&quot;language-pack을-설치하여-표시언어를-한국어로-변경&quot;&gt;Language Pack을 설치하여 표시언어를 한국어로 변경&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Notifications 윈도우가 떠서 설치 알려줌&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;추가-확장팩-설치&quot;&gt;추가 확장팩 설치&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Auto Complete Tag : html/xml 태그들을 자동으로 닫고 이름변경 자동적용
+    &lt;ul&gt;
+      &lt;li&gt;Auto Rename Tag와 Auto Close Tag 확장팩들을 통합하여 설치&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;git-bash를-vs-code의-기본-터미널로-설정&quot;&gt;git bash를 VS Code의 기본 터미널로 설정&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;VS Code 실행하면 좌측하단의 설정아이콘(Manage) 클릭하여 &lt;strong&gt;Settings&lt;/strong&gt; 선택&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Search settings 입력란에 &lt;strong&gt;terminal&lt;/strong&gt;을 입력&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Terminal: Explorer Kind 항목을 &lt;strong&gt;external&lt;/strong&gt;로 변경&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Search settings 입력란에 &lt;strong&gt;terminal integrated profiles windows&lt;/strong&gt;를 입력
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Terminal &amp;gt; Integrated &amp;gt; Profiles: Windows 항목의 Edit in settings.json 클릭해서 수정&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+    &quot;workbench.colorTheme&quot;: &quot;Default Dark+&quot;,
+    &quot;terminal.integrated.profiles.windows&quot;: {
+        &quot;PowerShell&quot;: {
+            &quot;source&quot;: &quot;PowerShell&quot;,
+            &quot;icon&quot;: &quot;terminal-powershell&quot;
+        },
+        &quot;Command Prompt&quot;: {
+            &quot;path&quot;: [
+                &quot;${env:windir}\\Sysnative\\cmd.exe&quot;,
+                &quot;${env:windir}\\System32\\cmd.exe&quot;
+            ],
+            &quot;args&quot;: [],
+            &quot;icon&quot;: &quot;terminal-cmd&quot;
+        },
+        &quot;GitBash&quot;: {
+            &quot;path&quot;: [&quot;D:\\Dev\\Git\\bin\\bash.exe&quot;],
+            &quot;icon&quot;: &quot;terminal-bash&quot;
+        },
+        
+    },
+    &quot;terminal.integrated.defaultProfile.windows&quot;: &quot;GitBash&quot;,
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;실제 수정된 부분은&lt;/p&gt;
+
+          &lt;p&gt;&lt;strong&gt;&lt;em&gt;“GitBash”: {&lt;/em&gt;&lt;/strong&gt;
+            “path”: [“D:\Dev\Git\bin\bash.exe”],
+            “icon”: “terminal-bash”
+        },
+    },
+&lt;strong&gt;&lt;em&gt;“terminal.integrated.defaultProfile.windows”: “GitBash”,&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+          &lt;p&gt;이고 Git Bash의 경로(path)는 본인 환경에 맞게 수정.&lt;/p&gt;
+
+          &lt;p&gt;주의할 점은 공백없이 GitBash임!&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;VS Code 재기동&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>hweejoon</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="dev" />
+      
+
+      
+        <summary type="html">일반적인 개발환경 설정</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
