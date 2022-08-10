@@ -265,51 +265,51 @@ into the {body} of the default.hbs template -->
   <li>Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class classname:
-	pass
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">classname</span><span class="p">:</span>
+	<span class="k">pass</span>
 </code></pre></div></div>
 
 <p>‘classname’이라는 이름의 Class를 선언</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dir (classname)
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">dir</span> <span class="p">(</span><span class="n">classname</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘classname’ Class와 관련된 전체 속성들을 리스트로 출력</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>objectname = classname(objectname)
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">objectname</span> <span class="o">=</span> <span class="n">classname</span><span class="p">(</span><span class="n">objectname</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type(objectname)
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">type</span><span class="p">(</span><span class="n">objectname</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘objectname’ Object의 Class를 출력</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class classname:
-	xpos = 0
-	ypos = 0
-	stance = "idle"
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">classname</span><span class="p">:</span>
+	<span class="n">xpos</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">ypos</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">stance</span> <span class="o">=</span> <span class="s">"idle"</span>
 </code></pre></div></div>
 
 <p>‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>objectname.xpos = 50
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">objectname</span><span class="p">.</span><span class="n">xpos</span> <span class="o">=</span> <span class="mi">50</span>
 </code></pre></div></div>
 
 <p>‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class classname:
-	xpos = 0
-	ypos = 0
-	stance = "idle"
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">classname</span><span class="p">:</span>
+	<span class="n">xpos</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">ypos</span> <span class="o">=</span> <span class="mi">0</span>
+	<span class="n">stance</span> <span class="o">=</span> <span class="s">"idle"</span>
 	
-	def get_xypos(self)
-		return self.xpos + self.ypos
+	<span class="k">def</span> <span class="nf">get_xypos</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">xpos</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">ypos</span>
 		
-	def set_xypos(self, data1, data2)
-		self.xpos = data1
-		self.ypos = data2
+	<span class="k">def</span> <span class="nf">set_xypos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data1</span><span class="p">,</span> <span class="n">data2</span><span class="p">)</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">xpos</span> <span class="o">=</span> <span class="n">data1</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">ypos</span> <span class="o">=</span> <span class="n">data2</span>
 </code></pre></div></div>
 
 <p>‘get_xypos’, ‘set_xypos’ Method를 추가</p>
@@ -318,7 +318,7 @@ into the {body} of the default.hbs template -->
   <li>위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>objectname.set_xypos(2, 2)
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">objectname</span><span class="p">.</span><span class="n">set_xypos</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행</p>
