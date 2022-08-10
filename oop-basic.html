@@ -17,7 +17,25 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+<!-- 밑에 syntax.css 중복적용되어 삭제함
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+-->
+<!---->   
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />
+<!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" />
+-->
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+<!---->       
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -45,7 +63,7 @@
     <meta property="og:title" content="OOP - 기본" />
     <meta property="og:description" content="프로그래밍 언어 컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어 인간은 보다 발전된 계산기인 컴퓨터를 만들었음 컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함. Instruction set : CPU가 수행할 수 있는 명령어 집합 기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움 인간이 이해하기" />
     <meta property="og:url" content="http://localhost:4000/oop-basic" />
-    <meta property="og:image" content="http://localhost:4000/assets/built/images/oop.png" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/oop.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/Secret" />
     <meta property="article:author" content="https://www.facebook.com/Secret" />
     <meta property="article:published_time" content="2021-02-21T05:32:00+09:00" />
@@ -55,7 +73,7 @@
     <meta name="twitter:title" content="OOP - 기본" />
     <meta name="twitter:description" content="프로그래밍 언어 컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어 인간은 보다 발전된 계산기인 컴퓨터를 만들었음 컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함. Instruction set : CPU가 수행할 수 있는 명령어 집합 기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움 인간이 이해하기" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/oop.png" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/oop.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="HWEE JOON's Persona" />
     <meta name="twitter:label2" content="Filed under" />
@@ -77,7 +95,7 @@
     "url": "http://localhost:4000/oop-basic",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/built/images/oop.png",
+        "url": "http://localhost:4000/assets/built/images/oop.jpg",
         "width": 2000,
         "height": 666
     },
@@ -152,7 +170,10 @@ into the {body} of the default.hbs template -->
             
         </div>
         
+            <a class="subscribe-button" href="#subscribe">Search...</a>
+<!--
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
+-->
         
     </div>
 </nav>
@@ -182,12 +203,12 @@ into the {body} of the default.hbs template -->
                 </section>
                 <h1 class="post-full-title">OOP - 기본</h1>
             </header>
-
+<!-- post 화면 위 image 출력되니 번거로워 지움
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/oop.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/oop.jpg)">
             </figure>
             
-
+-->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <h2 id="프로그래밍-언어">프로그래밍 언어</h2>
@@ -235,15 +256,44 @@ into the {body} of the default.hbs template -->
   <li>Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍</li>
 </ul>
 
+
                 </div>
             </section>
 
             <!-- Email subscribe form at the bottom of the page -->
+<!-- post 화면 아래 subscriber 출력되는거 지움
             
                 <section class="subscribe-form">
                     <h3 class="subscribe-form-title">Subscribe to HWEE JOON's Persona</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
+                    
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -252,10 +302,10 @@ into the {body} of the default.hbs template -->
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
-
+-->
                 </section>
             
-
+-->
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
@@ -263,7 +313,7 @@ into the {body} of the default.hbs template -->
                     
                         <section class="author-card">
                             
-                                <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="hweejoon" />
+                                <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="hweejoon" />
                             
                             <section class="author-card-content">
                                 <h4 class="author-card-name"><a href="/author/hweejoon">Hwee Joon Chung</a></h4>
@@ -336,7 +386,7 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -390,7 +440,7 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -400,7 +450,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      2 min read
                     
                 </span>
             </footer>
@@ -479,9 +529,37 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
+                <h1 class="subscribe-overlay-title">Search HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -490,10 +568,52 @@ into the {body} of the default.hbs template -->
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
+-->
+<!--                
+                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+-->
+-->
             </div>
         </div>
     
+
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>

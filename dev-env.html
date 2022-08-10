@@ -17,7 +17,25 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+<!-- 밑에 syntax.css 중복적용되어 삭제함
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+-->
+<!---->   
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />
+<!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" />
+-->
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+<!---->       
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -152,7 +170,10 @@ into the {body} of the default.hbs template -->
             
         </div>
         
+            <a class="subscribe-button" href="#subscribe">Search...</a>
+<!--
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
+-->
         
     </div>
 </nav>
@@ -182,12 +203,12 @@ into the {body} of the default.hbs template -->
                 </section>
                 <h1 class="post-full-title">dev - 개발환경설정 기본</h1>
             </header>
-
+<!-- post 화면 위 image 출력되니 번거로워 지움
             
             <figure class="post-full-image" style="background-image: url(/assets/built/images/dev.png)">
             </figure>
             
-
+-->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <h2 id="일반적인-개발환경-설정">일반적인 개발환경 설정</h2>
@@ -325,16 +346,126 @@ into the {body} of the default.hbs template -->
   <li>VS Code 재기동</li>
 </ul>
 
+<h4 id="python-개발환경-설정">Python 개발환경 설정</h4>
+
+<ul>
+  <li><strong>Python</strong> 추가 확장팩 설치
+    <ul>
+      <li>윈도우 시스템 내 고급시스템 설정에서 시스템 환경변수에 아래 3항목 추가
+        <ul>
+          <li>Python(또는 Anaconda) 설치폴더 (ex. D:\Dev\anaconda3)</li>
+          <li>Python(또는 Anaconda) 설치폴더\Library  (ex. D:\Dev\anaconda3\Library)</li>
+          <li>Python(또는 Anaconda) 설치폴더\Scripts  (ex. D:\Dev\anaconda3\Scripts)</li>
+        </ul>
+      </li>
+      <li>F5를 눌러 디버그 구성 선택 가능
+        <ul>
+          <li>현재 활성 Python 파일 / 모듈(‘-m’ 사용) / 프로세스 ID를 사용하여 연결 등</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Python Extenstion Pack</strong> 추가 확장팩  설치
+    <ul>
+      <li>구문, 스니펫 및 린팅 지원</li>
+    </ul>
+  </li>
+  <li><strong>Python Type Hint</strong> 추가 확장팩 설치
+    <ul>
+      <li>입력모듈 완성 및 type 힌트 자동완성 지원</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Code Runner</strong> 추가 확장팩 설치</p>
+
+    <ul>
+      <li>
+        <p>입력모듈 완성 및 type 힌트 자동완성 지원</p>
+      </li>
+      <li>
+        <p>Settings(Ctrl+,) 띄워 <strong>Code-runner: Executor Map</strong> 에서 Edit in settings.json 클릭해 한글출력(utf8) 설정</p>
+
+        <blockquote>
+          <p><code class="language-plaintext highlighter-rouge">"code-runner.executorMap": {</code></p>
+
+          <p>​        <code class="language-plaintext highlighter-rouge">"python": "set PYTHONIOENCODING=utf8 &amp;&amp; D:\\Dev\\anaconda3\\python.exe -u",</code></p>
+        </blockquote>
+      </li>
+      <li>
+        <p>Settings(Ctrl+,) 띄워 <strong>Code-runner: Run In Terminal</strong> 에서 코드 실행 가능하도록 선택</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>MinifyAll</strong> 추가 확장팩 설치</p>
+
+    <ul>
+      <li>JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원</li>
+    </ul>
+  </li>
+  <li>
+    <p>Interpreter 선택</p>
+
+    <ul>
+      <li>Command palette(Ctrl+Shift+p) 띄워 <strong>python: Select Interpreter</strong> 에서 원하는 버전 선택</li>
+    </ul>
+  </li>
+  <li>
+    <p>Anaconda 환경설정 (Anaconda 설치하여 python 사용 시)</p>
+
+    <ul>
+      <li>Settings(Ctrl+,) 띄워 <strong>python: conda path</strong> 에서 경로 지정
+        <ul>
+          <li>ex. D:\Dev\anaconda3\Scripts\conda.exe</li>
+        </ul>
+      </li>
+      <li>python 사용 터미널을 <strong>Command Prompt</strong>로 사용!!!!</li>
+    </ul>
+
+    <p>​</p>
+
+    <p>​</p>
+  </li>
+</ul>
+
 
                 </div>
             </section>
 
             <!-- Email subscribe form at the bottom of the page -->
+<!-- post 화면 아래 subscriber 출력되는거 지움
             
                 <section class="subscribe-form">
                     <h3 class="subscribe-form-title">Subscribe to HWEE JOON's Persona</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
+                    
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -343,10 +474,10 @@ into the {body} of the default.hbs template -->
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
-
+-->
                 </section>
             
-
+-->
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
@@ -354,7 +485,7 @@ into the {body} of the default.hbs template -->
                     
                         <section class="author-card">
                             
-                                <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="hweejoon" />
+                                <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="hweejoon" />
                             
                             <section class="author-card-content">
                                 <h4 class="author-card-name"><a href="/author/hweejoon">Hwee Joon Chung</a></h4>
@@ -427,7 +558,7 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -437,7 +568,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      2 min read
+                      3 min read
                     
                 </span>
             </footer>
@@ -481,7 +612,7 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -570,9 +701,37 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
+                <h1 class="subscribe-overlay-title">Search HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -581,10 +740,52 @@ into the {body} of the default.hbs template -->
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
+-->
+<!--                
+                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+-->
+-->
             </div>
         </div>
     
+
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>

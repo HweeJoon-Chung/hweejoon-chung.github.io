@@ -17,7 +17,25 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+<!-- 밑에 syntax.css 중복적용되어 삭제함
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+-->
+<!---->   
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />
+<!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" />
+-->
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+<!---->       
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -152,7 +170,10 @@ into the {body} of the default.hbs template -->
             
         </div>
         
+            <a class="subscribe-button" href="#subscribe">Search...</a>
+<!--
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
+-->
         
     </div>
 </nav>
@@ -182,12 +203,12 @@ into the {body} of the default.hbs template -->
                 </section>
                 <h1 class="post-full-title">Git - Github Page - 기본</h1>
             </header>
-
+<!-- post 화면 위 image 출력되니 번거로워 지움
             
             <figure class="post-full-image" style="background-image: url(/assets/built/images/github.png)">
             </figure>
             
-
+-->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <h2 id="github-page">Github Page</h2>
@@ -306,18 +327,146 @@ into the {body} of the default.hbs template -->
   </li>
 </ul>
 
-<p>Jekyll 환경 설정 (소스코드)</p>
+<h3 id="jekyll-환경-설정-소스코드">Jekyll 환경 설정 (소스코드)</h3>
 
-<p>_config.yml 파일 : 전체 설정파일</p>
-
-<p>build 시 환경변수 default가 development로 설정 : 빌드시 localhost로 설정</p>
-
-<p>실제 release버전을 build할 때는 JEKYLL_ENV 환경변수값을 production으로 변경 : 빌드 시 URL 생성</p>
+<ul>
+  <li>
+    <p>_config.yml 파일 : 전체 설정파일</p>
+  </li>
+  <li>
+    <p>build 시 환경변수 default값이 development로 설정 : 빌드시 localhost 설정됨</p>
+    <ul>
+      <li>실제 release버전을 build할 때는 JEKYLL_ENV 환경변수값을 production으로 변경 : 빌드 시 URL 생성</li>
+    </ul>
+  </li>
+</ul>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>JEKYLL_ENV=production jekyll build
 또는
 JEKYLL_ENV=production jekyll serve
 </code></pre></div></div>
+
+<h3 id="파일-minified">파일 Minified</h3>
+
+<p>크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이</p>
+
+<h5 id="사용방법-1-gulp를-이용하여-파일-크기를-줄이자-nodejs-gulp-버전에-따라-문제많음">사용방법 1. Gulp를 이용하여 파일 크기를 줄이자! (node.js, gulp 버전에 따라 문제많음)</h5>
+
+<ul>
+  <li>Gulp 실행하기 위해 node.js 다운로드받아 기본설정으로 설치
+    <ul>
+      <li>gulpfile.js 작성/수정 : css파일 줄이기 위해
+        <ul>
+          <li>gulp.task(‘css’, function () {</li>
+        </ul>
+      </li>
+      <li>package.json 작성/수정 : 필요한 node_modules 설치위해</li>
+    </ul>
+  </li>
+  <li>
+    <p>npm install 실행 (package.json이 있는 소스폴더 루트에서)</p>
+  </li>
+  <li>
+    <p>node_modules폴더 생성된 것 확인</p>
+  </li>
+  <li>gulp 실행 (ex. gulp css)</li>
+</ul>
+
+<h5 id="사용방법-2-vs-code-내-확장팩-minifyall-설치">사용방법 2. VS Code 내 확장팩 <strong>MinifyAll</strong> 설치</h5>
+
+<ul>
+  <li>디버깅이나 직접 수정할 수 있는 map파일은 만들어지지 않지만 경량화는 되니까…^^;</li>
+  <li>각 파일/폴더에서 오른쪽 마우스 눌리고 기존 버전 유지하고 새버전으로 저장(…min.파일 생성)</li>
+</ul>
+
+<h3 id="css와-웹폰트-적용하기">CSS와 웹폰트 적용하기</h3>
+
+<h4 id="css">CSS</h4>
+
+<h5 id="원하는-css-파일을-추가하고-_layoutsdefaulthtml-내에-아래-추가">원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가</h5>
+
+<p>​    <!-- custom.css --></p>
+
+<p>​    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /></p>
+
+<h5 id="rougepure-ruby-syntax-highlighter-활용">rouge(pure-ruby syntax highlighter) 활용</h5>
+
+<ul>
+  <li>
+    <p>원하는 특정 스타일 css를 적용하기 위한 도구</p>
+  </li>
+  <li>
+    <p>_config.yml 설정파일 내에 아래 추가</p>
+
+    <ul>
+      <li>highlighter: rough</li>
+    </ul>
+  </li>
+  <li>
+    <p>rough 설치</p>
+
+    <ul>
+      <li>gem install rough</li>
+    </ul>
+  </li>
+  <li>
+    <p>rougify help style 명령으로 사용가능한 테마 중 선택</p>
+
+    <ul>
+      <li>제일 기본인 base16.dark 테마 선택해서 style.css 생성
+        <ul>
+          <li>rougify style base16.dark &gt; assets/css/syntax.css</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>minify해서 assets/built/css/syntax.css로 저장</p>
+  </li>
+  <li>
+    <p>_layouts/default.html 내에 아래 추가</p>
+
+    <!-- syntax.css -->
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="stylesheet" href="/assets/built/syntax.css"&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>code block 사용시 아래와 같이 “~~~” 사이 사용언어 추가해주면 스타일 적용</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>​~~~python
+data = [1,2,3,4,5,6,7,8,9,10]
+data.reverse()
+
+for item in data:
+	print(item)
+​~~~
+</code></pre></div>    </div>
+
+    <p>​</p>
+  </li>
+</ul>
+
+<h4 id="웹폰트">웹폰트</h4>
+
+<blockquote>
+  <p>가벼운 나눔고딕 사용</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>_layouts/default.html 내에 아래 추가</p>
+
+    <!-- Web Fonts  -->
+
+    <p>​    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" /></p>
+
+    <!-- swap방식이 느리다고 하긴 하는데..-.-;
+
+​    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap">
+
+-->
+  </li>
+</ul>
 
 <h2 id="jekyll-실행-시-error-처리">Jekyll 실행 시 Error 처리</h2>
 
@@ -375,11 +524,39 @@ JEKYLL_ENV=production jekyll serve
             </section>
 
             <!-- Email subscribe form at the bottom of the page -->
+<!-- post 화면 아래 subscriber 출력되는거 지움
             
                 <section class="subscribe-form">
                     <h3 class="subscribe-form-title">Subscribe to HWEE JOON's Persona</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
+                    
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -388,10 +565,10 @@ JEKYLL_ENV=production jekyll serve
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
-
+-->
                 </section>
             
-
+-->
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
@@ -399,7 +576,7 @@ JEKYLL_ENV=production jekyll serve
                     
                         <section class="author-card">
                             
-                                <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="hweejoon" />
+                                <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="hweejoon" />
                             
                             <section class="author-card-content">
                                 <h4 class="author-card-name"><a href="/author/hweejoon">Hwee Joon Chung</a></h4>
@@ -451,6 +628,8 @@ JEKYLL_ENV=production jekyll serve
                         <div class="read-next-card-content">
                             <ul>
                                 
+                                
+                                  
                                 
                                   
                                 
@@ -509,7 +688,7 @@ JEKYLL_ENV=production jekyll serve
     <article class="post-card post-template">
         
             <a class="post-card-image-link" href="/oop-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.png)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.jpg)"></div>
             </a>
         
         <div class="post-card-content">
@@ -537,7 +716,7 @@ JEKYLL_ENV=production jekyll serve
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -591,7 +770,7 @@ JEKYLL_ENV=production jekyll serve
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -601,7 +780,7 @@ JEKYLL_ENV=production jekyll serve
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      2 min read
                     
                 </span>
             </footer>
@@ -680,9 +859,37 @@ JEKYLL_ENV=production jekyll serve
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
+                <h1 class="subscribe-overlay-title">Search HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -691,10 +898,52 @@ JEKYLL_ENV=production jekyll serve
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
+-->
+<!--                
+                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+-->
+-->
             </div>
         </div>
     
+
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>

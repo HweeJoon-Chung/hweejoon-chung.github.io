@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/tag/git/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
   <updated>2022-08-10T16:38:42+09:00</updated>
-  <id>http://localhost:4000/tag/git/feed.xml</id>
+  <id>http://localhost:4000/author/hweejoon/feed.xml</id>
 
   
   
@@ -36,6 +36,253 @@
   
   
 
+  
+    <entry>
+      <title type="html">Python - 기본</title>
+      <link href="http://localhost:4000/python-basic" rel="alternate" type="text/html" title="Python - 기본" />
+      <published>2021-04-05T08:32:00+09:00</published>
+      <updated>2021-04-05T08:32:00+09:00</updated>
+      <id>http://localhost:4000/python-basic</id>
+      <content type="html" xml:base="http://localhost:4000/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python 기초를 넘어 기본 개념 중 기억할 것들만 정리&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;자료를 거꾸로 출력하기&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data = [1,2,3,4,5,6,7,8,9,10]
+data.reverse()
+
+for item in data:
+	print(item)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 기본</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Unity - 기본</title>
+      <link href="http://localhost:4000/unity-basic" rel="alternate" type="text/html" title="Unity - 기본" />
+      <published>2021-03-26T04:32:00+09:00</published>
+      <updated>2021-03-26T04:32:00+09:00</updated>
+      <id>http://localhost:4000/unity-basic</id>
+      <content type="html" xml:base="http://localhost:4000/unity-basic">&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
+
+&lt;p&gt;게임 엔진 - 2D 및 3D 비디오 게임의 개발 환경을 제공하여 모든 작업을 하나하나 코딩해줘야 하는 번거로움을 줄이고 이미 개발되어 있는 다양한 기능들을 조립 방식으로 사용. 게임을 만드는 데 도움이 되거나 필요한 다양한 라이브러리/툴들과 기능들을 모아 놓은 소프트웨어._&lt;/p&gt;
+
+&lt;p&gt;Windows 64bit 버전과 Mac OS X Sierra 10.12.6+, Ubuntu 16.04/18.04 지원&lt;/p&gt;
+
+&lt;p&gt;DX10+ 지원 GPU 그래픽 카드&lt;/p&gt;
+
+&lt;p&gt;Unity Hub는 여러 버전의 유니티를 설치 가능.&lt;/p&gt;
+
+&lt;h2 id=&quot;기본-개념&quot;&gt;기본 개념&lt;/h2&gt;
+
+&lt;p&gt;객체(Object) : 게임의 캐릭터 처럼 게임에서 보이는 물체&lt;/p&gt;
+
+&lt;p&gt;컴포넌트 : 게임객체의 모양, 재질, 물리적 특성, 동작 등을 정의 (객체는 컴포넌트로 이뤄짐). 인스펙터 윈도우에서 설정.&lt;/p&gt;
+
+&lt;p&gt;스크립트 : 컴포넌트 중 객체의 동작을 정의하는 것. C# 또는 Javascript 지원.&lt;/p&gt;
+
+&lt;p&gt;유니티에서 프로그래머가 원하는 대로 게임객체를 동작하게 하려면 스크립트에 원하는 코드를 정의하면 됨.&lt;/p&gt;
+
+&lt;p&gt;게임에서 플레이어의 몹사냥, 다른 플레이어와의 전투 등 게임객체 간 상호작용이 많이 발생하는데, 유니티에서는 이벤트 기반으로 처리함.(플레이어가 몹 공격 시 충돌 이벤트 발생하여 몹 객체 안에 코딩된 스크립트에서 다음 동작 결정)&lt;/p&gt;
+
+&lt;h2 id=&quot;인터페이스&quot;&gt;인터페이스&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;툴바(Toolbar) : 씬뷰(Scene view)와 게임객체들(GameObjects)을 조작하는 기본 툴, 게임 실행/멈춤/정지/스텝 컨트롤, 서비스 관련 접근, 레이어 메뉴, 에디터 레이아웃 메뉴&lt;/li&gt;
+  &lt;li&gt;계층 윈도우(Hierarchy Window) : Scene 내에 만든 모든 게임객체들(GameObjects)의 계층화된 목록.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Scene 내 아이템을 추가하려면 계층 윈도우에서 시작하고 씬뷰와 연결되어 있음. 계층화되어 있어 부모 자식 관계 존재.&lt;/p&gt;
+
+&lt;p&gt;자식은 부모의 이동과 회전 속성을 상속 가능.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;씬뷰(Scene View) : 개발자가 생성한 모든 객체와 카메라/조명과 같은 게임에 필요한 기본 객체가 배치.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;씬뷰에서 객체를 조작하고 설정하는 것이 유니티의 핵심.&lt;/p&gt;
+
+&lt;p&gt;프로젝트의 종류에 따라 2D 또는 3D 관점.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;게임뷰(Game View) : 씬 카메라로 보이는 최종 만들어진 게임 모습.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;유니티에서는 카메라 개념을 통해 사용자에게 보여지는 화면을 제어하는데, 카메라가 바라보는 게임의 최종 모습이 게임뷰에 나타남.&lt;/p&gt;
+
+&lt;p&gt;툴바의 게임 실행 버튼을 누르면 게임뷰 이동하여 게임이 실행.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;인스펙터 윈도우(Inspector Window) : 현재 선택된 게임객체(GameObject)의 모든 속성이 표시되고 편집 가능.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;게임객체에 따라 다른 종류의 속성들을 가지므로 인스펙터 윈도우의 레이아웃과 항목들도 선택한 게임객체에 따라 변화.&lt;/p&gt;
+
+&lt;p&gt;게임객체의 위치, 외형, 중력, 사용자 정의 스크립트 등 다양한 속성 설정/변경 가능&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;프로젝트 윈도우(Project Window) : 프로젝트 내에서 사용가능한 모든 에셋(Asset) 목록 표시.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;프로젝트로 에셋을 Import하면 프로젝트 윈도우에 표시됨.&lt;/p&gt;
+
+&lt;p&gt;좌측 계층구조창에는 폴더 목록, 우측화면에는 폴더 목록에서 선택한 폴더의 에셋 목록 표시.&lt;/p&gt;
+
+&lt;p&gt;에셋 목록에서 에셋을 선택하면 인스펙터 윈도우에 관련 정보 표시됨.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;콘솔 윈도우( Console Window) : 유니티에서 생성되는 오류, 경고 등 다양한 메시지 출력.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">OOP - 기본</title>
+      <link href="http://localhost:4000/oop-basic" rel="alternate" type="text/html" title="OOP - 기본" />
+      <published>2021-02-21T05:32:00+09:00</published>
+      <updated>2021-02-21T05:32:00+09:00</updated>
+      <id>http://localhost:4000/oop-basic</id>
+      <content type="html" xml:base="http://localhost:4000/oop-basic">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
+  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
+    &lt;ul&gt;
+      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
+  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
+  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
+    &lt;ul&gt;
+      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
+  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
+  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
+  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html">프로그래밍 언어</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Git - Github Page - 기본</title>
@@ -371,6 +618,255 @@ for item in data:
 
       
         <summary type="html">Github Page</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">dev - 개발환경설정 기본</title>
+      <link href="http://localhost:4000/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" />
+      <published>2021-02-03T08:24:00+09:00</published>
+      <updated>2021-02-03T08:24:00+09:00</updated>
+      <id>http://localhost:4000/dev-env</id>
+      <content type="html" xml:base="http://localhost:4000/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+
+&lt;p&gt;현재 ruby, python, c++ 등의 코딩을 주로하는지라&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;버전관리는 &lt;strong&gt;git&lt;/strong&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CLI는 &lt;strong&gt;git bash&lt;/strong&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;에디터는 &lt;strong&gt;Visual studio code&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;를 활용한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;설치-windows-x64&quot;&gt;설치 (windows x64)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Visual Studio Code(이후 VS Code) 설치
+    &lt;ul&gt;
+      &lt;li&gt;https://code.visualstudio.com/Download 에서 windows 64 bit 버전을 다운로드함
+        &lt;ul&gt;
+          &lt;li&gt;어떤 버전을 설치할 지 모르겠다면 system installer 64bit를 다운로드!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;설치파일 실행
+        &lt;ul&gt;
+          &lt;li&gt;추가작업선택에서 기타: 옵션들은 전부선택 추천 (탐색기에서 코드 열기 유용함)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;설치 완료 후 VS Code 첫 실행 시 설정
+    &lt;ul&gt;
+      &lt;li&gt;Color theme는  개인적으로 기본인 Dark가 편함(원하는 설정 선택)&lt;/li&gt;
+      &lt;li&gt;나머지 설정들 중 원하는 기능 선택
+        &lt;ul&gt;
+          &lt;li&gt;git 설치가 안되었음 install git 기능 추가 가능&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git 설치
+    &lt;ul&gt;
+      &lt;li&gt;참고. git-basic.md&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git-설치-후-vs-code의-환경설정&quot;&gt;git 설치 후 VS Code의 환경설정&lt;/h2&gt;
+
+&lt;h4 id=&quot;language-pack을-설치하여-표시언어를-한국어로-변경&quot;&gt;Language Pack을 설치하여 표시언어를 한국어로 변경&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Notifications 윈도우가 떠서 설치 알려줌&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;추가-확장팩-설치&quot;&gt;추가 확장팩 설치&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Auto Complete Tag : html/xml 태그들을 자동으로 닫고 이름변경 자동적용
+    &lt;ul&gt;
+      &lt;li&gt;Auto Rename Tag와 Auto Close Tag 확장팩들을 통합하여 설치&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;git-bash를-vs-code의-기본-터미널로-설정&quot;&gt;git bash를 VS Code의 기본 터미널로 설정&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;VS Code 실행하면 좌측하단의 설정아이콘(Manage) 클릭하여 &lt;strong&gt;Settings&lt;/strong&gt; 선택&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Search settings 입력란에 &lt;strong&gt;terminal&lt;/strong&gt;을 입력&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Terminal: Explorer Kind 항목을 &lt;strong&gt;external&lt;/strong&gt;로 변경&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Search settings 입력란에 &lt;strong&gt;terminal integrated profiles windows&lt;/strong&gt;를 입력
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Terminal &amp;gt; Integrated &amp;gt; Profiles: Windows 항목의 Edit in settings.json 클릭해서 수정&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+    &quot;workbench.colorTheme&quot;: &quot;Default Dark+&quot;,
+    &quot;terminal.integrated.profiles.windows&quot;: {
+        &quot;PowerShell&quot;: {
+            &quot;source&quot;: &quot;PowerShell&quot;,
+            &quot;icon&quot;: &quot;terminal-powershell&quot;
+        },
+        &quot;Command Prompt&quot;: {
+            &quot;path&quot;: [
+                &quot;${env:windir}\\Sysnative\\cmd.exe&quot;,
+                &quot;${env:windir}\\System32\\cmd.exe&quot;
+            ],
+            &quot;args&quot;: [],
+            &quot;icon&quot;: &quot;terminal-cmd&quot;
+        },
+        &quot;GitBash&quot;: {
+            &quot;path&quot;: [&quot;D:\\Dev\\Git\\bin\\bash.exe&quot;],
+            &quot;icon&quot;: &quot;terminal-bash&quot;
+        },
+        
+    },
+    &quot;terminal.integrated.defaultProfile.windows&quot;: &quot;GitBash&quot;,
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;실제 수정된 부분은&lt;/p&gt;
+
+          &lt;p&gt;&lt;strong&gt;&lt;em&gt;“GitBash”: {&lt;/em&gt;&lt;/strong&gt;
+            “path”: [“D:\Dev\Git\bin\bash.exe”],
+            “icon”: “terminal-bash”
+        },
+    },
+&lt;strong&gt;&lt;em&gt;“terminal.integrated.defaultProfile.windows”: “GitBash”,&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+          &lt;p&gt;이고 Git Bash의 경로(path)는 본인 환경에 맞게 수정.&lt;/p&gt;
+
+          &lt;p&gt;주의할 점은 공백없이 GitBash임!&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;VS Code 재기동&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;python-개발환경-설정&quot;&gt;Python 개발환경 설정&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt; 추가 확장팩 설치
+    &lt;ul&gt;
+      &lt;li&gt;윈도우 시스템 내 고급시스템 설정에서 시스템 환경변수에 아래 3항목 추가
+        &lt;ul&gt;
+          &lt;li&gt;Python(또는 Anaconda) 설치폴더 (ex. D:\Dev\anaconda3)&lt;/li&gt;
+          &lt;li&gt;Python(또는 Anaconda) 설치폴더\Library  (ex. D:\Dev\anaconda3\Library)&lt;/li&gt;
+          &lt;li&gt;Python(또는 Anaconda) 설치폴더\Scripts  (ex. D:\Dev\anaconda3\Scripts)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;F5를 눌러 디버그 구성 선택 가능
+        &lt;ul&gt;
+          &lt;li&gt;현재 활성 Python 파일 / 모듈(‘-m’ 사용) / 프로세스 ID를 사용하여 연결 등&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python Extenstion Pack&lt;/strong&gt; 추가 확장팩  설치
+    &lt;ul&gt;
+      &lt;li&gt;구문, 스니펫 및 린팅 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python Type Hint&lt;/strong&gt; 추가 확장팩 설치
+    &lt;ul&gt;
+      &lt;li&gt;입력모듈 완성 및 type 힌트 자동완성 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Code Runner&lt;/strong&gt; 추가 확장팩 설치&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;입력모듈 완성 및 type 힌트 자동완성 지원&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Settings(Ctrl+,) 띄워 &lt;strong&gt;Code-runner: Executor Map&lt;/strong&gt; 에서 Edit in settings.json 클릭해 한글출력(utf8) 설정&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;code-runner.executorMap&quot;: {&lt;/code&gt;&lt;/p&gt;
+
+          &lt;p&gt;​        &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;python&quot;: &quot;set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; D:\\Dev\\anaconda3\\python.exe -u&quot;,&lt;/code&gt;&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Settings(Ctrl+,) 띄워 &lt;strong&gt;Code-runner: Run In Terminal&lt;/strong&gt; 에서 코드 실행 가능하도록 선택&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;MinifyAll&lt;/strong&gt; 추가 확장팩 설치&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Interpreter 선택&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Command palette(Ctrl+Shift+p) 띄워 &lt;strong&gt;python: Select Interpreter&lt;/strong&gt; 에서 원하는 버전 선택&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Anaconda 환경설정 (Anaconda 설치하여 python 사용 시)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Settings(Ctrl+,) 띄워 &lt;strong&gt;python: conda path&lt;/strong&gt; 에서 경로 지정
+        &lt;ul&gt;
+          &lt;li&gt;ex. D:\Dev\anaconda3\Scripts\conda.exe&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;python 사용 터미널을 &lt;strong&gt;Command Prompt&lt;/strong&gt;로 사용!!!!&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="dev" />
+      
+
+      
+        <summary type="html">일반적인 개발환경 설정</summary>
       
 
       

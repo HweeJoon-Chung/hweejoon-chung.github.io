@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>Search Result</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+<!-- 밑에 syntax.css 중복적용되어 삭제함
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+-->
+<!---->   
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />
+<!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" />
+-->
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+<!---->       
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="CHUNG HWEE JOON's Personal Blog" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/built/images/favicon_16x16.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/search" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="HWEE JOON's Persona" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="CHUNG HWEE JOON's Personal Blog" />
+    <meta property="og:url" content="http://localhost:4000/search" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/bg-index.jpg" />
+    <meta property="article:publisher" content="https://www.facebook.com/Secret" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="CHUNG HWEE JOON's Personal Blog" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/bg-index.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="HWEE JOON's Persona" />
+    <meta name="twitter:site" content="@Secret" />
+    <meta name="twitter:creator" content="@Secret" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "HWEE JOON's Persona",
+        "logo": "http://localhost:4000/"
+    },
+    "url": "http://localhost:4000/search",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/built/images/bg-index.jpg",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/search"
+    },
+    "description": "CHUNG HWEE JOON's Personal Blog"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
+
+
+</head>
+<body class="page-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4000/">HWEE JOON's Persona</a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-git" role="menuitem"><a href="/tag/git/">Git</a></li>
+    <li class="nav-dev" role="menuitem"><a href="/tag/dev/">Dev</a></li>
+    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
+    <li class="nav-oop" role="menuitem"><a href="/tag/oop/">OOP</a></li>
+    <li class="nav-unity" role="menuitem"><a href="/tag/unity/">Unity</a></li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/archive.html">All Posts</a>
+    </li>
+    <li class="nav-archive" role="menuitem">
+        <a href="/tag_archive.html">Tag별 Posts</a>
+    </li>
+</ul>
+
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/Secret" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/Secret" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        
+            <a class="subscribe-button" href="#subscribe">Search...</a>
+<!--
+            <a class="subscribe-button" href="#subscribe">Subscribe</a>
+-->
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
+
+<ul class="mylist" id="search-results"></ul>
+
+<script>
+    window.store = {
+    
+    "python-basic": {
+        "title": "Python - 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Python 기본  Python 기초를 넘어 기본 개념 중 기억할 것들만 정리      자료를 거꾸로 출력하기    data = [1,2,3,4,5,6,7,8,9,10]data.reverse()for item in data:\tprint(item)        10987654321        ​  ",
+        "url": "/python-basic"
+    }
+    ,
+    
+    "unity-basic": {
+        "title": "Unity - 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.게임 엔진 - 2D 및 3D 비디오 게임의 개발 환경을 제공하여 모든 작업을 하나하나 코딩해줘야 하는 번거로움을 줄이고 이미 개발되어 있는 다양한 기능들을 조립 방식으로 사용. 게임을 만드는 데 도움이 되거나 필요한 다양한 라이브러리/툴들과 기능들을 모아 놓은 소프트웨어._Windows 64bit 버전과 Mac OS X Sierra 10.12.6+, Ubuntu 16.04/18.04 지원DX10+ 지원 GPU 그래픽 카드Unity Hub는 여러 버전의 유니티를 설치 가능.기본 개념객체(Object) : 게임의 캐릭터 처럼 게임에서 보이는 물체컴포넌트 : 게임객체의 모양, 재질, 물리적 특성, 동작 등을 정의 (객체는 컴포넌트로 이뤄짐). 인스펙터 윈도우에서 설정.스크립트 : 컴포넌트 중 객체의 동작을 정의하는 것. C# 또는 Javascript 지원.유니티에서 프로그래머가 원하는 대로 게임객체를 동작하게 하려면 스크립트에 원하는 코드를 정의하면 됨.게임에서 플레이어의 몹사냥, 다른 플레이어와의 전투 등 게임객체 간 상호작용이 많이 발생하는데, 유니티에서는 이벤트 기반으로 처리함.(플레이어가 몹 공격 시 충돌 이벤트 발생하여 몹 객체 안에 코딩된 스크립트에서 다음 동작 결정)인터페이스  툴바(Toolbar) : 씬뷰(Scene view)와 게임객체들(GameObjects)을 조작하는 기본 툴, 게임 실행/멈춤/정지/스텝 컨트롤, 서비스 관련 접근, 레이어 메뉴, 에디터 레이아웃 메뉴  계층 윈도우(Hierarchy Window) : Scene 내에 만든 모든 게임객체들(GameObjects)의 계층화된 목록.Scene 내 아이템을 추가하려면 계층 윈도우에서 시작하고 씬뷰와 연결되어 있음. 계층화되어 있어 부모 자식 관계 존재.자식은 부모의 이동과 회전 속성을 상속 가능.  씬뷰(Scene View) : 개발자가 생성한 모든 객체와 카메라/조명과 같은 게임에 필요한 기본 객체가 배치.씬뷰에서 객체를 조작하고 설정하는 것이 유니티의 핵심.프로젝트의 종류에 따라 2D 또는 3D 관점.  게임뷰(Game View) : 씬 카메라로 보이는 최종 만들어진 게임 모습.유니티에서는 카메라 개념을 통해 사용자에게 보여지는 화면을 제어하는데, 카메라가 바라보는 게임의 최종 모습이 게임뷰에 나타남.툴바의 게임 실행 버튼을 누르면 게임뷰 이동하여 게임이 실행.  인스펙터 윈도우(Inspector Window) : 현재 선택된 게임객체(GameObject)의 모든 속성이 표시되고 편집 가능.게임객체에 따라 다른 종류의 속성들을 가지므로 인스펙터 윈도우의 레이아웃과 항목들도 선택한 게임객체에 따라 변화.게임객체의 위치, 외형, 중력, 사용자 정의 스크립트 등 다양한 속성 설정/변경 가능  프로젝트 윈도우(Project Window) : 프로젝트 내에서 사용가능한 모든 에셋(Asset) 목록 표시.프로젝트로 에셋을 Import하면 프로젝트 윈도우에 표시됨.좌측 계층구조창에는 폴더 목록, 우측화면에는 폴더 목록에서 선택한 폴더의 에셋 목록 표시.에셋 목록에서 에셋을 선택하면 인스펙터 윈도우에 관련 정보 표시됨.  콘솔 윈도우( Console Window) : 유니티에서 생성되는 오류, 경고 등 다양한 메시지 출력.Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.",
+        "url": "/unity-basic"
+    }
+    ,
+    
+    "oop-basic": {
+        "title": "OOP - 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "프로그래밍 언어  컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어  인간은 보다 발전된 계산기인 컴퓨터를 만들었음  컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.          Instruction set : CPU가 수행할 수 있는 명령어 집합        기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움  인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함  어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행          변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용      절차적 프로그래밍에서 객체지향 프로그래밍으로…  PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전  핵심은 Class와 Object(Instance)  Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐  Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능객체지향 프로그래밍(Object-Oriented Programming: OOP)  틀/설계도인 Class 설계하고 코드화  Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍",
+        "url": "/oop-basic"
+    }
+    ,
+    
+    "git-github-jekyll": {
+        "title": "Git - Github Page - 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Github Page  웹호스팅 서비스  해당 Repository에 대한 설명 웹페이지로 사용되나 기본 블로그로 사용하기도 함          마크다운 언어 사용가능한 정적 사이트 생성기인 Jekyll 프레임워크 지원                  마크다운 파일을 HTML로 변환하는 일종의 CMS(Content Management System)          .nojekyll 파일을 만들어 루트 디렉토리에 올리면 Jekyll 사용안함                      블로그로 사용 시 다양한 Jekyll 테마를 활용할 수 있음 (http://jekyllthemes.org/)사용방법      jekyll 프레임워크를 사용하려면 먼저 ruby 개발환경이 설치되어있어야 함          참고. ruby-basic.md            추가 개발환경 설정 (VS Code, git, markdown 에디터 등)          참고. dev-env.md      markdown 에디터는 Typora가 가장 만족스럽지만 유료화됨                  beta버전은 사용가능          대안으로 MarkText ( https://github.com/marktext/marktext#download-and-installation )                          http://jekyllthemes.org/에서 원하는 테마를 선택하여 다운로드함          또는 해당 github 사이트에서 git clone을 해도 됨            다운로드한 테마의 소스코드를 원하는 폴더(공백없어야 함)에 압축 해제하여 저장        VS Code를 실행하여 압축해제한 테마의 소스코드 폴더 열기        VS Code의 터미널을 열어 bundler 설치되어 있는지 확인                  bundler -v                 으로 버전 확인                    설치 안되어 있으면        gem install bundler                실행하여 설치                  터미널에서 테마의 소스코드 폴더로 이동하여 해당 폴더에서 필요한 gem 패키지 설치                  필요한 패키지들은 해당 소스코드 폴더의 Gemfile에 기술됨        bundle install                          해당 테마 블로그를 빌드하여 실행    bundlle exec jekyll serve              bundle exec jekyll serve –host HostIP –port PortNumber      IP와 Port 변경 가능              Jekyll 소스 파일들이 변환되어 결과물들이 destination 폴더에 저장                  destination폴더 내용이 실제 Github Page에 올릴 사이트임          즉, github repository로 push할 변환 결과물                          블로그 포스팅하기          해당 소스코드 폴더 내 _post 폴더에 포스팅할 파일을 마크다운 형식으로 작성      작성 후 빌드/실행하면 destination 폴더내에 포스팅 파일이 변환되어 생성됨      생성된 destination 폴더 내 블로그 사이트를 github로 push      Jekyll 환경 설정 (소스코드)      _config.yml 파일 : 전체 설정파일        build 시 환경변수 default값이 development로 설정 : 빌드시 localhost 설정됨          실제 release버전을 build할 때는 JEKYLL_ENV 환경변수값을 production으로 변경 : 빌드 시 URL 생성      JEKYLL_ENV=production jekyll build또는JEKYLL_ENV=production jekyll serve파일 Minified크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이사용방법 1. Gulp를 이용하여 파일 크기를 줄이자! (node.js, gulp 버전에 따라 문제많음)  Gulp 실행하기 위해 node.js 다운로드받아 기본설정으로 설치          gulpfile.js 작성/수정 : css파일 줄이기 위해                  gulp.task(‘css’, function () {                    package.json 작성/수정 : 필요한 node_modules 설치위해            npm install 실행 (package.json이 있는 소스폴더 루트에서)        node_modules폴더 생성된 것 확인    gulp 실행 (ex. gulp css)사용방법 2. VS Code 내 확장팩 MinifyAll 설치  디버깅이나 직접 수정할 수 있는 map파일은 만들어지지 않지만 경량화는 되니까…^^;  각 파일/폴더에서 오른쪽 마우스 눌리고 기존 버전 유지하고 새버전으로 저장(…min.파일 생성)CSS와 웹폰트 적용하기CSS원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가​    ​    rouge(pure-ruby syntax highlighter) 활용      원하는 특정 스타일 css를 적용하기 위한 도구        _config.yml 설정파일 내에 아래 추가          highlighter: rough            rough 설치          gem install rough            rougify help style 명령으로 사용가능한 테마 중 선택          제일 기본인 base16.dark 테마 선택해서 style.css 생성                  rougify style base16.dark &gt; assets/css/syntax.css                          minify해서 assets/built/css/syntax.css로 저장        _layouts/default.html 내에 아래 추가        &lt;link rel=\"stylesheet\" href=\"/assets/built/syntax.css\"&gt;            code block 사용시 아래와 같이 “~~~” 사이 사용언어 추가해주면 스타일 적용    ​~~~pythondata = [1,2,3,4,5,6,7,8,9,10]data.reverse()for item in data:\tprint(item)​~~~        ​  웹폰트  가벼운 나눔고딕 사용      _layouts/default.html 내에 아래 추가        ​          Jekyll 실행 시 Error 처리      Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require’: cannot load such file – webrick (LoadError)                  Jekill은 webrick 지원함                    Ruby 버전 3.0 이상에서 기존의 gem이 webrick을 사용하지 않는 것 같음        bundle add webrick                실행하거나 또는 직접 아래 내용을                  gem “webrick”, “~&gt; 1.7”                Gemfile 내에 추가하고 bundle install 다시 실행(webrick 설치)                  Please add the following to your Gemfile to avoid polling for changes:  gem ‘wdm’, ‘&gt;= 0.1.0’ if Gem.win_platform?                  window platform에서 수정사항에 대한 polling을 피하기 위해 Gemfile에 wdm 추가        bundle add wdm                실행하거나 또는 직접 아래 내용을                  gem “wdm”, “~&gt; 0.1.0” if Gem.win_platform?                Gemfile 내에 추가하고 bundle install 다시 실행(wdm 설치)                    Error는 아니고 warning 수준            ",
+        "url": "/git-github-jekyll"
+    }
+    ,
+    
+    "dev-env": {
+        "title": "dev - 개발환경설정 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "일반적인 개발환경 설정현재 ruby, python, c++ 등의 코딩을 주로하는지라      버전관리는 git,        CLI는 git bash,        에디터는 Visual studio code  를 활용한다.설치 (windows x64)  Visual Studio Code(이후 VS Code) 설치          https://code.visualstudio.com/Download 에서 windows 64 bit 버전을 다운로드함                  어떤 버전을 설치할 지 모르겠다면 system installer 64bit를 다운로드!                    설치파일 실행                  추가작업선택에서 기타: 옵션들은 전부선택 추천 (탐색기에서 코드 열기 유용함)                      설치 완료 후 VS Code 첫 실행 시 설정          Color theme는  개인적으로 기본인 Dark가 편함(원하는 설정 선택)      나머지 설정들 중 원하는 기능 선택                  git 설치가 안되었음 install git 기능 추가 가능                      git 설치          참고. git-basic.md      git 설치 후 VS Code의 환경설정Language Pack을 설치하여 표시언어를 한국어로 변경  Notifications 윈도우가 떠서 설치 알려줌  Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치추가 확장팩 설치  Auto Complete Tag : html/xml 태그들을 자동으로 닫고 이름변경 자동적용          Auto Rename Tag와 Auto Close Tag 확장팩들을 통합하여 설치      git bash를 VS Code의 기본 터미널로 설정      VS Code 실행하면 좌측하단의 설정아이콘(Manage) 클릭하여 Settings 선택        Search settings 입력란에 terminal을 입력          Terminal: Explorer Kind 항목을 external로 변경        Search settings 입력란에 terminal integrated profiles windows를 입력                  Terminal &gt; Integrated &gt; Profiles: Windows 항목의 Edit in settings.json 클릭해서 수정                    {    \"workbench.colorTheme\": \"Default Dark+\",    \"terminal.integrated.profiles.windows\": {        \"PowerShell\": {            \"source\": \"PowerShell\",            \"icon\": \"terminal-powershell\"        },        \"Command Prompt\": {            \"path\": [                \"${env:windir}\\\\Sysnative\\\\cmd.exe\",                \"${env:windir}\\\\System32\\\\cmd.exe\"            ],            \"args\": [],            \"icon\": \"terminal-cmd\"        },        \"GitBash\": {            \"path\": [\"D:\\\\Dev\\\\Git\\\\bin\\\\bash.exe\"],            \"icon\": \"terminal-bash\"        },            },    \"terminal.integrated.defaultProfile.windows\": \"GitBash\",}                          실제 수정된 부분은          “GitBash”: {            “path”: [“D:\\Dev\\Git\\bin\\bash.exe”],            “icon”: “terminal-bash”        },    },“terminal.integrated.defaultProfile.windows”: “GitBash”,          이고 Git Bash의 경로(path)는 본인 환경에 맞게 수정.          주의할 점은 공백없이 GitBash임!                      VS Code 재기동Python 개발환경 설정  Python 추가 확장팩 설치          윈도우 시스템 내 고급시스템 설정에서 시스템 환경변수에 아래 3항목 추가                  Python(또는 Anaconda) 설치폴더 (ex. D:\\Dev\\anaconda3)          Python(또는 Anaconda) 설치폴더\\Library  (ex. D:\\Dev\\anaconda3\\Library)          Python(또는 Anaconda) 설치폴더\\Scripts  (ex. D:\\Dev\\anaconda3\\Scripts)                    F5를 눌러 디버그 구성 선택 가능                  현재 활성 Python 파일 / 모듈(‘-m’ 사용) / 프로세스 ID를 사용하여 연결 등                      Python Extenstion Pack 추가 확장팩  설치          구문, 스니펫 및 린팅 지원        Python Type Hint 추가 확장팩 설치          입력모듈 완성 및 type 힌트 자동완성 지원            Code Runner 추가 확장팩 설치                  입력모듈 완성 및 type 힌트 자동완성 지원                    Settings(Ctrl+,) 띄워 Code-runner: Executor Map 에서 Edit in settings.json 클릭해 한글출력(utf8) 설정                  \"code-runner.executorMap\": {          ​        \"python\": \"set PYTHONIOENCODING=utf8 &amp;&amp; D:\\\\Dev\\\\anaconda3\\\\python.exe -u\",                            Settings(Ctrl+,) 띄워 Code-runner: Run In Terminal 에서 코드 실행 가능하도록 선택                  MinifyAll 추가 확장팩 설치          JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원            Interpreter 선택          Command palette(Ctrl+Shift+p) 띄워 python: Select Interpreter 에서 원하는 버전 선택            Anaconda 환경설정 (Anaconda 설치하여 python 사용 시)          Settings(Ctrl+,) 띄워 python: conda path 에서 경로 지정                  ex. D:\\Dev\\anaconda3\\Scripts\\conda.exe                    python 사용 터미널을 Command Prompt로 사용!!!!        ​    ​  ",
+        "url": "/dev-env"
+    }
+    ,
+    
+    "git-githubbasic": {
+        "title": "Git - Github - 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Github  오픈소스들을 저장하여 관리할 수 있는 원격(온라인) Git 저장소  Repository라는 소스코드 저장소 생성하여 git 프로젝트 저장          private repository는 접근 권한이 필요하여 Github ID/Password 입력 필요        remote git은 SSH와 HTTPS 지원  계정과 프로젝트 별 public key 발급 사용  Github Page란 웹호스팅 서비스 제공 (마크다운 언어 사용가능한 CMS인 Jekyll 프레임워크 지원)          .nojekyll 파일을 만들어 루트 디렉토리에 올리면 Jekyll 사용안함      ",
+        "url": "/git-githubbasic"
+    }
+    ,
+    
+    "git-basic": {
+        "title": "Git - 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Git  소스 코드 관리를 위한 도구인 분산형 형상관리시스템          리누스 토발즈가 개발            소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리        빠른 속도, 분산형 저장소 지원 가능        .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더          git init 명령으로 설정      Local Repository            remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수 있음        로컬(오프라인 상태) 저장소로 작업 가능    commit이라는 명령을 통해 모든 소스코드의 상태를 기록함          commit하기 전 사용해야 하는 stage 단계가 따로 있는 Staging 지원      변경된 사항들은 일단 장바구니에 넣은(Staging) 하고나서 최종 결재(commit)            branch 가능        merge는 서버(온라인) 데이터를 fetch해와 로컬에서 merge하여 다시 올리면 됨        github, bitbucket, gitlab 과 같은 git 저장소 서비스 활용가능    GUI를 활용할 수 있으나 한계가 있어 CLI 사용하는 것이 모든 기능을 활용할 수 있고 기본임          sourcetree 툴로 전체적인 버전관리 상황 확인 가능            파일 상태 변화          비유 : 이것저것 만들다가, 만든 것들을 저장바구니에 담아두고, 담은 것들을 최종 영구저장함)              Modified : 파일을 수정한 상태 (git으로 어떠한 전달도 없음)      Staged : 파일을 수정한 후 그 파일을 곧 commit할 준비가 됐다고 알린 상태      Committed : 파일을 수정한 후 그 파일을 commit 해서 Local Repository에 안전하게 저장한 상태        ​  설치 (windows x64)  https://git-scm.com/download/win 에서 설치버전이나 포터블버전을 다운로드 받음          git은 꼭 개발자에게 필요한 도구이므로 개인적으로 설치버전 선택.      현재 대부분의 윈도우는 64bit이므로 64bit 버전 다운로드.        설치 진행          Adjusting the name of the initial branch in new repositories 설정 화면에서 Override the default branch name for new repositories를 선택하고 main을 기본 브랜치 이름으로 함                  github에서 기본 Repository 이름이 기존 master에서 main으로 변경되어 편의상 설정                    (옵션사항) Choosing the default editor used by Git 설정 화면에서 Use Visual Studio Code as Git’s default editor 로 선택 가능      그 외 다양한 옵션들 있는데 그냥 기본값으로 진행        설치 후 탐색기에서 오른쪽 마우스 클릭 시 git bash here 메뉴 확인환경설정  Windows의 환경설정 파일들 (우선순위순)          .git/config                  (git init명령을 실행했다면) 해당 Local Repository에만 적용되는 설정으로 Git Directory안에 위치                    $USER_HOME/.gitconfig                  윈도우사용자별로 적용되는 설정          git config –global                    $GIT_HMOE/mingw64/etc/gitconfig                  윈도우시스템 모든 사용자/저장소에 적용되는 설정          git config –system                      git bash 실행하여 git config로 기본 환경설정          git config –global user.name “HweeJoon-Chung”      git config –global user.email “hweejoonchung@gmail.com”      사용방법Local Repository 생성  새로운 git 프로젝트를 만들 때 사용  원하는 위치에 프로젝트 폴더를 생성  git bash 상에서 해당 폴더로 이동해 git init 명령 실행 (Local Repository .git/ 생성)  해당 폴더에서 소스코드파일을 만듦 (ex. test.c)          git status 명령 실행하면 untracked 파일로 test.c이 있다(변경사항이 있다)고 나옴 (Modified)        git add test.c 명령 실행하여 test.c 파일이란 변경사항을 관리할 준비가 되었다고 알림          git status 명령 실행하면 commit할 변경들이 있다고 나옴 (Staged)        git commit -m “test.c commit” 명령 실행하여 최종 변경을 git에 저장함 (Committed)Remote Reposity 활용 (Github)새 프로젝트 시작  Github에 프로젝트 Repository를 생성  Local Repository 내 개발 환경설정/개발사항 저장  Local Repository와 Github의 Repository를 remote 연결  Local Repository 저장상황을 Remote Repository에 push  (공동작업시) 해당 Remote Repository를 clone          (공동작업자) clone을 통해 로컬로 복사한 프로젝트로 작업 진행      기존 프로젝트 수정  기존 Local Repository에 존재  Github Repository와 remote -v명령으로 연결 확인          연결안되어 있으면 다시 remote 연결        Github Repository 수정사항들을 Local Repository로 fetch 또는 pull함          fetch : Github의 commit들을 Local Repository로 가져옴                  개발자가 자신의 작업과 적절히 merge하여 다시 push해야 함                    pull : Github의 commit들을 가져오면서 자동으로 Local Repository와 병합                  편하지만 conflict 발생 확인 어려움                    Local로 Github Branch 가져오기  git pull으로 가져오지 못함 (Local에 없다면)  git remote에 대한 업데이트 실행          git remote update        Github Repository의 branch 내역 확인          git branch -r     : remote branch 내역      git branch -a     : local/remote branch 내역        원하는 branch를 Local로 가져와서 해당 branch 사용          git checkout -t    \"Remote Branch Name\"                  Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨                    Git Remote 관련 명령      git remote add “사용할 원격저장소이름” “Github Repository URL”          ex. git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git            git remote -v        git push “원격저장소이름” “local branch명”                  ex.   git push origin main        ​\tgit push origin –all (모든 branch)                  git fetch “원격저장소이름”          ex. git fetch origin            git pull        git clone “Github Repository URL”          ex. git clone https://github.com/HweeJoon-Chung/RemoteProject.git      ",
+        "url": "/git-basic"
+    }
+    ,
+    
+    "git-github-rubybasic": {
+        "title": "Git - Github - ruby 기본",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Ruby  1995년 발표된 객체 지향 프로그래밍 언어          일본인 마츠모토 유키히로(보통 Matz라 불림)가 만듦        인터프리터를 쓰는 스크립트 언어 (Perl, Python 영향 큼)          호환성 부족 - 버전 별 호환이 안되는 경우 많음      Rubi on Rails(Full stack Web Framework) 나오면서 인기        gem(패키지 관리자)으로 다양한 패키지들을 설치 (c.f. python의 pip)  bundler(gem 패키지 중 하나)로 Gemfile에 기술된 패키지들을 설치(install)하거나 실행          Gemfile.lock에는 bundler가 설치한 모든 Gem 패키지 버전 기술      참고. Github가 Ruby로 개발된 대표적인 사이트 (Github Pages는 Jekyll 지원)설치 (Windows x64환경)  윈도우 계정이름을 영문으로 설정해야 관련 문제 없음          윈도우키+R 눌러 Control입력 후 실행하여 제어판 엶      계정 항목의 계정권한변경 클릭하여 변경 원하는 계정이름으로 변경                  이 때 계정이름 변경 항목이 안보이면 계정관리로 들어가 브라우저상에서 변경                      https://rubyinstaller.org/downloads/ 에서 ruby with Devkit 안정버전 다운로드  Ruby 및 Devkit 설치          기본 설정으로 설치완료 후 마지막에 [1-3] 선택 시 1 입력하여 MSYS2 기본 설치                  추후 필요하면 나머지 [2-3] 추가 설치 (MSYS2 system update 및 MINGW 개발툴체인)                      bundler 설치          패키지 설치 시 필요한 툴      cmd창을 띄워 gem install bundler 입력      &gt; gem install bundler주의  윈도우 계정이름을 영문으로  Ruby 설치 과정 마지막 [1-3] 선택 시 1 입력  Ruby 설치 후 cmd창에서 bundler 설치 (gem 패키지들을 의존성 확인하여 안전하게 설치 위해)",
+        "url": "/git-github-rubybasic"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">HWEE JOON's Persona</a> &copy; 2022</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/Secret" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/Secret" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                
+                <h1 class="subscribe-overlay-title">Search HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+-->
+<!--                
+                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+-->
+-->
+            </div>
+        </div>
+    
+
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-XXXXXXXXX-X', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>

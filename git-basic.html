@@ -17,7 +17,25 @@
     <!-- Styles'n'Scripts -->
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+<!-- 밑에 syntax.css 중복적용되어 삭제함
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+-->
+<!---->   
+    <!-- custom.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/custom.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- Web Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css" />
+<!--
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" />
+-->
+
+    <!-- syntax.css -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+<!---->       
     <!-- highlight.js -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <style>.hljs { background: none; }</style>
@@ -43,7 +61,7 @@
     <meta property="og:site_name" content="HWEE JOON's Persona" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Git - 기본" />
-    <meta property="og:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 기록에 대한 추적 정보를 담고 있는 작업 폴더 remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수" />
+    <meta property="og:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 Local Repository remote git은 git" />
     <meta property="og:url" content="http://localhost:4000/git-basic" />
     <meta property="og:image" content="http://localhost:4000/assets/built/images/git.png" />
     <meta property="article:publisher" content="https://www.facebook.com/Secret" />
@@ -53,7 +71,7 @@
     <meta property="article:tag" content="Git" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Git - 기본" />
-    <meta name="twitter:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 기록에 대한 추적 정보를 담고 있는 작업 폴더 remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수" />
+    <meta name="twitter:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 Local Repository remote git은 git" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/built/images/git.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -85,7 +103,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/git-basic"
     },
-    "description": "Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 기록에 대한 추적 정보를 담고 있는 작업 폴더 remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수"
+    "description": "Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 Local Repository remote git은 git"
 }
     </script>
 
@@ -152,7 +170,10 @@ into the {body} of the default.hbs template -->
             
         </div>
         
+            <a class="subscribe-button" href="#subscribe">Search...</a>
+<!--
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
+-->
         
     </div>
 </nav>
@@ -182,12 +203,12 @@ into the {body} of the default.hbs template -->
                 </section>
                 <h1 class="post-full-title">Git - 기본</h1>
             </header>
-
+<!-- post 화면 위 image 출력되니 번거로워 지움
             
             <figure class="post-full-image" style="background-image: url(/assets/built/images/git.png)">
             </figure>
             
-
+-->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <h2 id="git">Git</h2>
@@ -198,24 +219,60 @@ into the {body} of the default.hbs template -->
       <li>리누스 토발즈가 개발</li>
     </ul>
   </li>
-  <li>소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리</li>
-  <li>빠른 속도, 분산형 저장소 지원 가능</li>
-  <li><code class="language-plaintext highlighter-rouge">.git</code>은 전체 기록과 각각의 세부 기록에 대한 추적 정보를 담고 있는 작업 폴더</li>
-  <li>remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수 있음</li>
-  <li>로컬(오프라인 상태) 저장소로 작업 가능</li>
+  <li>
+    <p>소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리</p>
+  </li>
+  <li>
+    <p>빠른 속도, 분산형 저장소 지원 가능</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">.git</code>은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더</p>
+
+    <ul>
+      <li>git init 명령으로 설정</li>
+      <li>Local Repository</li>
+    </ul>
+  </li>
+  <li>
+    <p>remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수 있음</p>
+  </li>
+  <li>
+    <p>로컬(오프라인 상태) 저장소로 작업 가능</p>
+  </li>
   <li><strong>commit</strong>이라는 명령을 통해 모든 소스코드의 상태를 기록함
     <ul>
       <li>commit하기 전 사용해야 하는 stage 단계가 따로 있는 Staging 지원</li>
       <li>변경된 사항들은 일단 장바구니에 넣은(<strong>Staging</strong>) 하고나서 최종 결재(<strong>commit</strong>)</li>
     </ul>
   </li>
-  <li><strong>branch</strong> 가능</li>
-  <li><strong>merge</strong>는 서버(온라인) 데이터를 fetch해와 로컬에서 merge하여 다시 올리면 됨</li>
-  <li><strong>github, bitbucket, gitlab</strong> 과 같은 git 저장소 서비스 활용가능</li>
+  <li>
+    <p><strong>branch</strong> 가능</p>
+  </li>
+  <li>
+    <p><strong>merge</strong>는 서버(온라인) 데이터를 fetch해와 로컬에서 merge하여 다시 올리면 됨</p>
+  </li>
+  <li>
+    <p><strong>github, bitbucket, gitlab</strong> 과 같은 git 저장소 서비스 활용가능</p>
+  </li>
   <li>GUI를 활용할 수 있으나 한계가 있어 <strong>CLI</strong> 사용하는 것이 모든 기능을 활용할 수 있고 기본임
     <ul>
       <li><strong>sourcetree</strong> 툴로 전체적인 버전관리 상황 확인 가능</li>
     </ul>
+  </li>
+  <li>
+    <p><strong>파일 상태 변화</strong></p>
+
+    <blockquote>
+      <p>비유 : 이것저것 만들다가, 만든 것들을 저장바구니에 담아두고, 담은 것들을 최종 영구저장함)</p>
+    </blockquote>
+
+    <ul>
+      <li>Modified : 파일을 수정한 상태 (git으로 어떠한 전달도 없음)</li>
+      <li>Staged : 파일을 수정한 후 그 파일을 곧 commit할 준비가 됐다고 알린 상태</li>
+      <li>Committed : 파일을 수정한 후 그 파일을 commit 해서 Local Repository에 안전하게 저장한 상태</li>
+    </ul>
+
+    <p>​</p>
   </li>
 </ul>
 
@@ -242,16 +299,216 @@ into the {body} of the default.hbs template -->
   <li>설치 후 탐색기에서 오른쪽 마우스 클릭 시 <strong>git bash here</strong> 메뉴 확인</li>
 </ul>
 
+<h2 id="환경설정">환경설정</h2>
+
+<ul>
+  <li>Windows의 환경설정 파일들 (우선순위순)
+    <ul>
+      <li>.git/config
+        <ul>
+          <li>(git init명령을 실행했다면) 해당 Local Repository에만 적용되는 설정으로 Git Directory안에 위치</li>
+        </ul>
+      </li>
+      <li>$USER_HOME/.gitconfig
+        <ul>
+          <li>윈도우사용자별로 적용되는 설정</li>
+          <li>git config –global</li>
+        </ul>
+      </li>
+      <li>$GIT_HMOE/mingw64/etc/gitconfig
+        <ul>
+          <li>윈도우시스템 모든 사용자/저장소에 적용되는 설정</li>
+          <li>git config –system</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>git bash 실행하여 git config로 기본 환경설정
+    <ul>
+      <li>git config –global user.name “HweeJoon-Chung”</li>
+      <li>git config –global user.email “hweejoonchung@gmail.com”</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="사용방법">사용방법</h2>
+
+<h3 id="local-repository-생성">Local Repository 생성</h3>
+
+<blockquote>
+  <p>새로운 git 프로젝트를 만들 때 사용</p>
+</blockquote>
+
+<ul>
+  <li>원하는 위치에 프로젝트 폴더를 생성</li>
+  <li>git bash 상에서 해당 폴더로 이동해 git init 명령 실행 (Local Repository .git/ 생성)</li>
+  <li>해당 폴더에서 소스코드파일을 만듦 (ex. test.c)
+    <ul>
+      <li>git status 명령 실행하면 untracked 파일로 test.c이 있다(변경사항이 있다)고 나옴 (Modified)</li>
+    </ul>
+  </li>
+  <li>git add test.c 명령 실행하여 test.c 파일이란 변경사항을 관리할 준비가 되었다고 알림
+    <ul>
+      <li>git status 명령 실행하면 commit할 변경들이 있다고 나옴 (Staged)</li>
+    </ul>
+  </li>
+  <li>git commit -m “test.c commit” 명령 실행하여 최종 변경을 git에 저장함 (Committed)</li>
+</ul>
+
+<h3 id="remote-reposity-활용-github">Remote Reposity 활용 (Github)</h3>
+
+<h4 id="새-프로젝트-시작">새 프로젝트 시작</h4>
+
+<ol>
+  <li>Github에 프로젝트 Repository를 생성</li>
+  <li>Local Repository 내 개발 환경설정/개발사항 저장</li>
+  <li>Local Repository와 Github의 Repository를 remote 연결</li>
+  <li>Local Repository 저장상황을 Remote Repository에 push</li>
+  <li>(공동작업시) 해당 Remote Repository를 clone
+    <ul>
+      <li>(공동작업자) clone을 통해 로컬로 복사한 프로젝트로 작업 진행</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="기존-프로젝트-수정">기존 프로젝트 수정</h4>
+
+<blockquote>
+  <p>기존 Local Repository에 존재</p>
+</blockquote>
+
+<ol>
+  <li>Github Repository와 remote -v명령으로 연결 확인
+    <ol>
+      <li>연결안되어 있으면 다시 remote 연결</li>
+    </ol>
+  </li>
+  <li>Github Repository 수정사항들을 Local Repository로 fetch 또는 pull함
+    <ul>
+      <li>fetch : Github의 commit들을 Local Repository로 가져옴
+        <ul>
+          <li>개발자가 자신의 작업과 적절히 merge하여 다시 push해야 함</li>
+        </ul>
+      </li>
+      <li>pull : Github의 commit들을 가져오면서 자동으로 Local Repository와 병합
+        <ul>
+          <li>편하지만 conflict 발생 확인 어려움</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="local로-github-branch-가져오기">Local로 Github Branch 가져오기</h4>
+
+<blockquote>
+  <p>git pull으로 가져오지 못함 (Local에 없다면)</p>
+</blockquote>
+
+<ol>
+  <li>git remote에 대한 업데이트 실행
+    <ul>
+      <li>git remote update</li>
+    </ul>
+  </li>
+  <li>Github Repository의 branch 내역 확인
+    <ul>
+      <li>git branch -r     : remote branch 내역</li>
+      <li>git branch -a     : local/remote branch 내역</li>
+    </ul>
+  </li>
+  <li>원하는 branch를 Local로 가져와서 해당 branch 사용
+    <ul>
+      <li>git checkout -t  <Local Branch="" Name="">  "Remote Branch Name"
+</Local>        <ul>
+          <li>Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="git-remote-관련-명령">Git Remote 관련 명령</h4>
+
+<ul>
+  <li>
+    <p>git remote add “사용할 원격저장소이름” “Github Repository URL”</p>
+
+    <ul>
+      <li>ex. git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git</li>
+    </ul>
+  </li>
+  <li>
+    <p>git remote -v</p>
+  </li>
+  <li>
+    <p>git push “원격저장소이름” “local branch명”</p>
+
+    <ul>
+      <li>
+        <p>ex.   git push origin main</p>
+
+        <p>​	git push origin –all (모든 branch)</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>git fetch “원격저장소이름”</p>
+
+    <ul>
+      <li>ex. git fetch origin</li>
+    </ul>
+  </li>
+  <li>
+    <p>git pull</p>
+  </li>
+  <li>
+    <p>git clone “Github Repository URL”</p>
+
+    <ul>
+      <li>ex. git clone https://github.com/HweeJoon-Chung/RemoteProject.git</li>
+    </ul>
+  </li>
+</ul>
+
 
                 </div>
             </section>
 
             <!-- Email subscribe form at the bottom of the page -->
+<!-- post 화면 아래 subscriber 출력되는거 지움
             
                 <section class="subscribe-form">
                     <h3 class="subscribe-form-title">Subscribe to HWEE JOON's Persona</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
-                    <form method="post" action="/subscribe/" class="">
+                    
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -260,10 +517,10 @@ into the {body} of the default.hbs template -->
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
-
+-->
                 </section>
             
-
+-->
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
@@ -271,7 +528,7 @@ into the {body} of the default.hbs template -->
                     
                         <section class="author-card">
                             
-                                <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="hweejoon" />
+                                <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="hweejoon" />
                             
                             <section class="author-card-content">
                                 <h4 class="author-card-name"><a href="/author/hweejoon">Hwee Joon Chung</a></h4>
@@ -323,6 +580,8 @@ into the {body} of the default.hbs template -->
                         <div class="read-next-card-content">
                             <ul>
                                 
+                                
+                                  
                                 
                                   
                                 
@@ -409,7 +668,7 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -463,7 +722,7 @@ into the {body} of the default.hbs template -->
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/built/images/favicon_24x24.png" alt="Hwee Joon Chung" />
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
                         
                         <span class="post-card-author">
                             <a href="/author/hweejoon/">Hwee Joon Chung</a>
@@ -552,9 +811,37 @@ into the {body} of the default.hbs template -->
             <a class="subscribe-overlay-close" href="#"></a>
             <div class="subscribe-overlay-content">
                 
-                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
-                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-                <form method="post" action="/subscribe/" class="">
+                <h1 class="subscribe-overlay-title">Search HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
     <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
 
     <div class="form-group">
@@ -563,10 +850,52 @@ into the {body} of the default.hbs template -->
     <button class="" type="submit" disabled><span>Subscribe</span></button>
     <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
 </form>
+-->
+<!--                
+                <h1 class="subscribe-overlay-title">Subscribe to HWEE JOON's Persona</h1>
+                <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
+                
+<style>
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+</style>
+<span id="searchform" method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  />
+    <input class="location" type="hidden" name="location"  />
+    <input class="referrer" type="hidden" name="referrer"  />
 
+    <div class="form-group">
+        <input class="subscribe-email" onkeyup="myFunc()" 
+               id="searchtext" type="text" name="searchtext"  
+               placeholder="Search..." />
+    </div>
+    <script type="text/javascript">
+        function myFunc() {
+            if(event.keyCode == 13) {
+                var url = encodeURIComponent($("#searchtext").val());
+                location.href = "/search.html?query=" + url;
+            }
+        }
+    </script>
+</span>
+<!--
+<form method="post" action="/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="youremail@example.com" />
+    </div>
+    <button class="" type="submit" disabled><span>Subscribe</span></button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+-->
+-->
             </div>
         </div>
     
+
 
     <!-- highlight.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
