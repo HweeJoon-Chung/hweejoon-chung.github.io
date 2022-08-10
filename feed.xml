@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-10T16:38:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python - 기본</title><link href="http://localhost:4000/python-basic" rel="alternate" type="text/html" title="Python - 기본" /><published>2021-04-05T08:32:00+09:00</published><updated>2021-04-05T08:32:00+09:00</updated><id>http://localhost:4000/python-basic</id><content type="html" xml:base="http://localhost:4000/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-10T17:53:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python - 기본</title><link href="http://localhost:4000/python-basic" rel="alternate" type="text/html" title="Python - 기본" /><published>2021-04-05T08:32:00+09:00</published><updated>2021-04-05T08:32:00+09:00</updated><id>http://localhost:4000/python-basic</id><content type="html" xml:base="http://localhost:4000/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Python 기초를 넘어 기본 개념 중 기억할 것들만 정리&lt;/p&gt;
@@ -143,6 +143,77 @@ for item in data:
 &lt;ul&gt;
   &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
   &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-class와-object&quot;&gt;객체지향 (class와 object)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Class를 틀/설계도라 할 때, Object는 하나의 완성품&lt;/li&gt;
+  &lt;li&gt;Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class classname:
+	pass
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’이라는 이름의 Class를 선언&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dir (classname)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class와 관련된 전체 속성들을 리스트로 출력&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;objectname = classname(objectname)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;type(objectname)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object의 Class를 출력&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class classname:
+	xpos = 0
+	ypos = 0
+	stance = &quot;idle&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;objectname.xpos = 50
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class classname:
+	xpos = 0
+	ypos = 0
+	stance = &quot;idle&quot;
+	
+	def get_xypos(self)
+		return self.xpos + self.ypos
+		
+	def set_xypos(self, data1, data2)
+		self.xpos = data1
+		self.ypos = data2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘get_xypos’, ‘set_xypos’ Method를 추가&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;objectname.set_xypos(2, 2)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html">프로그래밍 언어</summary></entry><entry><title type="html">Git - Github Page - 기본</title><link href="http://localhost:4000/git-github-jekyll" rel="alternate" type="text/html" title="Git - Github Page - 기본" /><published>2021-02-09T01:40:00+09:00</published><updated>2021-02-09T01:40:00+09:00</updated><id>http://localhost:4000/git-github-jekyll</id><content type="html" xml:base="http://localhost:4000/git-github-jekyll">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -400,6 +471,56 @@ for item in data:
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h4 id=&quot;아이콘-폰트-font-awesome&quot;&gt;아이콘 폰트 (Font Awesome)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;아이콘을 폰트처럼 사용가능하도록 Vector 이미지로 서비스&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;_layouts/default.html 내에 아래 추가&lt;/p&gt;
+
+    &lt;p&gt;​    &lt;!-- Font Awesome --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Font Awsome 5 버전에서는&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;i class=&quot;fas fa-camera&quot;&amp;gt;&amp;lt;/i&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;i&gt; 태그 fas 클래스 속성을 사용해서 아이콘 사용함&lt;/i&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;아이콘 크기 변경하기 위해 fa-숫자x를 class 속성에 추가&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;ex. 2배크기로 키우려면 fa-2x 추가&lt;/p&gt;
+
+            &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;i class=&quot;fas fa-camera fa-2x&quot;&amp;gt;&amp;lt;/i&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;아이콘 검색하기&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;http://fontawesome.com/icons&lt;/li&gt;
+      &lt;li&gt;Ctrl+f 로 검색가능한 사이트
+        &lt;ul&gt;
+          &lt;li&gt;http://fontawesome.com/cheatsheet&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;jekyll-실행-시-error-처리&quot;&gt;Jekyll 실행 시 Error 처리&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -448,6 +569,39 @@ for item in data:
         &lt;p&gt;Error는 아니고 warning 수준&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;기타사항&quot;&gt;기타사항&lt;/h2&gt;
+
+&lt;h3 id=&quot;검색창이나-footer의-글자-색이-안보이는-경우-스타일-색-수정&quot;&gt;검색창이나 footer의 글자 색이 안보이는 경우 스타일 색 수정&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;style 태그로 스타일 추가&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;style&amp;gt;
+    [type=&quot;text&quot;] {
+        background-color:gray;
+        color:white;
+    }
+&amp;lt;/style&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;footer의 스타일을 찾아 수정&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.site-footer-content a {
+    color: rgba(160, 16, 71, 0.7);
+/*  기존 color가 흰색이라 흰색 백그라운드에서 안보임
+	color: rgba(255,255,255,0.7);	
+*/
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github Page</summary></entry><entry><title type="html">dev - 개발환경설정 기본</title><link href="http://localhost:4000/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" /><published>2021-02-03T08:24:00+09:00</published><updated>2021-02-03T08:24:00+09:00</updated><id>http://localhost:4000/dev-env</id><content type="html" xml:base="http://localhost:4000/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
 
@@ -498,6 +652,8 @@ for item in data:
     &lt;ul&gt;
       &lt;li&gt;참고. git-basic.md&lt;/li&gt;
     &lt;/ul&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -513,9 +669,15 @@ for item in data:
 &lt;h4 id=&quot;추가-확장팩-설치&quot;&gt;추가 확장팩 설치&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Auto Complete Tag : html/xml 태그들을 자동으로 닫고 이름변경 자동적용
+  &lt;li&gt;&lt;strong&gt;Auto Complete Tag&lt;/strong&gt; 설치
     &lt;ul&gt;
-      &lt;li&gt;Auto Rename Tag와 Auto Close Tag 확장팩들을 통합하여 설치&lt;/li&gt;
+      &lt;li&gt;html/xml 태그들을 자동으로 닫고 이름변경 자동적용&lt;/li&gt;
+      &lt;li&gt;Auto Rename Tag와 Auto Close Tag 확장팩들을 통합한 도구&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MinifyAll&lt;/strong&gt; 설치
+    &lt;ul&gt;
+      &lt;li&gt;JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -632,13 +794,6 @@ for item in data:
       &lt;li&gt;
         &lt;p&gt;Settings(Ctrl+,) 띄워 &lt;strong&gt;Code-runner: Run In Terminal&lt;/strong&gt; 에서 코드 실행 가능하도록 선택&lt;/p&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;MinifyAll&lt;/strong&gt; 추가 확장팩 설치&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;

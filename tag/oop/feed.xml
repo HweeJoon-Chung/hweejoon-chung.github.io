@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/oop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-08-10T16:38:42+09:00</updated>
+  <updated>2022-08-10T17:53:55+09:00</updated>
   <id>http://localhost:4000/tag/oop/feed.xml</id>
 
   
@@ -86,6 +86,77 @@
 &lt;ul&gt;
   &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
   &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-class와-object&quot;&gt;객체지향 (class와 object)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Class를 틀/설계도라 할 때, Object는 하나의 완성품&lt;/li&gt;
+  &lt;li&gt;Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class classname:
+	pass
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’이라는 이름의 Class를 선언&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dir (classname)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class와 관련된 전체 속성들을 리스트로 출력&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;objectname = classname(objectname)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;type(objectname)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object의 Class를 출력&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class classname:
+	xpos = 0
+	ypos = 0
+	stance = &quot;idle&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;objectname.xpos = 50
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class classname:
+	xpos = 0
+	ypos = 0
+	stance = &quot;idle&quot;
+	
+	def get_xypos(self)
+		return self.xpos + self.ypos
+		
+	def set_xypos(self, data1, data2)
+		self.xpos = data1
+		self.ypos = data2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘get_xypos’, ‘set_xypos’ Method를 추가&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;objectname.set_xypos(2, 2)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       

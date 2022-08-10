@@ -468,6 +468,56 @@ for item in data:
   </li>
 </ul>
 
+<h4 id="아이콘-폰트-font-awesome">아이콘 폰트 (Font Awesome)</h4>
+
+<blockquote>
+  <p>아이콘을 폰트처럼 사용가능하도록 Vector 이미지로 서비스</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>_layouts/default.html 내에 아래 추가</p>
+
+    <p>​    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" /></p>
+  </li>
+  <li>
+    <p>Font Awsome 5 버전에서는</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;i class="fas fa-camera"&gt;&lt;/i&gt;
+</code></pre></div>    </div>
+
+    <p><i> 태그 fas 클래스 속성을 사용해서 아이콘 사용함</i></p>
+
+    <ul>
+      <li>
+        <p>아이콘 크기 변경하기 위해 fa-숫자x를 class 속성에 추가</p>
+
+        <ul>
+          <li>
+            <p>ex. 2배크기로 키우려면 fa-2x 추가</p>
+
+            <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;i class="fas fa-camera fa-2x"&gt;&lt;/i&gt;
+</code></pre></div>            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>아이콘 검색하기</p>
+
+    <ul>
+      <li>http://fontawesome.com/icons</li>
+      <li>Ctrl+f 로 검색가능한 사이트
+        <ul>
+          <li>http://fontawesome.com/cheatsheet</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <h2 id="jekyll-실행-시-error-처리">Jekyll 실행 시 Error 처리</h2>
 
 <ul>
@@ -516,6 +566,39 @@ for item in data:
         <p>Error는 아니고 warning 수준</p>
       </li>
     </ul>
+  </li>
+</ul>
+
+<h2 id="기타사항">기타사항</h2>
+
+<h3 id="검색창이나-footer의-글자-색이-안보이는-경우-스타일-색-수정">검색창이나 footer의 글자 색이 안보이는 경우 스타일 색 수정</h3>
+
+<ul>
+  <li>
+    <p>style 태그로 스타일 추가</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;style&gt;
+    [type="text"] {
+        background-color:gray;
+        color:white;
+    }
+&lt;/style&gt;
+</code></pre></div>    </div>
+
+    <p>​</p>
+  </li>
+  <li>
+    <p>footer의 스타일을 찾아 수정</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.site-footer-content a {
+    color: rgba(160, 16, 71, 0.7);
+/*  기존 color가 흰색이라 흰색 백그라운드에서 안보임
+	color: rgba(255,255,255,0.7);	
+*/
+}
+</code></pre></div>    </div>
+
+    <p>​</p>
   </li>
 </ul>
 

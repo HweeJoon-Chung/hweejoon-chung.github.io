@@ -256,6 +256,77 @@ into the {body} of the default.hbs template -->
   <li>Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍</li>
 </ul>
 
+<hr />
+
+<h2 id="객체지향-class와-object">객체지향 (class와 object)</h2>
+
+<ul>
+  <li>Class를 틀/설계도라 할 때, Object는 하나의 완성품</li>
+  <li>Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class classname:
+	pass
+</code></pre></div></div>
+
+<p>‘classname’이라는 이름의 Class를 선언</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dir (classname)
+</code></pre></div></div>
+
+<p>‘classname’ Class와 관련된 전체 속성들을 리스트로 출력</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>objectname = classname(objectname)
+</code></pre></div></div>
+
+<p>‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type(objectname)
+</code></pre></div></div>
+
+<p>‘objectname’ Object의 Class를 출력</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class classname:
+	xpos = 0
+	ypos = 0
+	stance = "idle"
+</code></pre></div></div>
+
+<p>‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>objectname.xpos = 50
+</code></pre></div></div>
+
+<p>‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class classname:
+	xpos = 0
+	ypos = 0
+	stance = "idle"
+	
+	def get_xypos(self)
+		return self.xpos + self.ypos
+		
+	def set_xypos(self, data1, data2)
+		self.xpos = data1
+		self.ypos = data2
+</code></pre></div></div>
+
+<p>‘get_xypos’, ‘set_xypos’ Method를 추가</p>
+
+<ul>
+  <li>위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>objectname.set_xypos(2, 2)
+</code></pre></div></div>
+
+<p>‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행</p>
+
+<ul>
+  <li>‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨</li>
+</ul>
+
 
                 </div>
             </section>
@@ -450,7 +521,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      2 min read
+                      3 min read
                     
                 </span>
             </footer>

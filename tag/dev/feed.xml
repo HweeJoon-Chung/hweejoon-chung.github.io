@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="http://localhost:4000/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-08-10T16:38:42+09:00</updated>
+  <updated>2022-08-10T17:53:55+09:00</updated>
   <id>http://localhost:4000/tag/dev/feed.xml</id>
 
   
@@ -92,6 +92,8 @@
     &lt;ul&gt;
       &lt;li&gt;참고. git-basic.md&lt;/li&gt;
     &lt;/ul&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -107,9 +109,15 @@
 &lt;h4 id=&quot;추가-확장팩-설치&quot;&gt;추가 확장팩 설치&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Auto Complete Tag : html/xml 태그들을 자동으로 닫고 이름변경 자동적용
+  &lt;li&gt;&lt;strong&gt;Auto Complete Tag&lt;/strong&gt; 설치
     &lt;ul&gt;
-      &lt;li&gt;Auto Rename Tag와 Auto Close Tag 확장팩들을 통합하여 설치&lt;/li&gt;
+      &lt;li&gt;html/xml 태그들을 자동으로 닫고 이름변경 자동적용&lt;/li&gt;
+      &lt;li&gt;Auto Rename Tag와 Auto Close Tag 확장팩들을 통합한 도구&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;MinifyAll&lt;/strong&gt; 설치
+    &lt;ul&gt;
+      &lt;li&gt;JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -226,13 +234,6 @@
       &lt;li&gt;
         &lt;p&gt;Settings(Ctrl+,) 띄워 &lt;strong&gt;Code-runner: Run In Terminal&lt;/strong&gt; 에서 코드 실행 가능하도록 선택&lt;/p&gt;
       &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;MinifyAll&lt;/strong&gt; 추가 확장팩 설치&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
