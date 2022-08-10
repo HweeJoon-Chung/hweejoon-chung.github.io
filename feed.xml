@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-10T18:21:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python - 기본</title><link href="http://localhost:4000/python-basic" rel="alternate" type="text/html" title="Python - 기본" /><published>2021-04-05T08:32:00+09:00</published><updated>2021-04-05T08:32:00+09:00</updated><id>http://localhost:4000/python-basic</id><content type="html" xml:base="http://localhost:4000/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-10T18:43:01+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python - 기본</title><link href="https://hweejoon-chung.github.io/python-basic" rel="alternate" type="text/html" title="Python - 기본" /><published>2021-04-05T08:32:00+09:00</published><updated>2021-04-05T08:32:00+09:00</updated><id>https://hweejoon-chung.github.io/python-basic</id><content type="html" xml:base="https://hweejoon-chung.github.io/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Python 기초를 넘어 기본 개념 중 기억할 것들만 정리&lt;/p&gt;
@@ -29,7 +29,7 @@ for item in data:
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">Python 기본</summary></entry><entry><title type="html">Unity - 기본</title><link href="http://localhost:4000/unity-basic" rel="alternate" type="text/html" title="Unity - 기본" /><published>2021-03-26T04:32:00+09:00</published><updated>2021-03-26T04:32:00+09:00</updated><id>http://localhost:4000/unity-basic</id><content type="html" xml:base="http://localhost:4000/unity-basic">&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">Python 기본</summary></entry><entry><title type="html">Unity - 기본</title><link href="https://hweejoon-chung.github.io/unity-basic" rel="alternate" type="text/html" title="Unity - 기본" /><published>2021-03-26T04:32:00+09:00</published><updated>2021-03-26T04:32:00+09:00</updated><id>https://hweejoon-chung.github.io/unity-basic</id><content type="html" xml:base="https://hweejoon-chung.github.io/unity-basic">&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
 
 &lt;p&gt;게임 엔진 - 2D 및 3D 비디오 게임의 개발 환경을 제공하여 모든 작업을 하나하나 코딩해줘야 하는 번거로움을 줄이고 이미 개발되어 있는 다양한 기능들을 조립 방식으로 사용. 게임을 만드는 데 도움이 되거나 필요한 다양한 라이브러리/툴들과 기능들을 모아 놓은 소프트웨어._&lt;/p&gt;
 
@@ -100,7 +100,7 @@ for item in data:
   &lt;li&gt;콘솔 윈도우( Console Window) : 유니티에서 생성되는 오류, 경고 등 다양한 메시지 출력.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</summary></entry><entry><title type="html">OOP - 기본</title><link href="http://localhost:4000/oop-basic" rel="alternate" type="text/html" title="OOP - 기본" /><published>2021-02-21T05:32:00+09:00</published><updated>2021-02-21T05:32:00+09:00</updated><id>http://localhost:4000/oop-basic</id><content type="html" xml:base="http://localhost:4000/oop-basic">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+&lt;p&gt;Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</summary></entry><entry><title type="html">OOP - 기본</title><link href="https://hweejoon-chung.github.io/oop-basic" rel="alternate" type="text/html" title="OOP - 기본" /><published>2021-02-21T05:32:00+09:00</published><updated>2021-02-21T05:32:00+09:00</updated><id>https://hweejoon-chung.github.io/oop-basic</id><content type="html" xml:base="https://hweejoon-chung.github.io/oop-basic">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
@@ -214,7 +214,7 @@ for item in data:
 
 &lt;ul&gt;
   &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html">프로그래밍 언어</summary></entry><entry><title type="html">Git - Github Page - 기본</title><link href="http://localhost:4000/git-github-jekyll" rel="alternate" type="text/html" title="Git - Github Page - 기본" /><published>2021-02-09T01:40:00+09:00</published><updated>2021-02-09T01:40:00+09:00</updated><id>http://localhost:4000/git-github-jekyll</id><content type="html" xml:base="http://localhost:4000/git-github-jekyll">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html">프로그래밍 언어</summary></entry><entry><title type="html">Git - Github Page - 기본</title><link href="https://hweejoon-chung.github.io/git-github-jekyll" rel="alternate" type="text/html" title="Git - Github Page - 기본" /><published>2021-02-09T01:40:00+09:00</published><updated>2021-02-09T01:40:00+09:00</updated><id>https://hweejoon-chung.github.io/git-github-jekyll</id><content type="html" xml:base="https://hweejoon-chung.github.io/git-github-jekyll">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;웹호스팅 서비스&lt;/li&gt;
@@ -603,7 +603,7 @@ for item in data:
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github Page</summary></entry><entry><title type="html">dev - 개발환경설정 기본</title><link href="http://localhost:4000/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" /><published>2021-02-03T08:24:00+09:00</published><updated>2021-02-03T08:24:00+09:00</updated><id>http://localhost:4000/dev-env</id><content type="html" xml:base="http://localhost:4000/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github Page</summary></entry><entry><title type="html">dev - 개발환경설정 기본</title><link href="https://hweejoon-chung.github.io/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" /><published>2021-02-03T08:24:00+09:00</published><updated>2021-02-03T08:24:00+09:00</updated><id>https://hweejoon-chung.github.io/dev-env</id><content type="html" xml:base="https://hweejoon-chung.github.io/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
 
 &lt;p&gt;현재 ruby, python, c++ 등의 코딩을 주로하는지라&lt;/p&gt;
 
@@ -819,7 +819,7 @@ for item in data:
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="dev" /><summary type="html">일반적인 개발환경 설정</summary></entry><entry><title type="html">Git - Github - 기본</title><link href="http://localhost:4000/git-githubbasic" rel="alternate" type="text/html" title="Git - Github - 기본" /><published>2021-01-25T08:34:00+09:00</published><updated>2021-01-25T08:34:00+09:00</updated><id>http://localhost:4000/git-githubbasic</id><content type="html" xml:base="http://localhost:4000/git-githubbasic">&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="dev" /><summary type="html">일반적인 개발환경 설정</summary></entry><entry><title type="html">Git - Github - 기본</title><link href="https://hweejoon-chung.github.io/git-githubbasic" rel="alternate" type="text/html" title="Git - Github - 기본" /><published>2021-01-25T08:34:00+09:00</published><updated>2021-01-25T08:34:00+09:00</updated><id>https://hweejoon-chung.github.io/git-githubbasic</id><content type="html" xml:base="https://hweejoon-chung.github.io/git-githubbasic">&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;오픈소스들을 저장하여 관리할 수 있는 원격(온라인) Git 저장소&lt;/li&gt;
@@ -835,7 +835,7 @@ for item in data:
       &lt;li&gt;.nojekyll 파일을 만들어 루트 디렉토리에 올리면 Jekyll 사용안함&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github</summary></entry><entry><title type="html">Git - 기본</title><link href="http://localhost:4000/git-basic" rel="alternate" type="text/html" title="Git - 기본" /><published>2021-01-19T08:14:00+09:00</published><updated>2021-01-19T08:14:00+09:00</updated><id>http://localhost:4000/git-basic</id><content type="html" xml:base="http://localhost:4000/git-basic">&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github</summary></entry><entry><title type="html">Git - 기본</title><link href="https://hweejoon-chung.github.io/git-basic" rel="alternate" type="text/html" title="Git - 기본" /><published>2021-01-19T08:14:00+09:00</published><updated>2021-01-19T08:14:00+09:00</updated><id>https://hweejoon-chung.github.io/git-basic</id><content type="html" xml:base="https://hweejoon-chung.github.io/git-basic">&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;소스 코드 관리를 위한 도구인 분산형 형상관리시스템
@@ -1093,7 +1093,7 @@ for item in data:
       &lt;li&gt;ex. git clone https://github.com/HweeJoon-Chung/RemoteProject.git&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Git</summary></entry><entry><title type="html">Git - Github - ruby 기본</title><link href="http://localhost:4000/git-github-rubybasic" rel="alternate" type="text/html" title="Git - Github - ruby 기본" /><published>2021-01-08T08:47:00+09:00</published><updated>2021-01-08T08:47:00+09:00</updated><id>http://localhost:4000/git-github-rubybasic</id><content type="html" xml:base="http://localhost:4000/git-github-rubybasic">&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Git</summary></entry><entry><title type="html">Git - Github - ruby 기본</title><link href="https://hweejoon-chung.github.io/git-github-rubybasic" rel="alternate" type="text/html" title="Git - Github - ruby 기본" /><published>2021-01-08T08:47:00+09:00</published><updated>2021-01-08T08:47:00+09:00</updated><id>https://hweejoon-chung.github.io/git-github-rubybasic</id><content type="html" xml:base="https://hweejoon-chung.github.io/git-github-rubybasic">&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1995년 발표된 객체 지향 프로그래밍 언어

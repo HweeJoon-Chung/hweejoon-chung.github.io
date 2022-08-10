@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/tag/git/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-08-10T18:21:15+09:00</updated>
-  <id>http://localhost:4000/tag/git/feed.xml</id>
+  <link href="https://hweejoon-chung.github.io/tag/git/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-08-10T18:43:01+09:00</updated>
+  <id>https://hweejoon-chung.github.io/tag/git/feed.xml</id>
 
   
   
@@ -39,11 +39,11 @@
   
     <entry>
       <title type="html">Git - Github Page - 기본</title>
-      <link href="http://localhost:4000/git-github-jekyll" rel="alternate" type="text/html" title="Git - Github Page - 기본" />
+      <link href="https://hweejoon-chung.github.io/git-github-jekyll" rel="alternate" type="text/html" title="Git - Github Page - 기본" />
       <published>2021-02-09T01:40:00+09:00</published>
       <updated>2021-02-09T01:40:00+09:00</updated>
-      <id>http://localhost:4000/git-github-jekyll</id>
-      <content type="html" xml:base="http://localhost:4000/git-github-jekyll">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/git-github-jekyll</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/git-github-jekyll">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;웹호스팅 서비스&lt;/li&gt;
@@ -462,11 +462,11 @@ for item in data:
   
     <entry>
       <title type="html">Git - Github - 기본</title>
-      <link href="http://localhost:4000/git-githubbasic" rel="alternate" type="text/html" title="Git - Github - 기본" />
+      <link href="https://hweejoon-chung.github.io/git-githubbasic" rel="alternate" type="text/html" title="Git - Github - 기본" />
       <published>2021-01-25T08:34:00+09:00</published>
       <updated>2021-01-25T08:34:00+09:00</updated>
-      <id>http://localhost:4000/git-githubbasic</id>
-      <content type="html" xml:base="http://localhost:4000/git-githubbasic">&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/git-githubbasic</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/git-githubbasic">&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;오픈소스들을 저장하여 관리할 수 있는 원격(온라인) Git 저장소&lt;/li&gt;
@@ -512,11 +512,11 @@ for item in data:
   
     <entry>
       <title type="html">Git - 기본</title>
-      <link href="http://localhost:4000/git-basic" rel="alternate" type="text/html" title="Git - 기본" />
+      <link href="https://hweejoon-chung.github.io/git-basic" rel="alternate" type="text/html" title="Git - 기본" />
       <published>2021-01-19T08:14:00+09:00</published>
       <updated>2021-01-19T08:14:00+09:00</updated>
-      <id>http://localhost:4000/git-basic</id>
-      <content type="html" xml:base="http://localhost:4000/git-basic">&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/git-basic</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/git-basic">&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;소스 코드 관리를 위한 도구인 분산형 형상관리시스템
@@ -804,11 +804,11 @@ for item in data:
   
     <entry>
       <title type="html">Git - Github - ruby 기본</title>
-      <link href="http://localhost:4000/git-github-rubybasic" rel="alternate" type="text/html" title="Git - Github - ruby 기본" />
+      <link href="https://hweejoon-chung.github.io/git-github-rubybasic" rel="alternate" type="text/html" title="Git - Github - ruby 기본" />
       <published>2021-01-08T08:47:00+09:00</published>
       <updated>2021-01-08T08:47:00+09:00</updated>
-      <id>http://localhost:4000/git-github-rubybasic</id>
-      <content type="html" xml:base="http://localhost:4000/git-github-rubybasic">&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/git-github-rubybasic</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/git-github-rubybasic">&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1995년 발표된 객체 지향 프로그래밍 언어

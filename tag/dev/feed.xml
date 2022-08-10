@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-08-10T18:21:15+09:00</updated>
-  <id>http://localhost:4000/tag/dev/feed.xml</id>
+  <link href="https://hweejoon-chung.github.io/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-08-10T18:43:01+09:00</updated>
+  <id>https://hweejoon-chung.github.io/tag/dev/feed.xml</id>
 
   
   
@@ -39,11 +39,11 @@
   
     <entry>
       <title type="html">dev - 개발환경설정 기본</title>
-      <link href="http://localhost:4000/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" />
+      <link href="https://hweejoon-chung.github.io/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" />
       <published>2021-02-03T08:24:00+09:00</published>
       <updated>2021-02-03T08:24:00+09:00</updated>
-      <id>http://localhost:4000/dev-env</id>
-      <content type="html" xml:base="http://localhost:4000/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/dev-env</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
 
 &lt;p&gt;현재 ruby, python, c++ 등의 코딩을 주로하는지라&lt;/p&gt;
 

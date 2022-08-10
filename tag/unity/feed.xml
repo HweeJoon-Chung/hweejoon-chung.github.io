@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="http://localhost:4000/tag/unity/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2022-08-10T18:21:15+09:00</updated>
-  <id>http://localhost:4000/tag/unity/feed.xml</id>
+  <link href="https://hweejoon-chung.github.io/tag/unity/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-08-10T18:43:01+09:00</updated>
+  <id>https://hweejoon-chung.github.io/tag/unity/feed.xml</id>
 
   
   
@@ -39,11 +39,11 @@
   
     <entry>
       <title type="html">Unity - 기본</title>
-      <link href="http://localhost:4000/unity-basic" rel="alternate" type="text/html" title="Unity - 기본" />
+      <link href="https://hweejoon-chung.github.io/unity-basic" rel="alternate" type="text/html" title="Unity - 기본" />
       <published>2021-03-26T04:32:00+09:00</published>
       <updated>2021-03-26T04:32:00+09:00</updated>
-      <id>http://localhost:4000/unity-basic</id>
-      <content type="html" xml:base="http://localhost:4000/unity-basic">&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/unity-basic</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/unity-basic">&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
 
 &lt;p&gt;게임 엔진 - 2D 및 3D 비디오 게임의 개발 환경을 제공하여 모든 작업을 하나하나 코딩해줘야 하는 번거로움을 줄이고 이미 개발되어 있는 다양한 기능들을 조립 방식으로 사용. 게임을 만드는 데 도움이 되거나 필요한 다양한 라이브러리/툴들과 기능들을 모아 놓은 소프트웨어._&lt;/p&gt;
 
