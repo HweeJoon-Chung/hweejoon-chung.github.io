@@ -61,7 +61,7 @@
     <meta property="og:site_name" content="HWEE JOON's Persona" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Git - 기본" />
-    <meta property="og:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 Local Repository remote git은 git" />
+    <meta property="og:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 git init Local Repository remote" />
     <meta property="og:url" content="https://hweejoon-chung.github.io/git-basic" />
     <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/git.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -71,7 +71,7 @@
     <meta property="article:tag" content="Git" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Git - 기본" />
-    <meta name="twitter:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 Local Repository remote git은 git" />
+    <meta name="twitter:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 git init Local Repository remote" />
     <meta name="twitter:url" content="https://hweejoon-chung.github.io/" />
     <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/git.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -103,7 +103,7 @@
         "@type": "WebPage",
         "@id": "https://hweejoon-chung.github.io/git-basic"
     },
-    "description": "Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 Local Repository remote git은 git"
+    "description": "Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 git init Local Repository remote"
 }
     </script>
 
@@ -223,7 +223,10 @@ into the {body} of the default.hbs template -->
     <p><code class="language-plaintext highlighter-rouge">.git</code>은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더</p>
 
     <ul>
-      <li>git init 명령으로 설정</li>
+      <li>git init 명령으로 설정
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git init
+</code></pre></div>        </div>
+      </li>
       <li>Local Repository</li>
     </ul>
   </li>
@@ -305,23 +308,26 @@ into the {body} of the default.hbs template -->
       </li>
       <li>$USER_HOME/.gitconfig
         <ul>
-          <li>윈도우사용자별로 적용되는 설정</li>
-          <li>git config –global</li>
+          <li>윈도우사용자별로 적용되는 설정
+            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span>
+</code></pre></div>            </div>
+          </li>
         </ul>
       </li>
       <li>$GIT_HMOE/mingw64/etc/gitconfig
         <ul>
-          <li>윈도우시스템 모든 사용자/저장소에 적용되는 설정</li>
-          <li>git config –system</li>
+          <li>윈도우시스템 모든 사용자/저장소에 적용되는 설정
+            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--system</span>
+</code></pre></div>            </div>
+          </li>
         </ul>
       </li>
     </ul>
   </li>
   <li>git bash 실행하여 git config로 기본 환경설정
-    <ul>
-      <li>git config –global user.name “HweeJoon-Chung”</li>
-      <li>git config –global user.email “hweejoonchung@gmail.com”</li>
-    </ul>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"HweeJoon-Chung"</span>
+git config <span class="nt">--global</span> user.email <span class="s2">"hweejoonchung@gmail.com"</span>
+</code></pre></div>    </div>
   </li>
 </ul>
 
@@ -401,23 +407,26 @@ into the {body} of the default.hbs template -->
 
 <ol>
   <li>git remote에 대한 업데이트 실행
-    <ul>
-      <li>git remote update</li>
-    </ul>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote update
+</code></pre></div>    </div>
   </li>
   <li>Github Repository의 branch 내역 확인
     <ul>
-      <li>git branch -r     : remote branch 내역</li>
-      <li>git branch -a     : local/remote branch 내역</li>
+      <li>remote branch 내역
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-r</span>
+</code></pre></div>        </div>
+      </li>
+      <li>local/remote branch 내역
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-a</span>
+</code></pre></div>        </div>
+      </li>
     </ul>
   </li>
   <li>원하는 branch를 Local로 가져와서 해당 branch 사용
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-t</span>  &lt;Local Branch Name&gt;  <span class="s2">"Remote Branch Name"</span>
+</code></pre></div>    </div>
     <ul>
-      <li>git checkout -t  <Local Branch="" Name="">  "Remote Branch Name"
-</Local>        <ul>
-          <li>Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨</li>
-        </ul>
-      </li>
+      <li>Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨</li>
     </ul>
   </li>
 </ol>
@@ -428,9 +437,8 @@ into the {body} of the default.hbs template -->
   <li>
     <p>git remote add “사용할 원격저장소이름” “Github Repository URL”</p>
 
-    <ul>
-      <li>ex. git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git</li>
-    </ul>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git
+</code></pre></div>    </div>
   </li>
   <li>
     <p>git remote -v</p>
@@ -438,20 +446,17 @@ into the {body} of the default.hbs template -->
   <li>
     <p>git push “원격저장소이름” “local branch명”</p>
 
-    <ul>
-      <li>
-        <p>ex.   git push origin main</p>
-
-        <p>​	git push origin –all (모든 branch)</p>
-      </li>
-    </ul>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin main
+</code></pre></div>    </div>
+    <p>​	모든 branch push</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git push origin <span class="nt">--all</span> <span class="o">(</span>모든 branch<span class="o">)</span>
+</code></pre></div>    </div>
   </li>
   <li>
     <p>git fetch “원격저장소이름”</p>
 
-    <ul>
-      <li>ex. git fetch origin</li>
-    </ul>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch origin
+</code></pre></div>    </div>
   </li>
   <li>
     <p>git pull</p>
@@ -459,9 +464,8 @@ into the {body} of the default.hbs template -->
   <li>
     <p>git clone “Github Repository URL”</p>
 
-    <ul>
-      <li>ex. git clone https://github.com/HweeJoon-Chung/RemoteProject.git</li>
-    </ul>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/HweeJoon-Chung/RemoteProject.git
+</code></pre></div>    </div>
   </li>
 </ul>
 

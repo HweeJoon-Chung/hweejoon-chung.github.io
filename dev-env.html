@@ -250,10 +250,8 @@ into the {body} of the default.hbs template -->
       </li>
     </ul>
   </li>
-  <li>git 설치
-    <ul>
-      <li>참고. git-basic.md</li>
-    </ul>
+  <li>
+    <p><a href="2021-01-18-git-basic.md">git 설치</a></p>
 
     <p>​</p>
   </li>
@@ -301,32 +299,31 @@ into the {body} of the default.hbs template -->
     <ul>
       <li>
         <p>Terminal &gt; Integrated &gt; Profiles: Windows 항목의 Edit in settings.json 클릭해서 수정</p>
-      </li>
-      <li>
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
-    "workbench.colorTheme": "Default Dark+",
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
-        },
-        "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
-            "args": [],
-            "icon": "terminal-cmd"
-        },
-        "GitBash": {
-            "path": ["D:\\Dev\\Git\\bin\\bash.exe"],
-            "icon": "terminal-bash"
-        },
+
+        <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"workbench.colorTheme"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Default Dark+"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"terminal.integrated.profiles.windows"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"PowerShell"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"source"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PowerShell"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"icon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terminal-powershell"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"Command Prompt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="s2">"${env:windir}</span><span class="se">\\</span><span class="s2">Sysnative</span><span class="se">\\</span><span class="s2">cmd.exe"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"${env:windir}</span><span class="se">\\</span><span class="s2">System32</span><span class="se">\\</span><span class="s2">cmd.exe"</span><span class="w">
+            </span><span class="p">],</span><span class="w">
+            </span><span class="nl">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+            </span><span class="nl">"icon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terminal-cmd"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"GitBash"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"D:</span><span class="se">\\</span><span class="s2">Dev</span><span class="se">\\</span><span class="s2">Git</span><span class="se">\\</span><span class="s2">bin</span><span class="se">\\</span><span class="s2">bash.exe"</span><span class="p">],</span><span class="w">
+            </span><span class="nl">"icon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terminal-bash"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
         
-    },
-    "terminal.integrated.defaultProfile.windows": "GitBash",
-}
-</code></pre></div>        </div>
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"terminal.integrated.defaultProfile.windows"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GitBash"</span><span class="p">,</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>        </div>
 
         <blockquote>
           <p>실제 수정된 부분은</p>
@@ -387,11 +384,10 @@ into the {body} of the default.hbs template -->
       <li>
         <p>Settings(Ctrl+,) 띄워 <strong>Code-runner: Executor Map</strong> 에서 Edit in settings.json 클릭해 한글출력(utf8) 설정</p>
 
-        <blockquote>
-          <p><code class="language-plaintext highlighter-rouge">"code-runner.executorMap": {</code></p>
-
-          <p>​        <code class="language-plaintext highlighter-rouge">"python": "set PYTHONIOENCODING=utf8 &amp;&amp; D:\\Dev\\anaconda3\\python.exe -u",</code></p>
-        </blockquote>
+        <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"code-runner.executorMap"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    
+     </span><span class="nl">"python"</span><span class="p">:</span><span class="w"> </span><span class="s2">"set PYTHONIOENCODING=utf8 &amp;&amp; D:</span><span class="se">\\</span><span class="s2">Dev</span><span class="se">\\</span><span class="s2">anaconda3</span><span class="se">\\</span><span class="s2">python.exe -u"</span><span class="p">,</span><span class="w">
+</span></code></pre></div>        </div>
       </li>
       <li>
         <p>Settings(Ctrl+,) 띄워 <strong>Code-runner: Run In Terminal</strong> 에서 코드 실행 가능하도록 선택</p>
@@ -410,9 +406,8 @@ into the {body} of the default.hbs template -->
 
     <ul>
       <li>Settings(Ctrl+,) 띄워 <strong>python: conda path</strong> 에서 경로 지정
-        <ul>
-          <li>ex. D:\Dev\anaconda3\Scripts\conda.exe</li>
-        </ul>
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>D:<span class="se">\D</span>ev<span class="se">\a</span>naconda3<span class="se">\S</span>cripts<span class="se">\c</span>onda.exe
+</code></pre></div>        </div>
       </li>
       <li>python 사용 터미널을 <strong>Command Prompt</strong>로 사용!!!!</li>
     </ul>
@@ -563,7 +558,7 @@ into the {body} of the default.hbs template -->
                 <span class="reading-time">
                     
                     
-                      3 min read
+                      4 min read
                     
                 </span>
             </footer>
