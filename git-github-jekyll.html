@@ -344,7 +344,10 @@ into the {body} of the default.hbs template -->
 
 <p>크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이</p>
 
-<h5 id="사용방법-1-gulp를-이용하여-파일-크기를-줄이자-nodejs-gulp-버전에-따라-문제많음">사용방법 1. Gulp를 이용하여 파일 크기를 줄이자! (node.js, gulp 버전에 따라 문제많음)</h5>
+<h4 id="사용방법-1-gulp를-이용하여-파일-크기를-줄이자">사용방법 1. Gulp를 이용하여 파일 크기를 줄이자!</h4>
+<blockquote>
+  <p>(node.js, gulp 버전에 따라 문제많음)</p>
+</blockquote>
 
 <ul>
   <li>Gulp 실행하기 위해 node.js 다운로드받아 기본설정으로 설치
@@ -366,60 +369,57 @@ into the {body} of the default.hbs template -->
   <li>gulp 실행 (ex. gulp css)</li>
 </ul>
 
-<h5 id="사용방법-2-vs-code-내-확장팩-minifyall-설치">사용방법 2. VS Code 내 확장팩 <strong>MinifyAll</strong> 설치</h5>
+<h4 id="사용방법-2-vs-code-내-확장팩-minifyall-설치">사용방법 2. VS Code 내 확장팩 MinifyAll 설치</h4>
 
 <ul>
   <li>디버깅이나 직접 수정할 수 있는 map파일은 만들어지지 않지만 경량화는 되니까…^^;</li>
   <li>각 파일/폴더에서 오른쪽 마우스 눌리고 기존 버전 유지하고 새버전으로 저장(…min.파일 생성)</li>
 </ul>
 
-<h3 id="css와-웹폰트-적용하기">CSS와 웹폰트 적용하기</h3>
-
-<h4 id="css">CSS</h4>
-
-<h5 id="원하는-css-파일을-추가하고-_layoutsdefaulthtml-내에-아래-추가">원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가</h5>
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">custom</span><span class="nc">.css</span> <span class="nt">--</span><span class="o">&gt;</span>
+<h3 id="css-적용하기">CSS 적용하기</h3>
+<h4 id="css-파일-link">CSS 파일 link</h4>
+<blockquote>
+  <p>원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가</p>
+  <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">custom</span><span class="nc">.css</span> <span class="nt">--</span><span class="o">&gt;</span>
 	<span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s1">"stylesheet"</span> <span class="nt">type</span><span class="o">=</span><span class="s1">"text/css"</span> <span class="nt">href</span><span class="o">=</span><span class="s1">"/assets/built/custom.css"</span> <span class="o">/&gt;</span>
+</code></pre></div>  </div>
+  <h4 id="rougepure-ruby-syntax-highlighter-활용">rouge(pure-ruby syntax highlighter) 활용</h4>
+  <ul>
+    <li>원하는 특정 스타일 css를 적용하기 위한 도구</li>
+    <li>_config.yml 설정파일 내에 아래 추가
+      <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	highlighter: rough
+</code></pre></div>      </div>
+    </li>
+    <li>rough 설치
+      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	gem <span class="nb">install </span>rough
+</code></pre></div>      </div>
+    </li>
+    <li>rougify help style 명령으로 사용가능한 테마 중 선택
+ ```bash
+ $ rougify help style
+  usage: rougify style [<theme-name>] [<options>]</options></theme-name></li>
+  </ul>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Print CSS styles for the given theme.  Extra options are
+passed to the theme. To select a mode (light/dark) for the
+theme, append '.light' or '.dark' to the &lt;theme-name&gt;
+respectively. Theme defaults to thankful_eyes.
+
+options:
+  --scope       (default: .highlight) a css selector to scope by
+  --tex         (default: false) render as TeX
+  --tex-prefix  (default: RG) a command prefix for TeX
+                implies --tex if specified
+
+available themes:
+  base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip    ```   - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
+```bash
+rougify style base16.dark &gt; assets/css/syntax.css
+```
 </code></pre></div></div>
-<h5 id="rougepure-ruby-syntax-highlighter-활용">rouge(pure-ruby syntax highlighter) 활용</h5>
 
 <ul>
-  <li>
-    <p>원하는 특정 스타일 css를 적용하기 위한 도구</p>
-  </li>
-  <li>_config.yml 설정파일 내에 아래 추가
-    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	highlighter: rough
-</code></pre></div>    </div>
-  </li>
-  <li>rough 설치
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	gem <span class="nb">install </span>rough
-</code></pre></div>    </div>
-  </li>
-  <li>rougify help style 명령으로 사용가능한 테마 중 선택
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nv">$ </span>rougify <span class="nb">help </span>style
-  usage: rougify style <span class="o">[</span>&lt;theme-name&gt;] <span class="o">[</span>&lt;options&gt;]
-
-  Print CSS styles <span class="k">for </span>the given theme.  Extra options are
-  passed to the theme. To <span class="k">select </span>a mode <span class="o">(</span>light/dark<span class="o">)</span> <span class="k">for </span>the
-  theme, append <span class="s1">'.light'</span> or <span class="s1">'.dark'</span> to the &lt;theme-name&gt;
-  respectively. Theme defaults to thankful_eyes.
-
-  options:
-    <span class="nt">--scope</span>       <span class="o">(</span>default: .highlight<span class="o">)</span> a css selector to scope by
-    <span class="nt">--tex</span>         <span class="o">(</span>default: <span class="nb">false</span><span class="o">)</span> render as TeX
-    <span class="nt">--tex-prefix</span>  <span class="o">(</span>default: RG<span class="o">)</span> a <span class="nb">command </span>prefix <span class="k">for </span>TeX
-                  implies <span class="nt">--tex</span> <span class="k">if </span>specified
-
-  available themes:
-    base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
-</code></pre></div>    </div>
-    <ul>
-      <li>제일 기본인 base16.dark 테마 선택해서 style.css 생성
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rougify style base16.dark <span class="o">&gt;</span> assets/css/syntax.css
-</code></pre></div>        </div>
-      </li>
-    </ul>
-  </li>
   <li>
     <p>minify해서 assets/built/css/syntax.css로 저장</p>
   </li>
@@ -440,7 +440,7 @@ into the {body} of the default.hbs template -->
   </li>
 </ul>
 
-<h4 id="웹폰트">웹폰트</h4>
+<h3 id="웹폰트-적용하기">웹폰트 적용하기</h3>
 
 <blockquote>
   <p>가벼운 나눔고딕 사용</p>
