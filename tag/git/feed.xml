@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/git/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-11T11:36:01+09:00</updated>
+  <updated>2022-08-11T11:56:23+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/git/feed.xml</id>
 
   
@@ -218,46 +218,50 @@
 &lt;h4 id=&quot;css-파일-link&quot;&gt;CSS 파일 link&lt;/h4&gt;
 &lt;blockquote&gt;
   &lt;p&gt;원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가&lt;/p&gt;
-  &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;custom&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.css&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;/assets/built/custom.css&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-  &lt;h4 id=&quot;rougepure-ruby-syntax-highlighter-활용&quot;&gt;rouge(pure-ruby syntax highlighter) 활용&lt;/h4&gt;
-  &lt;ul&gt;
-    &lt;li&gt;원하는 특정 스타일 css를 적용하기 위한 도구&lt;/li&gt;
-    &lt;li&gt;_config.yml 설정파일 내에 아래 추가
-      &lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	highlighter: rough
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;      &lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;rough 설치
-      &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;      &lt;/div&gt;
-    &lt;/li&gt;
-    &lt;li&gt;rougify help style 명령으로 사용가능한 테마 중 선택
- ```bash
- $ rougify help style
-  usage: rougify style [&lt;theme-name&gt;] [&lt;options&gt;]&lt;/options&gt;&lt;/theme-name&gt;&lt;/li&gt;
-  &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Print CSS styles for the given theme.  Extra options are
-passed to the theme. To select a mode (light/dark) for the
-theme, append &apos;.light&apos; or &apos;.dark&apos; to the &amp;lt;theme-name&amp;gt;
-respectively. Theme defaults to thankful_eyes.
-
-options:
-  --scope       (default: .highlight) a css selector to scope by
-  --tex         (default: false) render as TeX
-  --tex-prefix  (default: RG) a command prefix for TeX
-                implies --tex if specified
-
-available themes:
-  base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip    ```   - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
-```bash
-rougify style base16.dark &amp;gt; assets/css/syntax.css
-```
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;​```css
+ 	&amp;lt;!-- custom.css --&amp;gt;
+ 	&amp;lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/built/custom.css&quot; /&amp;gt;
+  	```
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;h4 id=&quot;rougepure-ruby-syntax-highlighter-활용&quot;&gt;rouge(pure-ruby syntax highlighter) 활용&lt;/h4&gt;
 &lt;ul&gt;
+  &lt;li&gt;원하는 특정 스타일 css를 적용하기 위한 도구&lt;/li&gt;
+  &lt;li&gt;_config.yml 설정파일 내에 아래 추가
+    &lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	highlighter: rough
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;rough 설치
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;rougify help style 명령으로 사용가능한 테마 중 선택
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rougify &lt;span class=&quot;nb&quot;&gt;help &lt;/span&gt;style
+  usage: rougify style &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;theme-name&amp;gt;] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;options&amp;gt;]
+
+  Print CSS styles &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the given theme.  Extra options are
+  passed to the theme. To &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;a mode &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;light/dark&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the
+  theme, append &lt;span class=&quot;s1&quot;&gt;&apos;.light&apos;&lt;/span&gt; or &lt;span class=&quot;s1&quot;&gt;&apos;.dark&apos;&lt;/span&gt; to the &amp;lt;theme-name&amp;gt;
+  respectively. Theme defaults to thankful_eyes.
+
+  options:
+    &lt;span class=&quot;nt&quot;&gt;--scope&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: .highlight&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a css selector to scope by
+    &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt;         &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; render as TeX
+    &lt;span class=&quot;nt&quot;&gt;--tex-prefix&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: RG&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;prefix &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;TeX
+                  implies &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;specified
+
+  available themes:
+    base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
+  ​```bash
+  rougify style base16.dark &amp;gt; assets/css/syntax.css
+  ​```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;minify해서 assets/built/css/syntax.css로 저장&lt;/p&gt;
   &lt;/li&gt;
@@ -267,7 +271,17 @@ rougify style base16.dark &amp;gt; assets/css/syntax.css
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;code block 사용시 아래와 같이 “~~~” 사이 사용언어 추가해주면 스타일 적용&lt;/p&gt;
+    &lt;p&gt;code block 사용시 아래와 같이  “```” 또는  “~~~” 뒤에 사용언어 명시해주면 스타일 적용&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;```python
+data = [1,2,3,4,5,6,7,8,9,10]
+data.reverse()&lt;/p&gt;
+
+      &lt;p&gt;for item in data:
+	print(item)
+```&lt;/p&gt;
+    &lt;/blockquote&gt;
 
     &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;

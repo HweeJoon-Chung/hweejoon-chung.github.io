@@ -380,46 +380,50 @@ into the {body} of the default.hbs template -->
 <h4 id="css-파일-link">CSS 파일 link</h4>
 <blockquote>
   <p>원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가</p>
-  <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">custom</span><span class="nc">.css</span> <span class="nt">--</span><span class="o">&gt;</span>
-	<span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s1">"stylesheet"</span> <span class="nt">type</span><span class="o">=</span><span class="s1">"text/css"</span> <span class="nt">href</span><span class="o">=</span><span class="s1">"/assets/built/custom.css"</span> <span class="o">/&gt;</span>
-</code></pre></div>  </div>
-  <h4 id="rougepure-ruby-syntax-highlighter-활용">rouge(pure-ruby syntax highlighter) 활용</h4>
-  <ul>
-    <li>원하는 특정 스타일 css를 적용하기 위한 도구</li>
-    <li>_config.yml 설정파일 내에 아래 추가
-      <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	highlighter: rough
-</code></pre></div>      </div>
-    </li>
-    <li>rough 설치
-      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	gem <span class="nb">install </span>rough
-</code></pre></div>      </div>
-    </li>
-    <li>rougify help style 명령으로 사용가능한 테마 중 선택
- ```bash
- $ rougify help style
-  usage: rougify style [<theme-name>] [<options>]</options></theme-name></li>
-  </ul>
 </blockquote>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Print CSS styles for the given theme.  Extra options are
-passed to the theme. To select a mode (light/dark) for the
-theme, append '.light' or '.dark' to the &lt;theme-name&gt;
-respectively. Theme defaults to thankful_eyes.
-
-options:
-  --scope       (default: .highlight) a css selector to scope by
-  --tex         (default: false) render as TeX
-  --tex-prefix  (default: RG) a command prefix for TeX
-                implies --tex if specified
-
-available themes:
-  base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip    ```   - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
-```bash
-rougify style base16.dark &gt; assets/css/syntax.css
-```
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>​```css
+ 	&lt;!-- custom.css --&gt;
+ 	&lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt;
+  	```
 </code></pre></div></div>
 
+<h4 id="rougepure-ruby-syntax-highlighter-활용">rouge(pure-ruby syntax highlighter) 활용</h4>
 <ul>
+  <li>원하는 특정 스타일 css를 적용하기 위한 도구</li>
+  <li>_config.yml 설정파일 내에 아래 추가
+    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	highlighter: rough
+</code></pre></div>    </div>
+  </li>
+  <li>rough 설치
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	gem <span class="nb">install </span>rough
+</code></pre></div>    </div>
+  </li>
+  <li>rougify help style 명령으로 사용가능한 테마 중 선택
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	<span class="nv">$ </span>rougify <span class="nb">help </span>style
+  usage: rougify style <span class="o">[</span>&lt;theme-name&gt;] <span class="o">[</span>&lt;options&gt;]
+
+  Print CSS styles <span class="k">for </span>the given theme.  Extra options are
+  passed to the theme. To <span class="k">select </span>a mode <span class="o">(</span>light/dark<span class="o">)</span> <span class="k">for </span>the
+  theme, append <span class="s1">'.light'</span> or <span class="s1">'.dark'</span> to the &lt;theme-name&gt;
+  respectively. Theme defaults to thankful_eyes.
+
+  options:
+    <span class="nt">--scope</span>       <span class="o">(</span>default: .highlight<span class="o">)</span> a css selector to scope by
+    <span class="nt">--tex</span>         <span class="o">(</span>default: <span class="nb">false</span><span class="o">)</span> render as TeX
+    <span class="nt">--tex-prefix</span>  <span class="o">(</span>default: RG<span class="o">)</span> a <span class="nb">command </span>prefix <span class="k">for </span>TeX
+                  implies <span class="nt">--tex</span> <span class="k">if </span>specified
+
+  available themes:
+    base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
+</code></pre></div>    </div>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
+  ​```bash
+  rougify style base16.dark &gt; assets/css/syntax.css
+  ​```
+</code></pre></div>    </div>
+  </li>
   <li>
     <p>minify해서 assets/built/css/syntax.css로 저장</p>
   </li>
@@ -429,7 +433,17 @@ rougify style base16.dark &gt; assets/css/syntax.css
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>code block 사용시 아래와 같이 “~~~” 사이 사용언어 추가해주면 스타일 적용</p>
+    <p>code block 사용시 아래와 같이  “```” 또는  “~~~” 뒤에 사용언어 명시해주면 스타일 적용</p>
+
+    <blockquote>
+      <p>```python
+data = [1,2,3,4,5,6,7,8,9,10]
+data.reverse()</p>
+
+      <p>for item in data:
+	print(item)
+```</p>
+    </blockquote>
 
     <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span>
 <span class="n">data</span><span class="p">.</span><span class="n">reverse</span><span class="p">()</span>
