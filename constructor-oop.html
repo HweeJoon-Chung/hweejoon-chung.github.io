@@ -63,7 +63,7 @@
     <meta property="og:title" content="생성자와 소멸자" />
     <meta property="og:description" content="객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의" />
     <meta property="og:url" content="https://hweejoon-chung.github.io/constructor-oop" />
-    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.jpg" />
+    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
     <meta property="article:published_time" content="2022-08-12T06:38:00+09:00" />
@@ -73,7 +73,7 @@
     <meta name="twitter:title" content="생성자와 소멸자" />
     <meta name="twitter:description" content="객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의" />
     <meta name="twitter:url" content="https://hweejoon-chung.github.io/" />
-    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.jpg" />
+    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="HWEE JOON's Persona" />
     <meta name="twitter:label2" content="Filed under" />
@@ -95,7 +95,7 @@
     "url": "https://hweejoon-chung.github.io/constructor-oop",
     "image": {
         "@type": "ImageObject",
-        "url": "https://hweejoon-chung.github.io/assets/built/images/oop.jpg",
+        "url": "https://hweejoon-chung.github.io/assets/built/images/oop.png",
         "width": 2000,
         "height": 666
     },
@@ -199,7 +199,7 @@ into the {body} of the default.hbs template -->
             </header>
 <!-- post 화면 위 image 출력되니 번거로워 지움
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/oop.jpg)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/oop.png)">
             </figure>
             
 -->
@@ -214,16 +214,16 @@ into the {body} of the default.hbs template -->
   <li>첫 번째 인자는 ‘self’</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Weapon:
-	def __init__(self, weight, damage, color):
-		self.weight = weight
-		self.damage = damage
-		self.color = color
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Weapon</span><span class="p">:</span>
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">damage</span><span class="p">,</span> <span class="n">color</span><span class="p">):</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">weight</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">damage</span> <span class="o">=</span> <span class="n">damage</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">color</span>
 </code></pre></div></div>
 
 <p>‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로,  ‘self.damage’를 ‘damage’로,  ‘self.color’를 ‘color’로 설정</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heavymachinegun = Weapon(60, 5, "black")
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">heavymachinegun</span> <span class="o">=</span> <span class="n">Weapon</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s">"black"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정</p>
@@ -233,19 +233,19 @@ into the {body} of the default.hbs template -->
   <li>첫 번째 인자는 ‘self’</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Weapon:
-	def __init__(self, weight, damage, color):
-		self.weight = weight
-		self.damage = damage
-		self.color = color
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Weapon</span><span class="p">:</span>
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">damage</span><span class="p">,</span> <span class="n">color</span><span class="p">):</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">weight</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">damage</span> <span class="o">=</span> <span class="n">damage</span>
+		<span class="bp">self</span><span class="p">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">color</span>
 		
-	def __del__(self):
-		print("Object deleted.")
+	<span class="k">def</span> <span class="nf">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="k">print</span><span class="p">(</span><span class="s">"Object deleted."</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘Weapon’ Class의 Object가 소멸됐을 때, “Object deleted”를 출력</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heavymachinegun = Weapon(60, 5, "black")
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">heavymachinegun</span> <span class="o">=</span> <span class="n">Weapon</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s">"black"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정</p>
@@ -431,7 +431,7 @@ into the {body} of the default.hbs template -->
     <article class="post-card post-template">
         
             <a class="post-card-image-link" href="/classobject-oop">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.jpg)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.png)"></div>
             </a>
         
         <div class="post-card-content">

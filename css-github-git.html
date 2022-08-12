@@ -61,7 +61,7 @@
     <meta property="og:site_name" content="HWEE JOON's Persona" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Github Page에 CSS 적용하기" />
-    <meta property="og:description" content="CSS 적용하기 CSS 파일 link 원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가 &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt; rouge(pure-ruby syntax highlighter) 활용 원하는 특정 스타일 css를 적용하기 위한 도구 _config.yml 설정파일 내에 아래 추가 highlighter: rough rough 설치 gem install rough rougify help style 명령으로 사용가능한 테마" />
+    <meta property="og:description" content="CSS 적용하기 CSS 파일 link 원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가 ```css &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt; ``` rouge(pure-ruby syntax highlighter) 활용 원하는 특정 스타일 css를 적용하기 위한 도구 _config.yml 설정파일 내에 아래 추가 highlighter: rough rough 설치 gem install rough rougify help style 명령으로" />
     <meta property="og:url" content="https://hweejoon-chung.github.io/css-github-git" />
     <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/github.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -71,7 +71,7 @@
     <meta property="article:tag" content="Git" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Github Page에 CSS 적용하기" />
-    <meta name="twitter:description" content="CSS 적용하기 CSS 파일 link 원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가 &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt; rouge(pure-ruby syntax highlighter) 활용 원하는 특정 스타일 css를 적용하기 위한 도구 _config.yml 설정파일 내에 아래 추가 highlighter: rough rough 설치 gem install rough rougify help style 명령으로 사용가능한 테마" />
+    <meta name="twitter:description" content="CSS 적용하기 CSS 파일 link 원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가 ```css &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt; ``` rouge(pure-ruby syntax highlighter) 활용 원하는 특정 스타일 css를 적용하기 위한 도구 _config.yml 설정파일 내에 아래 추가 highlighter: rough rough 설치 gem install rough rougify help style 명령으로" />
     <meta name="twitter:url" content="https://hweejoon-chung.github.io/" />
     <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/github.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -103,7 +103,7 @@
         "@type": "WebPage",
         "@id": "https://hweejoon-chung.github.io/css-github-git"
     },
-    "description": "CSS 적용하기 CSS 파일 link 원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가 &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt; rouge(pure-ruby syntax highlighter) 활용 원하는 특정 스타일 css를 적용하기 위한 도구 _config.yml 설정파일 내에 아래 추가 highlighter: rough rough 설치 gem install rough rougify help style 명령으로 사용가능한 테마"
+    "description": "CSS 적용하기 CSS 파일 link 원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가 ```css &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt; ``` rouge(pure-ruby syntax highlighter) 활용 원하는 특정 스타일 css를 적용하기 위한 도구 _config.yml 설정파일 내에 아래 추가 highlighter: rough rough 설치 gem install rough rougify help style 명령으로"
 }
     </script>
 
@@ -214,24 +214,33 @@ into the {body} of the default.hbs template -->
 
 </blockquote>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- custom.css --&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```css
+&lt;!-- custom.css --&gt;
 &lt;link rel="stylesheet" type="text/css" href="/assets/built/custom.css" /&gt;
+```
 </code></pre></div></div>
 
 <h3 id="rougepure-ruby-syntax-highlighter-활용">rouge(pure-ruby syntax highlighter) 활용</h3>
+<blockquote>
+  <p>원하는 특정 스타일 css를 적용하기 위한 도구</p>
+
+</blockquote>
 
 <ul>
-  <li>원하는 특정 스타일 css를 적용하기 위한 도구</li>
-  <li>_config.yml 설정파일 내에 아래 추가
-    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	highlighter: rough
+  <li>
+    <p>_config.yml 설정파일 내에 아래 추가</p>
+
+    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  highlighter: rough
 </code></pre></div>    </div>
   </li>
   <li>rough 설치
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	gem <span class="nb">install </span>rough
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  gem <span class="nb">install </span>rough
 </code></pre></div>    </div>
   </li>
-  <li>rougify help style 명령으로 사용가능한 테마 중 선택
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 	<span class="nv">$ </span>rougify <span class="nb">help </span>style
+  <li>
+    <p>rougify help style 명령으로 사용가능한 테마 중 선택</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nv">$ </span>rougify <span class="nb">help </span>style
   usage: rougify style <span class="o">[</span>&lt;theme-name&gt;] <span class="o">[</span>&lt;options&gt;]
 
   Print CSS styles <span class="k">for </span>the given theme.  Extra options are
@@ -250,9 +259,9 @@ into the {body} of the default.hbs template -->
 </code></pre></div>    </div>
 
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
-  ​```bash
+  ```bash
   rougify style base16.dark &gt; assets/css/syntax.css
-  ​```
+  ```
 </code></pre></div>    </div>
   </li>
   <li>
@@ -260,7 +269,7 @@ into the {body} of the default.hbs template -->
   </li>
   <li>_layouts/default.html 내에 아래 추가
     <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="o">&lt;!</span><span class="nt">--</span> <span class="nt">syntax</span><span class="nc">.css</span> <span class="nt">--</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s1">"stylesheet"</span> <span class="nt">href</span><span class="o">=</span><span class="s1">"/assets/built/syntax.css"</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nt">link</span> <span class="nt">rel</span><span class="o">=</span><span class="s1">"stylesheet"</span> <span class="nt">href</span><span class="o">=</span><span class="s1">"/assets/built/syntax.css"</span><span class="o">&gt;</span>
 </code></pre></div>    </div>
   </li>
   <li>
@@ -276,11 +285,11 @@ data.reverse()</p>
 ```</p>
     </blockquote>
 
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span>
-<span class="n">data</span><span class="p">.</span><span class="n">reverse</span><span class="p">()</span>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">]</span>
+  <span class="n">data</span><span class="p">.</span><span class="n">reverse</span><span class="p">()</span>
 
-<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-	<span class="k">print</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+  <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
 </code></pre></div>    </div>
   </li>
 </ul>
