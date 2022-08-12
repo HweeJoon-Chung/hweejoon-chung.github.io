@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/oop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-11T11:56:23+09:00</updated>
+  <updated>2022-08-12T11:27:31+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/oop/feed.xml</id>
 
   
@@ -38,57 +38,89 @@
 
   
     <entry>
-      <title type="html">OOP - 기본</title>
-      <link href="https://hweejoon-chung.github.io/oop-basic" rel="alternate" type="text/html" title="OOP - 기본" />
-      <published>2021-02-21T05:32:00+09:00</published>
-      <updated>2021-02-21T05:32:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/oop-basic</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/oop-basic">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+      <title type="html">생성자와 소멸자</title>
+      <link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" />
+      <published>2022-08-12T06:38:00+09:00</published>
+      <updated>2022-08-12T06:38:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/constructor-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;객체지향-생성자와-소멸자-메서드&quot;&gt;객체지향 (생성자와 소멸자 메서드)&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
-  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
-    &lt;ul&gt;
-      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
-  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
-  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
-    &lt;ul&gt;
-      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;생성자는 객체를 생성될 때 호출됨&lt;/li&gt;
+  &lt;li&gt;첫 번째 인자는 ‘self’&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Weapon:
+	def __init__(self, weight, damage, color):
+		self.weight = weight
+		self.damage = damage
+		self.color = color
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
+&lt;p&gt;‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로,  ‘self.damage’를 ‘damage’로,  ‘self.color’를 ‘color’로 설정&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heavymachinegun = Weapon(60, 5, &quot;black&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
-  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
-  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
+  &lt;li&gt;소멸자는 객체가 소멸될 때 호출됨&lt;/li&gt;
+  &lt;li&gt;첫 번째 인자는 ‘self’&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Weapon:
+	def __init__(self, weight, damage, color):
+		self.weight = weight
+		self.damage = damage
+		self.color = color
+		
+	def __del__(self):
+		print(&quot;Object deleted.&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
+&lt;p&gt;‘Weapon’ Class의 Object가 소멸됐을 때, “Object deleted”를 출력&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
-  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;heavymachinegun = Weapon(60, 5, &quot;black&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">클래스와 객체(오브젝트,인스턴스)</title>
+      <link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체(오브젝트,인스턴스)" />
+      <published>2022-07-14T06:43:00+09:00</published>
+      <updated>2022-07-14T06:43:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/classobject-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/classobject-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-class와-object&quot;&gt;객체지향 (class와 object)&lt;/h2&gt;
 
@@ -157,6 +189,83 @@
 
 &lt;ul&gt;
   &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">객체지향 프로그래밍 기본</title>
+      <link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본" />
+      <published>2021-11-17T08:52:00+09:00</published>
+      <updated>2021-11-17T08:52:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/oopbasic-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
+  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
+    &lt;ul&gt;
+      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
+  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
+  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
+    &lt;ul&gt;
+      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
+  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
+  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
+  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       

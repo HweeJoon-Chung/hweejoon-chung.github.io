@@ -8,28 +8,43 @@
     
       
       <item>
-        <title>Python - 기본</title>
+        <title>생성자와 소멸자</title>
         
-          <description>&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
+          <description>&lt;hr /&gt;
 
 </description>
         
-        <pubDate>Mon, 05 Apr 2021 08:32:00 +0900</pubDate>
+        <pubDate>Fri, 12 Aug 2022 06:38:00 +0900</pubDate>
         <link>
-        https://hweejoon-chung.github.io/python-basic</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/python-basic</guid>
+        https://hweejoon-chung.github.io/constructor-oop</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/constructor-oop</guid>
       </item>
       
     
       
       <item>
-        <title>Unity - 기본</title>
+        <title>클래스와 객체(오브젝트,인스턴스)</title>
+        
+          <description>&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Thu, 14 Jul 2022 06:43:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/classobject-oop</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/classobject-oop</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Unity 기본</title>
         
           <description>&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
 
 </description>
         
-        <pubDate>Fri, 26 Mar 2021 04:32:00 +0900</pubDate>
+        <pubDate>Sat, 26 Mar 2022 04:32:00 +0900</pubDate>
         <link>
         https://hweejoon-chung.github.io/unity-basic</link>
         <guid isPermaLink="true">https://hweejoon-chung.github.io/unity-basic</guid>
@@ -38,37 +53,157 @@
     
       
       <item>
-        <title>OOP - 기본</title>
+        <title>Python - 기본</title>
+        
+          <description>&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 25 Feb 2022 08:32:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/python-basic</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/python-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>객체지향 프로그래밍 기본</title>
         
           <description>&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
 
 </description>
         
-        <pubDate>Sun, 21 Feb 2021 05:32:00 +0900</pubDate>
+        <pubDate>Wed, 17 Nov 2021 08:52:00 +0900</pubDate>
         <link>
-        https://hweejoon-chung.github.io/oop-basic</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/oop-basic</guid>
+        https://hweejoon-chung.github.io/oopbasic-oop</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/oopbasic-oop</guid>
       </item>
       
     
       
       <item>
-        <title>Git - Github Page - 기본</title>
+        <title>문제상황 해결</title>
+        
+          <description>&lt;h2 id=&quot;jekyll-실행-시-error-처리&quot;&gt;Jekyll 실행 시 Error 처리&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 20 Oct 2021 04:18:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/problems-github-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/problems-github-git</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>웹폰트</title>
+        
+          <description>&lt;h2 id=&quot;웹폰트web-font-적용하기&quot;&gt;웹폰트(Web Font) 적용하기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Tue, 14 Sep 2021 07:39:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/webfont-dev</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/webfont-dev</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Github Page에 CSS 적용하기</title>
+        
+          <description>&lt;h2 id=&quot;css-적용하기&quot;&gt;CSS 적용하기&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 20 Aug 2021 04:47:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/css-github-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/css-github-git</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>파일 경량화</title>
+        
+          <description>&lt;h2 id=&quot;파일-경량화&quot;&gt;파일 경량화&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Thu, 29 Jul 2021 03:27:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/Minification-dev</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/Minification-dev</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Visual Studio Code 환경설정</title>
+        
+          <description>&lt;h2 id=&quot;visual-studio-code-환경설정&quot;&gt;Visual Studio Code 환경설정&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 23 Jun 2021 07:48:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/vscodeenv-dev</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/vscodeenv-dev</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Git 사용방법</title>
+        
+          <description>&lt;h2 id=&quot;local-repository-생성-pc&quot;&gt;Local Repository 생성 (PC)&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Sat, 29 May 2021 08:37:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/gitusage-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/gitusage-git</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Github Page 기본</title>
         
           <description>&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
 
 </description>
         
-        <pubDate>Tue, 09 Feb 2021 01:40:00 +0900</pubDate>
+        <pubDate>Mon, 05 Apr 2021 03:24:00 +0900</pubDate>
         <link>
-        https://hweejoon-chung.github.io/git-github-jekyll</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/git-github-jekyll</guid>
+        https://hweejoon-chung.github.io/githubpage-github-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/githubpage-github-git</guid>
       </item>
       
     
       
       <item>
-        <title>dev - 개발환경설정 기본</title>
+        <title>Github 기본</title>
+        
+          <description>&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Fri, 26 Mar 2021 08:34:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/githubbasic-github-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/githubbasic-github-git</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>개발환경설정 기본</title>
         
           <description>&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
 
@@ -76,29 +211,14 @@
         
         <pubDate>Wed, 03 Feb 2021 08:24:00 +0900</pubDate>
         <link>
-        https://hweejoon-chung.github.io/dev-env</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/dev-env</guid>
+        https://hweejoon-chung.github.io/devenvbasic-dev</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/devenvbasic-dev</guid>
       </item>
       
     
       
       <item>
-        <title>Git - Github - 기본</title>
-        
-          <description>&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
-
-</description>
-        
-        <pubDate>Mon, 25 Jan 2021 08:34:00 +0900</pubDate>
-        <link>
-        https://hweejoon-chung.github.io/git-githubbasic</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/git-githubbasic</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Git - 기본</title>
+        <title>Git 기본</title>
         
           <description>&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
 
@@ -106,14 +226,14 @@
         
         <pubDate>Tue, 19 Jan 2021 08:14:00 +0900</pubDate>
         <link>
-        https://hweejoon-chung.github.io/git-basic</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/git-basic</guid>
+        https://hweejoon-chung.github.io/gitbasic-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/gitbasic-git</guid>
       </item>
       
     
       
       <item>
-        <title>Git - Github - ruby 기본</title>
+        <title>Ruby 기본</title>
         
           <description>&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
 
@@ -121,8 +241,8 @@
         
         <pubDate>Fri, 08 Jan 2021 08:47:00 +0900</pubDate>
         <link>
-        https://hweejoon-chung.github.io/git-github-rubybasic</link>
-        <guid isPermaLink="true">https://hweejoon-chung.github.io/git-github-rubybasic</guid>
+        https://hweejoon-chung.github.io/rubybasic-github-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/rubybasic-github-git</guid>
       </item>
       
     

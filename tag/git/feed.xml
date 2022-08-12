@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/git/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-11T11:56:23+09:00</updated>
+  <updated>2022-08-12T11:27:31+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/git/feed.xml</id>
 
   
@@ -38,12 +38,406 @@
 
   
     <entry>
-      <title type="html">Git - Github Page - 기본</title>
-      <link href="https://hweejoon-chung.github.io/git-github-jekyll" rel="alternate" type="text/html" title="Git - Github Page - 기본" />
-      <published>2021-02-09T01:40:00+09:00</published>
-      <updated>2021-02-09T01:40:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/git-github-jekyll</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/git-github-jekyll">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
+      <title type="html">문제상황 해결</title>
+      <link href="https://hweejoon-chung.github.io/problems-github-git" rel="alternate" type="text/html" title="문제상황 해결" />
+      <published>2021-10-20T04:18:00+09:00</published>
+      <updated>2021-10-20T04:18:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/problems-github-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/problems-github-git">&lt;h2 id=&quot;jekyll-실행-시-error-처리&quot;&gt;Jekyll 실행 시 Error 처리&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require’: cannot load such file – webrick (LoadError)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Jekill은 webrick 지원함&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Ruby 버전 3.0 이상에서 기존의 gem이 webrick을 사용하지 않는 것 같음&lt;/p&gt;
+
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle add webrick
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;실행하거나 또는 직접 아래 내용을&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;gem “webrick”, “~&amp;gt; 1.7”&lt;/p&gt;
+        &lt;/blockquote&gt;
+
+        &lt;p&gt;Gemfile 내에 추가하고 bundle install 다시 실행(webrick 설치)&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Please add the following to your Gemfile to avoid polling for changes:  gem ‘wdm’, ‘&amp;gt;= 0.1.0’ if Gem.win_platform?&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;window platform에서 수정사항에 대한 polling을 피하기 위해 Gemfile에 wdm 추가&lt;/p&gt;
+
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle add wdm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+
+        &lt;p&gt;실행하거나 또는 직접 아래 내용을&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;gem “wdm”, “~&amp;gt; 0.1.0” if Gem.win_platform?&lt;/p&gt;
+        &lt;/blockquote&gt;
+
+        &lt;p&gt;Gemfile 내에 추가하고 bundle install 다시 실행(wdm 설치)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Error는 아니고 warning 수준&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;기타사항&quot;&gt;기타사항&lt;/h2&gt;
+
+&lt;h3 id=&quot;검색창이나-footer의-글자-색이-안보이는-경우-스타일-색-수정&quot;&gt;검색창이나 footer의 글자 색이 안보이는 경우 스타일 색 수정&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;style 태그로 스타일 추가&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;gray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;footer의 스타일을 찾아 수정&lt;/p&gt;
+
+    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.site-footer-content&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;71&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;/*  기존 color가 흰색이라 흰색 백그라운드에서 안보임
+	color: rgba(255,255,255,0.7);	
+*/&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="git" />
+      
+
+      
+        <summary type="html">Jekyll 실행 시 Error 처리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github Page에 CSS 적용하기</title>
+      <link href="https://hweejoon-chung.github.io/css-github-git" rel="alternate" type="text/html" title="Github Page에 CSS 적용하기" />
+      <published>2021-08-20T04:47:00+09:00</published>
+      <updated>2021-08-20T04:47:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/css-github-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/css-github-git">&lt;h2 id=&quot;css-적용하기&quot;&gt;CSS 적용하기&lt;/h2&gt;
+
+&lt;h3 id=&quot;css-파일-link&quot;&gt;CSS 파일 link&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- custom.css --&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/built/custom.css&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;rougepure-ruby-syntax-highlighter-활용&quot;&gt;rouge(pure-ruby syntax highlighter) 활용&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;원하는 특정 스타일 css를 적용하기 위한 도구&lt;/li&gt;
+  &lt;li&gt;_config.yml 설정파일 내에 아래 추가
+    &lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	highlighter: rough
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;rough 설치
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;rougify help style 명령으로 사용가능한 테마 중 선택
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rougify &lt;span class=&quot;nb&quot;&gt;help &lt;/span&gt;style
+  usage: rougify style &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;theme-name&amp;gt;] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;options&amp;gt;]
+
+  Print CSS styles &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the given theme.  Extra options are
+  passed to the theme. To &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;a mode &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;light/dark&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the
+  theme, append &lt;span class=&quot;s1&quot;&gt;&apos;.light&apos;&lt;/span&gt; or &lt;span class=&quot;s1&quot;&gt;&apos;.dark&apos;&lt;/span&gt; to the &amp;lt;theme-name&amp;gt;
+  respectively. Theme defaults to thankful_eyes.
+
+  options:
+    &lt;span class=&quot;nt&quot;&gt;--scope&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: .highlight&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a css selector to scope by
+    &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt;         &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; render as TeX
+    &lt;span class=&quot;nt&quot;&gt;--tex-prefix&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: RG&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;prefix &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;TeX
+                  implies &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;specified
+
+  available themes:
+    base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
+  ​```bash
+  rougify style base16.dark &amp;gt; assets/css/syntax.css
+  ​```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;minify해서 assets/built/css/syntax.css로 저장&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;_layouts/default.html 내에 아래 추가
+    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;syntax&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.css&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;/assets/built/syntax.css&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;code block 사용시 아래와 같이  “```” 또는  “~~~” 뒤에 사용언어 명시해주면 스타일 적용&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;```python
+data = [1,2,3,4,5,6,7,8,9,10]
+data.reverse()&lt;/p&gt;
+
+      &lt;p&gt;for item in data:
+	print(item)
+```&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="git" />
+      
+
+      
+        <summary type="html">CSS 적용하기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Git 사용방법</title>
+      <link href="https://hweejoon-chung.github.io/gitusage-git" rel="alternate" type="text/html" title="Git 사용방법" />
+      <published>2021-05-29T08:37:00+09:00</published>
+      <updated>2021-05-29T08:37:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/gitusage-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/gitusage-git">&lt;h2 id=&quot;local-repository-생성-pc&quot;&gt;Local Repository 생성 (PC)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;새로운 git 프로젝트를 만들 때 사용&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;원하는 위치에 프로젝트 폴더를 생성&lt;/li&gt;
+  &lt;li&gt;git bash 상에서 해당 폴더로 이동해 git init 명령 실행 (Local Repository .git/ 생성)&lt;/li&gt;
+  &lt;li&gt;해당 폴더에서 소스코드파일을 만듦 (ex. test.c)
+    &lt;ul&gt;
+      &lt;li&gt;git status 명령 실행하면 untracked 파일로 test.c이 있다(변경사항이 있다)고 나옴 (Modified)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git add test.c 명령 실행하여 test.c 파일이란 변경사항을 관리할 준비가 되었다고 알림
+    &lt;ul&gt;
+      &lt;li&gt;git status 명령 실행하면 commit할 변경들이 있다고 나옴 (Staged)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git commit -m “test.c commit” 명령 실행하여 최종 변경을 git에 저장함 (Committed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;remote-reposity-활용-github&quot;&gt;Remote Reposity 활용 (Github)&lt;/h2&gt;
+
+&lt;h3 id=&quot;새-프로젝트-시작&quot;&gt;새 프로젝트 시작&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Github에 프로젝트 Repository를 생성&lt;/li&gt;
+  &lt;li&gt;Local Repository 내 개발 환경설정/개발사항 저장&lt;/li&gt;
+  &lt;li&gt;Local Repository와 Github의 Repository를 remote 연결&lt;/li&gt;
+  &lt;li&gt;Local Repository 저장상황을 Remote Repository에 push&lt;/li&gt;
+  &lt;li&gt;(공동작업시) 해당 Remote Repository를 clone
+    &lt;ul&gt;
+      &lt;li&gt;(공동작업자) clone을 통해 로컬로 복사한 프로젝트로 작업 진행&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;기존-프로젝트-수정&quot;&gt;기존 프로젝트 수정&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;기존 Local Repository에 존재&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Github Repository와 remote -v명령으로 연결 확인
+    &lt;ol&gt;
+      &lt;li&gt;연결안되어 있으면 다시 remote 연결&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Github Repository 수정사항들을 Local Repository로 fetch 또는 pull함
+    &lt;ul&gt;
+      &lt;li&gt;fetch : Github의 commit들을 Local Repository로 가져옴
+        &lt;ul&gt;
+          &lt;li&gt;개발자가 자신의 작업과 적절히 merge하여 다시 push해야 함&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;pull : Github의 commit들을 가져오면서 자동으로 Local Repository와 병합
+        &lt;ul&gt;
+          &lt;li&gt;편하지만 conflict 발생 확인 어려움&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;local로-github-branch-가져오기&quot;&gt;Local로 Github Branch 가져오기&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;git pull으로 가져오지 못함 (Local에 없다면)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;git remote에 대한 업데이트 실행
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Github Repository의 branch 내역 확인
+    &lt;ul&gt;
+      &lt;li&gt;remote branch 내역
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;local/remote branch 내역
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;원하는 branch를 Local로 가져와서 해당 branch 사용
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt;  &amp;lt;Local Branch Name&amp;gt;  &lt;span class=&quot;s2&quot;&gt;&quot;Remote Branch Name&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;git-remote-관련-명령&quot;&gt;Git Remote 관련 명령&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;git remote add “사용할 원격저장소이름” “Github Repository URL”&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git remote -v&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git push “원격저장소이름” “local branch명”&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;​	모든 branch push&lt;/p&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  git push origin &lt;span class=&quot;nt&quot;&gt;--all&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;모든 branch&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git fetch “원격저장소이름”&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch origin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git pull&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;git clone “Github Repository URL”&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/HweeJoon-Chung/RemoteProject.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="git" />
+      
+
+      
+        <summary type="html">Local Repository 생성 (PC)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github Page 기본</title>
+      <link href="https://hweejoon-chung.github.io/githubpage-github-git" rel="alternate" type="text/html" title="Github Page 기본" />
+      <published>2021-04-05T03:24:00+09:00</published>
+      <updated>2021-04-05T03:24:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/githubpage-github-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/githubpage-github-git">&lt;h2 id=&quot;github-page&quot;&gt;Github Page&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;웹호스팅 서비스&lt;/li&gt;
@@ -176,268 +570,6 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;파일-minified&quot;&gt;파일 Minified&lt;/h3&gt;
-
-&lt;p&gt;크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이&lt;/p&gt;
-
-&lt;h4 id=&quot;사용방법-1-gulp를-이용하여-파일-크기를-줄이자&quot;&gt;사용방법 1. Gulp를 이용하여 파일 크기를 줄이자!&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;(node.js, gulp 버전에 따라 문제많음)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gulp 실행하기 위해 node.js 다운로드받아 기본설정으로 설치
-    &lt;ul&gt;
-      &lt;li&gt;gulpfile.js 작성/수정 : css파일 줄이기 위해
-        &lt;ul&gt;
-          &lt;li&gt;gulp.task(‘css’, function () {&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;package.json 작성/수정 : 필요한 node_modules 설치위해&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;npm install 실행 (package.json이 있는 소스폴더 루트에서)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;node_modules폴더 생성된 것 확인&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;gulp 실행 (ex. gulp css)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;사용방법-2-vs-code-내-확장팩-minifyall-설치&quot;&gt;사용방법 2. VS Code 내 확장팩 MinifyAll 설치&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;디버깅이나 직접 수정할 수 있는 map파일은 만들어지지 않지만 경량화는 되니까…^^;&lt;/li&gt;
-  &lt;li&gt;각 파일/폴더에서 오른쪽 마우스 눌리고 기존 버전 유지하고 새버전으로 저장(…min.파일 생성)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;css-적용하기&quot;&gt;CSS 적용하기&lt;/h3&gt;
-&lt;h4 id=&quot;css-파일-link&quot;&gt;CSS 파일 link&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;원하는 CSS 파일을 추가하고 _layouts/default.html 내에 아래 추가&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;​```css
- 	&amp;lt;!-- custom.css --&amp;gt;
- 	&amp;lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/built/custom.css&quot; /&amp;gt;
-  	```
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;rougepure-ruby-syntax-highlighter-활용&quot;&gt;rouge(pure-ruby syntax highlighter) 활용&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;원하는 특정 스타일 css를 적용하기 위한 도구&lt;/li&gt;
-  &lt;li&gt;_config.yml 설정파일 내에 아래 추가
-    &lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	highlighter: rough
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;rough 설치
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;rougify help style 명령으로 사용가능한 테마 중 선택
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 	&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rougify &lt;span class=&quot;nb&quot;&gt;help &lt;/span&gt;style
-  usage: rougify style &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;theme-name&amp;gt;] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;options&amp;gt;]
-
-  Print CSS styles &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the given theme.  Extra options are
-  passed to the theme. To &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;a mode &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;light/dark&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the
-  theme, append &lt;span class=&quot;s1&quot;&gt;&apos;.light&apos;&lt;/span&gt; or &lt;span class=&quot;s1&quot;&gt;&apos;.dark&apos;&lt;/span&gt; to the &amp;lt;theme-name&amp;gt;
-  respectively. Theme defaults to thankful_eyes.
-
-  options:
-    &lt;span class=&quot;nt&quot;&gt;--scope&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: .highlight&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a css selector to scope by
-    &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt;         &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; render as TeX
-    &lt;span class=&quot;nt&quot;&gt;--tex-prefix&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: RG&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;prefix &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;TeX
-                  implies &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;specified
-
-  available themes:
-    base16, base16.dark, base16.light, base16.monokai, 	base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  - 제일 기본인 base16.dark 테마 선택해서 style.css 생성
-  ​```bash
-  rougify style base16.dark &amp;gt; assets/css/syntax.css
-  ​```
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;minify해서 assets/built/css/syntax.css로 저장&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;_layouts/default.html 내에 아래 추가
-    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;syntax&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.css&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;/assets/built/syntax.css&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;code block 사용시 아래와 같이  “```” 또는  “~~~” 뒤에 사용언어 명시해주면 스타일 적용&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;```python
-data = [1,2,3,4,5,6,7,8,9,10]
-data.reverse()&lt;/p&gt;
-
-      &lt;p&gt;for item in data:
-	print(item)
-```&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;웹폰트-적용하기&quot;&gt;웹폰트 적용하기&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;가벼운 나눔고딕 사용&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;_layouts/default.html 내에 아래 추가
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Web Fonts  --&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/earlyaccess/nanumgothic.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- swap방식이 느리다고 하긴 하는데..-.-;
-   &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Nanum+Gothic&amp;amp;display=swap&quot;&amp;gt;
-   --&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;아이콘-폰트-font-awesome&quot;&gt;아이콘 폰트 (Font Awesome)&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;아이콘을 폰트처럼 사용가능하도록 Vector 이미지로 서비스&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;_layouts/default.html 내에 아래 추가
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Font Awesome --&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Font Awsome 5 버전에서는&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fas fa-camera&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;i&gt; 태그 fas 클래스 속성을 사용해서 아이콘 사용함&lt;/i&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;아이콘 크기 변경하기 위해 fa-숫자x를 class 속성에 추가&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt;ex. 2배크기로 키우려면 fa-2x 추가&lt;/p&gt;
-
-            &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fas fa-camera fa-2x&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아이콘 검색하기&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;http://fontawesome.com/icons&lt;/li&gt;
-      &lt;li&gt;Ctrl+f 로 검색가능한 사이트
-        &lt;ul&gt;
-          &lt;li&gt;http://fontawesome.com/cheatsheet&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;jekyll-실행-시-error-처리&quot;&gt;Jekyll 실행 시 Error 처리&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require’: cannot load such file – webrick (LoadError)&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Jekill은 webrick 지원함&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Ruby 버전 3.0 이상에서 기존의 gem이 webrick을 사용하지 않는 것 같음&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle add webrick
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-
-        &lt;p&gt;실행하거나 또는 직접 아래 내용을&lt;/p&gt;
-
-        &lt;blockquote&gt;
-          &lt;p&gt;gem “webrick”, “~&amp;gt; 1.7”&lt;/p&gt;
-        &lt;/blockquote&gt;
-
-        &lt;p&gt;Gemfile 내에 추가하고 bundle install 다시 실행(webrick 설치)&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Please add the following to your Gemfile to avoid polling for changes:  gem ‘wdm’, ‘&amp;gt;= 0.1.0’ if Gem.win_platform?&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;window platform에서 수정사항에 대한 polling을 피하기 위해 Gemfile에 wdm 추가&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle add wdm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-
-        &lt;p&gt;실행하거나 또는 직접 아래 내용을&lt;/p&gt;
-
-        &lt;blockquote&gt;
-          &lt;p&gt;gem “wdm”, “~&amp;gt; 0.1.0” if Gem.win_platform?&lt;/p&gt;
-        &lt;/blockquote&gt;
-
-        &lt;p&gt;Gemfile 내에 추가하고 bundle install 다시 실행(wdm 설치)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Error는 아니고 warning 수준&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;기타사항&quot;&gt;기타사항&lt;/h2&gt;
-
-&lt;h3 id=&quot;검색창이나-footer의-글자-색이-안보이는-경우-스타일-색-수정&quot;&gt;검색창이나 footer의 글자 색이 안보이는 경우 스타일 색 수정&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;style 태그로 스타일 추가&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;gray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;footer의 스타일을 찾아 수정&lt;/p&gt;
-
-    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.site-footer-content&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;71&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;/*  기존 color가 흰색이라 흰색 백그라운드에서 안보임
-	color: rgba(255,255,255,0.7);	
-*/&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -467,12 +599,12 @@ data.reverse()&lt;/p&gt;
     </entry>
   
     <entry>
-      <title type="html">Git - Github - 기본</title>
-      <link href="https://hweejoon-chung.github.io/git-githubbasic" rel="alternate" type="text/html" title="Git - Github - 기본" />
-      <published>2021-01-25T08:34:00+09:00</published>
-      <updated>2021-01-25T08:34:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/git-githubbasic</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/git-githubbasic">&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
+      <title type="html">Github 기본</title>
+      <link href="https://hweejoon-chung.github.io/githubbasic-github-git" rel="alternate" type="text/html" title="Github 기본" />
+      <published>2021-03-26T08:34:00+09:00</published>
+      <updated>2021-03-26T08:34:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/githubbasic-github-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/githubbasic-github-git">&lt;h2 id=&quot;github&quot;&gt;Github&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;오픈소스들을 저장하여 관리할 수 있는 원격(온라인) Git 저장소&lt;/li&gt;
@@ -517,12 +649,12 @@ data.reverse()&lt;/p&gt;
     </entry>
   
     <entry>
-      <title type="html">Git - 기본</title>
-      <link href="https://hweejoon-chung.github.io/git-basic" rel="alternate" type="text/html" title="Git - 기본" />
+      <title type="html">Git 기본</title>
+      <link href="https://hweejoon-chung.github.io/gitbasic-git" rel="alternate" type="text/html" title="Git 기본" />
       <published>2021-01-19T08:14:00+09:00</published>
       <updated>2021-01-19T08:14:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/git-basic</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/git-basic">&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/gitbasic-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/gitbasic-git">&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;소스 코드 관리를 위한 도구인 분산형 형상관리시스템
@@ -646,144 +778,6 @@ data.reverse()&lt;/p&gt;
 git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email &lt;span class=&quot;s2&quot;&gt;&quot;hweejoonchung@gmail.com&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;사용방법&quot;&gt;사용방법&lt;/h2&gt;
-
-&lt;h3 id=&quot;local-repository-생성&quot;&gt;Local Repository 생성&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;새로운 git 프로젝트를 만들 때 사용&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;원하는 위치에 프로젝트 폴더를 생성&lt;/li&gt;
-  &lt;li&gt;git bash 상에서 해당 폴더로 이동해 git init 명령 실행 (Local Repository .git/ 생성)&lt;/li&gt;
-  &lt;li&gt;해당 폴더에서 소스코드파일을 만듦 (ex. test.c)
-    &lt;ul&gt;
-      &lt;li&gt;git status 명령 실행하면 untracked 파일로 test.c이 있다(변경사항이 있다)고 나옴 (Modified)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git add test.c 명령 실행하여 test.c 파일이란 변경사항을 관리할 준비가 되었다고 알림
-    &lt;ul&gt;
-      &lt;li&gt;git status 명령 실행하면 commit할 변경들이 있다고 나옴 (Staged)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git commit -m “test.c commit” 명령 실행하여 최종 변경을 git에 저장함 (Committed)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;remote-reposity-활용-github&quot;&gt;Remote Reposity 활용 (Github)&lt;/h3&gt;
-
-&lt;h4 id=&quot;새-프로젝트-시작&quot;&gt;새 프로젝트 시작&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Github에 프로젝트 Repository를 생성&lt;/li&gt;
-  &lt;li&gt;Local Repository 내 개발 환경설정/개발사항 저장&lt;/li&gt;
-  &lt;li&gt;Local Repository와 Github의 Repository를 remote 연결&lt;/li&gt;
-  &lt;li&gt;Local Repository 저장상황을 Remote Repository에 push&lt;/li&gt;
-  &lt;li&gt;(공동작업시) 해당 Remote Repository를 clone
-    &lt;ul&gt;
-      &lt;li&gt;(공동작업자) clone을 통해 로컬로 복사한 프로젝트로 작업 진행&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;기존-프로젝트-수정&quot;&gt;기존 프로젝트 수정&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;기존 Local Repository에 존재&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Github Repository와 remote -v명령으로 연결 확인
-    &lt;ol&gt;
-      &lt;li&gt;연결안되어 있으면 다시 remote 연결&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Github Repository 수정사항들을 Local Repository로 fetch 또는 pull함
-    &lt;ul&gt;
-      &lt;li&gt;fetch : Github의 commit들을 Local Repository로 가져옴
-        &lt;ul&gt;
-          &lt;li&gt;개발자가 자신의 작업과 적절히 merge하여 다시 push해야 함&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;pull : Github의 commit들을 가져오면서 자동으로 Local Repository와 병합
-        &lt;ul&gt;
-          &lt;li&gt;편하지만 conflict 발생 확인 어려움&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;local로-github-branch-가져오기&quot;&gt;Local로 Github Branch 가져오기&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;git pull으로 가져오지 못함 (Local에 없다면)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;git remote에 대한 업데이트 실행
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote update
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Github Repository의 branch 내역 확인
-    &lt;ul&gt;
-      &lt;li&gt;remote branch 내역
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;local/remote branch 내역
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;원하는 branch를 Local로 가져와서 해당 branch 사용
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt;  &amp;lt;Local Branch Name&amp;gt;  &lt;span class=&quot;s2&quot;&gt;&quot;Remote Branch Name&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;git-remote-관련-명령&quot;&gt;Git Remote 관련 명령&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;git remote add “사용할 원격저장소이름” “Github Repository URL”&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git remote -v&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git push “원격저장소이름” “local branch명”&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push origin main
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;​	모든 branch push&lt;/p&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  git push origin &lt;span class=&quot;nt&quot;&gt;--all&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;모든 branch&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git fetch “원격저장소이름”&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git fetch origin
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git pull&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git clone “Github Repository URL”&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/HweeJoon-Chung/RemoteProject.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -813,12 +807,12 @@ git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email &lt
     </entry>
   
     <entry>
-      <title type="html">Git - Github - ruby 기본</title>
-      <link href="https://hweejoon-chung.github.io/git-github-rubybasic" rel="alternate" type="text/html" title="Git - Github - ruby 기본" />
+      <title type="html">Ruby 기본</title>
+      <link href="https://hweejoon-chung.github.io/rubybasic-github-git" rel="alternate" type="text/html" title="Ruby 기본" />
       <published>2021-01-08T08:47:00+09:00</published>
       <updated>2021-01-08T08:47:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/git-github-rubybasic</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/git-github-rubybasic">&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/rubybasic-github-git</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/rubybasic-github-git">&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;1995년 발표된 객체 지향 프로그래밍 언어

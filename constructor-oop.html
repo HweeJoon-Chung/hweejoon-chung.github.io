@@ -11,7 +11,7 @@
 
 
 
-    <title>Git - 기본</title>
+    <title>생성자와 소멸자</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -54,30 +54,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="CHUNG HWEE JOON's Personal Blog" />
     <link rel="shortcut icon" href="https://hweejoon-chung.github.io/assets/built/images/favicon_16x16.png" type="image/png" />
-    <link rel="canonical" href="https://hweejoon-chung.github.io/git-basic" />
+    <link rel="canonical" href="https://hweejoon-chung.github.io/constructor-oop" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="HWEE JOON's Persona" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Git - 기본" />
-    <meta property="og:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 git init Local Repository remote" />
-    <meta property="og:url" content="https://hweejoon-chung.github.io/git-basic" />
-    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/git.png" />
+    <meta property="og:title" content="생성자와 소멸자" />
+    <meta property="og:description" content="객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의" />
+    <meta property="og:url" content="https://hweejoon-chung.github.io/constructor-oop" />
+    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2021-01-19T08:14:00+09:00" />
-    <meta property="article:modified_time" content="2021-01-19T08:14:00+09:00" />
-    <meta property="article:tag" content="Git" />
+    <meta property="article:published_time" content="2022-08-12T06:38:00+09:00" />
+    <meta property="article:modified_time" content="2022-08-12T06:38:00+09:00" />
+    <meta property="article:tag" content="Oop" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Git - 기본" />
-    <meta name="twitter:description" content="Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 git init Local Repository remote" />
+    <meta name="twitter:title" content="생성자와 소멸자" />
+    <meta name="twitter:description" content="객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의" />
     <meta name="twitter:url" content="https://hweejoon-chung.github.io/" />
-    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/git.png" />
+    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="HWEE JOON's Persona" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Git" />
+    <meta name="twitter:data2" content="Oop" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -92,18 +92,18 @@
         "name": "HWEE JOON's Persona",
         "logo": "https://hweejoon-chung.github.io/"
     },
-    "url": "https://hweejoon-chung.github.io/git-basic",
+    "url": "https://hweejoon-chung.github.io/constructor-oop",
     "image": {
         "@type": "ImageObject",
-        "url": "https://hweejoon-chung.github.io/assets/built/images/git.png",
+        "url": "https://hweejoon-chung.github.io/assets/built/images/oop.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://hweejoon-chung.github.io/git-basic"
+        "@id": "https://hweejoon-chung.github.io/constructor-oop"
     },
-    "description": "Git 소스 코드 관리를 위한 도구인 분산형 형상관리시스템 리누스 토발즈가 개발 소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리 빠른 속도, 분산형 저장소 지원 가능 .git은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더 git init 명령으로 설정 git init Local Repository remote"
+    "description": "객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의"
 }
     </script>
 
@@ -116,7 +116,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Git - 기본" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="생성자와 소멸자" href="/feed.xml" />
 
 
 </head>
@@ -181,293 +181,74 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-git post tag-git ">
+        <article class="post-full  tag-oop post tag-oop ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="19 January 2021">19 January 2021</time>
+                    <time class="post-full-meta-date" datetime="12 August 2022">12 August 2022</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/git/'>GIT</a>
+                               <a href='/tag/oop/'>OOP</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">Git - 기본</h1>
+                <h1 class="post-full-title">생성자와 소멸자</h1>
             </header>
 <!-- post 화면 위 image 출력되니 번거로워 지움
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/git.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/oop.jpg)">
             </figure>
             
 -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h2 id="git">Git</h2>
+                    <hr />
+
+<h2 id="객체지향-생성자와-소멸자-메서드">객체지향 (생성자와 소멸자 메서드)</h2>
 
 <ul>
-  <li>소스 코드 관리를 위한 도구인 분산형 형상관리시스템
-    <ul>
-      <li>리누스 토발즈가 개발</li>
-    </ul>
-  </li>
-  <li>
-    <p>소스코드 이력을 남겨서 소프트웨어의 변경사항을 추적하고 관리</p>
-  </li>
-  <li>
-    <p>빠른 속도, 분산형 저장소 지원 가능</p>
-  </li>
-  <li>
-    <p><code class="language-plaintext highlighter-rouge">.git</code>은 전체 기록과 각각의 세부 변경에 대한 추적 정보(metadata와 객체 DB)를 담고 있는 Git 관리 정보 폴더</p>
-
-    <ul>
-      <li>git init 명령으로 설정
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git init
-</code></pre></div>        </div>
-      </li>
-      <li>Local Repository</li>
-    </ul>
-  </li>
-  <li>
-    <p>remote git은 git 원격 저장소이며 로컬 작업의 한계(저장소 용량, 공동작업 등)를 극복할 수 있음</p>
-  </li>
-  <li>
-    <p>로컬(오프라인 상태) 저장소로 작업 가능</p>
-  </li>
-  <li><strong>commit</strong>이라는 명령을 통해 모든 소스코드의 상태를 기록함
-    <ul>
-      <li>commit하기 전 사용해야 하는 stage 단계가 따로 있는 Staging 지원</li>
-      <li>변경된 사항들은 일단 장바구니에 넣은(<strong>Staging</strong>) 하고나서 최종 결재(<strong>commit</strong>)</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>branch</strong> 가능</p>
-  </li>
-  <li>
-    <p><strong>merge</strong>는 서버(온라인) 데이터를 fetch해와 로컬에서 merge하여 다시 올리면 됨</p>
-  </li>
-  <li>
-    <p><strong>github, bitbucket, gitlab</strong> 과 같은 git 저장소 서비스 활용가능</p>
-  </li>
-  <li>GUI를 활용할 수 있으나 한계가 있어 <strong>CLI</strong> 사용하는 것이 모든 기능을 활용할 수 있고 기본임
-    <ul>
-      <li><strong>sourcetree</strong> 툴로 전체적인 버전관리 상황 확인 가능</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>파일 상태 변화</strong></p>
-
-    <blockquote>
-      <p>비유 : 이것저것 만들다가, 만든 것들을 저장바구니에 담아두고, 담은 것들을 최종 영구저장함)</p>
-    </blockquote>
-
-    <ul>
-      <li>Modified : 파일을 수정한 상태 (git으로 어떠한 전달도 없음)</li>
-      <li>Staged : 파일을 수정한 후 그 파일을 곧 commit할 준비가 됐다고 알린 상태</li>
-      <li>Committed : 파일을 수정한 후 그 파일을 commit 해서 Local Repository에 안전하게 저장한 상태</li>
-    </ul>
-
-    <p>​</p>
-  </li>
+  <li>생성자는 객체를 생성될 때 호출됨</li>
+  <li>첫 번째 인자는 ‘self’</li>
 </ul>
 
-<h2 id="설치-windows-x64">설치 (windows x64)</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Weapon:
+	def __init__(self, weight, damage, color):
+		self.weight = weight
+		self.damage = damage
+		self.color = color
+</code></pre></div></div>
+
+<p>‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로,  ‘self.damage’를 ‘damage’로,  ‘self.color’를 ‘color’로 설정</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heavymachinegun = Weapon(60, 5, "black")
+</code></pre></div></div>
+
+<p>‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정</p>
 
 <ul>
-  <li>https://git-scm.com/download/win 에서 설치버전이나 포터블버전을 다운로드 받음
-    <ul>
-      <li>git은 꼭 개발자에게 필요한 도구이므로 개인적으로 설치버전 선택.</li>
-      <li>현재 대부분의 윈도우는 64bit이므로 64bit 버전 다운로드.</li>
-    </ul>
-  </li>
-  <li>설치 진행
-    <ul>
-      <li><strong>Adjusting the name of the initial branch in new repositories</strong> 설정 화면에서 <strong>Override the default branch name for new repositories</strong>를 선택하고 <strong>main</strong>을 기본 브랜치 이름으로 함
-        <ul>
-          <li>github에서 기본 Repository 이름이 기존 master에서 <strong>main</strong>으로 변경되어 편의상 설정</li>
-        </ul>
-      </li>
-      <li>(<strong>옵션사항</strong>) <strong>Choosing the default editor used by Git</strong> 설정 화면에서 <strong>Use Visual Studio Code as Git’s default editor</strong> 로 선택 가능</li>
-      <li>그 외 다양한 옵션들 있는데 그냥 기본값으로 진행</li>
-    </ul>
-  </li>
-  <li>설치 후 탐색기에서 오른쪽 마우스 클릭 시 <strong>git bash here</strong> 메뉴 확인</li>
+  <li>소멸자는 객체가 소멸될 때 호출됨</li>
+  <li>첫 번째 인자는 ‘self’</li>
 </ul>
 
-<h2 id="환경설정">환경설정</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Weapon:
+	def __init__(self, weight, damage, color):
+		self.weight = weight
+		self.damage = damage
+		self.color = color
+		
+	def __del__(self):
+		print("Object deleted.")
+</code></pre></div></div>
 
-<ul>
-  <li>Windows의 환경설정 파일들 (우선순위순)
-    <ul>
-      <li>.git/config
-        <ul>
-          <li>(git init명령을 실행했다면) 해당 Local Repository에만 적용되는 설정으로 Git Directory안에 위치</li>
-        </ul>
-      </li>
-      <li>$USER_HOME/.gitconfig
-        <ul>
-          <li>윈도우사용자별로 적용되는 설정
-            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span>
-</code></pre></div>            </div>
-          </li>
-        </ul>
-      </li>
-      <li>$GIT_HMOE/mingw64/etc/gitconfig
-        <ul>
-          <li>윈도우시스템 모든 사용자/저장소에 적용되는 설정
-            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--system</span>
-</code></pre></div>            </div>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>git bash 실행하여 git config로 기본 환경설정
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"HweeJoon-Chung"</span>
-git config <span class="nt">--global</span> user.email <span class="s2">"hweejoonchung@gmail.com"</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
+<p>‘Weapon’ Class의 Object가 소멸됐을 때, “Object deleted”를 출력</p>
 
-<h2 id="사용방법">사용방법</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heavymachinegun = Weapon(60, 5, "black")
+</code></pre></div></div>
 
-<h3 id="local-repository-생성">Local Repository 생성</h3>
-
-<blockquote>
-  <p>새로운 git 프로젝트를 만들 때 사용</p>
-</blockquote>
-
-<ul>
-  <li>원하는 위치에 프로젝트 폴더를 생성</li>
-  <li>git bash 상에서 해당 폴더로 이동해 git init 명령 실행 (Local Repository .git/ 생성)</li>
-  <li>해당 폴더에서 소스코드파일을 만듦 (ex. test.c)
-    <ul>
-      <li>git status 명령 실행하면 untracked 파일로 test.c이 있다(변경사항이 있다)고 나옴 (Modified)</li>
-    </ul>
-  </li>
-  <li>git add test.c 명령 실행하여 test.c 파일이란 변경사항을 관리할 준비가 되었다고 알림
-    <ul>
-      <li>git status 명령 실행하면 commit할 변경들이 있다고 나옴 (Staged)</li>
-    </ul>
-  </li>
-  <li>git commit -m “test.c commit” 명령 실행하여 최종 변경을 git에 저장함 (Committed)</li>
-</ul>
-
-<h3 id="remote-reposity-활용-github">Remote Reposity 활용 (Github)</h3>
-
-<h4 id="새-프로젝트-시작">새 프로젝트 시작</h4>
-
-<ol>
-  <li>Github에 프로젝트 Repository를 생성</li>
-  <li>Local Repository 내 개발 환경설정/개발사항 저장</li>
-  <li>Local Repository와 Github의 Repository를 remote 연결</li>
-  <li>Local Repository 저장상황을 Remote Repository에 push</li>
-  <li>(공동작업시) 해당 Remote Repository를 clone
-    <ul>
-      <li>(공동작업자) clone을 통해 로컬로 복사한 프로젝트로 작업 진행</li>
-    </ul>
-  </li>
-</ol>
-
-<h4 id="기존-프로젝트-수정">기존 프로젝트 수정</h4>
-
-<blockquote>
-  <p>기존 Local Repository에 존재</p>
-</blockquote>
-
-<ol>
-  <li>Github Repository와 remote -v명령으로 연결 확인
-    <ol>
-      <li>연결안되어 있으면 다시 remote 연결</li>
-    </ol>
-  </li>
-  <li>Github Repository 수정사항들을 Local Repository로 fetch 또는 pull함
-    <ul>
-      <li>fetch : Github의 commit들을 Local Repository로 가져옴
-        <ul>
-          <li>개발자가 자신의 작업과 적절히 merge하여 다시 push해야 함</li>
-        </ul>
-      </li>
-      <li>pull : Github의 commit들을 가져오면서 자동으로 Local Repository와 병합
-        <ul>
-          <li>편하지만 conflict 발생 확인 어려움</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ol>
-
-<h4 id="local로-github-branch-가져오기">Local로 Github Branch 가져오기</h4>
-
-<blockquote>
-  <p>git pull으로 가져오지 못함 (Local에 없다면)</p>
-</blockquote>
-
-<ol>
-  <li>git remote에 대한 업데이트 실행
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote update
-</code></pre></div>    </div>
-  </li>
-  <li>Github Repository의 branch 내역 확인
-    <ul>
-      <li>remote branch 내역
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-r</span>
-</code></pre></div>        </div>
-      </li>
-      <li>local/remote branch 내역
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch <span class="nt">-a</span>
-</code></pre></div>        </div>
-      </li>
-    </ul>
-  </li>
-  <li>원하는 branch를 Local로 가져와서 해당 branch 사용
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-t</span>  &lt;Local Branch Name&gt;  <span class="s2">"Remote Branch Name"</span>
-</code></pre></div>    </div>
-    <ul>
-      <li>Local Branch Name 생략가능하나 Remote와 다르게 하고 싶다면 적어도 됨</li>
-    </ul>
-  </li>
-</ol>
-
-<h4 id="git-remote-관련-명령">Git Remote 관련 명령</h4>
-
-<ul>
-  <li>
-    <p>git remote add “사용할 원격저장소이름” “Github Repository URL”</p>
-
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/HweeJoon-Chung/RemoteProject.git
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>git remote -v</p>
-  </li>
-  <li>
-    <p>git push “원격저장소이름” “local branch명”</p>
-
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin main
-</code></pre></div>    </div>
-    <p>​	모든 branch push</p>
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  git push origin <span class="nt">--all</span> <span class="o">(</span>모든 branch<span class="o">)</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>git fetch “원격저장소이름”</p>
-
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch origin
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>git pull</p>
-  </li>
-  <li>
-    <p>git clone “Github Repository URL”</p>
-
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/HweeJoon-Chung/RemoteProject.git
-</code></pre></div>    </div>
-  </li>
-</ul>
+<p>‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정</p>
 
 
                 </div>
@@ -570,7 +351,7 @@ git config <span class="nt">--global</span> user.email <span class="s2">"hweejoo
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; HWEE JOON's Persona &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/git/">Git</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/oop/">Oop</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -580,32 +361,6 @@ git config <span class="nt">--global</span> user.email <span class="s2">"hweejoo
                                 
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/git-github-jekyll">Git - Github Page - 기본</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/git-githubbasic">Git - Github - 기본</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
                                     
                                   
                                 
@@ -613,17 +368,52 @@ git config <span class="nt">--global</span> user.email <span class="s2">"hweejoo
                                     
                                         
                                         
-                                            <li><a href="/git-github-rubybasic">Git - Github - ruby 기본</a></li>
+                                            <li><a href="/classobject-oop">클래스와 객체(오브젝트,인스턴스)</a></li>
                                         
                                     
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/oopbasic-oop">객체지향 프로그래밍 기본</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
                                   
                                 
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/git/">
+                            <a href="/tag/oop/">
                                 
-                                    See all 3 posts  →
+                                    See all 2 posts  →
                                 
                             </a>
                         </footer>
@@ -633,57 +423,6 @@ git config <span class="nt">--global</span> user.email <span class="s2">"hweejoo
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/git-githubbasic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/github.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/git-githubbasic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Git</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Git - Github - 기본</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Github
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/hweejoon/">Hwee Joon Chung</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -691,26 +430,26 @@ git config <span class="nt">--global</span> user.email <span class="s2">"hweejoo
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/git-github-rubybasic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/ruby.png)"></div>
+            <a class="post-card-image-link" href="/classobject-oop">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/git-github-rubybasic">
+            <a class="post-card-content-link" href="/classobject-oop">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Git</span>
+                                <span class="post-card-tags">Oop</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">Git - Github - ruby 기본</h2>
+                    <h2 class="post-card-title">클래스와 객체(오브젝트,인스턴스)</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Ruby
+                        <p>
 
 </p>
                     
@@ -752,18 +491,18 @@ git config <span class="nt">--global</span> user.email <span class="s2">"hweejoo
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Git - 기본</div>
+    <div class="floating-header-title">생성자와 소멸자</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Git+-+%EA%B8%B0%EB%B3%B8&amp;url=https://hweejoon-chung.github.io/git-basic"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80+%EC%86%8C%EB%A9%B8%EC%9E%90&amp;url=https://hweejoon-chung.github.io/constructor-oop"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://hweejoon-chung.github.io/git-basic"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://hweejoon-chung.github.io/constructor-oop"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

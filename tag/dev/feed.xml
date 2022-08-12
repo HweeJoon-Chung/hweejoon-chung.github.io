@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-11T11:56:23+09:00</updated>
+  <updated>2022-08-12T11:27:31+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/dev/feed.xml</id>
 
   
@@ -38,64 +38,178 @@
 
   
     <entry>
-      <title type="html">dev - 개발환경설정 기본</title>
-      <link href="https://hweejoon-chung.github.io/dev-env" rel="alternate" type="text/html" title="dev - 개발환경설정 기본" />
-      <published>2021-02-03T08:24:00+09:00</published>
-      <updated>2021-02-03T08:24:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/dev-env</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/dev-env">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+      <title type="html">웹폰트</title>
+      <link href="https://hweejoon-chung.github.io/webfont-dev" rel="alternate" type="text/html" title="웹폰트" />
+      <published>2021-09-14T07:39:00+09:00</published>
+      <updated>2021-09-14T07:39:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/webfont-dev</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/webfont-dev">&lt;h2 id=&quot;웹폰트web-font-적용하기&quot;&gt;웹폰트(Web Font) 적용하기&lt;/h2&gt;
 
-&lt;p&gt;현재 ruby, python, c++ 등의 코딩을 주로하는지라&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;가벼운 나눔고딕 사용&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;버전관리는 &lt;strong&gt;git&lt;/strong&gt;,&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;CLI는 &lt;strong&gt;git bash&lt;/strong&gt;,&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;에디터는 &lt;strong&gt;Visual studio code&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;_layouts/default.html 내에 아래 추가
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Web Fonts  --&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/earlyaccess/nanumgothic.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+   &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- swap방식이 느리다고 하긴 하는데..-.-;
+   &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Nanum+Gothic&amp;amp;display=swap&quot;&amp;gt;
+   --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;를 활용한다.&lt;/p&gt;
+&lt;h3 id=&quot;참고-아이콘-폰트-font-awesome&quot;&gt;참고. 아이콘 폰트 (Font Awesome)&lt;/h3&gt;
 
-&lt;h2 id=&quot;설치-windows-x64&quot;&gt;설치 (windows x64)&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;아이콘을 폰트처럼 사용가능하도록 Vector 이미지로 서비스&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Visual Studio Code(이후 VS Code) 설치
+  &lt;li&gt;_layouts/default.html 내에 아래 추가
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Font Awesome --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Font Awsome 5 버전에서는&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fas fa-camera&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;ul&gt;
-      &lt;li&gt;https://code.visualstudio.com/Download 에서 windows 64 bit 버전을 다운로드함
-        &lt;ul&gt;
-          &lt;li&gt;어떤 버전을 설치할 지 모르겠다면 system installer 64bit를 다운로드!&lt;/li&gt;
-        &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;i&gt; 태그 fas 클래스 속성을 사용해서 아이콘 사용함&lt;/i&gt;&lt;/p&gt;
       &lt;/li&gt;
-      &lt;li&gt;설치파일 실행
+      &lt;li&gt;
+        &lt;p&gt;아이콘 크기 변경하기 위해 fa-숫자x를 class 속성에 추가&lt;/p&gt;
+
         &lt;ul&gt;
-          &lt;li&gt;추가작업선택에서 기타: 옵션들은 전부선택 추천 (탐색기에서 코드 열기 유용함)&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;ex. 2배크기로 키우려면 fa-2x 추가&lt;/p&gt;
+
+            &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fas fa-camera fa-2x&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;설치 완료 후 VS Code 첫 실행 시 설정
+  &lt;li&gt;
+    &lt;p&gt;아이콘 검색하기&lt;/p&gt;
+
     &lt;ul&gt;
-      &lt;li&gt;Color theme는  개인적으로 기본인 Dark가 편함(원하는 설정 선택)&lt;/li&gt;
-      &lt;li&gt;나머지 설정들 중 원하는 기능 선택
+      &lt;li&gt;http://fontawesome.com/icons&lt;/li&gt;
+      &lt;li&gt;Ctrl+f 로 검색가능한 사이트
         &lt;ul&gt;
-          &lt;li&gt;git 설치가 안되었음 install git 기능 추가 가능&lt;/li&gt;
+          &lt;li&gt;http://fontawesome.com/cheatsheet&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;2021-01-18-git-basic.md&quot;&gt;git 설치&lt;/a&gt;&lt;/p&gt;
+&lt;/ul&gt;</content>
 
-    &lt;p&gt;​&lt;/p&gt;
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="dev" />
+      
+
+      
+        <summary type="html">웹폰트(Web Font) 적용하기</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">파일 경량화</title>
+      <link href="https://hweejoon-chung.github.io/Minification-dev" rel="alternate" type="text/html" title="파일 경량화" />
+      <published>2021-07-29T03:27:00+09:00</published>
+      <updated>2021-07-29T03:27:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/Minification-dev</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/Minification-dev">&lt;h2 id=&quot;파일-경량화&quot;&gt;파일 경량화&lt;/h2&gt;
+
+&lt;p&gt;크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이&lt;/p&gt;
+
+&lt;h3 id=&quot;사용방법-1-gulp를-이용하여-파일-크기를-줄이자&quot;&gt;사용방법 1. Gulp를 이용하여 파일 크기를 줄이자!&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;(node.js, gulp 버전에 따라 문제많음)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gulp 실행하기 위해 node.js 다운로드받아 기본설정으로 설치
+    &lt;ul&gt;
+      &lt;li&gt;gulpfile.js 작성/수정 : css파일 줄이기 위해
+        &lt;ul&gt;
+          &lt;li&gt;gulp.task(‘css’, function () {&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;package.json 작성/수정 : 필요한 node_modules 설치위해&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;npm install 실행 (package.json이 있는 소스폴더 루트에서)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;node_modules폴더 생성된 것 확인&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;gulp 실행 (ex. gulp css)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;git-설치-후-vs-code의-환경설정&quot;&gt;git 설치 후 VS Code의 환경설정&lt;/h2&gt;
+&lt;h3 id=&quot;사용방법-2-vs-code-내-확장팩-minifyall-설치&quot;&gt;사용방법 2. VS Code 내 확장팩 MinifyAll 설치&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;디버깅이나 직접 수정할 수 있는 map파일은 만들어지지 않지만 경량화는 되니까…^^;&lt;/li&gt;
+  &lt;li&gt;각 파일/폴더에서 오른쪽 마우스 눌리고 기존 버전 유지하고 새버전으로 저장(…min.파일 생성)&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="dev" />
+      
+
+      
+        <summary type="html">파일 경량화</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Visual Studio Code 환경설정</title>
+      <link href="https://hweejoon-chung.github.io/vscodeenv-dev" rel="alternate" type="text/html" title="Visual Studio Code 환경설정" />
+      <published>2021-06-23T07:48:00+09:00</published>
+      <updated>2021-06-23T07:48:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/vscodeenv-dev</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/vscodeenv-dev">&lt;h2 id=&quot;visual-studio-code-환경설정&quot;&gt;Visual Studio Code 환경설정&lt;/h2&gt;
 
 &lt;h4 id=&quot;language-pack을-설치하여-표시언어를-한국어로-변경&quot;&gt;Language Pack을 설치하여 표시언어를 한국어로 변경&lt;/h4&gt;
 
@@ -251,6 +365,90 @@
     &lt;/ul&gt;
 
     &lt;p&gt;​&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="dev" />
+      
+
+      
+        <summary type="html">Visual Studio Code 환경설정</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">개발환경설정 기본</title>
+      <link href="https://hweejoon-chung.github.io/devenvbasic-dev" rel="alternate" type="text/html" title="개발환경설정 기본" />
+      <published>2021-02-03T08:24:00+09:00</published>
+      <updated>2021-02-03T08:24:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/devenvbasic-dev</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/devenvbasic-dev">&lt;h2 id=&quot;일반적인-개발환경-설정&quot;&gt;일반적인 개발환경 설정&lt;/h2&gt;
+
+&lt;p&gt;현재 ruby, python, c++ 등의 코딩을 주로하는지라&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;버전관리는 &lt;strong&gt;git&lt;/strong&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CLI는 &lt;strong&gt;git bash&lt;/strong&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;에디터는 &lt;strong&gt;Visual studio code&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;를 활용한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;설치-windows-x64&quot;&gt;설치 (windows x64)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Visual Studio Code(이후 VS Code) 설치
+    &lt;ul&gt;
+      &lt;li&gt;https://code.visualstudio.com/Download 에서 windows 64 bit 버전을 다운로드함
+        &lt;ul&gt;
+          &lt;li&gt;어떤 버전을 설치할 지 모르겠다면 system installer 64bit를 다운로드!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;설치파일 실행
+        &lt;ul&gt;
+          &lt;li&gt;추가작업선택에서 기타: 옵션들은 전부선택 추천 (탐색기에서 코드 열기 유용함)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;설치 완료 후 VS Code 첫 실행 시 설정
+    &lt;ul&gt;
+      &lt;li&gt;Color theme는  개인적으로 기본인 Dark가 편함(원하는 설정 선택)&lt;/li&gt;
+      &lt;li&gt;나머지 설정들 중 원하는 기능 선택
+        &lt;ul&gt;
+          &lt;li&gt;git 설치가 안되었음 install git 기능 추가 가능&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;2021-01-18-git-basic.md&quot;&gt;git 설치&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
