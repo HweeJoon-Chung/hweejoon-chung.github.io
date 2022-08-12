@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-12T12:09:39+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">생성자와 소멸자</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" /><published>2022-08-12T06:38:00+09:00</published><updated>2022-08-12T06:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-12T12:23:35+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">생성자와 소멸자</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" /><published>2022-08-12T06:38:00+09:00</published><updated>2022-08-12T06:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-생성자와-소멸자-메서드&quot;&gt;객체지향 (생성자와 소멸자 메서드)&lt;/h2&gt;
 
@@ -426,22 +426,23 @@
   &lt;li&gt;
     &lt;p&gt;_config.yml 설정파일 내 아래사항 추가&lt;/p&gt;
 
-    &lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;highlighter: rough
+    &lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  highlighter: rough
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;rough 설치&lt;/p&gt;
 
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;rougify help style 명령으로 사용가능한 테마 중 선택 (아래 참조)&lt;/p&gt;
 
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  usage: rougify style &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;theme-name&amp;gt;]
-  Print CSS styles &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the given theme.  Extra options are passed to the theme. To &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;a mode &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;light/dark&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the theme, append &lt;span class=&quot;s1&quot;&gt;&apos;.light&apos;&lt;/span&gt; or &lt;span class=&quot;s1&quot;&gt;&apos;.dark&apos;&lt;/span&gt; to the &amp;lt;theme-name&amp;gt; respectively. Theme defaults to thankful_eyes.
+  Print CSS styles &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the given theme.  Extra options are passed to
+  the theme. To &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;a mode &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;light/dark&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the theme, append
+  &lt;span class=&quot;s1&quot;&gt;&apos;.light&apos;&lt;/span&gt; or &lt;span class=&quot;s1&quot;&gt;&apos;.dark&apos;&lt;/span&gt; to the &amp;lt;theme-name&amp;gt; respectively. Theme defaults
+  to thankful_eyes.
 
       options:
         &lt;span class=&quot;nt&quot;&gt;--scope&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: .highlight&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a css selector to scope by
@@ -450,10 +451,12 @@
                       implies &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;specified
 
       available themes:
-        base16, base16.dark, base16.light, base16.monokai, base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
+        base16, base16.dark, base16.light, base16.monokai,
+      base16.monokai.dark, base16.monokai.light, base16.solarized,
+      base16.solarized.dark, base16.solarized.light, bw, colorful,
+      github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte,
+      molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;개인적으로 즐겨 사용하는 base16.dark 테마 선택하여 style.css 생성&lt;/p&gt;

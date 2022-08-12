@@ -232,22 +232,23 @@ into the {body} of the default.hbs template -->
   <li>
     <p>_config.yml 설정파일 내 아래사항 추가</p>
 
-    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>highlighter: rough
+    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  highlighter: rough
 </code></pre></div>    </div>
-
-    <p>​</p>
   </li>
   <li>
     <p>rough 설치</p>
 
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>rough
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  gem <span class="nb">install </span>rough
 </code></pre></div>    </div>
   </li>
   <li>
     <p>rougify help style 명령으로 사용가능한 테마 중 선택 (아래 참조)</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  usage: rougify style <span class="o">[</span>&lt;theme-name&gt;]
-  Print CSS styles <span class="k">for </span>the given theme.  Extra options are passed to the theme. To <span class="k">select </span>a mode <span class="o">(</span>light/dark<span class="o">)</span> <span class="k">for </span>the theme, append <span class="s1">'.light'</span> or <span class="s1">'.dark'</span> to the &lt;theme-name&gt; respectively. Theme defaults to thankful_eyes.
+  Print CSS styles <span class="k">for </span>the given theme.  Extra options are passed to
+  the theme. To <span class="k">select </span>a mode <span class="o">(</span>light/dark<span class="o">)</span> <span class="k">for </span>the theme, append
+  <span class="s1">'.light'</span> or <span class="s1">'.dark'</span> to the &lt;theme-name&gt; respectively. Theme defaults
+  to thankful_eyes.
 
       options:
         <span class="nt">--scope</span>       <span class="o">(</span>default: .highlight<span class="o">)</span> a css selector to scope by
@@ -256,10 +257,12 @@ into the {body} of the default.hbs template -->
                       implies <span class="nt">--tex</span> <span class="k">if </span>specified
 
       available themes:
-        base16, base16.dark, base16.light, base16.monokai, base16.monokai.dark, base16.monokai.light, base16.solarized, base16.solarized.dark, base16.solarized.light, bw, colorful, github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte, molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
+        base16, base16.dark, base16.light, base16.monokai,
+      base16.monokai.dark, base16.monokai.light, base16.solarized,
+      base16.solarized.dark, base16.solarized.light, bw, colorful,
+      github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte,
+      molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
 </code></pre></div>    </div>
-
-    <p>​</p>
   </li>
   <li>
     <p>개인적으로 즐겨 사용하는 base16.dark 테마 선택하여 style.css 생성</p>
