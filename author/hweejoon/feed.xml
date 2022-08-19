@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-13T16:54:18+09:00</updated>
+  <updated>2022-08-19T20:09:51+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -38,10 +38,164 @@
 
   
     <entry>
+      <title type="html">public, private, protected</title>
+      <link href="https://hweejoon-chung.github.io/constructorp-oop" rel="alternate" type="text/html" title="public, private, protected" />
+      <published>2022-08-19T05:29:00+09:00</published>
+      <updated>2022-08-19T05:29:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/constructorp-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/constructorp-oop">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-public-private-protected&quot;&gt;객체지향 (public, private, protected)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;public, private, protected는 정보 은닉 방식의 종류&lt;/li&gt;
+  &lt;li&gt;public : 그 속성, Method는 어느 클래스에서나 접근할 수 있음&lt;/li&gt;
+  &lt;li&gt;private : 그 속성, Method는 해당 클래스에서만 접근할 수 있음&lt;/li&gt;
+  &lt;li&gt;protected : 그 속성, Method는 해당 클래스, 해당 클래스를 상속받은 클래스에서만 접근할 수 있음&lt;/li&gt;
+  &lt;li&gt;파이썬에서는 기본적으로 모든 속성, Method가 public임&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_weight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;파이썬에서 속성 이름 앞에 ‘_‘를 붙여 표시함&lt;/p&gt;
+
+&lt;p&gt;단, 실제로 protected가 되는 것이 아니라 경고의 뜻으로만 사용됨&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__weight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;속성 이름 앞에 ‘__‘를 붙이면 실제로 private이 됨&lt;/p&gt;
+
+&lt;p&gt;단, 그것은 단순히 해당 이름이 _‘classname’__‘속성 또는 method이름’으로 변경되기 때문임&lt;/p&gt;
+
+&lt;p&gt;따라서 이 상태에서 전 포스트에서 썼던 print(heavymachinegun.damage) 등을 입력하면 에러가 발생함&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">상속</title>
+      <link href="https://hweejoon-chung.github.io/constructor2-oop" rel="alternate" type="text/html" title="상속" />
+      <published>2022-08-19T02:18:00+09:00</published>
+      <updated>2022-08-19T02:18:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/constructor2-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/constructor2-oop">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-상속&quot;&gt;객체지향 (상속)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;여러 클래스에 중복되는 속성, 메서드를 하나의 클래스로 작성하는 것을 추상화라고 함&lt;/li&gt;
+  &lt;li&gt;기본 클래스의 공통된 기능을 상속받고 다른 부분만 수정하는 것을 상속이라고 함&lt;/li&gt;
+  &lt;li&gt;위의 경우에서 기본 클래스는 부모 클래스, 기본 클래스의 기능을 상속받는 클래스를 자식 클래스라고 함&lt;/li&gt;
+  &lt;li&gt;부모 클래스가 둘 이상일 수 있으며, 그것을 다중 상속이라고 함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
+        
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;set_stat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;
+        
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘name’, ‘color’ 속성을 가진 ‘Enemy’ 클래스를 ‘health’, ‘speed’ 속성을 가진 ‘Fairy’ 클래스에 상속시켜줌&lt;/p&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Red_Fairy&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;tina&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;red&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Red_Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_stat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Red_Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_info&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘Red_Fairy’ 오브젝트의 ‘name’을 ‘tina’로, ‘color’를 ‘red’로, ‘health’를 100으로, ‘speed’를 4로 설정&lt;/p&gt;
+
+&lt;p&gt;그 후 그것들을 출력&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;함수 issubstance(‘classname1’, ‘classname2’)는 두 클래스가 상속 관계인가를 확인함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;issubstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘Red_Fairy’ 오브젝트가 ‘Enemy’ 클래스와 상속 관계인지 확인&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;함수 isinstance(‘objectname’, ‘classname’)는 오브젝트와 클래스가 상속 관계인가를 확인함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;isinstance(Red_Fairy, Fairy)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘Red_Fairy’ 오브젝트가 ‘Fairy’ 클래스와 상속 관계인지 확인&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">소논문 제안서</title>
       <link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서" />
-      <published>2022-08-12T23:49:00+09:00</published>
-      <updated>2022-08-12T23:49:00+09:00</updated>
+      <published>2022-08-17T23:49:00+09:00</published>
+      <updated>2022-08-17T23:49:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/eeproposal-paper</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/eeproposal-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문-제안서-ib컴퓨터과학-sl&quot;&gt;소논문 제안서 (IB컴퓨터과학 SL)&lt;/h1&gt;
@@ -51,12 +205,12 @@
 &lt;blockquote&gt;
   &lt;ul class=&quot;task-list&quot;&gt;
     &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
     &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
     &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
     &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
@@ -169,8 +323,8 @@
     <entry>
       <title type="html">생성자와 소멸자</title>
       <link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" />
-      <published>2022-08-12T06:38:00+09:00</published>
-      <updated>2022-08-12T06:38:00+09:00</updated>
+      <published>2022-08-17T06:38:00+09:00</published>
+      <updated>2022-08-17T06:38:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/constructor-oop</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
 
@@ -215,7 +369,115 @@
 &lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;heavymachinegun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정&lt;/p&gt;</content>
+&lt;p&gt;‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(heavymachinegun.damage)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘heavymachinegun’ Object의 ‘damage’ 속성을 출력&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">클래스와 객체(오브젝트,인스턴스)</title>
+      <link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체(오브젝트,인스턴스)" />
+      <published>2022-08-13T06:43:00+09:00</published>
+      <updated>2022-08-13T06:43:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/classobject-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/classobject-oop">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-class와-object&quot;&gt;객체지향 (class와 object)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Class를 틀/설계도라 할 때, Object는 하나의 완성품&lt;/li&gt;
+  &lt;li&gt;Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’이라는 이름의 Class를 선언&lt;/p&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class와 관련된 전체 속성들을 리스트로 출력&lt;/p&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object의 Class를 출력&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;stance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;idle&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;stance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;idle&quot;&lt;/span&gt;
+	
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_xypos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt;
+		
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;set_xypos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;
+		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘get_xypos’, ‘set_xypos’ Method를 추가&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_xypos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -348,80 +610,54 @@
     </entry>
   
     <entry>
-      <title type="html">클래스와 객체(오브젝트,인스턴스)</title>
-      <link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체(오브젝트,인스턴스)" />
-      <published>2022-07-14T06:43:00+09:00</published>
-      <updated>2022-07-14T06:43:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/classobject-oop</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/classobject-oop">&lt;hr /&gt;
+      <title type="html">객체지향 프로그래밍 기본</title>
+      <link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본" />
+      <published>2022-07-30T08:52:00+09:00</published>
+      <updated>2022-07-30T08:52:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/oopbasic-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
 
-&lt;h2 id=&quot;객체지향-class와-object&quot;&gt;객체지향 (class와 object)&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Class를 틀/설계도라 할 때, Object는 하나의 완성품&lt;/li&gt;
-  &lt;li&gt;Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨&lt;/li&gt;
+  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
+  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
+    &lt;ul&gt;
+      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
+  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
+  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
+    &lt;ul&gt;
+      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;‘classname’이라는 이름의 Class를 선언&lt;/p&gt;
+&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
 
-&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘classname’ Class와 관련된 전체 속성들을 리스트로 출력&lt;/p&gt;
-
-&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘objectname’ Object의 Class를 출력&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;stance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;idle&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;classname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;stance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;idle&quot;&lt;/span&gt;
-	
-	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_xypos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt;
-		
-	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;set_xypos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xpos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data1&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ypos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data2&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘get_xypos’, ‘set_xypos’ Method를 추가&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가&lt;/li&gt;
+  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
+  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
+  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;objectname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set_xypos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행&lt;/p&gt;
+&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
+  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
+  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -443,7 +679,72 @@
       
 
       
-        <summary type="html"></summary>
+        <summary type="html">프로그래밍 언어</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Python - 기본</title>
+      <link href="https://hweejoon-chung.github.io/python-basic" rel="alternate" type="text/html" title="Python - 기본" />
+      <published>2022-02-25T08:32:00+09:00</published>
+      <updated>2022-02-25T08:32:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/python-basic</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python 기초를 넘어 기본 개념 중 기억할 것들만 정리&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;자료를 거꾸로 출력하기&lt;/p&gt;
+
+    &lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 기본</summary>
       
 
       
@@ -453,8 +754,8 @@
     <entry>
       <title type="html">Unity 기본</title>
       <link href="https://hweejoon-chung.github.io/unity-basic" rel="alternate" type="text/html" title="Unity 기본" />
-      <published>2022-03-26T04:32:00+09:00</published>
-      <updated>2022-03-26T04:32:00+09:00</updated>
+      <published>2021-11-28T04:32:00+09:00</published>
+      <updated>2021-11-28T04:32:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/unity-basic</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/unity-basic">&lt;h2 id=&quot;unity---unity-software라는-회사가-만든-게임엔진이자-통합-저작-도구-게임엔진이자-앱개발-머신러닝-애니메이션-등-다양한-작업에-활용&quot;&gt;Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.&lt;/h2&gt;
 
@@ -549,148 +850,6 @@
 
       
         <summary type="html">Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Python - 기본</title>
-      <link href="https://hweejoon-chung.github.io/python-basic" rel="alternate" type="text/html" title="Python - 기본" />
-      <published>2022-02-25T08:32:00+09:00</published>
-      <updated>2022-02-25T08:32:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/python-basic</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/python-basic">&lt;h2 id=&quot;python-기본&quot;&gt;Python 기본&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Python 기초를 넘어 기본 개념 중 기억할 것들만 정리&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;자료를 거꾸로 출력하기&lt;/p&gt;
-
-    &lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;10
-9
-8
-7
-6
-5
-4
-3
-2
-1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="python" />
-      
-
-      
-        <summary type="html">Python 기본</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">객체지향 프로그래밍 기본</title>
-      <link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본" />
-      <published>2021-11-17T08:52:00+09:00</published>
-      <updated>2021-11-17T08:52:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/oopbasic-oop</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
-  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
-    &lt;ul&gt;
-      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
-  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
-  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
-    &lt;ul&gt;
-      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
-  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
-  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
-  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="oop" />
-      
-
-      
-        <summary type="html">프로그래밍 언어</summary>
       
 
       
@@ -805,241 +964,6 @@
 
       
         <summary type="html">Jekyll 실행 시 Error 처리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">웹폰트</title>
-      <link href="https://hweejoon-chung.github.io/webfont-dev" rel="alternate" type="text/html" title="웹폰트" />
-      <published>2021-09-14T07:39:00+09:00</published>
-      <updated>2021-09-14T07:39:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/webfont-dev</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/webfont-dev">&lt;h2 id=&quot;웹폰트web-font-적용하기&quot;&gt;웹폰트(Web Font) 적용하기&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;가벼운 나눔고딕 사용&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;_layouts/default.html 내에 아래 추가
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Web Fonts  --&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/earlyaccess/nanumgothic.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-   &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- swap방식이 느리다고 하긴 하는데..-.-;
-   &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://fonts.googleapis.com/css?family=Nanum+Gothic&amp;amp;display=swap&quot;&amp;gt;
-   --&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;참고-아이콘-폰트-font-awesome&quot;&gt;참고. 아이콘 폰트 (Font Awesome)&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;아이콘을 폰트처럼 사용가능하도록 Vector 이미지로 서비스&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;_layouts/default.html 내에 아래 추가
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Font Awesome --&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Font Awsome 5 버전에서는&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;   &lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fas fa-camera&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;i&gt; 태그 fas 클래스 속성을 사용해서 아이콘 사용함&lt;/i&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;아이콘 크기 변경하기 위해 fa-숫자x를 class 속성에 추가&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt;ex. 2배크기로 키우려면 fa-2x 추가&lt;/p&gt;
-
-            &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fas fa-camera fa-2x&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;아이콘 검색하기&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;http://fontawesome.com/icons&lt;/li&gt;
-      &lt;li&gt;Ctrl+f 로 검색가능한 사이트
-        &lt;ul&gt;
-          &lt;li&gt;http://fontawesome.com/cheatsheet&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="dev" />
-      
-
-      
-        <summary type="html">웹폰트(Web Font) 적용하기</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Github Page에 CSS 적용하기</title>
-      <link href="https://hweejoon-chung.github.io/css-github-git" rel="alternate" type="text/html" title="Github Page에 CSS 적용하기" />
-      <published>2021-08-20T04:47:00+09:00</published>
-      <updated>2021-08-20T04:47:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/css-github-git</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/css-github-git">&lt;h2 id=&quot;css-적용하기&quot;&gt;CSS 적용하기&lt;/h2&gt;
-
-&lt;p&gt;HTML 파일 내에 직접 css style을 지정하는 방법 이외&lt;/p&gt;
-
-&lt;h3 id=&quot;css파일-연결link&quot;&gt;CSS파일 연결(link)&lt;/h3&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;원하는 CSS파일을 추가하고 _layouts/default.html 내 아래 사항 추가&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ```css
-  &amp;lt;!-- custom.css --&amp;gt;
-  &amp;lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/assets/built/custom.css&quot; /&amp;gt;
-  ```
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;h3 id=&quot;rough-활용--pure-ruby-syntax-highlighter&quot;&gt;rough 활용 : pure-ruby syntax highlighter&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;원하는 코드블럭에 대해 각 언어별 문법(syntax) css 스타일을 적용하기 위한 도구&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;_config.yml 설정파일 내 아래사항 추가&lt;/p&gt;
-
-    &lt;p&gt;​&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xml
-  highlighter: rough
-  ​&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;rough 설치&lt;/li&gt;
-  &lt;li&gt;rough 설치&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;rough 설치&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;rough
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;rougify help style 명령으로 사용가능한 테마 중 선택 (아래 참조)&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  usage: rougify style &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&amp;lt;theme-name&amp;gt;]
-  Print CSS styles &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the given theme. Extra options are passed to
-  the theme. To &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;a mode &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;light/dark&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;the theme, append
-  &lt;span class=&quot;s1&quot;&gt;&apos;.light&apos;&lt;/span&gt; or &lt;span class=&quot;s1&quot;&gt;&apos;.dark&apos;&lt;/span&gt; to the &amp;lt;theme-name&amp;gt; respectively. Theme defaults
-  to thankful_eyes.
-
-      options:
-        &lt;span class=&quot;nt&quot;&gt;--scope&lt;/span&gt;       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: .highlight&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a css selector to scope by
-        &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt;         &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; render as TeX
-        &lt;span class=&quot;nt&quot;&gt;--tex-prefix&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;default: RG&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; a &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;prefix &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;TeX
-                      implies &lt;span class=&quot;nt&quot;&gt;--tex&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;specified
-
-      available themes:
-        base16, base16.dark, base16.light, base16.monokai,
-      base16.monokai.dark, base16.monokai.light, base16.solarized,
-      base16.solarized.dark, base16.solarized.light, bw, colorful,
-      github, gruvbox, gruvbox.dark, gruvbox.light, igorpro, magritte,
-      molokai, monokai, monokai.sublime, pastie, thankful_eyes, tulip
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;개인적으로 즐겨 사용하는 base16.dark 테마 선택하여 style.css 생성&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rougify style base16.dark &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; assets/css/syntax.css
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;minify해서 assets/built/css/syntax.css로 저장&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;_layouts/default.html 내에 아래 추가&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- syntax.css --&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/assets/built/syntax.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;code block 사용시 아래와 같이  “```” 또는  “~~~” 뒤에 사용언어 명시해주면 스타일 적용&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;``` python&lt;/p&gt;
-
-      &lt;p&gt;data = [1,2,3,4,5,6,7,8,9,10]
-data.reverse()&lt;/p&gt;
-
-      &lt;p&gt;for item in data:
-	print(item)&lt;/p&gt;
-
-      &lt;p&gt;```&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="git" />
-      
-
-      
-        <summary type="html">CSS 적용하기</summary>
       
 
       
