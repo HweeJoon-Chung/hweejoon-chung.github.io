@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-21T11:25:03+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 제안서</title><link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서" /><published>2022-08-20T23:49:00+09:00</published><updated>2022-08-20T23:49:00+09:00</updated><id>https://hweejoon-chung.github.io/eeproposal-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eeproposal-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-21T11:38:43+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 제안서</title><link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서" /><published>2022-08-20T23:49:00+09:00</published><updated>2022-08-20T23:49:00+09:00</updated><id>https://hweejoon-chung.github.io/eeproposal-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eeproposal-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문-제안서-ib컴퓨터과학-sl&quot;&gt;소논문 제안서 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
@@ -232,7 +232,54 @@
 
 &lt;p&gt;단, 그것은 단순히 해당 이름이 _‘classname’__‘속성 또는 method이름’으로 변경되기 때문임&lt;/p&gt;
 
-&lt;p&gt;따라서 이 상태에서 전 포스트에서 썼던 print(heavymachinegun.damage) 등을 입력하면 에러가 발생함&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">생성자와 소멸자</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" /><published>2022-08-17T06:38:00+09:00</published><updated>2022-08-17T06:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
+&lt;p&gt;따라서 이 상태에서 전 포스트에서 썼던 print(heavymachinegun.damage) 등을 입력하면 에러가 발생함&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">Github로 Push 시 지연 문제</title><link href="https://hweejoon-chung.github.io/action-github-git" rel="alternate" type="text/html" title="Github로 Push 시 지연 문제" /><published>2022-08-17T19:32:00+09:00</published><updated>2022-08-17T19:32:00+09:00</updated><id>https://hweejoon-chung.github.io/action-github-git</id><content type="html" xml:base="https://hweejoon-chung.github.io/action-github-git">&lt;h2 id=&quot;github에-push할-때-발생하는-지연&quot;&gt;Github에 push할 때 발생하는 지연&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;로컬git에서 commit후 리모트git으로 push하면 (아래 참조)&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;update posts &amp;amp; add propertymethod post&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;main 7454800] update posts &amp;amp; add propertymethod post
+ 25 files changed, 799 insertions&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;+&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, 587 deletions&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;-&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+ rename constructorp-oop.html &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; accessmodifier-oop.html &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;94%&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+ rename constructor2-oop.html &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; inheritance-oop.html &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;98%&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push origin main
+Enumerating objects: 71, &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Counting objects: 100% &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;71/71&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Delta compression using up to 4 threads
+Compressing objects: 100% &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;35/35&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Writing objects: 100% &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;37/37&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, 24.21 KiB | 1.05 MiB/s, &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+Total 37 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;delta 26&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, reused 0 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;delta 0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, pack-reused 0
+remote: Resolving deltas: 100% &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;26/26&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;, completed with 24 &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;objects.
+To https://github.com/HweeJoon-Chung/hweejoon-chung.github.io.git
+   f66e097..7454800  main -&amp;gt; main
+
+hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;실제 Github로 push되어 처리&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;지연이 발생하는 이유는&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Github의 Actions 메뉴에서 확인가능하다.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;https://github.com/HweeJoon-Chung/hweejoon-chung.github.io/actions&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;page들을 build하고 build상태를 리포트(report-build-status)한 후 최종적으로 deploy하는데 시간이 걸림&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;보통 build대상이 많지 않으면 3분~5분 내로 완료됨&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github에 push할 때 발생하는 지연</summary></entry><entry><title type="html">생성자와 소멸자</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" /><published>2022-08-17T06:38:00+09:00</published><updated>2022-08-17T06:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-생성자와-소멸자-메서드&quot;&gt;객체지향 (생성자와 소멸자 메서드)&lt;/h2&gt;
 
@@ -564,84 +611,4 @@
   &lt;li&gt;콘솔 윈도우( Console Window) : 유니티에서 생성되는 오류, 경고 등 다양한 메시지 출력.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</summary></entry><entry><title type="html">문제상황 해결</title><link href="https://hweejoon-chung.github.io/problems-github-git" rel="alternate" type="text/html" title="문제상황 해결" /><published>2021-10-20T04:18:00+09:00</published><updated>2021-10-20T04:18:00+09:00</updated><id>https://hweejoon-chung.github.io/problems-github-git</id><content type="html" xml:base="https://hweejoon-chung.github.io/problems-github-git">&lt;h2 id=&quot;jekyll-실행-시-error-처리&quot;&gt;Jekyll 실행 시 Error 처리&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ruby31-x64/lib/ruby/gems/3.1.0/gems/jekyll-3.9.0/lib/jekyll/commands/serve/servlet.rb:3:in `require’: cannot load such file – webrick (LoadError)&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Jekill은 webrick 지원함&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Ruby 버전 3.0 이상에서 기존의 gem이 webrick을 사용하지 않는 것 같음&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle add webrick
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-
-        &lt;p&gt;실행하거나 또는 직접 아래 내용을&lt;/p&gt;
-
-        &lt;blockquote&gt;
-          &lt;p&gt;gem “webrick”, “~&amp;gt; 1.7”&lt;/p&gt;
-        &lt;/blockquote&gt;
-
-        &lt;p&gt;Gemfile 내에 추가하고 bundle install 다시 실행(webrick 설치)&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Please add the following to your Gemfile to avoid polling for changes:  gem ‘wdm’, ‘&amp;gt;= 0.1.0’ if Gem.win_platform?&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;window platform에서 수정사항에 대한 polling을 피하기 위해 Gemfile에 wdm 추가&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle add wdm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-
-        &lt;p&gt;실행하거나 또는 직접 아래 내용을&lt;/p&gt;
-
-        &lt;blockquote&gt;
-          &lt;p&gt;gem “wdm”, “~&amp;gt; 0.1.0” if Gem.win_platform?&lt;/p&gt;
-        &lt;/blockquote&gt;
-
-        &lt;p&gt;Gemfile 내에 추가하고 bundle install 다시 실행(wdm 설치)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Error는 아니고 warning 수준&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;기타사항&quot;&gt;기타사항&lt;/h2&gt;
-
-&lt;h3 id=&quot;검색창이나-footer의-글자-색이-안보이는-경우-스타일-색-수정&quot;&gt;검색창이나 footer의 글자 색이 안보이는 경우 스타일 색 수정&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;style 태그로 스타일 추가&lt;/p&gt;
-
-    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;gray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;footer의 스타일을 찾아 수정&lt;/p&gt;
-
-    &lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.site-footer-content&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;71&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;/*  기존 color가 흰색이라 흰색 백그라운드에서 안보임
-	color: rgba(255,255,255,0.7);	
-*/&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Jekyll 실행 시 Error 처리</summary></entry></feed>
+&lt;p&gt;Debug.Log, Debug.LogWarning, Debug.LogError 함수 이용하여 표시.&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">Unity - Unity Software라는 회사가 만든 게임엔진이자 통합 저작 도구. 게임엔진이자 앱개발, 머신러닝, 애니메이션 등 다양한 작업에 활용.</summary></entry></feed>

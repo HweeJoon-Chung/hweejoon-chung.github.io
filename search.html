@@ -222,6 +222,15 @@ into the {body} of the default.hbs template -->
     }
     ,
     
+    "action-github-git": {
+        "title": "Github로 Push 시 지연 문제",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Github에 push할 때 발생하는 지연      로컬git에서 commit후 리모트git으로 push하면 (아래 참조)    hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite (main)$ git commit -m \"update posts &amp; add propertymethod post\"[main 7454800] update posts &amp; add propertymethod post 25 files changed, 799 insertions(+), 587 deletions(-) rename constructorp-oop.html =&gt; accessmodifier-oop.html (94%) rename constructor2-oop.html =&gt; inheritance-oop.html (98%)hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite (main)$ git push origin mainEnumerating objects: 71, done.Counting objects: 100% (71/71), done.Delta compression using up to 4 threadsCompressing objects: 100% (35/35), done.Writing objects: 100% (37/37), 24.21 KiB | 1.05 MiB/s, done.Total 37 (delta 26), reused 0 (delta 0), pack-reused 0remote: Resolving deltas: 100% (26/26), completed with 24 local objects.To https://github.com/HweeJoon-Chung/hweejoon-chung.github.io.git   f66e097..7454800  main -&gt; mainhweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite (main)$        실제 Github로 push되어 처리        지연이 발생하는 이유는          Github의 Actions 메뉴에서 확인가능하다.      https://github.com/HweeJoon-Chung/hweejoon-chung.github.io/actions      page들을 build하고 build상태를 리포트(report-build-status)한 후 최종적으로 deploy하는데 시간이 걸림            보통 build대상이 많지 않으면 3분~5분 내로 완료됨    ​    ​  ",
+        "url": "/action-github-git"
+    }
+    ,
+    
     "constructor-oop": {
         "title": "생성자와 소멸자",
             "author": "hweejoon",

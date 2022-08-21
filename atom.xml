@@ -54,6 +54,21 @@
     
       
       <item>
+        <title>Github로 Push 시 지연 문제</title>
+        
+          <description>&lt;h2 id=&quot;github에-push할-때-발생하는-지연&quot;&gt;Github에 push할 때 발생하는 지연&lt;/h2&gt;
+
+</description>
+        
+        <pubDate>Wed, 17 Aug 2022 19:32:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/action-github-git</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/action-github-git</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>생성자와 소멸자</title>
         
           <description>&lt;hr /&gt;
