@@ -39,7 +39,7 @@
     
       
       <item>
-        <title>public, private, protected</title>
+        <title>Access Modifier(public, private, protected)</title>
         
           <description>&lt;hr /&gt;
 
@@ -56,7 +56,7 @@
       <item>
         <title>Github로 Push 시 지연 문제</title>
         
-          <description>&lt;h2 id=&quot;github에-push할-때-발생하는-지연&quot;&gt;Github에 push할 때 발생하는 지연&lt;/h2&gt;
+          <description>&lt;h2 id=&quot;github로-push할-때-발생하는-지연&quot;&gt;Github로 push할 때 발생하는 지연&lt;/h2&gt;
 
 </description>
         
