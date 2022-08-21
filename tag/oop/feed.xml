@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/oop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-21T13:42:54+09:00</updated>
+  <updated>2022-08-21T13:57:09+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/oop/feed.xml</id>
 
   
@@ -38,10 +38,10 @@
 
   
     <entry>
-      <title type="html">상속</title>
-      <link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속" />
-      <published>2022-08-20T02:18:00+09:00</published>
-      <updated>2022-08-20T02:18:00+09:00</updated>
+      <title type="html">상속 (Inheritance)</title>
+      <link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속 (Inheritance)" />
+      <published>2022-08-19T23:18:00+09:00</published>
+      <updated>2022-08-19T23:18:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/inheritance-oop</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/inheritance-oop">&lt;hr /&gt;
 
@@ -192,8 +192,8 @@
     </entry>
   
     <entry>
-      <title type="html">생성자와 소멸자</title>
-      <link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" />
+      <title type="html">생성자와 소멸자 (Constructor/Deconstructor)</title>
+      <link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자 (Constructor/Deconstructor)" />
       <published>2022-08-16T20:38:00+09:00</published>
       <updated>2022-08-16T20:38:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/constructor-oop</id>
@@ -274,8 +274,8 @@
     </entry>
   
     <entry>
-      <title type="html">클래스와 객체(오브젝트,인스턴스)</title>
-      <link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체(오브젝트,인스턴스)" />
+      <title type="html">클래스와 객체 (Class/Object,Instance)</title>
+      <link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체 (Class/Object,Instance)" />
       <published>2022-08-12T20:43:00+09:00</published>
       <updated>2022-08-12T20:43:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/classobject-oop</id>
@@ -377,10 +377,10 @@
     </entry>
   
     <entry>
-      <title type="html">객체지향 프로그래밍 기본</title>
-      <link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본" />
-      <published>2022-07-30T08:52:00+09:00</published>
-      <updated>2022-07-30T08:52:00+09:00</updated>
+      <title type="html">객체지향 프로그래밍 기본 (Object-Oriented Programming)</title>
+      <link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본 (Object-Oriented Programming)" />
+      <published>2022-07-29T22:52:00+09:00</published>
+      <updated>2022-07-29T22:52:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/oopbasic-oop</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
 

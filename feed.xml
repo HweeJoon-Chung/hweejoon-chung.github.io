@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-21T13:42:54+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 제안서</title><link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서" /><published>2022-08-20T23:49:00+09:00</published><updated>2022-08-20T23:49:00+09:00</updated><id>https://hweejoon-chung.github.io/eeproposal-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eeproposal-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-21T13:57:09+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 제안서 (Proposal)</title><link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서 (Proposal)" /><published>2022-08-20T23:49:00+09:00</published><updated>2022-08-20T23:49:00+09:00</updated><id>https://hweejoon-chung.github.io/eeproposal-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eeproposal-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문-제안서-ib컴퓨터과학-sl&quot;&gt;소논문 제안서 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
@@ -146,7 +146,7 @@
 
 &lt;p&gt;https://www.codingame.com/start&lt;/p&gt;
 
-&lt;p&gt;https://www.oodesign.com/design-principles&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 제안서 (IB컴퓨터과학 SL)</summary></entry><entry><title type="html">상속</title><link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속" /><published>2022-08-20T02:18:00+09:00</published><updated>2022-08-20T02:18:00+09:00</updated><id>https://hweejoon-chung.github.io/inheritance-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/inheritance-oop">&lt;hr /&gt;
+&lt;p&gt;https://www.oodesign.com/design-principles&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 제안서 (IB컴퓨터과학 SL)</summary></entry><entry><title type="html">상속 (Inheritance)</title><link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속 (Inheritance)" /><published>2022-08-19T23:18:00+09:00</published><updated>2022-08-19T23:18:00+09:00</updated><id>https://hweejoon-chung.github.io/inheritance-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/inheritance-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-상속-inheritance&quot;&gt;객체지향 (상속: Inheritance)&lt;/h2&gt;
 
@@ -279,7 +279,7 @@ hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github로 push할 때 발생하는 지연</summary></entry><entry><title type="html">생성자와 소멸자</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자" /><published>2022-08-16T20:38:00+09:00</published><updated>2022-08-16T20:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github로 push할 때 발생하는 지연</summary></entry><entry><title type="html">생성자와 소멸자 (Constructor/Deconstructor)</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자 (Constructor/Deconstructor)" /><published>2022-08-16T20:38:00+09:00</published><updated>2022-08-16T20:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-생성자와-소멸자-메서드&quot;&gt;객체지향 (생성자와 소멸자 메서드)&lt;/h2&gt;
 
@@ -327,7 +327,7 @@ hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(heavymachinegun.damage)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;‘heavymachinegun’ Object의 ‘damage’ 속성을 출력&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">클래스와 객체(오브젝트,인스턴스)</title><link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체(오브젝트,인스턴스)" /><published>2022-08-12T20:43:00+09:00</published><updated>2022-08-12T20:43:00+09:00</updated><id>https://hweejoon-chung.github.io/classobject-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/classobject-oop">&lt;hr /&gt;
+&lt;p&gt;‘heavymachinegun’ Object의 ‘damage’ 속성을 출력&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">클래스와 객체 (Class/Object,Instance)</title><link href="https://hweejoon-chung.github.io/classobject-oop" rel="alternate" type="text/html" title="클래스와 객체 (Class/Object,Instance)" /><published>2022-08-12T20:43:00+09:00</published><updated>2022-08-12T20:43:00+09:00</updated><id>https://hweejoon-chung.github.io/classobject-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/classobject-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-class와-object&quot;&gt;객체지향 (class와 object)&lt;/h2&gt;
 
@@ -466,7 +466,7 @@ hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &
 
 &lt;hr /&gt;
 
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) (일정, 가이드 및 평가기준)</summary></entry><entry><title type="html">객체지향 프로그래밍 기본</title><link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본" /><published>2022-07-30T08:52:00+09:00</published><updated>2022-07-30T08:52:00+09:00</updated><id>https://hweejoon-chung.github.io/oopbasic-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
+&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) (일정, 가이드 및 평가기준)</summary></entry><entry><title type="html">객체지향 프로그래밍 기본 (Object-Oriented Programming)</title><link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본 (Object-Oriented Programming)" /><published>2022-07-29T22:52:00+09:00</published><updated>2022-07-29T22:52:00+09:00</updated><id>https://hweejoon-chung.github.io/oopbasic-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;

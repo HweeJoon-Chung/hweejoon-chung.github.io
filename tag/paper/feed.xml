@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-21T13:42:54+09:00</updated>
+  <updated>2022-08-21T13:57:09+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -38,8 +38,8 @@
 
   
     <entry>
-      <title type="html">소논문 제안서</title>
-      <link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서" />
+      <title type="html">소논문 제안서 (Proposal)</title>
+      <link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서 (Proposal)" />
       <published>2022-08-20T23:49:00+09:00</published>
       <updated>2022-08-20T23:49:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/eeproposal-paper</id>

@@ -196,7 +196,7 @@ into the {body} of the default.hbs template -->
     window.store = {
     
     "eeproposal-paper": {
-        "title": "소논문 제안서",
+        "title": "소논문 제안서 (Proposal)",
             "author": "hweejoon",
             "category": "",
             "content": "소논문 제안서 (IB컴퓨터과학 SL)참고 일정      ~ 2022년 8월 29일 : 소논문 제안서 제출 마감    9월 중 : 지도교사 배정 - 첫번째 필수성찰세션 (1st mandatory reflection session)    11월 말 : 소논문 1,000단어 분량 작성    12월 말 : 소논문 2,000단어 분량 작성 - 두번째 필수성찰세션 (2nd mandatory reflection session)    2023년 3월 중순 : 소논문 3,000단어 분량 작성    2023년 5월 중순 : 소논문 4,000단어 분량 작성    2023년 5월 31일 : 소논문 최종본 제출 마감 - 마지막 필수성찰세션(viva voce: final mandatory reflection session)  관련 문의 : 소논문 코디네이터 (064-786-5577, hatsal@korea.kr)주제 ( + 주제 선정 이유)내가 바라는 미래의 내 모습은 세계 각국의 사람들이 이용하는 게임을 만드는 프로그래머이고, 그 프로그래머가 되기 위해 필요한 컴퓨터 과학은 내가 관심있어 하고 좋아하기도 하는 학문분야다.나는 가끔 공부를 하면서 복잡해진 머리를 식히려 가끔 게임을 즐기고 만든다.내가 직접 만들어본 적 있는 장르 중 하나인 탄막 슈팅 게임에서는 다수의 총알이나 화살이 발사되는데, 그 발사되는 총알이나 화살이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지는 상황이 발생한다. 그 원인들을 분석하다 보니 단순히 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었다.게임 플랫폼에서 프로그래밍 시 게임 속 개체들이 많아지면 메모리 사용량이 어떤 식으로 변화하는지 확인해보고 개체들이 늘어날 때 시간복잡도나 메모리 사용량을 개선할 수 있는 방안이 있는지 실제 설계/구현을 통해서 연구/확인해보고자 한다.My future hope is that I am a programmer who makes games used by people around the world, and the computer science that I need to become a programmer is an academic field that I am interested in and like.I sometimes play games and make them at home to cool down my complicated head while studying at school.In the bullet-shooting game, one of the genres I’ve made myself, a number of bullets or arrows are fired, and when the number of bullets or arrows exceeds a certain number, the overall game movement is severely slowed down. When analyzing the causes, the main reason was that memory usage increased more than just a problem of processing speed.When programming on a game platform, I want to check how memory usage changes when there are more objects in the game, and research/confirm through actual design/implementation to see if there is a way to improve time complexity or memory usage when there are more objects.제목 :게임 내 다수의 개체 생성 시 메모리 변화 확인 통한 설계 전략에 대한 연구A Study on Design Strategies by Identifying Memory Changes when Creating Multiple Objects in the Game게임플랫폼의 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현Design and Implementation about Creation Approach of Game Object for improving memory usage in Game Platform연구 질문 (연구할 가치가 있나? 중요한가?)컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 메모리 사용 제약이 존재하고 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 메모리 관리와 활용 방안이 필요하다.또한 시간이 흐르고 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 화려한 그래픽으로 표현하기 위해 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.근본적으로 프로그래밍 관점에서 메모리에 대한 효율성 관리를 위해서 다수의 게임 개체들을 만드는데 메모리가 어떻게 변화하는지 확인하고 보다 효과적인 프로그램 설계/구현 방안을 연구/확인하여 미래 게임 개발자로서 중요한 경험과 역량을 쌓고자 한다.As computer hardware specifications develop, game platforms that operate on high-performance devices also tend to be complicated. However, there are restrictions on memory usage or resources in the device. So, the game platform itself needs efficient memory management and utilization measures that can guarantee the quality of latency or response speed.In addition, each time a new game is released, it requires higher specifications than the device’s specifications, because there are many different types of game objects in the game and they require efficiency, especially computational time or memory, to represent them in colorful graphics.From a programming perspective, I want to build important experience and capabilities as a future game developer by checking how memory changes in creating multiple game objects and researching/verifying more effective program design/implementation methods.연구 방법 (어떤 방법으로 연구할 계획인가?)먼저 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다.최종적으로 실험에 쓰일 게임 개체 생성 프로그램에 대한 요구사항 도출, 설계, 구현 및 테스트를 통해 메모리 변화를 조사하고 개선 사항을 검증한다.First, I will check if there is anything to learn additionally, and find previous studies and related materials in parallel with learning. Through that, I will prepare an appropriate memory change investigation plan and study an efficient game object generation plan.Finally, I’ll investigate memory changes and validate improvements by requirements deriving, designing, implementing, and testing for game object generation programs to be used in experiments.선행연구 및 관련 주제 자료 (각 유형별 2개 이상 작성)단행본코딩을 지탱하는 기술 : 원리로 깨우치는 프로그래밍 기법 (니시오 히로카즈, 비제이퍼블릭)게임으로 배우는 파이썬 (다나카 겐이치로, 영진닷컴)Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)논문KCI 등재게임 소프트웨어의 품질 평가 모델 정혜정  한국인터넷정보학회  인터넷정보학회논문지  8(6)  pp.115~125  2007.12  컴퓨터학KCI 등재기획자를 위한 객체지향적 게임시스템 기획 방법 장희동  한국게임학회  한국게임학회 논문지  16(3)  pp.17~26  2016.06  학제간연구파이썬 활용한 데이터 처리 성능 향상방법 제안 (한국정보전자통신기술학회 2020, 김효관, 황원용)KCI 등재DirectX를 이용한 게임 설계에서의 생성 패턴 적용 기법 김종수 김태석  한국멀티미디어학회  멀티미디어학회논문지  8(4)  pp.11~11  2005.04  전자/정보통신공학Java 기반 플랫폼 성능향상을 위한 모바일 게임 개발방법론Mobile Game Coding Method for Improving Performance of Java-based Platform김혜정 ,  남진우 ,  문형석 ,  송범휘 ,  이학준 ,  홍영화 ,  주문원 ,  최영미 ,  진성아  한국멀티미디어학회  한국멀티미디어학회 학술발표논문집      2006년도 추계학술발표논문집        2006.11 / 797 - 800 (4 pages)    학술대회자료기사 및 잡지, 기타 유형의 자료https://www.codingame.com/starthttps://www.oodesign.com/design-principles",
@@ -205,7 +205,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "inheritance-oop": {
-        "title": "상속",
+        "title": "상속 (Inheritance)",
             "author": "hweejoon",
             "category": "",
             "content": "객체지향 (상속: Inheritance)  여러 클래스에 중복되는 속성, 메서드를 하나의 클래스로 작성하는 것을 추상화라고 함  기본 클래스의 공통된 기능을 상속받고 다른 부분만 수정하는 것을 상속이라고 함  위의 경우에서 기본 클래스는 부모 클래스, 기본 클래스의 기능을 상속받는 클래스를 자식 클래스라고 함  부모 클래스가 둘 이상일 수 있으며, 그것을 다중 상속이라고 함class Enemy:\tdef __init__(self, name, color):\t\tself.name = name\t\tself.color = color        class Fairy(Enemy):    def set_stat(self, health, speed):        self.__health = health        self.__speed = speed        \tdef get_info(self):        print(self.name = name, self.color = color, self.__health, self.__speed)‘name’, ‘color’ 속성을 가진 ‘Enemy’ 클래스를 ‘health’, ‘speed’ 속성을 가진 ‘Fairy’ 클래스에 상속시켜줌Red_Fairy = Fairy('tina', 'red')Red_Fairy.set_stat(100, 4)Red_Fairy.get_info‘Red_Fairy’ 오브젝트의 ‘name’을 ‘tina’로, ‘color’를 ‘red’로, ‘health’를 100으로, ‘speed’를 4로 설정그 후 그것들을 출력  함수 issubstance(‘classname1’, ‘classname2’)는 두 클래스가 상속 관계인가를 확인함issubstance(Fairy, Enemy)‘Red_Fairy’ 오브젝트가 ‘Enemy’ 클래스와 상속 관계인지 확인  함수 isinstance(‘objectname’, ‘classname’)는 오브젝트와 클래스가 상속 관계인가를 확인함isinstance(Red_Fairy, Fairy)‘Red_Fairy’ 오브젝트가 ‘Fairy’ 클래스와 상속 관계인지 확인",
@@ -232,7 +232,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "constructor-oop": {
-        "title": "생성자와 소멸자",
+        "title": "생성자와 소멸자 (Constructor/Deconstructor)",
             "author": "hweejoon",
             "category": "",
             "content": "객체지향 (생성자와 소멸자 메서드)  생성자는 객체를 생성될 때 호출됨  첫 번째 인자는 ‘self’class Weapon:\tdef __init__(self, weight, damage, color):\t\tself.weight = weight\t\tself.damage = damage\t\tself.color = color‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로,  ‘self.damage’를 ‘damage’로,  ‘self.color’를 ‘color’로 설정heavymachinegun = Weapon(60, 5, \"black\")‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정  소멸자는 객체가 소멸될 때 호출됨  첫 번째 인자는 ‘self’class Weapon:\tdef __init__(self, weight, damage, color):\t\tself.weight = weight\t\tself.damage = damage\t\tself.color = color\t\t\tdef __del__(self):\t\tprint(\"Object deleted.\")‘Weapon’ Class의 Object가 소멸됐을 때, “Object deleted”를 출력heavymachinegun = Weapon(60, 5, \"black\")‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정print(heavymachinegun.damage)‘heavymachinegun’ Object의 ‘damage’ 속성을 출력",
@@ -241,7 +241,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "classobject-oop": {
-        "title": "클래스와 객체(오브젝트,인스턴스)",
+        "title": "클래스와 객체 (Class/Object,Instance)",
             "author": "hweejoon",
             "category": "",
             "content": "객체지향 (class와 object)  Class를 틀/설계도라 할 때, Object는 하나의 완성품  Class의 속성, 함수 등은 그 Class의 Object도 갖게 됨class classname:\tpass‘classname’이라는 이름의 Class를 선언dir (classname)‘classname’ Class와 관련된 전체 속성들을 리스트로 출력objectname = classname(objectname)‘classname’ Class로 ‘objectname’이라는 이름의 Object 생성type(objectname)‘objectname’ Object의 Class를 출력class classname:\txpos = 0\typos = 0\tstance = \"idle\"‘classname’ Class에 ‘xpos’, ‘ypos’, ‘stance’ 라는 속성을 추가objectname.xpos = 50‘objectname’ Object의 ‘xpos’ 속성을 50으로 변경class classname:\txpos = 0\typos = 0\tstance = \"idle\"\t\tdef get_xypos(self)\t\treturn self.xpos + self.ypos\t\t\tdef set_xypos(self, data1, data2)\t\tself.xpos = data1\t\tself.ypos = data2‘get_xypos’, ‘set_xypos’ Method를 추가  위에서 ‘get_xypos’, ‘set_xypos’는 클래스 내부에서 접근했기 때문에 클래스 밖에서는 사용 불가objectname.set_xypos(2, 2)‘objectname’ Object에서 (2, 2)를 넣고 ‘set_xypos’ Method를 실행  ‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨",
@@ -259,7 +259,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "oopbasic-oop": {
-        "title": "객체지향 프로그래밍 기본",
+        "title": "객체지향 프로그래밍 기본 (Object-Oriented Programming)",
             "author": "hweejoon",
             "category": "",
             "content": "프로그래밍 언어  컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어  인간은 보다 발전된 계산기인 컴퓨터를 만들었음  컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.          Instruction set : CPU가 수행할 수 있는 명령어 집합        기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움  인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함  어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행          변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용      절차적 프로그래밍에서 객체지향 프로그래밍으로…  PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전  핵심은 Class와 Object(Instance)  Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐  Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능객체지향 프로그래밍(Object-Oriented Programming: OOP)  틀/설계도인 Class 설계하고 코드화  Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍",
@@ -295,7 +295,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "webfont-dev": {
-        "title": "웹폰트",
+        "title": "웹폰트 (WebFont)",
             "author": "hweejoon",
             "category": "",
             "content": "웹폰트(Web Font) 적용하기  가벼운 나눔고딕 사용  _layouts/default.html 내에 아래 추가       &lt;!-- Web Fonts  --&gt;   &lt;link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/earlyaccess/nanumgothic.css\"&gt;   &lt;!-- swap방식이 느리다고 하긴 하는데..-.-;   &lt;link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Nanum+Gothic&amp;display=swap\"&gt;   --&gt;      참고. 아이콘 폰트 (Font Awesome)  아이콘을 폰트처럼 사용가능하도록 Vector 이미지로 서비스  _layouts/default.html 내에 아래 추가        &lt;!-- Font Awesome --&gt;    &lt;link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css\" /&gt;            Font Awsome 5 버전에서는       &lt;i class=\"fas fa-camera\"&gt;&lt;/i&gt;                       태그 fas 클래스 속성을 사용해서 아이콘 사용함                    아이콘 크기 변경하기 위해 fa-숫자x를 class 속성에 추가                              ex. 2배크기로 키우려면 fa-2x 추가            &lt;i class=\"fas fa-camera fa-2x\"&gt;&lt;/i&gt;                                                아이콘 검색하기          http://fontawesome.com/icons      Ctrl+f 로 검색가능한 사이트                  http://fontawesome.com/cheatsheet                    ",
@@ -313,7 +313,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "minification-dev": {
-        "title": "파일 경량화",
+        "title": "파일 경량화 (Minification)",
             "author": "hweejoon",
             "category": "",
             "content": "파일 경량화크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이사용방법 1. Gulp를 이용하여 파일 크기를 줄이자!  (node.js, gulp 버전에 따라 문제많음)  Gulp 실행하기 위해 node.js 다운로드받아 기본설정으로 설치          gulpfile.js 작성/수정 : css파일 줄이기 위해                  gulp.task(‘css’, function () {                    package.json 작성/수정 : 필요한 node_modules 설치위해            npm install 실행 (package.json이 있는 소스폴더 루트에서)        node_modules폴더 생성된 것 확인    gulp 실행 (ex. gulp css)사용방법 2. VS Code 내 확장팩 MinifyAll 설치  디버깅이나 직접 수정할 수 있는 map파일은 만들어지지 않지만 경량화는 되니까…^^;  각 파일/폴더에서 오른쪽 마우스 눌리고 기존 버전 유지하고 새버전으로 저장(…min.파일 생성)",
