@@ -214,7 +214,7 @@ into the {body} of the default.hbs template -->
     ,
     
     "accessmodifier-oop": {
-        "title": "Access Modifier(public, private, protected)",
+        "title": "접근제한자(public, private, protected)",
             "author": "hweejoon",
             "category": "",
             "content": "객체지향 접근제한자(Access Modifier: public, private, protected)  public, private, protected는 정보 은닉 방식의 종류  public : 그 속성, Method는 어느 클래스에서나 접근할 수 있음  private : 그 속성, Method는 해당 클래스에서만 접근할 수 있음  protected : 그 속성, Method는 해당 클래스, 해당 클래스를 상속받은 클래스에서만 접근할 수 있음  파이썬에서는 기본적으로 모든 속성, Method가 public임class Weapon:\tdef __init__(self, weight, damage, color):\t\tself._weight = weight\t\tself._damage = damage\t\tself._color = color파이썬에서 속성 이름 앞에 ‘_‘를 붙여 표시함단, 실제로 protected가 되는 것이 아니라 경고의 뜻으로만 사용됨class Weapon:\tdef __init__(self, weight, damage, color):\t\tself.__weight = weight\t\tself.__damage = damage\t\tself.__color = color속성 이름 앞에 ‘__‘를 붙이면 실제로 private이 됨단, 그것은 단순히 해당 이름이 _‘classname’__‘속성 또는 method이름’으로 변경되기 때문임따라서 이 상태에서 전 포스트에서 썼던 print(heavymachinegun.damage) 등을 입력하면 에러가 발생함",
