@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-21T13:57:09+09:00</updated>
+  <updated>2022-08-23T19:55:46+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/python/feed.xml</id>
 
   
@@ -36,6 +36,108 @@
   
   
 
+  
+    <entry>
+      <title type="html">Python 개발환경</title>
+      <link href="https://hweejoon-chung.github.io/devenv-python" rel="alternate" type="text/html" title="Python 개발환경" />
+      <published>2022-08-23T08:32:00+09:00</published>
+      <updated>2022-08-23T08:32:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/devenv-python</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/devenv-python">&lt;h2 id=&quot;python-개발환경&quot;&gt;Python 개발환경&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Anaconda + Visual Studio Code&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;anaconda-설치&quot;&gt;Anaconda 설치&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Python만 설치하기보다 Python과 여러 유용한 라이브러리들을 포함한 Anaconda 툴킷 추천
+        &lt;ul&gt;
+          &lt;li&gt;또한, 프로젝트 별 가상환경 만들 수 있음&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;https://www.anaconda.com/products/distribution 로 접속하여 플랫폼별 설치파일 다운로드하여 실행
+        &lt;ul&gt;
+          &lt;li&gt;지난 개발환경 글에서도 강조했지만, 윈도우 사용자 이름이 영문이어야 오류 없음&lt;/li&gt;
+          &lt;li&gt;기본 설정 값들로 설치&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;visual-studio-code-설치&quot;&gt;VIsual Studio Code 설치&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;../dev/2021-06-22-vscodeenv-dev.md&quot;&gt;Visual Studio Code 개발환경&lt;/a&gt; 참조&lt;/strong&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;요즘 들어 가장 많이 활용하는 코드 편집기&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Python을 위한 확장 패키지 설치 (2022.08.22 현재)
+        &lt;ul&gt;
+          &lt;li&gt;Python&lt;/li&gt;
+          &lt;li&gt;Python Extension Pack&lt;/li&gt;
+          &lt;li&gt;Python Indent&lt;/li&gt;
+          &lt;li&gt;Python Environment Manager&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;.py 파일의 Run Code 실행 시에 windows에서는 code runner.ExecuteMap 설정을 바꾸지 않으니 실행 에러 발생&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Code Runner 확장 패키지의 설정을 엶 (@ext:formulahendry.code-runner)&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Code-runner: Executor Map에서 settings.json 편집&lt;/p&gt;
+
+            &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;python&quot;: &quot;set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; D:\\Dev\\anaconda3\\python.exe -u&quot;,
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+
+            &lt;p&gt;라고 되어있으면 아래와 같이 바꾼다.&lt;/p&gt;
+
+            &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;python&quot;: &quot;set PYTHONIOENCODING=utf8 &amp;amp;&amp;amp; \&quot;D:\\Dev\\anaconda3\\python.exe\&quot; -u&quot;,
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
+
+            &lt;p&gt;​&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 개발환경</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Python - 기본</title>

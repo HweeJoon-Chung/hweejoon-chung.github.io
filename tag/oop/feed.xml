@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/oop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-21T13:57:09+09:00</updated>
+  <updated>2022-08-23T19:55:46+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/oop/feed.xml</id>
 
   
@@ -36,6 +36,71 @@
   
   
 
+  
+    <entry>
+      <title type="html">클래스 속성과 메서드 (Property/Method)</title>
+      <link href="https://hweejoon-chung.github.io/propertymethod-oop" rel="alternate" type="text/html" title="클래스 속성과 메서드 (Property/Method)" />
+      <published>2022-08-22T06:57:00+09:00</published>
+      <updated>2022-08-22T06:57:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/propertymethod-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/propertymethod-oop">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-클래스-속성과-메서드&quot;&gt;객체지향 (클래스 속성과 메서드)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클래스 변수 :
+    &lt;ul&gt;
+      &lt;li&gt;해당 클래스를 사용하는 모두가 공용으로 사용할 수 있음&lt;/li&gt;
+      &lt;li&gt;‘classname.name’ 으로 엑세스 가능&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;인스턴스 변수 :
+    &lt;ul&gt;
+      &lt;li&gt;각 객체별로 서로 다른 값을 가짐&lt;/li&gt;
+      &lt;li&gt;클래스 내부에서는 ‘self.name’ 으로, 외부에서는 ‘objectname.name’ 으로 엑세스 가능&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;set_stat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;health&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__del__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;(self.~~는 인스턴스 변수, 나머지는 클래스 변수이다.) ‘Fairy’ 클래스에서 오브젝트 1개가 생성되면 ‘count’가 1오르고 1개가 소멸되면 1내린다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">상속 (Inheritance)</title>

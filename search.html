@@ -195,6 +195,24 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "devenv-python": {
+        "title": "Python 개발환경",
+            "author": "hweejoon",
+            "category": "",
+            "content": "Python 개발환경  Anaconda + Visual Studio Code      Anaconda 설치          Python만 설치하기보다 Python과 여러 유용한 라이브러리들을 포함한 Anaconda 툴킷 추천                  또한, 프로젝트 별 가상환경 만들 수 있음                    https://www.anaconda.com/products/distribution 로 접속하여 플랫폼별 설치파일 다운로드하여 실행                  지난 개발환경 글에서도 강조했지만, 윈도우 사용자 이름이 영문이어야 오류 없음          기본 설정 값들로 설치                          VIsual Studio Code 설치                  Visual Studio Code 개발환경 참조                    요즘 들어 가장 많이 활용하는 코드 편집기            Python을 위한 확장 패키지 설치 (2022.08.22 현재)                  Python          Python Extension Pack          Python Indent          Python Environment Manager                            .py 파일의 Run Code 실행 시에 windows에서는 code runner.ExecuteMap 설정을 바꾸지 않으니 실행 에러 발생                              Code Runner 확장 패키지의 설정을 엶 (@ext:formulahendry.code-runner)                                Code-runner: Executor Map에서 settings.json 편집            \"python\": \"set PYTHONIOENCODING=utf8 &amp;&amp; D:\\\\Dev\\\\anaconda3\\\\python.exe -u\",                        라고 되어있으면 아래와 같이 바꾼다.            \"python\": \"set PYTHONIOENCODING=utf8 &amp;&amp; \\\"D:\\\\Dev\\\\anaconda3\\\\python.exe\\\" -u\",                        ​                                ​  ",
+        "url": "/devenv-python"
+    }
+    ,
+    
+    "propertymethod-oop": {
+        "title": "클래스 속성과 메서드 (Property/Method)",
+            "author": "hweejoon",
+            "category": "",
+            "content": "객체지향 (클래스 속성과 메서드)  클래스 변수 :          해당 클래스를 사용하는 모두가 공용으로 사용할 수 있음      ‘classname.name’ 으로 엑세스 가능        인스턴스 변수 :          각 객체별로 서로 다른 값을 가짐      클래스 내부에서는 ‘self.name’ 으로, 외부에서는 ‘objectname.name’ 으로 엑세스 가능      class Fairy(Enemy):    count = 0        def set_stat(self, health, speed):        self.__health = health        self.__speed = speed        Fairy.count += 1            def __del__(self):        Fairy.count -= 1(self.~~는 인스턴스 변수, 나머지는 클래스 변수이다.) ‘Fairy’ 클래스에서 오브젝트 1개가 생성되면 ‘count’가 1오르고 1개가 소멸되면 1내린다.",
+        "url": "/propertymethod-oop"
+    }
+    ,
+    
     "eeproposal-paper": {
         "title": "소논문 제안서 (Proposal)",
             "author": "hweejoon",

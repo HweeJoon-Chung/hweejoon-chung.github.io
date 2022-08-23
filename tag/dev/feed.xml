@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-21T13:57:09+09:00</updated>
+  <updated>2022-08-23T19:55:46+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/dev/feed.xml</id>
 
   
@@ -448,7 +448,7 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;2021-01-18-git-basic.md&quot;&gt;git 설치&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;../git/2021-01-18-git-basic.md&quot;&gt;git 설치&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
