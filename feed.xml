@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-23T19:55:46+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python 개발환경</title><link href="https://hweejoon-chung.github.io/devenv-python" rel="alternate" type="text/html" title="Python 개발환경" /><published>2022-08-23T08:32:00+09:00</published><updated>2022-08-23T08:32:00+09:00</updated><id>https://hweejoon-chung.github.io/devenv-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/devenv-python">&lt;h2 id=&quot;python-개발환경&quot;&gt;Python 개발환경&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-24T07:51:30+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python 개발환경</title><link href="https://hweejoon-chung.github.io/devenv-python" rel="alternate" type="text/html" title="Python 개발환경" /><published>2022-08-23T08:32:00+09:00</published><updated>2022-08-23T08:32:00+09:00</updated><id>https://hweejoon-chung.github.io/devenv-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/devenv-python">&lt;h2 id=&quot;python-개발환경&quot;&gt;Python 개발환경&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Anaconda + Visual Studio Code&lt;/p&gt;
@@ -134,17 +134,17 @@
 
 &lt;p&gt;In the bullet-shooting game, one of the genres I’ve made myself, a number of bullets or arrows are fired, and when the number of bullets or arrows exceeds a certain number, the overall game movement is severely slowed down. When analyzing the causes, the main reason was that memory usage increased more than just a problem of processing speed.&lt;/p&gt;
 
-&lt;p&gt;When programming on a game platform, I want to check how memory usage changes when there are more objects in the game, and research/confirm through actual design/implementation to see if there is a way to improve time complexity or memory usage when there are more objects.&lt;/p&gt;
+&lt;p&gt;When programming on a game platform, I want to check how memory usage changes when there are more &lt;strong&gt;entities&lt;/strong&gt;(objects) in the game, and research/confirm through actual design/implementation to see if there is a way to improve time complexity or memory usage when there are more game &lt;strong&gt;entities&lt;/strong&gt;(objects).&lt;/p&gt;
 
 &lt;p&gt;제목 :&lt;/p&gt;
 
 &lt;p&gt;게임 내 다수의 개체 생성 시 메모리 변화 확인 통한 설계 전략에 대한 연구&lt;/p&gt;
 
-&lt;p&gt;A Study on Design Strategies by Identifying Memory Changes when Creating Multiple Objects in the Game&lt;/p&gt;
+&lt;p&gt;A Study on Design Strategies by Identifying Memory Changes when Creating Multiple &lt;strong&gt;Entities&lt;/strong&gt;(Objects) in the Game&lt;/p&gt;
 
 &lt;p&gt;게임플랫폼의 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
 
-&lt;p&gt;Design and Implementation about Creation Approach of Game Object for improving memory usage in Game Platform&lt;/p&gt;
+&lt;p&gt;Design and Implementation about Creation Approach of Game &lt;strong&gt;Entities&lt;/strong&gt;(Objects) for improving memory usage in Game Platform&lt;/p&gt;
 
 &lt;h2 id=&quot;연구-질문-연구할-가치가-있나-중요한가&quot;&gt;연구 질문 (연구할 가치가 있나? 중요한가?)&lt;/h2&gt;
 
@@ -156,19 +156,19 @@
 
 &lt;p&gt;As computer hardware specifications develop, game platforms that operate on high-performance devices also tend to be complicated. However, there are restrictions on memory usage or resources in the device. So, the game platform itself needs efficient memory management and utilization measures that can guarantee the quality of latency or response speed.&lt;/p&gt;
 
-&lt;p&gt;In addition, each time a new game is released, it requires higher specifications than the device’s specifications, because there are many different types of game objects in the game and they require efficiency, especially computational time or memory, to represent them in colorful graphics.&lt;/p&gt;
+&lt;p&gt;In addition, each time a new game is released, it requires higher specifications than the device’s specifications, because there are many different types of game &lt;strong&gt;entities&lt;/strong&gt;(objects) in the game and they require efficiency, especially computational time or memory, to represent them in colorful graphics.&lt;/p&gt;
 
-&lt;p&gt;From a programming perspective, I want to build important experience and capabilities as a future game developer by checking how memory changes in creating multiple game objects and researching/verifying more effective program design/implementation methods.&lt;/p&gt;
+&lt;p&gt;From a programming perspective, I want to build important experience and capabilities as a future game developer by checking how memory changes in creating multiple game &lt;strong&gt;entities&lt;/strong&gt;(objects) and researching/verifying more effective program design/implementation methods.&lt;/p&gt;
 
 &lt;h2 id=&quot;연구-방법-어떤-방법으로-연구할-계획인가&quot;&gt;연구 방법 (어떤 방법으로 연구할 계획인가?)&lt;/h2&gt;
 
-&lt;p&gt;먼저 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다.&lt;/p&gt;
+&lt;p&gt;먼저 연구 주제에 대해 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다. 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행한다.&lt;/p&gt;
 
 &lt;p&gt;최종적으로 실험에 쓰일 게임 개체 생성 프로그램에 대한 요구사항 도출, 설계, 구현 및 테스트를 통해 메모리 변화를 조사하고 개선 사항을 검증한다.&lt;/p&gt;
 
-&lt;p&gt;First, I will check if there is anything to learn additionally, and find previous studies and related materials in parallel with learning. Through that, I will prepare an appropriate memory change investigation plan and study an efficient game object generation plan.&lt;/p&gt;
+&lt;p&gt;First, I will check if there is anything else to learn about the research topic and find previous studies and related materials in parallel with learning. Through that, I will prepare an appropriate memory change investigation plan and study an efficient game &lt;strong&gt;entities&lt;/strong&gt;(objects) generation plan. Research-related glossary organization and related data research are continuously carried out during the study.&lt;/p&gt;
 
-&lt;p&gt;Finally, I’ll investigate memory changes and validate improvements by requirements deriving, designing, implementing, and testing for game object generation programs to be used in experiments.&lt;/p&gt;
+&lt;p&gt;Finally, I’ll investigate memory changes and validate improvements by requirements deriving, designing, implementing, and testing for game &lt;strong&gt;entities&lt;/strong&gt;(objects) generation programs to be used in experiments.&lt;/p&gt;
 
 &lt;h2 id=&quot;선행연구-및-관련-주제-자료-각-유형별-2개-이상-작성&quot;&gt;선행연구 및 관련 주제 자료 (각 유형별 2개 이상 작성)&lt;/h2&gt;
 
@@ -245,7 +245,9 @@
 
 &lt;p&gt;https://www.codingame.com/start&lt;/p&gt;
 
-&lt;p&gt;https://www.oodesign.com/design-principles&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 제안서 (IB컴퓨터과학 SL)</summary></entry><entry><title type="html">상속 (Inheritance)</title><link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속 (Inheritance)" /><published>2022-08-19T23:18:00+09:00</published><updated>2022-08-19T23:18:00+09:00</updated><id>https://hweejoon-chung.github.io/inheritance-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/inheritance-oop">&lt;hr /&gt;
+&lt;p&gt;https://www.oodesign.com/design-principles&lt;/p&gt;
+
+&lt;p&gt;등등&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 제안서 (IB컴퓨터과학 SL)</summary></entry><entry><title type="html">상속 (Inheritance)</title><link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속 (Inheritance)" /><published>2022-08-19T23:18:00+09:00</published><updated>2022-08-19T23:18:00+09:00</updated><id>https://hweejoon-chung.github.io/inheritance-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/inheritance-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-상속-inheritance&quot;&gt;객체지향 (상속: Inheritance)&lt;/h2&gt;
 
