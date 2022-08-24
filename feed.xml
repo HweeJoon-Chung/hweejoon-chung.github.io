@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-24T07:51:30+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Python 개발환경</title><link href="https://hweejoon-chung.github.io/devenv-python" rel="alternate" type="text/html" title="Python 개발환경" /><published>2022-08-23T08:32:00+09:00</published><updated>2022-08-23T08:32:00+09:00</updated><id>https://hweejoon-chung.github.io/devenv-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/devenv-python">&lt;h2 id=&quot;python-개발환경&quot;&gt;Python 개발환경&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-24T19:22:42+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">다형성(Polymorphism)</title><link href="https://hweejoon-chung.github.io/polymorphism-oop" rel="alternate" type="text/html" title="다형성(Polymorphism)" /><published>2022-08-24T06:40:00+09:00</published><updated>2022-08-24T06:40:00+09:00</updated><id>https://hweejoon-chung.github.io/polymorphism-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/polymorphism-oop">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-다형성-polymorphism&quot;&gt;객체지향 (다형성: Polymorphism)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;다형성 : 같은 형태의 코드가 각각 다른 동작을 하는 것&lt;/li&gt;
+  &lt;li&gt;코드의 양을 줄이고 여러 객체 타입을 하나의 타입으로 관리할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; passes the mountain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Human&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; climbs the mountain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Fairy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; flies over the mountain&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Mermaid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Enemy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; swims through the sea&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;부모 클래스인 Enemy 클래스의 move는 name passes the mountain을 출력하지만, Human 클래스의 move는 name climbs the mountain을 출력, Fairy 클래스의 move는 name flies over the mountain을 출력, Mermaid의 move는 name swims the sea를 출력함&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;enemy1 = Human(&apos;Ashenone&apos;)
+enemy2 = Human(&apos;Tarnished&apos;)
+enemy3 = Fairy(&apos;Tina&apos;)
+enemy4 = Fairy(&apos;Binka&apos;)
+enemy5 = Fairy(&apos;Daiyosei&apos;)
+enemy6 = Mermaid(&apos;Wakasaki&apos;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Human 클래스의 오브젝트인 Ashenone, Tarnished의 move는 name climbs the mountain을, Fairy 클래스의 오브젝트인 Tina, Binka, Daiyosei의 move는 name flies over the mountain을, Mermaid 클래스의 오브젝트인 Wakasaki는 name swims through the sea를 출력함&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">Python 개발환경</title><link href="https://hweejoon-chung.github.io/devenv-python" rel="alternate" type="text/html" title="Python 개발환경" /><published>2022-08-23T08:32:00+09:00</published><updated>2022-08-23T08:32:00+09:00</updated><id>https://hweejoon-chung.github.io/devenv-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/devenv-python">&lt;h2 id=&quot;python-개발환경&quot;&gt;Python 개발환경&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Anaconda + Visual Studio Code&lt;/p&gt;
@@ -180,6 +219,12 @@
 
 &lt;p&gt;Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)&lt;/p&gt;
 
+&lt;p&gt;Technology to support coding : principled programming techniques (Hirokazu Nishio, BJPublic)&lt;/p&gt;
+
+&lt;p&gt;Python learned by games (Kenichiro Tanaka, youngjin.com)&lt;/p&gt;
+
+&lt;p&gt;Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)&lt;/p&gt;
+
 &lt;h3 id=&quot;논문&quot;&gt;논문&lt;/h3&gt;
 
 &lt;p&gt;KCI 등재&lt;/p&gt;
@@ -209,6 +254,12 @@
 &lt;/ul&gt;
 
 &lt;p&gt;파이썬 활용한 데이터 처리 성능 향상방법 제안 (한국정보전자통신기술학회 2020, 김효관, 황원용)&lt;/p&gt;
+
+&lt;p&gt;An Evaluation Model of Game Software   &lt;strong&gt;Journal of Korean Society for Internet Information&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;291710&apos;, &apos;v.8 no.6&quot;&gt;v.8 no.6&lt;/a&gt;) , 2007&lt;/p&gt;
+
+&lt;p&gt;An Object-oriented Design Method of Game System for Game Designers  &lt;strong&gt;Journal of Korea Game Society&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;294576&apos;, &apos;v.16 no.3&quot;&gt;v.16 no.3&lt;/a&gt;) , 2016&lt;/p&gt;
+
+&lt;p&gt;Proposal For Improving Data Processing Performance Using Python  &lt;strong&gt;Journal of Korea institute of information, electronics, and communication technology&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;564564&apos;, &apos;v.13 no.4&quot;&gt;v.13 no.4&lt;/a&gt;) , 2020&lt;/p&gt;
 
 &lt;p&gt;KCI 등재&lt;/p&gt;
 
@@ -243,9 +294,13 @@
 
 &lt;h3 id=&quot;기사-및-잡지-기타-유형의-자료&quot;&gt;기사 및 잡지, 기타 유형의 자료&lt;/h3&gt;
 
-&lt;p&gt;https://www.codingame.com/start&lt;/p&gt;
+&lt;p&gt;https://www.codingame.com/start  : 다양한 프로그래밍 언어를 사용할 수 있는 게임 코딩 연습 사이트&lt;/p&gt;
 
-&lt;p&gt;https://www.oodesign.com/design-principles&lt;/p&gt;
+&lt;p&gt;https://www.oodesign.com/design-principles : 객체지향 설계 개념 사이트&lt;/p&gt;
+
+&lt;p&gt;https://www.codingame.com/start  : Game coding practice site with a variety of programming languages&lt;/p&gt;
+
+&lt;p&gt;https://www.oodesign.com/design-principles : Object-oriented design concept site&lt;/p&gt;
 
 &lt;p&gt;등등&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 제안서 (IB컴퓨터과학 SL)</summary></entry><entry><title type="html">상속 (Inheritance)</title><link href="https://hweejoon-chung.github.io/inheritance-oop" rel="alternate" type="text/html" title="상속 (Inheritance)" /><published>2022-08-19T23:18:00+09:00</published><updated>2022-08-19T23:18:00+09:00</updated><id>https://hweejoon-chung.github.io/inheritance-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/inheritance-oop">&lt;hr /&gt;
 
@@ -567,47 +622,4 @@ hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &
 
 &lt;hr /&gt;
 
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) (일정, 가이드 및 평가기준)</summary></entry><entry><title type="html">객체지향 프로그래밍 기본 (Object-Oriented Programming)</title><link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본 (Object-Oriented Programming)" /><published>2022-07-29T22:52:00+09:00</published><updated>2022-07-29T22:52:00+09:00</updated><id>https://hweejoon-chung.github.io/oopbasic-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
-  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
-    &lt;ul&gt;
-      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
-  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
-  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
-    &lt;ul&gt;
-      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
-  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
-  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
-  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html">프로그래밍 언어</summary></entry></feed>
+&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) (일정, 가이드 및 평가기준)</summary></entry></feed>
