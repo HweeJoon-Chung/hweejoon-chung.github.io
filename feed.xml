@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-24T19:38:20+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">다형성(Polymorphism)</title><link href="https://hweejoon-chung.github.io/polymorphism-oop" rel="alternate" type="text/html" title="다형성(Polymorphism)" /><published>2022-08-24T06:40:00+09:00</published><updated>2022-08-24T06:40:00+09:00</updated><id>https://hweejoon-chung.github.io/polymorphism-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/polymorphism-oop">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-08-27T16:59:19+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">연산자 중복 정의</title><link href="https://hweejoon-chung.github.io/operation-overload" rel="alternate" type="text/html" title="연산자 중복 정의" /><published>2022-08-26T06:16:00+09:00</published><updated>2022-08-26T06:16:00+09:00</updated><id>https://hweejoon-chung.github.io/operation%20overload</id><content type="html" xml:base="https://hweejoon-chung.github.io/operation-overload">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-연산자-중복-정의--operation-overloading&quot;&gt;객체지향 (연산자 중복 정의 : Operation Overloading)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;연산자 중복 정의 : 객체에서 필요한 연산자를 정의해두는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Round_Bullet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;
+    &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;
+        
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__add__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Round_Bullet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Round_Bullet 클래스의 self.speed와 second.speed를 더한 값, self.size와 second.size를 더한 값을 리턴&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bullet1 = Round_Bullet(4,7)
+acceration1 = Bullet(8,7)
+bullet2 = bullet1 + acceration1
+bullet2.speed
+bullet2.size
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;위와 같은 결과&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def __mul__(self, n):
+    	return Round_Bullet(self.speed * n, self.size * n)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;self.speed에 n을 곱한 값, self.size에 n을 곱한 값을 리턴&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def __getitem__(self, index):
+    	if index == 0:
+    		return self.speed
+    	elif index == 1:
+    		return self.size
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;index가 0이면 self.speed를, 1이면 self.size를 리턴&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def __str__(self):
+    	return &quot;speed : {}, size : {}&quot;.format(self.speed, self.size)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;speed : 0 size : 0과 같이 문자열로 변환한 것을 리턴&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">다형성(Polymorphism)</title><link href="https://hweejoon-chung.github.io/polymorphism-oop" rel="alternate" type="text/html" title="다형성(Polymorphism)" /><published>2022-08-24T06:40:00+09:00</published><updated>2022-08-24T06:40:00+09:00</updated><id>https://hweejoon-chung.github.io/polymorphism-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/polymorphism-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-다형성-polymorphism&quot;&gt;객체지향 (다형성: Polymorphism)&lt;/h2&gt;
 
@@ -552,74 +599,4 @@ hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &
 
 &lt;ul&gt;
   &lt;li&gt;‘objectname’ Object의 ‘self.xpos’가 2, ‘self.ypos’가 2로 변경됨&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">소논문(Extended Essay)(일정, 가이드 및 평가기준)</title><link href="https://hweejoon-chung.github.io/extendedessay-paper" rel="alternate" type="text/html" title="소논문(Extended Essay)(일정, 가이드 및 평가기준)" /><published>2022-08-11T20:33:00+09:00</published><updated>2022-08-11T20:33:00+09:00</updated><id>https://hweejoon-chung.github.io/extendedessay-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/extendedessay-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문extended-essay-일정-가이드-및-평가기준&quot;&gt;소논문(Extended Essay) (일정, 가이드 및 평가기준)&lt;/h1&gt;
-
-&lt;h2 id=&quot;소논문&quot;&gt;소논문&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;관심있는 학문 분야를 깊이 연구하여 학문적 호기심과 역량을 4,000단어 이하의 학술적인 글로 표현하는 개별 연구 프로젝트
-    &lt;ul&gt;
-      &lt;li&gt;지식이론(Theory Of Knowledge), 창의활동봉사(Creativity, Activity, Service)와 함께 IB Diploma Program의 핵심 요소&lt;/li&gt;
-      &lt;li&gt;연구, 비판적 사고력, 자기관리 능력과 함께 대학에서 기대되는 학술적 글쓰기 능력을 개발할 수 있으며, 힘들지만 큰 보람을 느끼는 과정&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;지식을 분석, 종합, 평가하는 능력이 개발됨
-    &lt;ul&gt;
-      &lt;li&gt;연구 대상에 대한 적절한 질문들을 표현해낼 수 있다.&lt;/li&gt;
-      &lt;li&gt;주제에 대한 개인적 탐구과정을 수행해낼 수 있다.&lt;/li&gt;
-      &lt;li&gt;아이디어를 교류할 수 있다.&lt;/li&gt;
-      &lt;li&gt;본인의 주장이나 논쟁을 진행할 수 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;h3 id=&quot;개인적-느낌&quot;&gt;개인적 느낌&lt;/h3&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;본인이 특정 분야에서 어떤 일을 하고자 할때, 그 일에 관해 배워나가는 준비과정을 체험할 수 있겠다.&lt;/li&gt;
-    &lt;li&gt;개인적인 관심 주제를 깊이 파고들거나 다른 분야와 융합할 수 있는 접근방식을 배울 수 있겠다.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;일정&quot;&gt;일정&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;가이드-ib컴퓨터과학-sl&quot;&gt;가이드 (IB컴퓨터과학 SL)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;추가 예정(개학 후 담당교사로부터 입수)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;평가기준&quot;&gt;평가기준&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;IB가 임명한 심사관들이 외부에서 평가 (0~34점)
-    &lt;ul&gt;
-      &lt;li&gt;A – work of an excellent standard.&lt;/li&gt;
-      &lt;li&gt;B – work of a good standard.&lt;/li&gt;
-      &lt;li&gt;C –work of a satisfactory standard.&lt;/li&gt;
-      &lt;li&gt;D – work of a mediocre standard.&lt;/li&gt;
-      &lt;li&gt;E – work of an elementary standard.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;​&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) (일정, 가이드 및 평가기준)</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry></feed>
