@@ -195,6 +195,15 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "composition": {
+        "title": "포함",
+            "author": "hweejoon",
+            "category": "",
+            "content": "객체지향 (포함 : Composition)  한 클래스 내에서 다른 클래스의 특정한 기능만을 사용하려 할 때 사용함class Attack:\tdef __init__(self, damage, speed, crit):    \tself.damage = damage   \t\tself.speed = speed    \tself.crit = crit            def atkscore(self):    \treturn self.damage * self.speed * self.crit        def maxrate(self):        return self.crit * 100        def sprate(self):        return self.speed * self.crit    class Double_Attack:    def __init__(self, damage, speed, crit):    \tself.damage = damage   \t\tself.speed = speed    \tself.crit = crit            def atkscore(self):    \treturn self.damage * self.speed * self.crit        def maxrate(self):        return self.crit/2 * 100        def sprate(self):        return self.speed * self.critAttack 클래스에서 self.damge * self.speed * self.crit과 self.crit * 100, self.speed * self.crit을 리턴Double_Attack 클래스에서 self.damge * self.speed * self.crit과 self.crit/2 * 100, self.speed * self.crit을 리턴class Double_Attack:    def __init__(self, damage, speed, crit):    \tself.damage = damage   \t\tself.speed = speed    \tself.crit = crit        self.attack = Attack(speed,crit)            def atkscore(self):    \treturn self.damage * self.speed * self.crit        def maxrate(self):        return self.crit/2 * 100        def sprate(self):        return self.attack.sprate()Double_Attack에서 self.speed * self.crit 대신 Attack 클래스의 speed*crit을 리턴",
+        "url": "/composition"
+    }
+    ,
+    
     "operation-overload": {
         "title": "연산자 중복 정의",
             "author": "hweejoon",

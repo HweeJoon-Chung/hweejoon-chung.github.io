@@ -225,32 +225,32 @@ into the {body} of the default.hbs template -->
 
 <p>Round_Bullet 클래스의 self.speed와 second.speed를 더한 값, self.size와 second.size를 더한 값을 리턴</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bullet1 = Round_Bullet(4,7)
-acceration1 = Bullet(8,7)
-bullet2 = bullet1 + acceration1
-bullet2.speed
-bullet2.size
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bullet1</span> <span class="o">=</span> <span class="n">Round_Bullet</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">acceration1</span> <span class="o">=</span> <span class="n">Bullet</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">7</span><span class="p">)</span>
+<span class="n">bullet2</span> <span class="o">=</span> <span class="n">bullet1</span> <span class="o">+</span> <span class="n">acceration1</span>
+<span class="n">bullet2</span><span class="p">.</span><span class="n">speed</span>
+<span class="n">bullet2</span><span class="p">.</span><span class="n">size</span>
 </code></pre></div></div>
 
 <p>위와 같은 결과</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def __mul__(self, n):
-    	return Round_Bullet(self.speed * n, self.size * n)
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">__mul__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    	<span class="k">return</span> <span class="n">Round_Bullet</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">speed</span> <span class="o">*</span> <span class="n">n</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">size</span> <span class="o">*</span> <span class="n">n</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>self.speed에 n을 곱한 값, self.size에 n을 곱한 값을 리턴</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def __getitem__(self, index):
-    	if index == 0:
-    		return self.speed
-    	elif index == 1:
-    		return self.size
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+    	<span class="k">if</span> <span class="n">index</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    		<span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">speed</span>
+    	<span class="k">elif</span> <span class="n">index</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+    		<span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">size</span>
 </code></pre></div></div>
 
 <p>index가 0이면 self.speed를, 1이면 self.size를 리턴</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def __str__(self):
-    	return "speed : {}, size : {}".format(self.speed, self.size)
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    	<span class="k">return</span> <span class="s">"speed : {}, size : {}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">speed</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">size</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>speed : 0 size : 0과 같이 문자열로 변환한 것을 리턴</p>
@@ -367,6 +367,15 @@ bullet2.size
                                 
                                   
                                     
+                                        
+                                        
+                                            <li><a href="/composition">포함</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
                                   
                                 
                                   
@@ -394,8 +403,6 @@ bullet2.size
                                   
                                     
                                         
-                                        
-                                            <li><a href="/inheritance-oop">상속 (Inheritance)</a></li>
                                         
                                     
                                   
@@ -463,7 +470,7 @@ bullet2.size
                         <footer class="read-next-card-footer">
                             <a href="/tag/oop/">
                                 
-                                    See all 7 posts  →
+                                    See all 8 posts  →
                                 
                             </a>
                         </footer>
@@ -472,6 +479,57 @@ bullet2.size
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/composition">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/composition">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Oop</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">포함</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/hweejoon/">Hwee Joon Chung</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
             
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
