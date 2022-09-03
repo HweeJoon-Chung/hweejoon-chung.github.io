@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-09-04T08:22:49+09:00</updated>
+  <updated>2022-09-04T08:39:34+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -388,12 +388,12 @@ enemy6 = Mermaid(&apos;Wakasaki&apos;)
     </entry>
   
     <entry>
-      <title type="html">클래스 속성과 메서드 (Property/Method)</title>
-      <link href="https://hweejoon-chung.github.io/propertymethod-oop" rel="alternate" type="text/html" title="클래스 속성과 메서드 (Property/Method)" />
+      <title type="html">클래스 속성과 메서드 (Attribute/Method)</title>
+      <link href="https://hweejoon-chung.github.io/attributemethod-oop" rel="alternate" type="text/html" title="클래스 속성과 메서드 (Attribute/Method)" />
       <published>2022-08-22T06:57:00+09:00</published>
       <updated>2022-08-22T06:57:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/propertymethod-oop</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/propertymethod-oop">&lt;hr /&gt;
+      <id>https://hweejoon-chung.github.io/attributemethod-oop</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/attributemethod-oop">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-클래스-속성과-메서드&quot;&gt;객체지향 (클래스 속성과 메서드)&lt;/h2&gt;
 
