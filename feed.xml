@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-09-04T08:47:33+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">포함</title><link href="https://hweejoon-chung.github.io/composition" rel="alternate" type="text/html" title="포함" /><published>2022-08-31T07:05:00+09:00</published><updated>2022-08-31T07:05:00+09:00</updated><id>https://hweejoon-chung.github.io/composition</id><content type="html" xml:base="https://hweejoon-chung.github.io/composition">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-09-11T09:58:28+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">S.O.L.I.D</title><link href="https://hweejoon-chung.github.io/SOLID" rel="alternate" type="text/html" title="S.O.L.I.D" /><published>2022-09-11T05:38:00+09:00</published><updated>2022-09-11T05:38:00+09:00</updated><id>https://hweejoon-chung.github.io/SOLID</id><content type="html" xml:base="https://hweejoon-chung.github.io/SOLID">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-클래스-설계의-원칙-solid&quot;&gt;객체지향 (클래스 설계의 원칙 SOLID)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;SOLID:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;S : Single responsibility principle(단일 책임의 원칙)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;O : Open closed principle(개방, 폐쇄의 원칙)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;L : Liskov substitusion principle(리스코프 치환의 원칙)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;I : Interface segregation principle(인터페이스 분리의 원칙)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;D : Dependency inversion principle(의존성 역전의 원칙)&lt;/p&gt;
+
+        &lt;p&gt;​&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;단일 책임의 원칙&lt;/p&gt;
+
+    &lt;p&gt;한 클래스는 한 개의 책임을 가져야 함&lt;/p&gt;
+
+    &lt;p&gt;문제 발생 시 클래스에서 발생할 문제가 한 개여야 함&lt;/p&gt;
+
+    &lt;p&gt;ex) 슈팅 게임에서 플레이어를 설계할 때 이동하는 클래스와 적 탄환에 피격 당하는 클래스를 따로 만들어야 함&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;개방, 폐쇄의 원칙&lt;/p&gt;
+
+    &lt;p&gt;확장에는 개방되어야 하고 변경에는 폐쇄되어야 함&lt;/p&gt;
+
+    &lt;p&gt;ex) 속도, 크기는 같지만 모양만 다른 탄환을 만들 때 모양만을 자식 클래스에서 재정의 함&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;리스코프 치환의 원칙&lt;/p&gt;
+
+    &lt;p&gt;자식 클래스는 그 부모 클래스와 교체할 수 있어야 함&lt;/p&gt;
+
+    &lt;p&gt;ex) 부모 클래스가 인간, 자식 클래스가 소크라테스일 때&lt;/p&gt;
+
+    &lt;p&gt;사람은 죽는다.&lt;/p&gt;
+
+    &lt;p&gt;사람은 숨을 쉰다.&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  소크라테스는 죽는다.
+
+  소크라테스는 숨을 쉰다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;인터페이스 분리의 원칙&lt;/p&gt;
+
+    &lt;p&gt;클래스에서 사용하지 않는 메서드는 분리해야 함&lt;/p&gt;
+
+    &lt;p&gt;ex) 플레이어가 피해를 받는 클래스에 플레이어의 공격력과 관련된 메서드는 넣을 필요가 없음&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;의존성 역전의 원칙&lt;/p&gt;
+
+    &lt;p&gt;부모 클래스가 자식 클래스의 구현에 의존하면 안 됨&lt;/p&gt;
+
+    &lt;p&gt;자식 클래스를 수정할 때 부모 클래스도 수정해야 하면 안 됨&lt;/p&gt;
+
+    &lt;p&gt;ex) 소크라테스의 특징이 변경됐을 때 인간의 특징도 바뀌면 안 됨&lt;/p&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">포함(Composition)</title><link href="https://hweejoon-chung.github.io/composition" rel="alternate" type="text/html" title="포함(Composition)" /><published>2022-08-31T07:05:00+09:00</published><updated>2022-08-31T07:05:00+09:00</updated><id>https://hweejoon-chung.github.io/composition</id><content type="html" xml:base="https://hweejoon-chung.github.io/composition">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-포함--composition&quot;&gt;객체지향 (포함 : Composition)&lt;/h2&gt;
 
@@ -542,52 +628,4 @@ hweej@DESKTOP-8US32TO MINGW64 /d/_JOON/blog/hweejoon-chung.github.io/_blogsite &
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github로 push할 때 발생하는 지연</summary></entry><entry><title type="html">생성자와 소멸자 (Constructor/Deconstructor)</title><link href="https://hweejoon-chung.github.io/constructor-oop" rel="alternate" type="text/html" title="생성자와 소멸자 (Constructor/Deconstructor)" /><published>2022-08-16T20:38:00+09:00</published><updated>2022-08-16T20:38:00+09:00</updated><id>https://hweejoon-chung.github.io/constructor-oop</id><content type="html" xml:base="https://hweejoon-chung.github.io/constructor-oop">&lt;hr /&gt;
-
-&lt;h2 id=&quot;객체지향-생성자와-소멸자-메서드&quot;&gt;객체지향 (생성자와 소멸자 메서드)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;생성자는 객체를 생성될 때 호출됨&lt;/li&gt;
-  &lt;li&gt;첫 번째 인자는 ‘self’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로,  ‘self.damage’를 ‘damage’로,  ‘self.color’를 ‘color’로 설정&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;heavymachinegun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;소멸자는 객체가 소멸될 때 호출됨&lt;/li&gt;
-  &lt;li&gt;첫 번째 인자는 ‘self’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weight&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
-		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;
-		
-	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__del__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Object deleted.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘Weapon’ Class의 Object가 소멸됐을 때, “Object deleted”를 출력&lt;/p&gt;
-
-&lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;heavymachinegun&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(heavymachinegun.damage)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;‘heavymachinegun’ Object의 ‘damage’ 속성을 출력&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="git" /><summary type="html">Github로 push할 때 발생하는 지연</summary></entry></feed>
