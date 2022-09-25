@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/unity/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-09-11T09:58:28+09:00</updated>
+  <updated>2022-09-25T19:58:18+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/unity/feed.xml</id>
 
   
@@ -38,6 +38,66 @@
 
   
     <entry>
+      <title type="html">Metaverse와 Unity</title>
+      <link href="https://hweejoon-chung.github.io/metaverse-unity" rel="alternate" type="text/html" title="Metaverse와 Unity" />
+      <published>2022-09-24T18:24:00+09:00</published>
+      <updated>2022-09-24T18:24:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/metaverse-unity</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/metaverse-unity">&lt;h2 id=&quot;metaverse&quot;&gt;METAVERSE&lt;/h2&gt;
+
+&lt;p&gt;META(가상/초월) + uniVERSE(세계/우주)&lt;/p&gt;
+
+&lt;p&gt;(협의) 우리가 함께 공존할 수 있는 현실 같은 3차원 가상 세계&lt;/p&gt;
+
+&lt;p&gt;(광의) 정치/경제/사회/문화 전반적 측면에서 현실과 비현실 모두 공존할 수 있는 생활형/게임형 가상 세계&lt;/p&gt;
+
+&lt;h2 id=&quot;unity&quot;&gt;UNITY&lt;/h2&gt;
+
+&lt;p&gt;2005년 Apple 세계 개발자 회의(WWD)에서 OS X용 게임엔진으로 최초 공개&lt;/p&gt;
+
+&lt;p&gt;전세계 게임엔진 시장의 40~50% 차지&lt;/p&gt;
+
+&lt;p&gt;등록된 개발자 수 5백만명 넘음&lt;/p&gt;
+
+&lt;p&gt;자체 라이트 매핑, 물리 엔진 등 미들웨어 탑재&lt;/p&gt;
+
+&lt;p&gt;에디터에 내장된 Asset Store를 통해 다양한 Asset 다운로드/사용 가능&lt;/p&gt;
+
+&lt;h2 id=&quot;metaverse와-unity&quot;&gt;Metaverse와 Unity&lt;/h2&gt;
+
+&lt;p&gt;Metaverse를 구현하기 위해 3D 특화 실시간 개발 플랫폼인 Unity를 사용&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;직관적인 개발이 가능하고 원하는 기능들을 사용자가 원하는 대로 개발 가능&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">METAVERSE</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Unity 기본</title>
       <link href="https://hweejoon-chung.github.io/unity-basic" rel="alternate" type="text/html" title="Unity 기본" />
       <published>2021-11-28T04:32:00+09:00</published>
@@ -47,7 +107,7 @@
 
 &lt;p&gt;게임 엔진 - 2D 및 3D 비디오 게임의 개발 환경을 제공하여 모든 작업을 하나하나 코딩해줘야 하는 번거로움을 줄이고 이미 개발되어 있는 다양한 기능들을 조립 방식으로 사용. 게임을 만드는 데 도움이 되거나 필요한 다양한 라이브러리/툴들과 기능들을 모아 놓은 소프트웨어._&lt;/p&gt;
 
-&lt;p&gt;Windows 64bit 버전과 Mac OS X Sierra 10.12.6+, Ubuntu 16.04/18.04 지원&lt;/p&gt;
+&lt;p&gt;Windows 64bit 버전과 Mac OS X Sierra 10.12.6+, Ubuntu 16.04/18.04, 안드로이드 지원&lt;/p&gt;
 
 &lt;p&gt;DX10+ 지원 GPU 그래픽 카드&lt;/p&gt;
 

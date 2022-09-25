@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/oop/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-09-11T09:58:28+09:00</updated>
+  <updated>2022-09-25T19:58:18+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/oop/feed.xml</id>
 
   
@@ -36,6 +36,173 @@
   
   
 
+  
+    <entry>
+      <title type="html">Design pattern</title>
+      <link href="https://hweejoon-chung.github.io/designpattern" rel="alternate" type="text/html" title="Design pattern" />
+      <published>2022-09-12T06:59:00+09:00</published>
+      <updated>2022-09-12T06:59:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/designpattern</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/designpattern">&lt;hr /&gt;
+
+&lt;h2 id=&quot;객체지향-디자인-패턴&quot;&gt;객체지향 (디자인 패턴)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;객체 지향 설계 패턴 : 객체 지향 프로그래밍 설계 경험을 통해 추천되는 설계 패턴을 구현한 것&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;싱글톤 패턴&lt;/p&gt;
+
+    &lt;p&gt;클래스에 대한 객체가 한 개만 생성되도록 하는 패턴&lt;/p&gt;
+
+    &lt;p&gt;객체를 생성할 때마다 메모리가 소모됨&lt;/p&gt;
+
+    &lt;p&gt;객체 생성 시간, 메모리 사용량 등을 줄일 수 있음&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Singleton(type):
+	__instances = {}
+	def __call__(cls, *args, **kwargs):
+		if cls not in cls.__instances:
+			cls.__instances[cls] = super().__call__(cls, *args, **kwargs)
+  			
+		return cls.__instances[cls]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;Singleton 클래스로 인스턴스를 생성한 적이 없다면 인스턴스를 생성 후 리턴&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class PrintObject(metaclass=Singleton):
+	def __init__(self):
+		print(&quot;This is called by super().__call__&quot;)
+  		
+object1 = PrintObject()
+object2 = PrintObject()
+print(object1)
+print(object2)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;옵저버 패턴&lt;/p&gt;
+
+    &lt;p&gt;객체의 상태가 변했을 때 그 객체와 관련된 다른 객체들에게 상태가 변한 것을 알리는 패턴&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Observer:
+	def __init__(self):
+		self.observers = list()
+		self.msg = str()
+  		
+	def notify(self, event_data):
+		for observer in self.observers:
+			observer.notify(event_data)
+  			
+	def register(self, observer):
+		self.observers.append(observer)
+  		
+	def unregister(self, observer):
+		self.observers.remove(observer)
+  		
+class Notifier:
+	def notify(self, event_data):
+		print(event_data, &quot;received&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;빌더 패턴&lt;/p&gt;
+
+    &lt;p&gt;생성자에 들어갈 매개 변수가 너무 복잡해서 가독성이 떨어지고 어떤 변수가 어떤 값인지 알기 어렵거나 전체 변수 중 일부 값만 설정하는 경우&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Student(object):
+	def __init__(self, name, age=20, height=180, weight=60, major=&quot;cs&quot;):
+		self.name = name
+		self.age = age
+		self.height = height
+		self.weight = weight
+		self.major = major
+  		
+student1 = Student(&quot;Dave&quot;)
+print(student1.name)
+print(student1.age)
+print(student1.height)
+print(student1.weight)
+print(student1.major)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;student1 = Student(major=&quot;ds&quot;, name=&quot;David&quot;)
+print(student1.name)
+print(student1.age)
+print(student1.height)
+print(student1.weight)
+print(student1.major)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;팩토리 패턴&lt;/p&gt;
+
+    &lt;p&gt;객체를 생성하는 팩토리를 정의함&lt;/p&gt;
+
+    &lt;p&gt;어떤 객체를 만들지는 팩토리 객체에서 결정함&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Androidsmartphone:
+	def send(self, message):
+		print(&quot;send a message via Android platform&quot;)
+  		
+class Iossmartphone:
+	def send(self, message):
+		print(&quot;send a message via IOS platform&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class Smartphonefactory(object):
+	def __init__(self):
+		pass
+  		
+	def create_smartphone(self,device_type)
+		if device_type == &quot;android&quot;:
+			smartphone = AndroidSmartphone()
+		elif device_type == &quot;IOS&quot;:
+			smartphone = IosSmartphone()
+  		
+		return smartphone
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;smartphone_factory = Smartphonefactory()
+message_sender1 = smartphone_factory.create_smartphone(&quot;android&quot;)
+message_sender1.send(&quot;hello&quot;)
+
+message_sender1 = smartphone_factory.create_smartphone(&quot;IOS&quot;)
+message_sender1.send(&quot;hi&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="oop" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">S.O.L.I.D</title>
@@ -803,83 +970,6 @@ enemy6 = Mermaid(&apos;Wakasaki&apos;)
 
       
         <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">객체지향 프로그래밍 기본 (Object-Oriented Programming)</title>
-      <link href="https://hweejoon-chung.github.io/oopbasic-oop" rel="alternate" type="text/html" title="객체지향 프로그래밍 기본 (Object-Oriented Programming)" />
-      <published>2022-07-29T22:52:00+09:00</published>
-      <updated>2022-07-29T22:52:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/oopbasic-oop</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/oopbasic-oop">&lt;h2 id=&quot;프로그래밍-언어&quot;&gt;프로그래밍 언어&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;컴퓨터와 의사소통 하기 위한 명령들로 이루어진 프로그램을 작성할 수 있도록 만든 언어&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;인간은 보다 발전된 계산기인 컴퓨터를 만들었음&lt;/li&gt;
-  &lt;li&gt;컴퓨터(CPU)는 0과 1, 즉 이진수 형태의 코드인 기계어만 이해함.
-    &lt;ul&gt;
-      &lt;li&gt;Instruction set : CPU가 수행할 수 있는 명령어 집합&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기계어나 어셈블리어와 같은 저급언어는 컴퓨터가 이해하기 용이하지만, 인간이 이해하기 어려움&lt;/li&gt;
-  &lt;li&gt;인간이 이해하기 쉬운 고급언어(C, JAVA, PYTHON등)를 사용하여 프로그래밍함&lt;/li&gt;
-  &lt;li&gt;어셈블리어나 고급언어는 기계어로 변환되어 CPU로 전달되어 실행
-    &lt;ul&gt;
-      &lt;li&gt;변환 시 어셈블러, 인터프리터(PYTHON, RUBY 등)나 컴파일러(C, JAVA 등) 프로그램 사용&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;절차적-프로그래밍에서-객체지향-프로그래밍으로&quot;&gt;절차적 프로그래밍에서 객체지향 프로그래밍으로…&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;PACSCAL이나 C와 같은 절자적 프로그래밍에서 객체 단위로 데이터와 기능을 통합사용하는 객체지향 프로그래밍으로 발전&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;핵심은 Class와 Object(Instance)&lt;/li&gt;
-  &lt;li&gt;Class는 틀이나 설계도 (ex. 무기 설계도)이며 Attribute(데이터)와 Method(기능)을 가짐&lt;/li&gt;
-  &lt;li&gt;Object는 실체화된 객체 (ex. 실체화된 K2소총/REDSTOE미사일) 이며 정의된 Class로 생성 가능&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;객체지향-프로그래밍object-oriented-programming-oop&quot;&gt;객체지향 프로그래밍(Object-Oriented Programming: OOP)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;틀/설계도인 Class 설계하고 코드화&lt;/li&gt;
-  &lt;li&gt;Class를 활용하여 필요한 Object 생성하여 그 데이터와 기능 이용하여 프로그래밍&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="oop" />
-      
-
-      
-        <summary type="html">프로그래밍 언어</summary>
       
 
       
