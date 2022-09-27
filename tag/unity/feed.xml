@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/unity/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-09-25T19:58:18+09:00</updated>
+  <updated>2022-09-27T18:59:31+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/unity/feed.xml</id>
 
   
@@ -36,6 +36,112 @@
   
   
 
+  
+    <entry>
+      <title type="html">Unity 설정</title>
+      <link href="https://hweejoon-chung.github.io/setup-unity" rel="alternate" type="text/html" title="Unity 설정" />
+      <published>2022-09-26T04:54:00+09:00</published>
+      <updated>2022-09-26T04:54:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/setup-unity</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/setup-unity">&lt;h2 id=&quot;unity-설정&quot;&gt;UNITY 설정&lt;/h2&gt;
+
+&lt;p&gt;www.unity3d.com 로 들어가서 Unity Hub를 먼저 다운로드해서 설치&lt;/p&gt;
+
+&lt;p&gt;회원가입해서 로그인하면 라이선스 관리 창에서 Unity Personal 선택&lt;/p&gt;
+
+&lt;p&gt;(저는 고등학생이라 학생용 라이센스를 발급받았습니다.-.-;)&lt;/p&gt;
+
+&lt;p&gt;원하는 Unity Editor 버전을 설치 (가급적 LTS 버전)&lt;/p&gt;
+
+&lt;p&gt;(버전별로 기능동작이 상이하므로 동일한 버전 상에서 개발하는 것이 좋음)&lt;/p&gt;
+
+&lt;h2 id=&quot;project-설정&quot;&gt;Project 설정&lt;/h2&gt;
+
+&lt;p&gt;Unity Hub의 Project 탭에서 새 프로젝트 생성&lt;/p&gt;
+
+&lt;p&gt;원하는 Unity Editor 버전 선택 (설치한 버전들만 가능)&lt;/p&gt;
+
+&lt;p&gt;프로젝트 이름과 저장위치 선택&lt;/p&gt;
+
+&lt;p&gt;생성 완료 후 Unity Editor 열림&lt;/p&gt;
+
+&lt;h2 id=&quot;unity-editor-내-window들-역할기능&quot;&gt;Unity Editor 내 Window들 역할/기능&lt;/h2&gt;
+
+&lt;h3 id=&quot;scene-view&quot;&gt;Scene View&lt;/h3&gt;
+
+&lt;p&gt;Scene이라는 개념은 일종의 맵/레벨임&lt;/p&gt;
+
+&lt;p&gt;Scene View는 현재 프로젝트에서 내가 제작 중인 전체를 볼 수 있어, 배경/캐랙터/소품 등을 배치하기 위한 용도로 사용&lt;/p&gt;
+
+&lt;h3 id=&quot;hierarchy-window&quot;&gt;Hierarchy Window&lt;/h3&gt;
+
+&lt;p&gt;Scene View에 배치되어 있는 물체(Object)들을 보여줌&lt;/p&gt;
+
+&lt;p&gt;Scene 이름, 포함된 Object들&lt;/p&gt;
+
+&lt;p&gt;기본 Object : Main Camera / Directional Light&lt;/p&gt;
+
+&lt;h3 id=&quot;project-window&quot;&gt;Project Window&lt;/h3&gt;
+
+&lt;p&gt;현재 프로젝트에 포함된 텍스처/모델링/스크립트/Scene 등의 Asset을 보여줌&lt;/p&gt;
+
+&lt;p&gt;실제 프로젝트 구성에 필요한 모든 자료(Asset)들이 모여있는 곳&lt;/p&gt;
+
+&lt;p&gt;필요한 Asset들을 Asset Store에서 다운로드하거나, 새로운 스크립트를 생성하여 Object에 기능을 부여할 때 등 모든 Asset들을 관리&lt;/p&gt;
+
+&lt;h3 id=&quot;inspector-window&quot;&gt;Inspector Window&lt;/h3&gt;
+
+&lt;p&gt;Scene View나 Hierarchy/Project Window에 있는 Object나 Asset을 선택하면 자세한 내용들을 보여줌&lt;/p&gt;
+
+&lt;p&gt;Object나 Asset의 자세한 정보를 확인하고 수정할 수 있음&lt;/p&gt;
+
+&lt;h3 id=&quot;game-view&quot;&gt;Game View&lt;/h3&gt;
+
+&lt;p&gt;Scene View와 유사하지만 다른 점은 카메라가 보여주는 것만을 볼 수 있음&lt;/p&gt;
+
+&lt;p&gt;실제로 우리가 개발한 프로그램이 실행될 때 보게 될 장면을 보여주는 창&lt;/p&gt;
+
+&lt;h3 id=&quot;asset-store&quot;&gt;Asset Store&lt;/h3&gt;
+
+&lt;p&gt;프로젝트에 사용할 수 있는 다양한 에셋들을 다운로드할 수 있는 곳&lt;/p&gt;
+
+&lt;p&gt;Avatar/네트워킹관련/가구나 과일 같은 Object 등 다른 사람이 만든 Asset들을 다운받아 사용 가능&lt;/p&gt;
+
+&lt;h3 id=&quot;console-window&quot;&gt;Console Window&lt;/h3&gt;
+
+&lt;p&gt;프로그래밍을 할 때 필수적인 로그라는 형태의 다양한 메시지들이 나타남&lt;/p&gt;
+
+&lt;p&gt;개발 도중 발생한 에러/경고 확인 가능&lt;/p&gt;
+
+&lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
+
+&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">UNITY 설정</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Metaverse와 Unity</title>

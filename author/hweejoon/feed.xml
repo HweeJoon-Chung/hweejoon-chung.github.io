@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-09-25T19:58:18+09:00</updated>
+  <updated>2022-09-27T18:59:31+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,112 @@
   
   
 
+  
+    <entry>
+      <title type="html">Unity 설정</title>
+      <link href="https://hweejoon-chung.github.io/setup-unity" rel="alternate" type="text/html" title="Unity 설정" />
+      <published>2022-09-26T04:54:00+09:00</published>
+      <updated>2022-09-26T04:54:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/setup-unity</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/setup-unity">&lt;h2 id=&quot;unity-설정&quot;&gt;UNITY 설정&lt;/h2&gt;
+
+&lt;p&gt;www.unity3d.com 로 들어가서 Unity Hub를 먼저 다운로드해서 설치&lt;/p&gt;
+
+&lt;p&gt;회원가입해서 로그인하면 라이선스 관리 창에서 Unity Personal 선택&lt;/p&gt;
+
+&lt;p&gt;(저는 고등학생이라 학생용 라이센스를 발급받았습니다.-.-;)&lt;/p&gt;
+
+&lt;p&gt;원하는 Unity Editor 버전을 설치 (가급적 LTS 버전)&lt;/p&gt;
+
+&lt;p&gt;(버전별로 기능동작이 상이하므로 동일한 버전 상에서 개발하는 것이 좋음)&lt;/p&gt;
+
+&lt;h2 id=&quot;project-설정&quot;&gt;Project 설정&lt;/h2&gt;
+
+&lt;p&gt;Unity Hub의 Project 탭에서 새 프로젝트 생성&lt;/p&gt;
+
+&lt;p&gt;원하는 Unity Editor 버전 선택 (설치한 버전들만 가능)&lt;/p&gt;
+
+&lt;p&gt;프로젝트 이름과 저장위치 선택&lt;/p&gt;
+
+&lt;p&gt;생성 완료 후 Unity Editor 열림&lt;/p&gt;
+
+&lt;h2 id=&quot;unity-editor-내-window들-역할기능&quot;&gt;Unity Editor 내 Window들 역할/기능&lt;/h2&gt;
+
+&lt;h3 id=&quot;scene-view&quot;&gt;Scene View&lt;/h3&gt;
+
+&lt;p&gt;Scene이라는 개념은 일종의 맵/레벨임&lt;/p&gt;
+
+&lt;p&gt;Scene View는 현재 프로젝트에서 내가 제작 중인 전체를 볼 수 있어, 배경/캐랙터/소품 등을 배치하기 위한 용도로 사용&lt;/p&gt;
+
+&lt;h3 id=&quot;hierarchy-window&quot;&gt;Hierarchy Window&lt;/h3&gt;
+
+&lt;p&gt;Scene View에 배치되어 있는 물체(Object)들을 보여줌&lt;/p&gt;
+
+&lt;p&gt;Scene 이름, 포함된 Object들&lt;/p&gt;
+
+&lt;p&gt;기본 Object : Main Camera / Directional Light&lt;/p&gt;
+
+&lt;h3 id=&quot;project-window&quot;&gt;Project Window&lt;/h3&gt;
+
+&lt;p&gt;현재 프로젝트에 포함된 텍스처/모델링/스크립트/Scene 등의 Asset을 보여줌&lt;/p&gt;
+
+&lt;p&gt;실제 프로젝트 구성에 필요한 모든 자료(Asset)들이 모여있는 곳&lt;/p&gt;
+
+&lt;p&gt;필요한 Asset들을 Asset Store에서 다운로드하거나, 새로운 스크립트를 생성하여 Object에 기능을 부여할 때 등 모든 Asset들을 관리&lt;/p&gt;
+
+&lt;h3 id=&quot;inspector-window&quot;&gt;Inspector Window&lt;/h3&gt;
+
+&lt;p&gt;Scene View나 Hierarchy/Project Window에 있는 Object나 Asset을 선택하면 자세한 내용들을 보여줌&lt;/p&gt;
+
+&lt;p&gt;Object나 Asset의 자세한 정보를 확인하고 수정할 수 있음&lt;/p&gt;
+
+&lt;h3 id=&quot;game-view&quot;&gt;Game View&lt;/h3&gt;
+
+&lt;p&gt;Scene View와 유사하지만 다른 점은 카메라가 보여주는 것만을 볼 수 있음&lt;/p&gt;
+
+&lt;p&gt;실제로 우리가 개발한 프로그램이 실행될 때 보게 될 장면을 보여주는 창&lt;/p&gt;
+
+&lt;h3 id=&quot;asset-store&quot;&gt;Asset Store&lt;/h3&gt;
+
+&lt;p&gt;프로젝트에 사용할 수 있는 다양한 에셋들을 다운로드할 수 있는 곳&lt;/p&gt;
+
+&lt;p&gt;Avatar/네트워킹관련/가구나 과일 같은 Object 등 다른 사람이 만든 Asset들을 다운받아 사용 가능&lt;/p&gt;
+
+&lt;h3 id=&quot;console-window&quot;&gt;Console Window&lt;/h3&gt;
+
+&lt;p&gt;프로그래밍을 할 때 필수적인 로그라는 형태의 다양한 메시지들이 나타남&lt;/p&gt;
+
+&lt;p&gt;개발 도중 발생한 에러/경고 확인 가능&lt;/p&gt;
+
+&lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
+
+&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">UNITY 설정</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Metaverse와 Unity</title>
@@ -995,206 +1101,6 @@ enemy6 = Mermaid(&apos;Wakasaki&apos;)
 
       
         <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">소논문 제안서 (Proposal)</title>
-      <link href="https://hweejoon-chung.github.io/eeproposal-paper" rel="alternate" type="text/html" title="소논문 제안서 (Proposal)" />
-      <published>2022-08-20T23:49:00+09:00</published>
-      <updated>2022-08-20T23:49:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/eeproposal-paper</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/eeproposal-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문-제안서-ib컴퓨터과학-sl&quot;&gt;소논문 제안서 (IB컴퓨터과학 SL)&lt;/h1&gt;
-
-&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h2 id=&quot;주제---주제-선정-이유&quot;&gt;주제 ( + 주제 선정 이유)&lt;/h2&gt;
-
-&lt;p&gt;내가 바라는 미래의 내 모습은 세계 각국의 사람들이 이용하는 게임을 만드는 프로그래머이고, 그 프로그래머가 되기 위해 필요한 컴퓨터 과학은 내가 관심있어 하고 좋아하기도 하는 학문분야다.&lt;/p&gt;
-
-&lt;p&gt;나는 가끔 공부를 하면서 복잡해진 머리를 식히려 가끔 게임을 즐기고 만든다.&lt;/p&gt;
-
-&lt;p&gt;내가 직접 만들어본 적 있는 장르 중 하나인 탄막 슈팅 게임에서는 다수의 총알이나 화살이 발사되는데, 그 발사되는 총알이나 화살이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지는 상황이 발생한다. 그 원인들을 분석하다 보니 단순히 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었다.&lt;/p&gt;
-
-&lt;p&gt;게임 플랫폼에서 프로그래밍 시 게임 속 개체들이 많아지면 메모리 사용량이 어떤 식으로 변화하는지 확인해보고 개체들이 늘어날 때 시간복잡도나 메모리 사용량을 개선할 수 있는 방안이 있는지 실제 설계/구현을 통해서 연구/확인해보고자 한다.&lt;/p&gt;
-
-&lt;p&gt;My future hope is that I am a programmer who makes games used by people around the world, and the computer science that I need to become a programmer is an academic field that I am interested in and like.&lt;/p&gt;
-
-&lt;p&gt;I sometimes play games and make them at home to cool down my complicated head while studying at school.&lt;/p&gt;
-
-&lt;p&gt;In the bullet-shooting game, one of the genres I’ve made myself, a number of bullets or arrows are fired, and when the number of bullets or arrows exceeds a certain number, the overall game movement is severely slowed down. When analyzing the causes, the main reason was that memory usage increased more than just a problem of processing speed.&lt;/p&gt;
-
-&lt;p&gt;When programming on a game platform, I want to check how memory usage changes when there are more &lt;strong&gt;entities&lt;/strong&gt;(objects) in the game, and research/confirm through actual design/implementation to see if there is a way to improve time complexity or memory usage when there are more game &lt;strong&gt;entities&lt;/strong&gt;(objects).&lt;/p&gt;
-
-&lt;p&gt;제목 :&lt;/p&gt;
-
-&lt;p&gt;게임 내 다수의 개체 생성 시 메모리 변화 확인 통한 설계 전략에 대한 연구&lt;/p&gt;
-
-&lt;p&gt;A Study on Design Strategies by Identifying Memory Changes when Creating Multiple &lt;strong&gt;Entities&lt;/strong&gt;(Objects) in the Game&lt;/p&gt;
-
-&lt;p&gt;게임플랫폼의 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
-
-&lt;p&gt;Design and Implementation about Creation Approach of Game &lt;strong&gt;Entities&lt;/strong&gt;(Objects) for improving memory usage in Game Platform&lt;/p&gt;
-
-&lt;h2 id=&quot;연구-질문-연구할-가치가-있나-중요한가&quot;&gt;연구 질문 (연구할 가치가 있나? 중요한가?)&lt;/h2&gt;
-
-&lt;p&gt;컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 메모리 사용 제약이 존재하고 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 메모리 관리와 활용 방안이 필요하다.&lt;/p&gt;
-
-&lt;p&gt;또한 시간이 흐르고 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 화려한 그래픽으로 표현하기 위해 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;근본적으로 프로그래밍 관점에서 메모리에 대한 효율성 관리를 위해서 다수의 게임 개체들을 만드는데 메모리가 어떻게 변화하는지 확인하고 보다 효과적인 프로그램 설계/구현 방안을 연구/확인하여 미래 게임 개발자로서 중요한 경험과 역량을 쌓고자 한다.&lt;/p&gt;
-
-&lt;p&gt;As computer hardware specifications develop, game platforms that operate on high-performance devices also tend to be complicated. However, there are restrictions on memory usage or resources in the device. So, the game platform itself needs efficient memory management and utilization measures that can guarantee the quality of latency or response speed.&lt;/p&gt;
-
-&lt;p&gt;In addition, each time a new game is released, it requires higher specifications than the device’s specifications, because there are many different types of game &lt;strong&gt;entities&lt;/strong&gt;(objects) in the game and they require efficiency, especially computational time or memory, to represent them in colorful graphics.&lt;/p&gt;
-
-&lt;p&gt;From a programming perspective, I want to build important experience and capabilities as a future game developer by checking how memory changes in creating multiple game &lt;strong&gt;entities&lt;/strong&gt;(objects) and researching/verifying more effective program design/implementation methods.&lt;/p&gt;
-
-&lt;h2 id=&quot;연구-방법-어떤-방법으로-연구할-계획인가&quot;&gt;연구 방법 (어떤 방법으로 연구할 계획인가?)&lt;/h2&gt;
-
-&lt;p&gt;먼저 연구 주제에 대해 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다. 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행한다.&lt;/p&gt;
-
-&lt;p&gt;최종적으로 실험에 쓰일 게임 개체 생성 프로그램에 대한 요구사항 도출, 설계, 구현 및 테스트를 통해 메모리 변화를 조사하고 개선 사항을 검증한다.&lt;/p&gt;
-
-&lt;p&gt;First, I will check if there is anything else to learn about the research topic and find previous studies and related materials in parallel with learning. Through that, I will prepare an appropriate memory change investigation plan and study an efficient game &lt;strong&gt;entities&lt;/strong&gt;(objects) generation plan. Research-related glossary organization and related data research are continuously carried out during the study.&lt;/p&gt;
-
-&lt;p&gt;Finally, I’ll investigate memory changes and validate improvements by requirements deriving, designing, implementing, and testing for game &lt;strong&gt;entities&lt;/strong&gt;(objects) generation programs to be used in experiments.&lt;/p&gt;
-
-&lt;h2 id=&quot;선행연구-및-관련-주제-자료-각-유형별-2개-이상-작성&quot;&gt;선행연구 및 관련 주제 자료 (각 유형별 2개 이상 작성)&lt;/h2&gt;
-
-&lt;h3 id=&quot;단행본&quot;&gt;단행본&lt;/h3&gt;
-
-&lt;p&gt;코딩을 지탱하는 기술 : 원리로 깨우치는 프로그래밍 기법 (니시오 히로카즈, 비제이퍼블릭)&lt;/p&gt;
-
-&lt;p&gt;게임으로 배우는 파이썬 (다나카 겐이치로, 영진닷컴)&lt;/p&gt;
-
-&lt;p&gt;Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)&lt;/p&gt;
-
-&lt;p&gt;Technology to support coding : principled programming techniques (Hirokazu Nishio, BJPublic)&lt;/p&gt;
-
-&lt;p&gt;Python learned by games (Kenichiro Tanaka, youngjin.com)&lt;/p&gt;
-
-&lt;p&gt;Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)&lt;/p&gt;
-
-&lt;h3 id=&quot;논문&quot;&gt;논문&lt;/h3&gt;
-
-&lt;p&gt;KCI 등재&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;게임&lt;/em&gt; 소프트웨어의 품질 평가 모델 &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000297010&amp;amp;citationBean.artiId=ART001219939&quot;&gt;정혜정&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001854&quot;&gt;한국인터넷정보학회&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001854&amp;amp;sereSearBean.sereId=001022&quot;&gt;인터넷정보학회논문지&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001022&amp;amp;volIsseId=VOL000000038&quot;&gt;8(6)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pp.115~125&lt;/li&gt;
-  &lt;li&gt;2007.12&lt;/li&gt;
-  &lt;li&gt;컴퓨터학&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;KCI 등재&lt;/p&gt;
-
-&lt;p&gt;기획자를 위한 &lt;em&gt;객체&lt;/em&gt;지향적 &lt;em&gt;게임&lt;/em&gt;시스템 기획 방법 &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000283977&amp;amp;citationBean.artiId=ART002115504&quot;&gt;장희동&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000000291&quot;&gt;한국&lt;em&gt;게임&lt;/em&gt;학회&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000291&amp;amp;sereSearBean.sereId=001683&quot;&gt;한국&lt;em&gt;게임&lt;/em&gt;학회 논문지&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001683&amp;amp;volIsseId=VOL000073663&quot;&gt;16(3)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pp.17~26&lt;/li&gt;
-  &lt;li&gt;2016.06&lt;/li&gt;
-  &lt;li&gt;학제간연구&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;파이썬 활용한 데이터 처리 성능 향상방법 제안 (한국정보전자통신기술학회 2020, 김효관, 황원용)&lt;/p&gt;
-
-&lt;p&gt;An Evaluation Model of Game Software   &lt;strong&gt;Journal of Korean Society for Internet Information&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;291710&apos;, &apos;v.8 no.6&quot;&gt;v.8 no.6&lt;/a&gt;) , 2007&lt;/p&gt;
-
-&lt;p&gt;An Object-oriented Design Method of Game System for Game Designers  &lt;strong&gt;Journal of Korea Game Society&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;294576&apos;, &apos;v.16 no.3&quot;&gt;v.16 no.3&lt;/a&gt;) , 2016&lt;/p&gt;
-
-&lt;p&gt;Proposal For Improving Data Processing Performance Using Python  &lt;strong&gt;Journal of Korea institute of information, electronics, and communication technology&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;564564&apos;, &apos;v.13 no.4&quot;&gt;v.13 no.4&lt;/a&gt;) , 2020&lt;/p&gt;
-
-&lt;p&gt;KCI 등재&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;DirectX&lt;/em&gt;를 &lt;em&gt;이용&lt;/em&gt;한 &lt;em&gt;게임&lt;/em&gt; &lt;em&gt;설계&lt;/em&gt;에서의 &lt;em&gt;생성&lt;/em&gt; &lt;em&gt;패턴&lt;/em&gt; &lt;em&gt;적용&lt;/em&gt; &lt;em&gt;기법&lt;/em&gt; &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000365858&amp;amp;citationBean.artiId=ART000957376&quot;&gt;김종수&lt;/a&gt; &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000301226&amp;amp;citationBean.artiId=ART000957376&quot;&gt;김태석&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001307&quot;&gt;한국멀티미디어학회&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001307&amp;amp;sereSearBean.sereId=000883&quot;&gt;멀티미디어학회논문지&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=000883&amp;amp;volIsseId=VOL000000016&quot;&gt;8(4)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;pp.11~11&lt;/li&gt;
-  &lt;li&gt;2005.04&lt;/li&gt;
-  &lt;li&gt;전자/정보통신공학&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Java 기반 플랫폼 성능향상을 위한 모바일 게임 개발방법론&lt;/p&gt;
-
-&lt;p&gt;Mobile Game Coding Method for Improving Performance of Java-based Platform&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=230832&quot;&gt;김혜정 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=920920&quot;&gt;남진우 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=927634&quot;&gt;문형석 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=929701&quot;&gt;송범휘 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=929702&quot;&gt;이학준 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=929703&quot;&gt;홍영화 &lt;/a&gt;,  주문원 ,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=909867&quot;&gt;최영미 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=840360&quot;&gt;진성아&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dbpia.co.kr/journal/iprdDetail?iprdId=IPRD00010944&quot;&gt;한국멀티미디어학회&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00001772&quot;&gt;한국멀티미디어학회 학술발표논문집&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.dbpia.co.kr/journal/voisDetail?voisId=VOIS00077264&quot;&gt;2006년도 추계학술발표논문집&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;2006.11 / 797 - 800 (4 pages)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;학술대회자료&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;기사-및-잡지-기타-유형의-자료&quot;&gt;기사 및 잡지, 기타 유형의 자료&lt;/h3&gt;
-
-&lt;p&gt;https://www.codingame.com/start  : 다양한 프로그래밍 언어를 사용할 수 있는 게임 코딩 연습 사이트&lt;/p&gt;
-
-&lt;p&gt;https://www.oodesign.com/design-principles : 객체지향 설계 개념 사이트&lt;/p&gt;
-
-&lt;p&gt;https://www.codingame.com/start  : Game coding practice site with a variety of programming languages&lt;/p&gt;
-
-&lt;p&gt;https://www.oodesign.com/design-principles : Object-oriented design concept site&lt;/p&gt;
-
-&lt;p&gt;등등&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">소논문 제안서 (IB컴퓨터과학 SL)</summary>
       
 
       
