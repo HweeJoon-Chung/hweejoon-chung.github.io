@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-03T19:34:32+09:00</updated>
+  <updated>2022-10-03T19:44:15+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -213,11 +213,11 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
   
     <entry>
       <title type="html">영어 보고서</title>
-      <link href="https://hweejoon-chung.github.io/english-assessment" rel="alternate" type="text/html" title="영어 보고서" />
+      <link href="https://hweejoon-chung.github.io/english202209-assessment" rel="alternate" type="text/html" title="영어 보고서" />
       <published>2022-09-29T13:47:00+09:00</published>
       <updated>2022-09-29T13:47:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/english-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/english-assessment">&lt;hr /&gt;
+      <id>https://hweejoon-chung.github.io/english202209-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/english202209-assessment">&lt;hr /&gt;
 &lt;h1 id=&quot;영어-보고서&quot;&gt;영어 보고서&lt;/h1&gt;
 &lt;hr /&gt;
 
@@ -417,11 +417,11 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
   
     <entry>
       <title type="html">수학을 이용한 실생활 연구 질문</title>
-      <link href="https://hweejoon-chung.github.io/mathreallife-assessment" rel="alternate" type="text/html" title="수학을 이용한 실생활 연구 질문" />
+      <link href="https://hweejoon-chung.github.io/mathreallife202209-assessment" rel="alternate" type="text/html" title="수학을 이용한 실생활 연구 질문" />
       <published>2022-09-20T19:59:00+09:00</published>
       <updated>2022-09-20T19:59:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/mathreallife-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/mathreallife-assessment">&lt;hr /&gt;
+      <id>https://hweejoon-chung.github.io/mathreallife202209-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/mathreallife202209-assessment">&lt;hr /&gt;
 &lt;h1 id=&quot;수학을-이용한-실생활-연구-질문&quot;&gt;수학을 이용한 실생활 연구 질문&lt;/h1&gt;
 &lt;hr /&gt;
 
@@ -455,11 +455,11 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
   
     <entry>
       <title type="html">자기평가 IB수학HL</title>
-      <link href="https://hweejoon-chung.github.io/mathHLself-assessment" rel="alternate" type="text/html" title="자기평가 IB수학HL" />
+      <link href="https://hweejoon-chung.github.io/mathHLself202209-assessment" rel="alternate" type="text/html" title="자기평가 IB수학HL" />
       <published>2022-09-14T15:18:00+09:00</published>
       <updated>2022-09-14T15:18:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/mathHLself-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/mathHLself-assessment">&lt;hr /&gt;
+      <id>https://hweejoon-chung.github.io/mathHLself202209-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/mathHLself202209-assessment">&lt;hr /&gt;
 &lt;h1 id=&quot;자기평가---ib수학hl&quot;&gt;자기평가 - IB수학HL&lt;/h1&gt;
 &lt;hr /&gt;
 
@@ -780,11 +780,11 @@ message_sender1.send(&quot;hi&quot;)
   
     <entry>
       <title type="html">융합 탐구 프로젝트 - 컴퓨터과학</title>
-      <link href="https://hweejoon-chung.github.io/csconvergence-assessment" rel="alternate" type="text/html" title="융합 탐구 프로젝트 - 컴퓨터과학" />
+      <link href="https://hweejoon-chung.github.io/csconvergence202209-assessment" rel="alternate" type="text/html" title="융합 탐구 프로젝트 - 컴퓨터과학" />
       <published>2022-09-04T11:58:00+09:00</published>
       <updated>2022-09-04T11:58:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/csconvergence-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/csconvergence-assessment">&lt;hr /&gt;
+      <id>https://hweejoon-chung.github.io/csconvergence202209-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/csconvergence202209-assessment">&lt;hr /&gt;
 &lt;h1 id=&quot;융합-탐구-프로젝트---컴퓨터과학&quot;&gt;융합 탐구 프로젝트 - 컴퓨터과학&lt;/h1&gt;
 &lt;hr /&gt;
 
