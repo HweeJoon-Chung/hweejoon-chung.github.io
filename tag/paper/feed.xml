@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-09-27T18:59:31+09:00</updated>
+  <updated>2022-10-03T18:58:51+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -40,8 +40,8 @@
     <entry>
       <title type="html">소논문 관련연구</title>
       <link href="https://hweejoon-chung.github.io/eerelatedstudies-paper" rel="alternate" type="text/html" title="소논문 관련연구" />
-      <published>2022-09-18T19:19:00+09:00</published>
-      <updated>2022-09-18T19:19:00+09:00</updated>
+      <published>2022-09-30T19:19:00+09:00</published>
+      <updated>2022-09-30T19:19:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/eerelatedstudies-paper</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/eerelatedstudies-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문-관련연구-related-studies-of-extended-essay&quot;&gt;소논문 관련연구 (Related Studies of Extended Essay)&lt;/h1&gt;
@@ -63,34 +63,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;게임개체 설계 및 구현을 위한 프로그래밍 언어(PYTHON) 학습&lt;/p&gt;
-
-&lt;p&gt;관련 연구 및 주제 자료 분석&lt;/p&gt;
-
-&lt;p&gt;분석한 결과 활용 전략 / 메모리 사용량 축소 방안 마련&lt;/p&gt;
-
-&lt;p&gt;게임개체 설계&lt;/p&gt;
-
-&lt;p&gt;다수의 게임개체 생성과정 설계 및 구현 (테스트 용도)&lt;/p&gt;
-
-&lt;p&gt;게임개체 생성 수에 따른 메모리 사용량 확인 (설계/구현)&lt;/p&gt;
-
-&lt;p&gt;메모리 사용량 축소 방안 적용 계획&lt;/p&gt;
-
-&lt;p&gt;(옵션) 축소 방안 적용한 다수 게임개체 생성과정 재설계 및 구현&lt;/p&gt;
-
-&lt;p&gt;(옵션) 구현 결과에 대한 메모리 사용량 비교&lt;/p&gt;
-
-&lt;p&gt;개체 설계 전략 2개이상&lt;/p&gt;
-
-&lt;p&gt;설계 전략 비교&lt;/p&gt;
-
-&lt;p&gt;각 설계 전략에 대한 구현&lt;/p&gt;
-
-&lt;p&gt;구현 결과&lt;/p&gt;
-
-&lt;p&gt;구현 결과에 대한 메모리 사용량 비교&lt;/p&gt;
 
 &lt;h2 id=&quot;관련-연구논문-related-studiespapers-분석요약&quot;&gt;관련 연구/논문 (Related Studies/Papers) 분석요약&lt;/h2&gt;
 
@@ -233,6 +205,158 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 
       
         <summary type="html">소논문 관련연구 (Related Studies of Extended Essay)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">영어 보고서</title>
+      <link href="https://hweejoon-chung.github.io/english-assessment" rel="alternate" type="text/html" title="영어 보고서" />
+      <published>2022-09-29T13:47:00+09:00</published>
+      <updated>2022-09-29T13:47:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/english-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/english-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;영어-보고서&quot;&gt;영어 보고서&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202209_영어.docx&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">영어 보고서</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">수학을 이용한 실생활 연구 질문</title>
+      <link href="https://hweejoon-chung.github.io/mathreallife-assessment" rel="alternate" type="text/html" title="수학을 이용한 실생활 연구 질문" />
+      <published>2022-09-20T19:59:00+09:00</published>
+      <updated>2022-09-20T19:59:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/mathreallife-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/mathreallife-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;수학을-이용한-실생활-연구-질문&quot;&gt;수학을 이용한 실생활 연구 질문&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202209_문제지_고2_1수학을이용한실생활연구질문.hwp&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">수학을 이용한 실생활 연구 질문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">자기평가 IB수학HL</title>
+      <link href="https://hweejoon-chung.github.io/mathHLself-assessment" rel="alternate" type="text/html" title="자기평가 IB수학HL" />
+      <published>2022-09-14T15:18:00+09:00</published>
+      <updated>2022-09-14T15:18:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/mathHLself-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/mathHLself-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;자기평가---ib수학hl&quot;&gt;자기평가 - IB수학HL&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">자기평가 - IB수학HL</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">융합 탐구 프로젝트 - 컴퓨터과학</title>
+      <link href="https://hweejoon-chung.github.io/csconvergence-assessment" rel="alternate" type="text/html" title="융합 탐구 프로젝트 - 컴퓨터과학" />
+      <published>2022-09-04T11:58:00+09:00</published>
+      <updated>2022-09-04T11:58:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/csconvergence-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/csconvergence-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;융합-탐구-프로젝트---컴퓨터과학&quot;&gt;융합 탐구 프로젝트 - 컴퓨터과학&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202209_융합탐구프로젝트_컴퓨터과학.docx&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">융합 탐구 프로젝트 - 컴퓨터과학</summary>
       
 
       
@@ -537,6 +661,120 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 
       
         <summary type="html">소논문(Extended Essay) (일정, 가이드 및 평가기준)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">PreIO 주제제안서</title>
+      <link href="https://hweejoon-chung.github.io/ProposalPreIO-assessment" rel="alternate" type="text/html" title="PreIO 주제제안서" />
+      <published>2022-06-10T13:57:00+09:00</published>
+      <updated>2022-06-10T13:57:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/ProposalPreIO-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/ProposalPreIO-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;preio-주제제안서&quot;&gt;PreIO 주제제안서&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202206_학생정휘준_PreIO_주제제안서.docx&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">PreIO 주제제안서</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">영어 SL 수행평가</title>
+      <link href="https://hweejoon-chung.github.io/englishSL-assessment" rel="alternate" type="text/html" title="영어 SL 수행평가" />
+      <published>2022-04-20T04:48:00+09:00</published>
+      <updated>2022-04-20T04:48:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/englishSL-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/englishSL-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;영어-sl-수행평가&quot;&gt;영어 SL 수행평가&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202204_영어SL수행평가.pptx&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">영어 SL 수행평가</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">광고분석개요서</title>
+      <link href="https://hweejoon-chung.github.io/advertizement-assessment" rel="alternate" type="text/html" title="광고분석개요서" />
+      <published>2021-09-13T13:25:00+09:00</published>
+      <updated>2021-09-13T13:25:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/advertizement-assessment</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/advertizement-assessment">&lt;hr /&gt;
+&lt;h1 id=&quot;광고분서개요서&quot;&gt;광고분서개요서&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/data/202109_학생정휘준_광고분석개요서.docx&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">광고분서개요서</summary>
       
 
       
