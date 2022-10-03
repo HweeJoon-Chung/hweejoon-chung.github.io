@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-10-03T19:58:13+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 관련연구</title><link href="https://hweejoon-chung.github.io/eerelatedstudies-paper" rel="alternate" type="text/html" title="소논문 관련연구" /><published>2022-09-30T19:19:00+09:00</published><updated>2022-09-30T19:19:00+09:00</updated><id>https://hweejoon-chung.github.io/eerelatedstudies-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eerelatedstudies-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-10-04T08:51:18+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 관련연구</title><link href="https://hweejoon-chung.github.io/eerelatedstudies-paper" rel="alternate" type="text/html" title="소논문 관련연구" /><published>2022-09-30T19:19:00+09:00</published><updated>2022-09-30T19:19:00+09:00</updated><id>https://hweejoon-chung.github.io/eerelatedstudies-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eerelatedstudies-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문-관련연구-related-studies-of-extended-essay&quot;&gt;소논문 관련연구 (Related Studies of Extended Essay)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
@@ -18,6 +18,11 @@
 &lt;hr /&gt;
 
 &lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;관련-연구논문-related-studiespapers-분석요약&quot;&gt;관련 연구/논문 (Related Studies/Papers) 분석요약&lt;/h2&gt;
 
@@ -142,7 +147,11 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 &lt;h1 id=&quot;영어-보고서&quot;&gt;영어 보고서&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_영어.docx&quot;&gt;202209_영어.docx&lt;/a&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">영어 보고서</summary></entry><entry><title type="html">Unity 설정</title><link href="https://hweejoon-chung.github.io/setup-unity" rel="alternate" type="text/html" title="Unity 설정" /><published>2022-09-26T04:54:00+09:00</published><updated>2022-09-26T04:54:00+09:00</updated><id>https://hweejoon-chung.github.io/setup-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/setup-unity">&lt;h2 id=&quot;unity-설정&quot;&gt;UNITY 설정&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_영어.zip&quot;&gt;202209_영어.docx&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">영어 보고서</summary></entry><entry><title type="html">Unity 설정</title><link href="https://hweejoon-chung.github.io/setup-unity" rel="alternate" type="text/html" title="Unity 설정" /><published>2022-09-26T04:54:00+09:00</published><updated>2022-09-26T04:54:00+09:00</updated><id>https://hweejoon-chung.github.io/setup-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/setup-unity">&lt;h2 id=&quot;unity-설정&quot;&gt;UNITY 설정&lt;/h2&gt;
 
 &lt;p&gt;www.unity3d.com 로 들어가서 Unity Hub를 먼저 다운로드해서 설치&lt;/p&gt;
 
@@ -244,11 +253,19 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 &lt;h1 id=&quot;수학을-이용한-실생활-연구-질문&quot;&gt;수학을 이용한 실생활 연구 질문&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_문제지_고2_1수학을이용한실생활연구질문.hwp&quot;&gt;202209_문제지_고2_1수학을이용한실생활연구질문.hwp&lt;/a&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">수학을 이용한 실생활 연구 질문</summary></entry><entry><title type="html">자기평가 IB수학HL</title><link href="https://hweejoon-chung.github.io/mathHLself202209-assessment" rel="alternate" type="text/html" title="자기평가 IB수학HL" /><published>2022-09-14T15:18:00+09:00</published><updated>2022-09-14T15:18:00+09:00</updated><id>https://hweejoon-chung.github.io/mathHLself202209-assessment</id><content type="html" xml:base="https://hweejoon-chung.github.io/mathHLself202209-assessment">&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_문제지_고2_1수학을이용한실생활연구질문.zip&quot;&gt;202209_문제지_고2_1수학을이용한실생활연구질문.hwp&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">수학을 이용한 실생활 연구 질문</summary></entry><entry><title type="html">자기평가 IB수학HL</title><link href="https://hweejoon-chung.github.io/mathHLself202209-assessment" rel="alternate" type="text/html" title="자기평가 IB수학HL" /><published>2022-09-14T15:18:00+09:00</published><updated>2022-09-14T15:18:00+09:00</updated><id>https://hweejoon-chung.github.io/mathHLself202209-assessment</id><content type="html" xml:base="https://hweejoon-chung.github.io/mathHLself202209-assessment">&lt;hr /&gt;
 &lt;h1 id=&quot;자기평가---ib수학hl&quot;&gt;자기평가 - IB수학HL&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp&quot;&gt;202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp&lt;/a&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">자기평가 - IB수학HL</summary></entry><entry><title type="html">Design pattern</title><link href="https://hweejoon-chung.github.io/designpattern" rel="alternate" type="text/html" title="Design pattern" /><published>2022-09-12T06:59:00+09:00</published><updated>2022-09-12T06:59:00+09:00</updated><id>https://hweejoon-chung.github.io/designpattern</id><content type="html" xml:base="https://hweejoon-chung.github.io/designpattern">&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_자기평가_2022학년도2학년2학기_IB수학HL.zip&quot;&gt;202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">자기평가 - IB수학HL</summary></entry><entry><title type="html">Design pattern</title><link href="https://hweejoon-chung.github.io/designpattern" rel="alternate" type="text/html" title="Design pattern" /><published>2022-09-12T06:59:00+09:00</published><updated>2022-09-12T06:59:00+09:00</updated><id>https://hweejoon-chung.github.io/designpattern</id><content type="html" xml:base="https://hweejoon-chung.github.io/designpattern">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-디자인-패턴&quot;&gt;객체지향 (디자인 패턴)&lt;/h2&gt;
 
@@ -471,7 +488,11 @@ message_sender1.send(&quot;hi&quot;)
 &lt;h1 id=&quot;융합-탐구-프로젝트---컴퓨터과학&quot;&gt;융합 탐구 프로젝트 - 컴퓨터과학&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_융합탐구프로젝트_컴퓨터과학.docx&quot;&gt;202209_융합탐구프로젝트_컴퓨터과학.docx&lt;/a&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">융합 탐구 프로젝트 - 컴퓨터과학</summary></entry><entry><title type="html">포함(Composition)</title><link href="https://hweejoon-chung.github.io/composition" rel="alternate" type="text/html" title="포함(Composition)" /><published>2022-08-31T07:05:00+09:00</published><updated>2022-08-31T07:05:00+09:00</updated><id>https://hweejoon-chung.github.io/composition</id><content type="html" xml:base="https://hweejoon-chung.github.io/composition">&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_융합탐구프로젝트_컴퓨터과학.zip&quot;&gt;202209_융합탐구프로젝트_컴퓨터과학.docx&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">융합 탐구 프로젝트 - 컴퓨터과학</summary></entry><entry><title type="html">포함(Composition)</title><link href="https://hweejoon-chung.github.io/composition" rel="alternate" type="text/html" title="포함(Composition)" /><published>2022-08-31T07:05:00+09:00</published><updated>2022-08-31T07:05:00+09:00</updated><id>https://hweejoon-chung.github.io/composition</id><content type="html" xml:base="https://hweejoon-chung.github.io/composition">&lt;hr /&gt;
 
 &lt;h2 id=&quot;객체지향-포함--composition&quot;&gt;객체지향 (포함 : Composition)&lt;/h2&gt;
 
