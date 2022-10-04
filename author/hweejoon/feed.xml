@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-04T08:51:18+09:00</updated>
+  <updated>2022-10-04T21:42:22+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,240 @@
   
   
 
+  
+    <entry>
+      <title type="html">소논문 제안서 수정버전 (Proposal updated)</title>
+      <link href="https://hweejoon-chung.github.io/eeproposalupdate-paper" rel="alternate" type="text/html" title="소논문 제안서 수정버전 (Proposal updated)" />
+      <published>2022-10-04T04:55:00+09:00</published>
+      <updated>2022-10-04T04:55:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/eeproposalupdate-paper</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/eeproposalupdate-paper">&lt;hr /&gt;
+&lt;h1 id=&quot;소논문-제안서--수정버전-ib컴퓨터과학-sl&quot;&gt;소논문 제안서 : 수정버전 (IB컴퓨터과학 SL)&lt;/h1&gt;
+
+&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul class=&quot;task-list&quot;&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;주제---주제-선정-이유&quot;&gt;주제 ( + 주제 선정 이유)&lt;/h2&gt;
+
+&lt;p&gt;내가 바라는 미래의 내 모습은 세계 각국의 사람들이 이용하는 게임과 로봇을 만드는 프로그래머이고, 그 프로그래머가 되기 위해 필요한 컴퓨터 과학은 내가 관심있어 하고 좋아하기도 하는 학문분야다.&lt;/p&gt;
+
+&lt;p&gt;나는 가끔 공부를 하면서 복잡해진 머리를 식히려 가끔 게임을 즐기고 만든다.&lt;/p&gt;
+
+&lt;p&gt;엔트리와 파이썬으로 탄도 슈팅 게임 몇 가지를 만들어 즐기던 중 게임 속 로봇이 다수의 총알이나 화살이 발사하는데, 그 발사체들이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생한다. 그 원인들을 분석하다 보니 단순히 탄도 궤적 연산 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었다.&lt;/p&gt;
+
+&lt;p&gt;게임 플랫폼에서 프로그래밍 시 탄도 개체들이 많아지면 궤도 연산량과 메모리 사용량이 어떤 식으로 변화하는지 확인해보고 탄도 개체들이 늘어날 때 궤도 연산에 대한 시간복잡도나 메모리 사용량을 개선할 수 있는 방안이 있는지 실제 설계/구현을 통해서 연구/확인해보고자 한다.&lt;/p&gt;
+
+&lt;p&gt;My future hope is that I am a programmer who makes games and robots used by people around the world, and the computer science that I need to become a programmer is an academic field that I am interested in and like.&lt;/p&gt;
+
+&lt;p&gt;I sometimes play games and develop them at home to cool down my complicated head while studying at school.&lt;/p&gt;
+
+&lt;p&gt;While developing and enjoying several ballistic-shooting games with Entry and Python, the robot in the game fires a number of bullets or arrows, and if the projectiles exceed a certain number, the overall game movement may be severely slowed down or even some functions may not work properly. As analyzing the causes, the main reason was that memory usage increased rather than simply the problem of the processing speed of the ballistic trajectory calculation.&lt;/p&gt;
+
+&lt;p&gt;When programming on a game platform, I will check how ballistic trajectory computation and memory usage change when there are more ballistic &lt;strong&gt;entities&lt;/strong&gt;(objects), and study/verify through specific design/implementation to see if there is a way to improve time complexity or memory usage for trajectory computation when the &lt;strong&gt;entities&lt;/strong&gt;(objects) increase.&lt;/p&gt;
+
+&lt;p&gt;제목 :&lt;/p&gt;
+
+&lt;p&gt;게임 로봇의 탄도궤도 연산과 메모리 사용량 변화 확인을 통한 다수 개체 생성 설계 전략에 대한 연구&lt;/p&gt;
+
+&lt;p&gt;A Study on Design Strategies of Multiple Entities(Objects) Generation by Checking Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/p&gt;
+
+&lt;p&gt;A Study on Design Strategies of Multiple Object Generation based on Identifying Changes of Ballistic Trajectory Computation and Memory Usage for Game Robots&lt;/p&gt;
+
+&lt;p&gt;A Study on Design Strategies by Identifying Ballistic Trajectory Computation Volume &amp;amp; Memory Changes when Creating Multiple &lt;strong&gt;Entities&lt;/strong&gt;(Objects) in the Game&lt;/p&gt;
+
+&lt;p&gt;게임플랫폼의 탄도궤도 연산량과 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
+
+&lt;p&gt;Design and Implementation about Creation Approach of Game &lt;strong&gt;Entities&lt;/strong&gt;(Objects) for improving Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
+
+&lt;p&gt;Design and Implementation of Multiple Game Object Creation Approach to Improve Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
+
+&lt;h2 id=&quot;연구-질문-연구할-가치가-있나-중요한가&quot;&gt;연구 질문 (연구할 가치가 있나? 중요한가?)&lt;/h2&gt;
+
+&lt;p&gt;컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 메모리 사용 제약이 존재하고 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 메모리 관리와 활용 방안이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;또한 시간이 흐르고 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 화려한 그래픽으로 표현하기 위해 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;근본적으로 프로그래밍 관점에서 연산이나 메모리에 대한 효율성 관리를 위해서 다수의 게임 개체들을 만드는데 연산량과 메모리 사용량이 어떻게 변화하는지 확인하고 보다 효과적인 프로그램 설계/구현 방안을 연구/확인하여 미래 게임 개발자로서 중요한 경험과 역량을 쌓고자 한다.&lt;/p&gt;
+
+&lt;p&gt;As computer hardware specifications develop, game platforms that operate on high-performance devices also tend to be complicated. However, there are restrictions on memory usage or resources in the device. So, the game platform itself needs efficient memory management and utilization measures that can ensure the quality of latency or response speed.&lt;/p&gt;
+
+&lt;p&gt;In addition, each time a new game is released, it requires higher specifications than the device’s specifications, because there are many different types of game &lt;strong&gt;entities&lt;/strong&gt;(objects) in the game and they require efficiency, especially computational time or memory, to represent them in fancy graphics.&lt;/p&gt;
+
+&lt;p&gt;Fundamentally, for efficiency management of computation or memory from a programming point of view, I want to learn how computation and memory usage change in creating multiple game &lt;strong&gt;entities&lt;/strong&gt;(objects) and study/verify more effective program design/implementation methods to build important experiences and capabilities as future game developers.&lt;/p&gt;
+
+&lt;h2 id=&quot;연구-방법-어떤-방법으로-연구할-계획인가&quot;&gt;연구 방법 (어떤 방법으로 연구할 계획인가?)&lt;/h2&gt;
+
+&lt;p&gt;먼저 연구 주제에 대해 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 탄도궤도 연산 및 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다. 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행한다.&lt;/p&gt;
+
+&lt;p&gt;최종적으로 실험에 쓰일 게임 개체 생성 프로그램에 대한 요구사항 도출, 설계, 구현 및 테스트를 통해 메모리 변화를 조사하고 개선 사항을 검증한다.&lt;/p&gt;
+
+&lt;p&gt;First, I will check if there is anything else to learn about the research topic and find previous studies and related materials in parallel with learning. Through that, I will prepare a ballistic trajectory computation and  an appropriate memory change investigation plan and study an efficient game &lt;strong&gt;entities&lt;/strong&gt;(objects) generation plan. Research-related glossary organization and related data research are continuously carried out during the study.&lt;/p&gt;
+
+&lt;p&gt;Finally, I’ll investigate memory changes and validate improvements by requirements deriving, designing, implementing, and testing for game &lt;strong&gt;entities&lt;/strong&gt;(objects) generation programs to be used in experiments.&lt;/p&gt;
+
+&lt;h2 id=&quot;선행연구-및-관련-주제-자료-각-유형별-2개-이상-작성&quot;&gt;선행연구 및 관련 주제 자료 (각 유형별 2개 이상 작성)&lt;/h2&gt;
+
+&lt;h3 id=&quot;단행본&quot;&gt;단행본&lt;/h3&gt;
+
+&lt;p&gt;코딩을 지탱하는 기술 : 원리로 깨우치는 프로그래밍 기법 (니시오 히로카즈, 비제이퍼블릭)&lt;/p&gt;
+
+&lt;p&gt;게임으로 배우는 파이썬 (다나카 겐이치로, 영진닷컴)&lt;/p&gt;
+
+&lt;p&gt;Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)&lt;/p&gt;
+
+&lt;p&gt;Technology to support coding : principled programming techniques (Hirokazu Nishio, BJPublic)&lt;/p&gt;
+
+&lt;p&gt;Python learned by games (Kenichiro Tanaka, youngjin.com)&lt;/p&gt;
+
+&lt;p&gt;Design Pattern (Erich Gamma/Richard Helm/Ralph Johnson/John Vlissides, Addison-Wesley)&lt;/p&gt;
+
+&lt;h3 id=&quot;논문&quot;&gt;논문&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;수동 유도 미사일 제어를 위한 선형화된 곡률 유도 알고리즘&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A linearized curvature guidance algorithm for a passive homing missile&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;제어로봇시스템학회 1996년도 한국자동제어학술회의논문집(국내학술편); 포항공과대학교, 포항; 24-26 Oct. 1996&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NPAP&apos;, &apos;286789&apos;, &apos;1996 Oct. 01&quot;&gt;1996 Oct. 01&lt;/a&gt;) , 1996년, pp.245 - 248&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:searchTag(&apos;%EC%8B%A0%EC%9A%A9%EC%A4%80&quot; title=&quot;);)([미시간 대학교 전기 및 컴퓨터 공학과](javascript:searchTag(&apos;%EB%AF%B8%EC%8B%9C%EA%B0%84 %EB%8C%80%ED%95%99%EA%B5%90 %EC%A0%84%EA%B8%B0 %EB%B0%8F %EC%BB%B4%ED%93%A8%ED%84%B0 %EA%B3%B5%ED%95%99%EA%B3%BC&quot;&gt;신용준 &lt;/a&gt;;)) ;  &lt;a href=&quot;javascript:searchTag(&apos;%EA%B9%80%EA%B2%BD%EA%B7%BC&quot; title=&quot;););  [박진배](javascript:searchTag(&apos;%EB%B0%95%EC%A7%84%EB%B0%B0&quot;&gt;김경근 &lt;/a&gt;;)&lt;/p&gt;
+
+&lt;p&gt;KCI 등재&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;게임&lt;/em&gt; 소프트웨어의 품질 평가 모델 &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000297010&amp;amp;citationBean.artiId=ART001219939&quot;&gt;정혜정&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001854&quot;&gt;한국인터넷정보학회&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001854&amp;amp;sereSearBean.sereId=001022&quot;&gt;인터넷정보학회논문지&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001022&amp;amp;volIsseId=VOL000000038&quot;&gt;8(6)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pp.115~125&lt;/li&gt;
+  &lt;li&gt;2007.12&lt;/li&gt;
+  &lt;li&gt;컴퓨터학&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;KCI 등재&lt;/p&gt;
+
+&lt;p&gt;기획자를 위한 &lt;em&gt;객체&lt;/em&gt;지향적 &lt;em&gt;게임&lt;/em&gt;시스템 기획 방법 &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000283977&amp;amp;citationBean.artiId=ART002115504&quot;&gt;장희동&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000000291&quot;&gt;한국&lt;em&gt;게임&lt;/em&gt;학회&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000000291&amp;amp;sereSearBean.sereId=001683&quot;&gt;한국&lt;em&gt;게임&lt;/em&gt;학회 논문지&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=001683&amp;amp;volIsseId=VOL000073663&quot;&gt;16(3)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pp.17~26&lt;/li&gt;
+  &lt;li&gt;2016.06&lt;/li&gt;
+  &lt;li&gt;학제간연구&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;파이썬 활용한 데이터 처리 성능 향상방법 제안 (한국정보전자통신기술학회 2020, 김효관, 황원용)&lt;/p&gt;
+
+&lt;p&gt;An Evaluation Model of Game Software   &lt;strong&gt;Journal of Korean Society for Internet Information&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;291710&apos;, &apos;v.8 no.6&quot;&gt;v.8 no.6&lt;/a&gt;) , 2007&lt;/p&gt;
+
+&lt;p&gt;An Object-oriented Design Method of Game System for Game Designers  &lt;strong&gt;Journal of Korea Game Society&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;294576&apos;, &apos;v.16 no.3&quot;&gt;v.16 no.3&lt;/a&gt;) , 2016&lt;/p&gt;
+
+&lt;p&gt;Proposal For Improving Data Processing Performance Using Python  &lt;strong&gt;Journal of Korea institute of information, electronics, and communication technology&lt;/strong&gt; &lt;a href=&quot;javascript:srchJournalNew(&apos;volumename&apos;,&quot; title=&quot;NART&apos;, &apos;564564&apos;, &apos;v.13 no.4&quot;&gt;v.13 no.4&lt;/a&gt;) , 2020&lt;/p&gt;
+
+&lt;p&gt;KCI 등재&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DirectX&lt;/em&gt;를 &lt;em&gt;이용&lt;/em&gt;한 &lt;em&gt;게임&lt;/em&gt; &lt;em&gt;설계&lt;/em&gt;에서의 &lt;em&gt;생성&lt;/em&gt; &lt;em&gt;패턴&lt;/em&gt; &lt;em&gt;적용&lt;/em&gt; &lt;em&gt;기법&lt;/em&gt; &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000365858&amp;amp;citationBean.artiId=ART000957376&quot;&gt;김종수&lt;/a&gt; &lt;a href=&quot;https://www.kci.go.kr/kciportal/po/citationindex/poCretDetail.kci?citationBean.cretId=CRT000301226&amp;amp;citationBean.artiId=ART000957376&quot;&gt;김태석&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poInsiSearSoceView.kci?insiGeneInfoBean.insiId=INS000001307&quot;&gt;한국멀티미디어학회&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/ci/seriesSearch/ciSereInfoView.kci?sereSearBean.insiId=INS000001307&amp;amp;sereSearBean.sereId=000883&quot;&gt;멀티미디어학회논문지&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kci.go.kr/kciportal/po/search/poSereArtiList.kci?sereId=000883&amp;amp;volIsseId=VOL000000016&quot;&gt;8(4)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pp.11~11&lt;/li&gt;
+  &lt;li&gt;2005.04&lt;/li&gt;
+  &lt;li&gt;전자/정보통신공학&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Java 기반 플랫폼 성능향상을 위한 모바일 게임 개발방법론&lt;/p&gt;
+
+&lt;p&gt;Mobile Game Coding Method for Improving Performance of Java-based Platform&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=230832&quot;&gt;김혜정 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=920920&quot;&gt;남진우 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=927634&quot;&gt;문형석 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=929701&quot;&gt;송범휘 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=929702&quot;&gt;이학준 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=929703&quot;&gt;홍영화 &lt;/a&gt;,  주문원 ,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=909867&quot;&gt;최영미 &lt;/a&gt;,  &lt;a href=&quot;https://www.dbpia.co.kr/author/authorDetail?ancId=840360&quot;&gt;진성아&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dbpia.co.kr/journal/iprdDetail?iprdId=IPRD00010944&quot;&gt;한국멀티미디어학회&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00001772&quot;&gt;한국멀티미디어학회 학술발표논문집&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.dbpia.co.kr/journal/voisDetail?voisId=VOIS00077264&quot;&gt;2006년도 추계학술발표논문집&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2006.11 / 797 - 800 (4 pages)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;학술대회자료&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;기사-및-잡지-기타-유형의-자료&quot;&gt;기사 및 잡지, 기타 유형의 자료&lt;/h3&gt;
+
+&lt;p&gt;https://www.codingame.com/start  : 다양한 프로그래밍 언어를 사용할 수 있는 게임 코딩 연습 사이트&lt;/p&gt;
+
+&lt;p&gt;https://www.oodesign.com/design-principles : 객체지향 설계 개념 사이트&lt;/p&gt;
+
+&lt;p&gt;https://www.geogebra.org/ : GeoGebra 사이트 (그래프 사이트)&lt;/p&gt;
+
+&lt;p&gt;https://www.doopedia.co.kr/doopedia/master/master.do?_method=view&amp;amp;MAS_IDX=101013000907419 : “포물선운동” (작성일 표기 없음), 두산백과&lt;/p&gt;
+
+&lt;p&gt;https://www.codingame.com/start  : Game coding practice site with a variety of programming languages&lt;/p&gt;
+
+&lt;p&gt;https://www.oodesign.com/design-principles : Object-oriented design concept site&lt;/p&gt;
+
+&lt;p&gt;https://www.geogebra.org/ : GeoGebra (for graph)&lt;/p&gt;
+
+&lt;p&gt;https://www.doopedia.co.kr/doopedia/master/master.do?_method=view&amp;amp;MAS_IDX=101013000907419 : “a parabolic motion”  Doosan encyclopedia&lt;/p&gt;
+
+&lt;p&gt;등등&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">소논문 제안서 : 수정버전 (IB컴퓨터과학 SL)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">소논문 관련연구</title>
@@ -831,100 +1065,6 @@ message_sender1.send(&quot;hi&quot;)
 
       
         <summary type="html">융합 탐구 프로젝트 - 컴퓨터과학</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">포함(Composition)</title>
-      <link href="https://hweejoon-chung.github.io/composition" rel="alternate" type="text/html" title="포함(Composition)" />
-      <published>2022-08-31T07:05:00+09:00</published>
-      <updated>2022-08-31T07:05:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/composition</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/composition">&lt;hr /&gt;
-
-&lt;h2 id=&quot;객체지향-포함--composition&quot;&gt;객체지향 (포함 : Composition)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;한 클래스 내에서 다른 클래스의 특정한 기능만을 사용하려 할 때 사용함&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
-   		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;
-    	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-        
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;atkscore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxrate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sprate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-    
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Double_Attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
-   		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;
-    	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-        
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;atkscore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxrate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sprate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Attack 클래스에서 self.damge * self.speed * self.crit과 self.crit * 100, self.speed * self.crit을 리턴&lt;/p&gt;
-
-&lt;p&gt;Double_Attack 클래스에서 self.damge * self.speed * self.crit과 self.crit/2 * 100, self.speed * self.crit을 리턴&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Double_Attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt;
-   		&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;
-    	&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;attack&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;atkscore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;maxrate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;crit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sprate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sprate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Double_Attack에서 self.speed * self.crit 대신 Attack 클래스의 speed*crit을 리턴&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="oop" />
-      
-
-      
-        <summary type="html"></summary>
       
 
       
