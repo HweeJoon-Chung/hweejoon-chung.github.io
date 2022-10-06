@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-10-04T21:42:22+09:00</updated>
+  <updated>2022-10-06T17:01:38+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -76,9 +76,9 @@
 
 &lt;p&gt;나는 가끔 공부를 하면서 복잡해진 머리를 식히려 가끔 게임을 즐기고 만든다.&lt;/p&gt;
 
-&lt;p&gt;엔트리와 파이썬으로 탄도 슈팅 게임 몇 가지를 만들어 즐기던 중 게임 속 로봇이 다수의 총알이나 화살이 발사하는데, 그 발사체들이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생한다. 그 원인들을 분석하다 보니 단순히 탄도 궤적 연산 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었다.&lt;/p&gt;
+&lt;p&gt;엔트리와 파이썬으로 탄도 슈팅 게임 몇 가지를 만들어 즐기던 중, 게임 속 로봇이 다수의 총알이나 화살이 발사하는데 그 발사체들이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생한다. 그 원인들을 분석하다 보니 단순히 탄도 궤적 연산 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었다.&lt;/p&gt;
 
-&lt;p&gt;게임 플랫폼에서 프로그래밍 시 탄도 개체들이 많아지면 궤도 연산량과 메모리 사용량이 어떤 식으로 변화하는지 확인해보고 탄도 개체들이 늘어날 때 궤도 연산에 대한 시간복잡도나 메모리 사용량을 개선할 수 있는 방안이 있는지 실제 설계/구현을 통해서 연구/확인해보고자 한다.&lt;/p&gt;
+&lt;p&gt;게임 플랫폼에서 프로그래밍 시 탄도 개체들이 많아지면 궤도 연산량과 메모리 사용량이 어떤 식으로 변화하는지 확인해보고 탄도 개체들이 늘어날 때 궤적 연산에 대한 시간복잡도나 메모리 사용량을 개선할 수 있는 방안이 있는지 실제 설계/구현을 통해서 연구/확인해보고자 한다.&lt;/p&gt;
 
 &lt;p&gt;My future hope is that I am a programmer who makes games and robots used by people around the world, and the computer science that I need to become a programmer is an academic field that I am interested in and like.&lt;/p&gt;
 
@@ -90,7 +90,7 @@
 
 &lt;p&gt;제목 :&lt;/p&gt;
 
-&lt;p&gt;게임 로봇의 탄도궤도 연산과 메모리 사용량 변화 확인을 통한 다수 개체 생성 설계 전략에 대한 연구&lt;/p&gt;
+&lt;p&gt;게임 로봇의 탄도궤적 연산과 메모리 사용량 변화 확인을 통한 다수 개체 생성 설계 전략에 대한 연구&lt;/p&gt;
 
 &lt;p&gt;A Study on Design Strategies of Multiple Entities(Objects) Generation by Checking Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/p&gt;
 
@@ -98,7 +98,7 @@
 
 &lt;p&gt;A Study on Design Strategies by Identifying Ballistic Trajectory Computation Volume &amp;amp; Memory Changes when Creating Multiple &lt;strong&gt;Entities&lt;/strong&gt;(Objects) in the Game&lt;/p&gt;
 
-&lt;p&gt;게임플랫폼의 탄도궤도 연산량과 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
+&lt;p&gt;게임플랫폼의 탄도궤적 연산량과 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
 
 &lt;p&gt;Design and Implementation about Creation Approach of Game &lt;strong&gt;Entities&lt;/strong&gt;(Objects) for improving Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
 
@@ -120,7 +120,7 @@
 
 &lt;h2 id=&quot;연구-방법-어떤-방법으로-연구할-계획인가&quot;&gt;연구 방법 (어떤 방법으로 연구할 계획인가?)&lt;/h2&gt;
 
-&lt;p&gt;먼저 연구 주제에 대해 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 탄도궤도 연산 및 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다. 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행한다.&lt;/p&gt;
+&lt;p&gt;먼저 연구 주제에 대해 추가로 학습할 것이 있는지 확인하고 학습과 병행하여 선행 연구와 관련 자료들을 찾는다. 그것을 통해 탄도궤적 연산 및 적절한 메모리 변화 조사 방안을 마련하고 효율적인 게임 개체 생성 방안을 연구한다. 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행한다.&lt;/p&gt;
 
 &lt;p&gt;최종적으로 실험에 쓰일 게임 개체 생성 프로그램에 대한 요구사항 도출, 설계, 구현 및 테스트를 통해 메모리 변화를 조사하고 개선 사항을 검증한다.&lt;/p&gt;
 
