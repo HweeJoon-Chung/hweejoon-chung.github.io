@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-10-06T18:54:08+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문 제안서 수정버전 (Proposal updated)</title><link href="https://hweejoon-chung.github.io/eeproposalupdate-paper" rel="alternate" type="text/html" title="소논문 제안서 수정버전 (Proposal updated)" /><published>2022-10-04T04:55:00+09:00</published><updated>2022-10-04T04:55:00+09:00</updated><id>https://hweejoon-chung.github.io/eeproposalupdate-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eeproposalupdate-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2022-10-21T20:23:10+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">용어 정리</title><link href="https://hweejoon-chung.github.io/terms-unity" rel="alternate" type="text/html" title="용어 정리" /><published>2022-10-16T22:31:00+09:00</published><updated>2022-10-16T22:31:00+09:00</updated><id>https://hweejoon-chung.github.io/terms-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/terms-unity">&lt;h1 id=&quot;unity-용어-정리&quot;&gt;UNITY 용어 정리&lt;/h1&gt;
+
+&lt;p&gt;Scene : 하나의 게임 월드&lt;/p&gt;
+
+&lt;p&gt;Game Object : Scene에 추가하고 관리할 게임 객체.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Main Camera 객체와 Directional Light 객체는 새로운 Scene을 만들 때 자동 생성됨.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Scene Gizmo : Scene View의 우측 상단에 나타나는 Scene 전체의 나침반처럼 쓰이는 좌표계 장치.&lt;/p&gt;
+
+&lt;p&gt;Component : Game Object의 정보. (Game Object는 다양한 Component들의 구성으로 이뤄짐.)&lt;/p&gt;
+
+&lt;p&gt;Scene Edit Tool : Scene View 외곽 상단에 나타나는 핸드/평행이동/회전/스케일/렉트 툴 아이콘 모음.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;핸드툴(단축키 q) : Game Object을 조작할 수는 없고 Scene에서 바라보고 있는 시점 변경
+평행이동 툴(단축키 w) : Game Object을 화살표(빨강/파랑/초록) 방향으로 이동
+회전 툴(단축키 e) : 선택 시 나타나는 곡선을 기준으로 회전
+스케일 툴(단축키 r) : Game Object의 크기 변경
+렉트 툴 : 한 축을 무시하고 다른 두 축으로 이루어진 평면의 크기 변경&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Asset Store : 원하는 키워드를 검색해 다양한 Asset들을 다운로드 가능&lt;/p&gt;
+
+&lt;p&gt;Package Manager : 프로젝트에 추가할 Asset을 다운로드하여 Import(추가) 가능&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Asset Store =&amp;gt; 검색 =&amp;gt; 원하는 Asset을 “내 에셋에 추가하기” =&amp;gt; 
+다운로드 후 “유니티에서 열기” &amp;gt; “Unity Editor 열기” =&amp;gt; 
+Pakage Manager =&amp;gt; Packages in Project &amp;gt; My Assets =&amp;gt;
+원하는 Asset을 다운로드하고 Import 후 Install/Upgrade =&amp;gt;
+Import Unity Package &amp;gt; Import 선택 =&amp;gt; Project 창 내 Assets에 추가된 내용 확인 가능&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;참고로 지난 설정 포스트 글에서 정리했던 Unity Editor 내 Window들 역할/기능들은 아래와 같다.&lt;/p&gt;
+
+&lt;h2 id=&quot;unity-editor-내-window들-역할기능&quot;&gt;Unity Editor 내 Window들 역할/기능&lt;/h2&gt;
+
+&lt;h3 id=&quot;scene-view&quot;&gt;Scene View&lt;/h3&gt;
+
+&lt;p&gt;Scene이라는 개념은 일종의 맵/레벨임&lt;/p&gt;
+
+&lt;p&gt;Scene View는 현재 프로젝트에서 내가 제작 중인 전체를 볼 수 있어, 배경/캐랙터/소품 등을 배치하기 위한 용도로 사용&lt;/p&gt;
+
+&lt;h3 id=&quot;hierarchy-window&quot;&gt;Hierarchy Window&lt;/h3&gt;
+
+&lt;p&gt;Scene View에 배치되어 있는 물체(Object)들을 보여줌&lt;/p&gt;
+
+&lt;p&gt;Scene 이름, 포함된 Object들&lt;/p&gt;
+
+&lt;p&gt;기본 Object : Main Camera / Directional Light&lt;/p&gt;
+
+&lt;h3 id=&quot;project-window&quot;&gt;Project Window&lt;/h3&gt;
+
+&lt;p&gt;현재 프로젝트에 포함된 텍스처/모델링/스크립트/Scene 등의 Asset을 보여줌&lt;/p&gt;
+
+&lt;p&gt;실제 프로젝트 구성에 필요한 모든 자료(Asset)들이 모여있는 곳&lt;/p&gt;
+
+&lt;p&gt;필요한 Asset들을 Asset Store에서 다운로드하거나, 새로운 스크립트를 생성하여 Object에 기능을 부여할 때 등 모든 Asset들을 관리&lt;/p&gt;
+
+&lt;h3 id=&quot;inspector-window&quot;&gt;Inspector Window&lt;/h3&gt;
+
+&lt;p&gt;Scene View나 Hierarchy/Project Window에 있는 Object나 Asset을 선택하면 자세한 내용들을 보여줌&lt;/p&gt;
+
+&lt;p&gt;Object나 Asset의 자세한 정보를 확인하고 수정할 수 있음&lt;/p&gt;
+
+&lt;h3 id=&quot;game-view&quot;&gt;Game View&lt;/h3&gt;
+
+&lt;p&gt;Scene View와 유사하지만 다른 점은 카메라가 보여주는 것만을 볼 수 있음&lt;/p&gt;
+
+&lt;p&gt;실제로 우리가 개발한 프로그램이 실행될 때 보게 될 장면을 보여주는 창&lt;/p&gt;
+
+&lt;h3 id=&quot;asset-store&quot;&gt;Asset Store&lt;/h3&gt;
+
+&lt;p&gt;프로젝트에 사용할 수 있는 다양한 에셋들을 다운로드할 수 있는 곳&lt;/p&gt;
+
+&lt;p&gt;Avatar/네트워킹관련/가구나 과일 같은 Object 등 다른 사람이 만든 Asset들을 다운받아 사용 가능&lt;/p&gt;
+
+&lt;h3 id=&quot;console-window&quot;&gt;Console Window&lt;/h3&gt;
+
+&lt;p&gt;프로그래밍을 할 때 필수적인 로그라는 형태의 다양한 메시지들이 나타남&lt;/p&gt;
+
+&lt;p&gt;개발 도중 발생한 에러/경고 확인 가능&lt;/p&gt;
+
+&lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
+
+&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">UNITY 용어 정리</summary></entry><entry><title type="html">소논문 제안서 수정버전 (Proposal updated)</title><link href="https://hweejoon-chung.github.io/eeproposalupdate-paper" rel="alternate" type="text/html" title="소논문 제안서 수정버전 (Proposal updated)" /><published>2022-10-04T04:55:00+09:00</published><updated>2022-10-04T04:55:00+09:00</updated><id>https://hweejoon-chung.github.io/eeproposalupdate-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/eeproposalupdate-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문-제안서--수정버전-ib컴퓨터과학-sl&quot;&gt;소논문 제안서 : 수정버전 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
@@ -704,12 +792,4 @@ message_sender1.send(&quot;hi&quot;)
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry><entry><title type="html">융합 탐구 프로젝트 - 컴퓨터과학</title><link href="https://hweejoon-chung.github.io/csconvergence202209-assessment" rel="alternate" type="text/html" title="융합 탐구 프로젝트 - 컴퓨터과학" /><published>2022-09-04T11:58:00+09:00</published><updated>2022-09-04T11:58:00+09:00</updated><id>https://hweejoon-chung.github.io/csconvergence202209-assessment</id><content type="html" xml:base="https://hweejoon-chung.github.io/csconvergence202209-assessment">&lt;hr /&gt;
-&lt;h1 id=&quot;융합-탐구-프로젝트---컴퓨터과학&quot;&gt;융합 탐구 프로젝트 - 컴퓨터과학&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_융합탐구프로젝트_컴퓨터과학.zip&quot;&gt;202209_융합탐구프로젝트_컴퓨터과학.docx&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">융합 탐구 프로젝트 - 컴퓨터과학</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="oop" /><summary type="html"></summary></entry></feed>
