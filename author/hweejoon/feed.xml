@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-11-11T19:28:11+09:00</updated>
+  <updated>2022-11-12T14:16:35+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,96 @@
   
   
 
+  
+    <entry>
+      <title type="html">유니티 객체</title>
+      <link href="https://hweejoon-chung.github.io/object-unity" rel="alternate" type="text/html" title="유니티 객체" />
+      <published>2022-11-12T03:12:00+09:00</published>
+      <updated>2022-11-12T03:12:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/object-unity</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/object-unity">&lt;h1 id=&quot;유니티-객체-unity-object&quot;&gt;유니티 객체 (Unity Object)&lt;/h1&gt;
+
+&lt;h3 id=&quot;환경-관련&quot;&gt;환경 관련&lt;/h3&gt;
+
+&lt;p&gt;Directional Light : Scene에 빛을 주는 역할을 하는 게임 오브젝트&lt;/p&gt;
+
+&lt;p&gt;Main Camera : Scene을 어떤 각도와 방향에서 볼 건지 결정해주는 게임 오브젝트&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hierarchy 창에서 Main Camera를 선택하고, Inspector 창의 Position/Rotation/Projection/Size 등 변경 가능&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;새로운-객체-등록&quot;&gt;새로운 객체 등록&lt;/h3&gt;
+
+&lt;p&gt;Project 창의 Asset &amp;gt; Model 에서 여러 객체 모델 찾아 Hierarchy 창에 이동&lt;/p&gt;
+
+&lt;p&gt;해당 객체 선택 후 Inspector 창의 Layer 변경 (UI, Ground, Players 등)&lt;/p&gt;
+
+&lt;h3 id=&quot;객체에-component-추가&quot;&gt;객체에 Component 추가&lt;/h3&gt;
+
+&lt;p&gt;객체의 Inspector 창에서 Add Component 버튼 클릭해 Rigidbody componet를 찾아 추가&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rigidbody Component : 해당 GameObject에 물리 엔진(중력, 충돌 등)을 적용하는 컴포넌트&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Box Collider componet를 찾아 추가&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Box Collider Component : 해당 GameObject와의 접촉/충돌 여부를 확인하기 위한 컴포넌트&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Audio Source component를 찾아 추가&lt;/p&gt;
+
+&lt;p&gt;Audio Source Component : 게임이 시작되면 기본적으로 재생되는 소리 컴포넌트&lt;/p&gt;
+
+&lt;h3 id=&quot;객체를-반복적으로-사용하기-위해-prefab-생성&quot;&gt;객체를 반복적으로 사용하기 위해 Prefab 생성&lt;/h3&gt;
+
+&lt;p&gt;Hierarchy 창에 있는 객체를 드래그해서 Project창의 Prefab 폴더 안에 드랍&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이 객체의 원형은 하나로 유지되고 반복해서 사용 가능&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;객체에-대한-스크립트-추가&quot;&gt;객체에 대한 스크립트 추가&lt;/h3&gt;
+
+&lt;p&gt;객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가&lt;/p&gt;
+
+&lt;p&gt;스크립트 Name 입력하고 Create and Add 클릭하여 생성&lt;/p&gt;
+
+&lt;p&gt;Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">유니티 객체 (Unity Object)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">용어 정리</title>
@@ -131,7 +221,13 @@ Import Unity Package &amp;gt; Import 선택 =&amp;gt; Project 창 내 Assets에 
 
 &lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
 
-&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;</content>
+&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
 
       
       
@@ -712,7 +808,13 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 
 &lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
 
-&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;</content>
+&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
 
       
       
@@ -772,6 +874,12 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 
 &lt;blockquote&gt;
   &lt;p&gt;직관적인 개발이 가능하고 원하는 기능들을 사용자가 원하는 대로 개발 가능&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</content>
 
       
@@ -1020,126 +1128,6 @@ message_sender1.send(&quot;hello&quot;)
 message_sender1 = smartphone_factory.create_smartphone(&quot;IOS&quot;)
 message_sender1.send(&quot;hi&quot;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="oop" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">S.O.L.I.D</title>
-      <link href="https://hweejoon-chung.github.io/SOLID" rel="alternate" type="text/html" title="S.O.L.I.D" />
-      <published>2022-09-11T05:38:00+09:00</published>
-      <updated>2022-09-11T05:38:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/SOLID</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/SOLID">&lt;hr /&gt;
-
-&lt;h2 id=&quot;객체지향-클래스-설계의-원칙-solid&quot;&gt;객체지향 (클래스 설계의 원칙 SOLID)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;SOLID:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;S : Single responsibility principle(단일 책임의 원칙)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;O : Open closed principle(개방, 폐쇄의 원칙)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;L : Liskov substitusion principle(리스코프 치환의 원칙)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;I : Interface segregation principle(인터페이스 분리의 원칙)&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;D : Dependency inversion principle(의존성 역전의 원칙)&lt;/p&gt;
-
-        &lt;p&gt;​&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;단일 책임의 원칙&lt;/p&gt;
-
-    &lt;p&gt;한 클래스는 한 개의 책임을 가져야 함&lt;/p&gt;
-
-    &lt;p&gt;문제 발생 시 클래스에서 발생할 문제가 한 개여야 함&lt;/p&gt;
-
-    &lt;p&gt;ex) 슈팅 게임에서 플레이어를 설계할 때 이동하는 클래스와 적 탄환에 피격 당하는 클래스를 따로 만들어야 함&lt;/p&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;개방, 폐쇄의 원칙&lt;/p&gt;
-
-    &lt;p&gt;확장에는 개방되어야 하고 변경에는 폐쇄되어야 함&lt;/p&gt;
-
-    &lt;p&gt;ex) 속도, 크기는 같지만 모양만 다른 탄환을 만들 때 모양만을 자식 클래스에서 재정의 함&lt;/p&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;리스코프 치환의 원칙&lt;/p&gt;
-
-    &lt;p&gt;자식 클래스는 그 부모 클래스와 교체할 수 있어야 함&lt;/p&gt;
-
-    &lt;p&gt;ex) 부모 클래스가 인간, 자식 클래스가 소크라테스일 때&lt;/p&gt;
-
-    &lt;p&gt;사람은 죽는다.&lt;/p&gt;
-
-    &lt;p&gt;사람은 숨을 쉰다.&lt;/p&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  소크라테스는 죽는다.
-
-  소크라테스는 숨을 쉰다.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;인터페이스 분리의 원칙&lt;/p&gt;
-
-    &lt;p&gt;클래스에서 사용하지 않는 메서드는 분리해야 함&lt;/p&gt;
-
-    &lt;p&gt;ex) 플레이어가 피해를 받는 클래스에 플레이어의 공격력과 관련된 메서드는 넣을 필요가 없음&lt;/p&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;의존성 역전의 원칙&lt;/p&gt;
-
-    &lt;p&gt;부모 클래스가 자식 클래스의 구현에 의존하면 안 됨&lt;/p&gt;
-
-    &lt;p&gt;자식 클래스를 수정할 때 부모 클래스도 수정해야 하면 안 됨&lt;/p&gt;
-
-    &lt;p&gt;ex) 소크라테스의 특징이 변경됐을 때 인간의 특징도 바뀌면 안 됨&lt;/p&gt;
 
     &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
