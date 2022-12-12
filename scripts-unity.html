@@ -11,7 +11,7 @@
 
 
 
-    <title>생성자와 소멸자 (Constructor/Deconstructor)</title>
+    <title>유니티 스크립트</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -54,30 +54,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="CHUNG HWEE JOON's Personal Blog" />
     <link rel="shortcut icon" href="https://hweejoon-chung.github.io/assets/built/images/favicon_16x16.png" type="image/png" />
-    <link rel="canonical" href="https://hweejoon-chung.github.io/constructor-oop" />
+    <link rel="canonical" href="https://hweejoon-chung.github.io/scripts-unity" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="HWEE JOON's Persona" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="생성자와 소멸자 (Constructor/Deconstructor)" />
-    <meta property="og:description" content="객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의" />
-    <meta property="og:url" content="https://hweejoon-chung.github.io/constructor-oop" />
-    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.png" />
+    <meta property="og:title" content="유니티 스크립트" />
+    <meta property="og:description" content="유니티 스크립트 (Unity Script) 지난 정리 객체에 대한 스크립트 추가 객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가 스크립트 Name 입력하고 Create and Add 클릭하여 생성 Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸 새로운 정리 Frame : 프레임. 동영상은 사진들을 시간상 연속해서 보여준다고" />
+    <meta property="og:url" content="https://hweejoon-chung.github.io/scripts-unity" />
+    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/unity.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2022-08-16T20:38:00+09:00" />
-    <meta property="article:modified_time" content="2022-08-16T20:38:00+09:00" />
-    <meta property="article:tag" content="Oop" />
+    <meta property="article:published_time" content="2022-12-12T04:53:00+09:00" />
+    <meta property="article:modified_time" content="2022-12-12T04:53:00+09:00" />
+    <meta property="article:tag" content="Unity" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="생성자와 소멸자 (Constructor/Deconstructor)" />
-    <meta name="twitter:description" content="객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의" />
+    <meta name="twitter:title" content="유니티 스크립트" />
+    <meta name="twitter:description" content="유니티 스크립트 (Unity Script) 지난 정리 객체에 대한 스크립트 추가 객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가 스크립트 Name 입력하고 Create and Add 클릭하여 생성 Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸 새로운 정리 Frame : 프레임. 동영상은 사진들을 시간상 연속해서 보여준다고" />
     <meta name="twitter:url" content="https://hweejoon-chung.github.io/" />
-    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/oop.png" />
+    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/unity.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="HWEE JOON's Persona" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Oop" />
+    <meta name="twitter:data2" content="Unity" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -92,18 +92,18 @@
         "name": "HWEE JOON's Persona",
         "logo": "https://hweejoon-chung.github.io/"
     },
-    "url": "https://hweejoon-chung.github.io/constructor-oop",
+    "url": "https://hweejoon-chung.github.io/scripts-unity",
     "image": {
         "@type": "ImageObject",
-        "url": "https://hweejoon-chung.github.io/assets/built/images/oop.png",
+        "url": "https://hweejoon-chung.github.io/assets/built/images/unity.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://hweejoon-chung.github.io/constructor-oop"
+        "@id": "https://hweejoon-chung.github.io/scripts-unity"
     },
-    "description": "객체지향 (생성자와 소멸자 메서드) 생성자는 객체를 생성될 때 호출됨 첫 번째 인자는 ‘self’ class Weapon: def __init__(self, weight, damage, color): self.weight = weight self.damage = damage self.color = color ‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로, ‘self.damage’를 ‘damage’로, ‘self.color’를 ‘color’로 설정 heavymachinegun = Weapon(60, 5, "black") ‘Weapon’ Class의 ‘heavymachinegun’ Object의"
+    "description": "유니티 스크립트 (Unity Script) 지난 정리 객체에 대한 스크립트 추가 객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가 스크립트 Name 입력하고 Create and Add 클릭하여 생성 Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸 새로운 정리 Frame : 프레임. 동영상은 사진들을 시간상 연속해서 보여준다고"
 }
     </script>
 
@@ -116,7 +116,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="생성자와 소멸자 (Constructor/Deconstructor)" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="유니티 스크립트" href="/feed.xml" />
 
 
 </head>
@@ -182,79 +182,111 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-oop post tag-oop ">
+        <article class="post-full  tag-unity post tag-unity ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="16 August 2022">16 August 2022</time>
+                    <time class="post-full-meta-date" datetime="12 December 2022">12 December 2022</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/oop/'>OOP</a>
+                               <a href='/tag/unity/'>UNITY</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">생성자와 소멸자 (Constructor/Deconstructor)</h1>
+                <h1 class="post-full-title">유니티 스크립트</h1>
             </header>
 <!-- post 화면 위 image 출력되니 번거로워 지움
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/oop.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/unity.png)">
             </figure>
             
 -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <hr />
+                    <h1 id="유니티-스크립트-unity-script">유니티 스크립트 (Unity Script)</h1>
 
-<h2 id="객체지향-생성자와-소멸자-메서드">객체지향 (생성자와 소멸자 메서드)</h2>
+<h2 id="지난-정리">지난 정리</h2>
 
-<ul>
-  <li>생성자는 객체를 생성될 때 호출됨</li>
-  <li>첫 번째 인자는 ‘self’</li>
-</ul>
+<h3 id="객체에-대한-스크립트-추가">객체에 대한 스크립트 추가</h3>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Weapon</span><span class="p">:</span>
-	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">damage</span><span class="p">,</span> <span class="n">color</span><span class="p">):</span>
-		<span class="bp">self</span><span class="p">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">weight</span>
-		<span class="bp">self</span><span class="p">.</span><span class="n">damage</span> <span class="o">=</span> <span class="n">damage</span>
-		<span class="bp">self</span><span class="p">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">color</span>
+<p>객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가</p>
+
+<p>스크립트 Name 입력하고 Create and Add 클릭하여 생성</p>
+
+<p>Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸</p>
+
+<h2 id="새로운-정리">새로운 정리</h2>
+
+<p>Frame : 프레임. 동영상은 사진들을 시간상 연속해서 보여준다고 볼 수 있고, 사진 하나를 한 프레임이라 봄.</p>
+
+<p>Frame rate : 프레임율. 1초에 프레임(사진 하나)이 몇장 보이는지 프레임이 보이는 속도. 
+초기영화는 초당 16(무성영화) ~ 24프레임(유성영화. 음향품질을 유지할 수 있는 최소 프레임률이 초당 24프레임).
+PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
+(초기 CRT는 전원인 교류전류 주파수에 맞추어 화면 refresh. 유럽 50Hz교류전류이고 미국 60Hz교류전류.). 
+캠코더 동영상 초당 50프레임(유럽기준). 
+비디오게임/UHD TV는 초당 60프레임.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void Start();
 </code></pre></div></div>
 
-<p>‘Weapon’ Class의 Object가 생성됐을 때, ‘self.weight’를 ‘weight’로,  ‘self.damage’를 ‘damage’로,  ‘self.color’를 ‘color’로 설정</p>
+<p>​	첫번째 프레임이 업데이트되기 전에 호출됨. 프로그램에 사용할 변수나 초기 세팅 시 사용.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">heavymachinegun</span> <span class="o">=</span> <span class="n">Weapon</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s">"black"</span><span class="p">)</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void Update()
 </code></pre></div></div>
 
-<p>‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정</p>
+<p>​	프레임마다 호출됨. 보통 컴퓨터 활용시 초당 60프레임까지 가능.</p>
 
-<ul>
-  <li>소멸자는 객체가 소멸될 때 호출됨</li>
-  <li>첫 번째 인자는 ‘self’</li>
-</ul>
-
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Weapon</span><span class="p">:</span>
-	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">weight</span><span class="p">,</span> <span class="n">damage</span><span class="p">,</span> <span class="n">color</span><span class="p">):</span>
-		<span class="bp">self</span><span class="p">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">weight</span>
-		<span class="bp">self</span><span class="p">.</span><span class="n">damage</span> <span class="o">=</span> <span class="n">damage</span>
-		<span class="bp">self</span><span class="p">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">color</span>
-		
-	<span class="k">def</span> <span class="nf">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-		<span class="k">print</span><span class="p">(</span><span class="s">"Object deleted."</span><span class="p">)</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>private Transform tr;
 </code></pre></div></div>
 
-<p>‘Weapon’ Class의 Object가 소멸됐을 때, “Object deleted”를 출력</p>
+<p>​	Transform은 위치정보를 담은 객체 변수 유형</p>
 
-<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">heavymachinegun</span> <span class="o">=</span> <span class="n">Weapon</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s">"black"</span><span class="p">)</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tr = GetComponent&lt;Transform&gt;();
 </code></pre></div></div>
 
-<p>‘Weapon’ Class의 ‘heavymachinegun’ Object의 ‘weight’, ‘damage’, ‘color’를 입력받은 값으로 설정</p>
+<p>​	해당 클래스가 포함된 GameObject의 Transform 컴포넌트 가져와서 tr에 대입</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(heavymachinegun.damage)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tr.Translate();
 </code></pre></div></div>
 
-<p>‘heavymachinegun’ Object의 ‘damage’ 속성을 출력</p>
+<p>​	해당 GameObject의 좌표를 괄호 안 값만큼 변경. 좌표값(Translation) 변경.</p>
+
+<p>​	Time.deltaTime : 한 프레임이 차지하는 시간</p>
+
+<p>​	.normalized : 해당 성분들의 제곱을 더해 루트를 씌운 값이 1이 되게 변경(방향 성분만 남기고 크기는 1로 변경). 크기 영향은 받지 않고 방향 성분만 활용하기 위해 사용.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tr.transform.Rotate();
+</code></pre></div></div>
+
+<p>​	해당 GameObject의 회전정보 변경</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Input.GetAxis("VerticalUI");
+</code></pre></div></div>
+
+<p>​	유니티 창 Edit &gt; Project Settings 클릭하고 Input Manager 클릭하면</p>
+
+<p>​	VerticalUI와 HorizontalUI Name보이는데, 각각의 ‘Positive Button’과 ‘Negative Button’을 확인해보자!</p>
+
+<p>​	VerticalUI : 컴퓨터 입력키 w와 s에 대응하는 단축어. w키 누르면 0부터 1씩 증가하고 s키 누르면 1씩 감소.</p>
+
+<p>​	HorizontalUI : 컴퓨터 입력키 d와 a에 대응하는 단축어. d키 누르면 1씩 증가하고 a키 누르면 1씩 감소</p>
+
+<p>​	(Name을 변경하면 바꾼 이름을 코딩 시 활용 가능)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Vector3
+</code></pre></div></div>
+
+<p>​	(x, y, z) 방향을 나타내는 변수 타입</p>
+
+<p>​	Vector3.forward : (0,0,1). z축 방향으로 1만큼 크기 가진 벡터. (유니티에서 자주 사용되는 값이라 미리 저장	된 변수)</p>
+
+<p>​	Vector3.right : (1,0,0). x축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)</p>
+
+<p>​	Vector3.up : (0,1,0). y축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)</p>
+
 
                 </div>
             </section>
@@ -356,7 +388,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; HWEE JOON's Persona &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/oop/">Oop</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/unity/">Unity</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -366,6 +398,72 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/object-unity">유니티 객체</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/terms-unity">용어 정리</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/setup-unity">Unity 설정</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
                                 
                                   
                                 
@@ -389,98 +487,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/designpattern">Design pattern</a></li>
-                                        
                                     
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/SOLID">S.O.L.I.D</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/composition">포함(Composition)</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
                                   
                                 
                                   
@@ -514,9 +521,9 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/oop/">
+                            <a href="/tag/unity/">
                                 
-                                    See all 10 posts  →
+                                    See all 5 posts  →
                                 
                             </a>
                         </footer>
@@ -526,57 +533,6 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/action-github-git">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/github.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/action-github-git">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Git</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Github로 Push 시 지연 문제</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Github로 push할 때 발생하는 지연
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/hweejoon/">Hwee Joon Chung</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -584,26 +540,26 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/classobject-oop">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/oop.png)"></div>
+            <a class="post-card-image-link" href="/object-unity">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/unity.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/classobject-oop">
+            <a class="post-card-content-link" href="/object-unity">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Oop</span>
+                                <span class="post-card-tags">Unity</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">클래스와 객체 (Class/Object,Instance)</h2>
+                    <h2 class="post-card-title">유니티 객체</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>
+                        <p>유니티 객체 (Unity Object)
 
 </p>
                     
@@ -645,18 +601,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">생성자와 소멸자 (Constructor/Deconstructor)</div>
+    <div class="floating-header-title">유니티 스크립트</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%83%9D%EC%84%B1%EC%9E%90%EC%99%80+%EC%86%8C%EB%A9%B8%EC%9E%90+%28Constructor%2FDeconstructor%29&amp;url=https://hweejoon-chung.github.io/constructor-oop"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EC%9C%A0%EB%8B%88%ED%8B%B0+%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8&amp;url=https://hweejoon-chung.github.io/scripts-unity"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://hweejoon-chung.github.io/constructor-oop"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://hweejoon-chung.github.io/scripts-unity"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

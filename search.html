@@ -195,6 +195,15 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "scripts-unity": {
+        "title": "유니티 스크립트",
+            "author": "hweejoon",
+            "category": "",
+            "content": "유니티 스크립트 (Unity Script)지난 정리객체에 대한 스크립트 추가객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가스크립트 Name 입력하고 Create and Add 클릭하여 생성Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸새로운 정리Frame : 프레임. 동영상은 사진들을 시간상 연속해서 보여준다고 볼 수 있고, 사진 하나를 한 프레임이라 봄.Frame rate : 프레임율. 1초에 프레임(사진 하나)이 몇장 보이는지 프레임이 보이는 속도. 초기영화는 초당 16(무성영화) ~ 24프레임(유성영화. 음향품질을 유지할 수 있는 최소 프레임률이 초당 24프레임).PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임(초기 CRT는 전원인 교류전류 주파수에 맞추어 화면 refresh. 유럽 50Hz교류전류이고 미국 60Hz교류전류.). 캠코더 동영상 초당 50프레임(유럽기준). 비디오게임/UHD TV는 초당 60프레임.void Start();​\t첫번째 프레임이 업데이트되기 전에 호출됨. 프로그램에 사용할 변수나 초기 세팅 시 사용.void Update()​\t프레임마다 호출됨. 보통 컴퓨터 활용시 초당 60프레임까지 가능.private Transform tr;​\tTransform은 위치정보를 담은 객체 변수 유형tr = GetComponent&lt;Transform&gt;();​\t해당 클래스가 포함된 GameObject의 Transform 컴포넌트 가져와서 tr에 대입tr.Translate();​\t해당 GameObject의 좌표를 괄호 안 값만큼 변경. 좌표값(Translation) 변경.​\tTime.deltaTime : 한 프레임이 차지하는 시간​\t.normalized : 해당 성분들의 제곱을 더해 루트를 씌운 값이 1이 되게 변경(방향 성분만 남기고 크기는 1로 변경). 크기 영향은 받지 않고 방향 성분만 활용하기 위해 사용.tr.transform.Rotate();​\t해당 GameObject의 회전정보 변경Input.GetAxis(\"VerticalUI\");​\t유니티 창 Edit &gt; Project Settings 클릭하고 Input Manager 클릭하면​\tVerticalUI와 HorizontalUI Name보이는데, 각각의 ‘Positive Button’과 ‘Negative Button’을 확인해보자!​\tVerticalUI : 컴퓨터 입력키 w와 s에 대응하는 단축어. w키 누르면 0부터 1씩 증가하고 s키 누르면 1씩 감소.​\tHorizontalUI : 컴퓨터 입력키 d와 a에 대응하는 단축어. d키 누르면 1씩 증가하고 a키 누르면 1씩 감소​\t(Name을 변경하면 바꾼 이름을 코딩 시 활용 가능)Vector3​\t(x, y, z) 방향을 나타내는 변수 타입​\tVector3.forward : (0,0,1). z축 방향으로 1만큼 크기 가진 벡터. (유니티에서 자주 사용되는 값이라 미리 저장\t된 변수)​\tVector3.right : (1,0,0). x축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)​\tVector3.up : (0,1,0). y축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)",
+        "url": "/scripts-unity"
+    }
+    ,
+    
     "object-unity": {
         "title": "유니티 객체",
             "author": "hweejoon",
