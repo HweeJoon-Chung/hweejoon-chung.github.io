@@ -195,6 +195,15 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "bullet-unity": {
+        "title": "게임 총알",
+            "author": "hweejoon",
+            "category": "",
+            "content": "게임 총알 (Game Bullet)  총알을 발사하는 총, 비행기, 대포, 전함 등과 같은 발사체 객체는 존재한다고 가정!총알 객체 Prefab 만들기Unity Hierarchy 창에서 오른쪽 마우스 클릭 &gt; 3D Object &gt; Sphere 클릭​\tBullet이라고 Name 변경(필요시) Hierarchy 창에서 Bullet 선택 &gt; Inspector 창 &gt; Transform 내 Scale 변경총알에 물리엔진 적용하기 위해 Inspector 창 &gt; Add Component &gt; RigidBody 클릭하여 RigidBody Component 추가Bullet을 Drag해서 Project 창의 Prefab 폴더로 Drop해서 Prefab으로 만들어 재사용.Hierarchy 창 Bullet 클릭하여 Delete.총알 발사 위치 설정하기발사체 객체에서 총알이 발사되는 위치 설정Hierarchy 창에서 오른쪽 마우스 클릭 &gt; Create Empty 클릭​\tShootPos이라고 Name 변경(Scene창에서 총알 발사 위치 설정) Hierarchy 창에서 ShootPos 선택 &gt; Inspector 창 &gt; Transform 내 Position 변경 확인(총, 비행기, 대포, 전함 등이 이동할 때 발사 위치도 같이 이동위해 ShootPos을 해당 발사체 객체의 Child화) Hierarchy 창에서 ShootPos을 Drag해서 Hierarchy 창의 발사체 객체 이름 위에 Drop하여 Child화Hierarchy에서 발사체 객체를 클릭 &gt; Inspector 창 &gt; Overrides 클릭하여 ShootPos 추가 확인 &gt; Apply All 클릭총알 발사 스크립트Hierarchy 창에서 발사체 객체를 선택 &gt; Inspector창 &gt; Add Component 클릭​\tShootCtrl이라고 이름 입력하고 New script 클릭 &gt; Create and Add 클릭하여 ShootCtrl 스크립트 생성public GameObject bullet;​\t총알 객체 변수public Transform shootPos;​\t총알 위치 정보 변수if (Input.GetMouseButtonDown(0)){\tShoot();}​\t마우스 클릭 시 총알 발사함수void Shoot(){    Instantiate(bullet, shootPos.position, shootPos.rotation);}​\tInstantiate()는 GameObject을 새로 생성하는 역할을 하는 함수.  Prefab 총알을 필요할때마다 복사해서 생성함.Project &gt; Prefabs &gt; Bullet을 Drag하여, Inspector &gt; ShootCtrl (Script) &gt; Bullet에(None 위로) DropHierarcy 창에서 발사체의 Child로 포함된 ShootPos을 Drag하여, Inspector &gt; ShootCtrl (Script) &gt; ShootPos에(None 위로) Drop총알 발사 강도 조정Prefab &gt; Bullet을 Drag하여 Hierarchy 창에 Drop (Prefab의 Bullet을 다시 Hierarchy창으로 가져와 수정하고 재반영해야 함)​\tAdd Component 클릭 &gt; BulletCtrl이라고 이름 입력하고 New script 클릭 &gt; Create and Add 클릭하여 스크립트 생성힘을 가하기 위해 힘을 받을 대상으로 Bullet의 RigidBody Component활용private Rigidbody rb;...rb = GetComponent&lt;Rigidbody&gt;();​\t해당 클래스가 포함된 GameObject(Bullet)의 Rigidbody 컴포넌트 가져와서 rb에 대입rb.AddRelativeForce(Vector3.forward * 1000.0f);​\tVector3.forward(z축) 방향으로 1000.0f의 속도로 힘을 줌Bullet Prefab의 Inspector 창 Overrides 클릭하고 Bullet Ctrl 스크립트를 Apply All 클릭하여 변경사항 적용.\tBullet Prefab 내 정보를 변경했으니 Prefab에 재반영.Hierarchy 창에 남아있는 Bullet 클릭하여 Delete.  저작권법 / 무단전재 및 재배포 금지",
+        "url": "/bullet-unity"
+    }
+    ,
+    
     "scripts-unity": {
         "title": "유니티 스크립트",
             "author": "hweejoon",
@@ -204,12 +213,48 @@ into the {body} of the default.hbs template -->
     }
     ,
     
+    "calculusreallife-assessmentmath": {
+        "title": "부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결",
+            "author": "hweejoon",
+            "category": "",
+            "content": "부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결20221209_2514 정휘준 - 미적분을 활용한 실생활 문제 해결 탐구 보고서.hwp  저작권법 / 무단전재 및 재배포 금지요약  부피를 미분한 결과와 겉넓이의 동일 여부와 특징에 따른 입체도형의 분류  회전체를 적분하면 밑면은 포함되지 않음",
+        "url": "/calculusReallife-assessmentMATH"
+    }
+    ,
+    
+    "calculustrajectory-assessmentmath": {
+        "title": "미적분 탄도 미사일 구현",
+            "author": "hweejoon",
+            "category": "",
+            "content": "미적분 탄도 미사일 구현20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.hwp  저작권법 / 무단전재 및 재배포 금지요약탄도궤적 운동의 수직운동과 수평운동을 구분하고, 각 운동들에 대해 미분, 적분, 삼각함수 등 수학적 개념을 활용하여 이차함수를 유도.유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도궤적 그래프를 엔트리 프로그래밍으로 구현",
+        "url": "/calculusTrajectory-assessmentMATH"
+    }
+    ,
+    
     "object-unity": {
         "title": "유니티 객체",
             "author": "hweejoon",
             "category": "",
             "content": "유니티 객체 (Unity Object)환경 관련Directional Light : Scene에 빛을 주는 역할을 하는 게임 오브젝트Main Camera : Scene을 어떤 각도와 방향에서 볼 건지 결정해주는 게임 오브젝트  Hierarchy 창에서 Main Camera를 선택하고, Inspector 창의 Position/Rotation/Projection/Size 등 변경 가능새로운 객체 등록Project 창의 Asset &gt; Model 에서 여러 객체 모델 찾아 Hierarchy 창에 이동해당 객체 선택 후 Inspector 창의 Layer 변경 (UI, Ground, Players 등)객체에 Component 추가객체의 Inspector 창에서 Add Component 버튼 클릭해 Rigidbody componet를 찾아 추가  Rigidbody Component : 해당 GameObject에 물리 엔진(중력, 충돌 등)을 적용하는 컴포넌트Box Collider componet를 찾아 추가  Box Collider Component : 해당 GameObject와의 접촉/충돌 여부를 확인하기 위한 컴포넌트Audio Source component를 찾아 추가Audio Source Component : 게임이 시작되면 기본적으로 재생되는 소리 컴포넌트객체를 반복적으로 사용하기 위해 Prefab 생성Hierarchy 창에 있는 객체를 드래그해서 Project창의 Prefab 폴더 안에 드랍  이 객체의 원형은 하나로 유지되고 반복해서 사용 가능객체에 대한 스크립트 추가객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가스크립트 Name 입력하고 Create and Add 클릭하여 생성Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸  저작권법 / 무단전재 및 재배포 금지",
         "url": "/object-unity"
+    }
+    ,
+    
+    "hybridization-assessmentchem": {
+        "title": "혼성화 - 화학",
+            "author": "hweejoon",
+            "category": "",
+            "content": "혼성화 - 화학20221106_화학_혼성화.hwp  저작권법 / 무단전재 및 재배포 금지",
+        "url": "/hybridization-assessmentCHEM"
+    }
+    ,
+    
+    "covalent-bond-assessmentchem": {
+        "title": "공유결합 - 화학",
+            "author": "hweejoon",
+            "category": "",
+            "content": "공유결합 - 화학20221106_화학_공유결합.hwp  저작권법 / 무단전재 및 재배포 금지",
+        "url": "/covalent-bond-assessmentCHEM"
     }
     ,
     
@@ -268,19 +313,19 @@ into the {body} of the default.hbs template -->
     ,
     
     "mathreallife202209-assessment": {
-        "title": "수학을 이용한 실생활 연구 질문",
+        "title": "수학을 이용한 실생활 연구 질문 - 마인드맵",
             "author": "hweejoon",
             "category": "",
-            "content": "수학을 이용한 실생활 연구 질문202209_문제지_고2_1수학을이용한실생활연구질문.hwp  저작권법 / 무단전재 및 재배포 금지",
+            "content": "수학을 이용한 실생활 연구 질문- 마인드맵202209_문제지_고2_1수학을이용한실생활연구질문.hwp  저작권법 / 무단전재 및 재배포 금지요약마인드맵으로부터 선정한 관심사탄도학",
         "url": "/mathreallife202209-assessment"
     }
     ,
     
     "mathhlself202209-assessment": {
-        "title": "자기평가 IB수학HL",
+        "title": "자기평가/성찰일지 - IB수학HL",
             "author": "hweejoon",
             "category": "",
-            "content": "자기평가 - IB수학HL202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp  저작권법 / 무단전재 및 재배포 금지",
+            "content": "자기평가/성찰일지 - IB수학HL202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp  저작권법 / 무단전재 및 재배포 금지요약복소수,다항식,연립방정식 개념",
         "url": "/mathHLself202209-assessment"
     }
     ,
@@ -520,10 +565,10 @@ into the {body} of the default.hbs template -->
     ,
     
     "mathreport202106-assessment": {
-        "title": "수학연구보고서",
+        "title": "수학연구보고서 - 저글링",
             "author": "hweejoon",
             "category": "",
-            "content": "수학연구보고서202106_수학연구보고서_1322정휘준.hwp  저작권법 / 무단전재 및 재배포 금지",
+            "content": "수학연구보고서 - 저글링202106_수학연구보고서_1322정휘준.hwp  저작권법 / 무단전재 및 재배포 금지요약공 3개로 저글링을 할 때 이차함수를 이용하여 가장 안정적인 양손의 위치를 구할 수 있을까?  포물선 운동을 하는 저글링 공의 이차 함수식 표현  저글링 공의 이차함수 그래프의 각도와 포물선운동 시간",
         "url": "/mathreport202106-assessment"
     }
     ,
@@ -589,6 +634,24 @@ into the {body} of the default.hbs template -->
             "content": "Ruby  1995년 발표된 객체 지향 프로그래밍 언어          일본인 마츠모토 유키히로(보통 Matz라 불림)가 만듦        인터프리터를 쓰는 스크립트 언어 (Perl, Python 영향 큼)          호환성 부족 - 버전 별 호환이 안되는 경우 많음      Rubi on Rails(Full stack Web Framework) 나오면서 인기        gem(패키지 관리자)으로 다양한 패키지들을 설치 (c.f. python의 pip)  bundler(gem 패키지 중 하나)로 Gemfile에 기술된 패키지들을 설치(install)하거나 실행          Gemfile.lock에는 bundler가 설치한 모든 Gem 패키지 버전 기술      참고. Github가 Ruby로 개발된 대표적인 사이트 (Github Pages는 Jekyll 지원)설치 (Windows x64환경)  윈도우 계정이름을 영문으로 설정해야 관련 문제 없음          윈도우키+R 눌러 Control입력 후 실행하여 제어판 엶      계정 항목의 계정권한변경 클릭하여 변경 원하는 계정이름으로 변경                  이 때 계정이름 변경 항목이 안보이면 계정관리로 들어가 브라우저상에서 변경                      https://rubyinstaller.org/downloads/ 에서 ruby with Devkit 안정버전 다운로드  Ruby 및 Devkit 설치          기본 설정으로 설치완료 후 마지막에 [1-3] 선택 시 1 입력하여 MSYS2 기본 설치                  추후 필요하면 나머지 [2-3] 추가 설치 (MSYS2 system update 및 MINGW 개발툴체인)                      bundler 설치          패키지 설치 시 필요한 툴      cmd창을 띄워 gem install bundler 입력      &gt; gem install bundler주의  윈도우 계정이름을 영문으로  Ruby 설치 과정 마지막 [1-3] 선택 시 1 입력  Ruby 설치 후 cmd창에서 bundler 설치 (gem 패키지들을 의존성 확인하여 안전하게 설치 위해)",
         "url": "/rubybasic-github-git"
     }
+    ,
+    
+    "schoolgrade202011-paper": {
+        "title": "학교 성적 - 2020년 2학기",
+            "author": "hweejoon",
+            "category": "",
+            "content": "학교 성적 - 2020년 2학기  저작권법 / 무단전재 및 재배포 금지",
+        "url": "/schoolgrade202011-paper"
+    }
+    ,
+    
+    "schoolgrade201911-paper": {
+        "title": "학교 성적 - 2019년 2학기",
+            "author": "hweejoon",
+            "category": "",
+            "content": "학교 성적 - 2019년 2학기  저작권법 / 무단전재 및 재배포 금지",
+        "url": "/schoolgrade201911-paper"
+    }
     
     
     };
@@ -620,7 +683,7 @@ $(function() {
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://hweejoon-chung.github.io/">HWEE JOON's Persona</a> &copy; 2022</section>
+                <section class="copyright"><a href="https://hweejoon-chung.github.io/">HWEE JOON's Persona</a> &copy; 2023</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyllt/jasper2" target="_blank" rel="noopener">Jasper2</a></section>

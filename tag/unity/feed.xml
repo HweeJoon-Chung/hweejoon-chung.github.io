@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/unity/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-12-12T16:40:56+09:00</updated>
+  <updated>2023-01-08T22:24:00+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/unity/feed.xml</id>
 
   
@@ -36,6 +36,140 @@
   
   
 
+  
+    <entry>
+      <title type="html">게임 총알</title>
+      <link href="https://hweejoon-chung.github.io/bullet-unity" rel="alternate" type="text/html" title="게임 총알" />
+      <published>2023-01-08T05:14:00+09:00</published>
+      <updated>2023-01-08T05:14:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/bullet-unity</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/bullet-unity">&lt;h1 id=&quot;게임-총알-game-bullet&quot;&gt;게임 총알 (Game Bullet)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;총알을-발사하는-총-비행기-대포-전함-등과-같은-발사체-객체는-존재한다고-가정&quot;&gt;&lt;strong&gt;총알을 발사하는 총, 비행기, 대포, 전함 등과 같은 발사체 객체는 존재한다고 가정!&lt;/strong&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;총알-객체-prefab-만들기&quot;&gt;총알 객체 Prefab 만들기&lt;/h2&gt;
+
+&lt;p&gt;Unity Hierarchy 창에서 오른쪽 마우스 클릭 &amp;gt; 3D Object &amp;gt; Sphere 클릭&lt;/p&gt;
+
+&lt;p&gt;​	Bullet이라고 Name 변경&lt;/p&gt;
+
+&lt;p&gt;(필요시) Hierarchy 창에서 Bullet 선택 &amp;gt; Inspector 창 &amp;gt; Transform 내 Scale 변경&lt;/p&gt;
+
+&lt;p&gt;총알에 물리엔진 적용하기 위해 Inspector 창 &amp;gt; Add Component &amp;gt; RigidBody 클릭하여 RigidBody Component 추가&lt;/p&gt;
+
+&lt;p&gt;Bullet을 Drag해서 Project 창의 Prefab 폴더로 Drop해서 Prefab으로 만들어 재사용.&lt;/p&gt;
+
+&lt;p&gt;Hierarchy 창 Bullet 클릭하여 Delete.&lt;/p&gt;
+
+&lt;h2 id=&quot;총알-발사-위치-설정하기&quot;&gt;총알 발사 위치 설정하기&lt;/h2&gt;
+
+&lt;p&gt;발사체 객체에서 총알이 발사되는 위치 설정&lt;/p&gt;
+
+&lt;p&gt;Hierarchy 창에서 오른쪽 마우스 클릭 &amp;gt; Create Empty 클릭&lt;/p&gt;
+
+&lt;p&gt;​	ShootPos이라고 Name 변경&lt;/p&gt;
+
+&lt;p&gt;(Scene창에서 총알 발사 위치 설정) Hierarchy 창에서 ShootPos 선택 &amp;gt; Inspector 창 &amp;gt; Transform 내 Position 변경 확인&lt;/p&gt;
+
+&lt;p&gt;(총, 비행기, 대포, 전함 등이 이동할 때 발사 위치도 같이 이동위해 ShootPos을 해당 발사체 객체의 Child화) Hierarchy 창에서 ShootPos을 Drag해서 Hierarchy 창의 발사체 객체 이름 위에 Drop하여 Child화&lt;/p&gt;
+
+&lt;p&gt;Hierarchy에서 발사체 객체를 클릭 &amp;gt; Inspector 창 &amp;gt; Overrides 클릭하여 ShootPos 추가 확인 &amp;gt; Apply All 클릭&lt;/p&gt;
+
+&lt;h2 id=&quot;총알-발사-스크립트&quot;&gt;총알 발사 스크립트&lt;/h2&gt;
+
+&lt;p&gt;Hierarchy 창에서 발사체 객체를 선택 &amp;gt; Inspector창 &amp;gt; Add Component 클릭&lt;/p&gt;
+
+&lt;p&gt;​	ShootCtrl이라고 이름 입력하고 New script 클릭 &amp;gt; Create and Add 클릭하여 ShootCtrl 스크립트 생성&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public GameObject bullet;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	총알 객체 변수&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public Transform shootPos;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	총알 위치 정보 변수&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (Input.GetMouseButtonDown(0))
+{
+	Shoot();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	마우스 클릭 시 총알 발사함수&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;void Shoot()
+{
+    Instantiate(bullet, shootPos.position, shootPos.rotation);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	Instantiate()는 GameObject을 새로 생성하는 역할을 하는 함수.  Prefab 총알을 필요할때마다 복사해서 생성함.&lt;/p&gt;
+
+&lt;p&gt;Project &amp;gt; Prefabs &amp;gt; Bullet을 Drag하여, Inspector &amp;gt; ShootCtrl (Script) &amp;gt; Bullet에(None 위로) Drop&lt;/p&gt;
+
+&lt;p&gt;Hierarcy 창에서 발사체의 Child로 포함된 ShootPos을 Drag하여, Inspector &amp;gt; ShootCtrl (Script) &amp;gt; ShootPos에(None 위로) Drop&lt;/p&gt;
+
+&lt;h2 id=&quot;총알-발사-강도-조정&quot;&gt;총알 발사 강도 조정&lt;/h2&gt;
+
+&lt;p&gt;Prefab &amp;gt; Bullet을 Drag하여 Hierarchy 창에 Drop 
+(Prefab의 Bullet을 다시 Hierarchy창으로 가져와 수정하고 재반영해야 함)&lt;/p&gt;
+
+&lt;p&gt;​	Add Component 클릭 &amp;gt; BulletCtrl이라고 이름 입력하고 New script 클릭 &amp;gt; Create and Add 클릭하여 스크립트 생성&lt;/p&gt;
+
+&lt;p&gt;힘을 가하기 위해 힘을 받을 대상으로 Bullet의 RigidBody Component활용&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private Rigidbody rb;
+...
+rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	해당 클래스가 포함된 GameObject(Bullet)의 Rigidbody 컴포넌트 가져와서 rb에 대입&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rb.AddRelativeForce(Vector3.forward * 1000.0f);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	Vector3.forward(z축) 방향으로 1000.0f의 속도로 힘을 줌&lt;/p&gt;
+
+&lt;p&gt;Bullet Prefab의 Inspector 창 Overrides 클릭하고 Bullet Ctrl 스크립트를 Apply All 클릭하여 변경사항 적용.
+	Bullet Prefab 내 정보를 변경했으니 Prefab에 재반영.&lt;/p&gt;
+
+&lt;p&gt;Hierarchy 창에 남아있는 Bullet 클릭하여 Delete.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">게임 총알 (Game Bullet)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">유니티 스크립트</title>

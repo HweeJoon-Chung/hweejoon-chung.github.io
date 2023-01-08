@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-12-12T16:40:56+09:00</updated>
+  <updated>2023-01-08T22:24:00+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,140 @@
   
   
 
+  
+    <entry>
+      <title type="html">게임 총알</title>
+      <link href="https://hweejoon-chung.github.io/bullet-unity" rel="alternate" type="text/html" title="게임 총알" />
+      <published>2023-01-08T05:14:00+09:00</published>
+      <updated>2023-01-08T05:14:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/bullet-unity</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/bullet-unity">&lt;h1 id=&quot;게임-총알-game-bullet&quot;&gt;게임 총알 (Game Bullet)&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;총알을-발사하는-총-비행기-대포-전함-등과-같은-발사체-객체는-존재한다고-가정&quot;&gt;&lt;strong&gt;총알을 발사하는 총, 비행기, 대포, 전함 등과 같은 발사체 객체는 존재한다고 가정!&lt;/strong&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;총알-객체-prefab-만들기&quot;&gt;총알 객체 Prefab 만들기&lt;/h2&gt;
+
+&lt;p&gt;Unity Hierarchy 창에서 오른쪽 마우스 클릭 &amp;gt; 3D Object &amp;gt; Sphere 클릭&lt;/p&gt;
+
+&lt;p&gt;​	Bullet이라고 Name 변경&lt;/p&gt;
+
+&lt;p&gt;(필요시) Hierarchy 창에서 Bullet 선택 &amp;gt; Inspector 창 &amp;gt; Transform 내 Scale 변경&lt;/p&gt;
+
+&lt;p&gt;총알에 물리엔진 적용하기 위해 Inspector 창 &amp;gt; Add Component &amp;gt; RigidBody 클릭하여 RigidBody Component 추가&lt;/p&gt;
+
+&lt;p&gt;Bullet을 Drag해서 Project 창의 Prefab 폴더로 Drop해서 Prefab으로 만들어 재사용.&lt;/p&gt;
+
+&lt;p&gt;Hierarchy 창 Bullet 클릭하여 Delete.&lt;/p&gt;
+
+&lt;h2 id=&quot;총알-발사-위치-설정하기&quot;&gt;총알 발사 위치 설정하기&lt;/h2&gt;
+
+&lt;p&gt;발사체 객체에서 총알이 발사되는 위치 설정&lt;/p&gt;
+
+&lt;p&gt;Hierarchy 창에서 오른쪽 마우스 클릭 &amp;gt; Create Empty 클릭&lt;/p&gt;
+
+&lt;p&gt;​	ShootPos이라고 Name 변경&lt;/p&gt;
+
+&lt;p&gt;(Scene창에서 총알 발사 위치 설정) Hierarchy 창에서 ShootPos 선택 &amp;gt; Inspector 창 &amp;gt; Transform 내 Position 변경 확인&lt;/p&gt;
+
+&lt;p&gt;(총, 비행기, 대포, 전함 등이 이동할 때 발사 위치도 같이 이동위해 ShootPos을 해당 발사체 객체의 Child화) Hierarchy 창에서 ShootPos을 Drag해서 Hierarchy 창의 발사체 객체 이름 위에 Drop하여 Child화&lt;/p&gt;
+
+&lt;p&gt;Hierarchy에서 발사체 객체를 클릭 &amp;gt; Inspector 창 &amp;gt; Overrides 클릭하여 ShootPos 추가 확인 &amp;gt; Apply All 클릭&lt;/p&gt;
+
+&lt;h2 id=&quot;총알-발사-스크립트&quot;&gt;총알 발사 스크립트&lt;/h2&gt;
+
+&lt;p&gt;Hierarchy 창에서 발사체 객체를 선택 &amp;gt; Inspector창 &amp;gt; Add Component 클릭&lt;/p&gt;
+
+&lt;p&gt;​	ShootCtrl이라고 이름 입력하고 New script 클릭 &amp;gt; Create and Add 클릭하여 ShootCtrl 스크립트 생성&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public GameObject bullet;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	총알 객체 변수&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public Transform shootPos;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	총알 위치 정보 변수&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (Input.GetMouseButtonDown(0))
+{
+	Shoot();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	마우스 클릭 시 총알 발사함수&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;void Shoot()
+{
+    Instantiate(bullet, shootPos.position, shootPos.rotation);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	Instantiate()는 GameObject을 새로 생성하는 역할을 하는 함수.  Prefab 총알을 필요할때마다 복사해서 생성함.&lt;/p&gt;
+
+&lt;p&gt;Project &amp;gt; Prefabs &amp;gt; Bullet을 Drag하여, Inspector &amp;gt; ShootCtrl (Script) &amp;gt; Bullet에(None 위로) Drop&lt;/p&gt;
+
+&lt;p&gt;Hierarcy 창에서 발사체의 Child로 포함된 ShootPos을 Drag하여, Inspector &amp;gt; ShootCtrl (Script) &amp;gt; ShootPos에(None 위로) Drop&lt;/p&gt;
+
+&lt;h2 id=&quot;총알-발사-강도-조정&quot;&gt;총알 발사 강도 조정&lt;/h2&gt;
+
+&lt;p&gt;Prefab &amp;gt; Bullet을 Drag하여 Hierarchy 창에 Drop 
+(Prefab의 Bullet을 다시 Hierarchy창으로 가져와 수정하고 재반영해야 함)&lt;/p&gt;
+
+&lt;p&gt;​	Add Component 클릭 &amp;gt; BulletCtrl이라고 이름 입력하고 New script 클릭 &amp;gt; Create and Add 클릭하여 스크립트 생성&lt;/p&gt;
+
+&lt;p&gt;힘을 가하기 위해 힘을 받을 대상으로 Bullet의 RigidBody Component활용&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private Rigidbody rb;
+...
+rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	해당 클래스가 포함된 GameObject(Bullet)의 Rigidbody 컴포넌트 가져와서 rb에 대입&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rb.AddRelativeForce(Vector3.forward * 1000.0f);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;​	Vector3.forward(z축) 방향으로 1000.0f의 속도로 힘을 줌&lt;/p&gt;
+
+&lt;p&gt;Bullet Prefab의 Inspector 창 Overrides 클릭하고 Bullet Ctrl 스크립트를 Apply All 클릭하여 변경사항 적용.
+	Bullet Prefab 내 정보를 변경했으니 Prefab에 재반영.&lt;/p&gt;
+
+&lt;p&gt;Hierarchy 창에 남아있는 Bullet 클릭하여 Delete.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="unity" />
+      
+
+      
+        <summary type="html">게임 총알 (Game Bullet)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">유니티 스크립트</title>
@@ -151,6 +285,103 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
     </entry>
   
     <entry>
+      <title type="html">부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결</title>
+      <link href="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH" rel="alternate" type="text/html" title="부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결" />
+      <published>2022-12-09T12:40:00+09:00</published>
+      <updated>2022-12-09T12:40:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/calculusReallife-assessmentMATH</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;부피-미분과-겉넓이---미적분을-활용한-실생활-문제-해결&quot;&gt;부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221209_2514 정휘준 - 미적분을 활용한 실생활 문제 해결 탐구 보고서.zip&quot;&gt;20221209_2514 정휘준 - 미적분을 활용한 실생활 문제 해결 탐구 보고서.hwp&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;부피를 미분한 결과와 겉넓이의 동일 여부와 특징에 따른 입체도형의 분류&lt;/li&gt;
+  &lt;li&gt;회전체를 적분하면 밑면은 포함되지 않음&lt;/li&gt;
+&lt;/ol&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">미적분 탄도 미사일 구현</title>
+      <link href="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH" rel="alternate" type="text/html" title="미적분 탄도 미사일 구현" />
+      <published>2022-12-03T17:25:00+09:00</published>
+      <updated>2022-12-03T17:25:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;미적분-탄도-미사일-구현&quot;&gt;미적분 탄도 미사일 구현&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.zip&quot;&gt;20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.hwp&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;탄도궤적 운동의 수직운동과 수평운동을 구분하고, 각 운동들에 대해 미분, 적분, 삼각함수 등 수학적 개념을 활용하여 이차함수를 유도.&lt;/p&gt;
+
+&lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도궤적 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">미적분 탄도 미사일 구현</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">유니티 객체</title>
       <link href="https://hweejoon-chung.github.io/object-unity" rel="alternate" type="text/html" title="유니티 객체" />
       <published>2022-11-12T03:12:00+09:00</published>
@@ -234,6 +465,90 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
       
         <summary type="html">유니티 객체 (Unity Object)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">혼성화 - 화학</title>
+      <link href="https://hweejoon-chung.github.io/hybridization-assessmentCHEM" rel="alternate" type="text/html" title="혼성화 - 화학" />
+      <published>2022-11-06T13:21:00+09:00</published>
+      <updated>2022-11-06T13:21:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/hybridization-assessmentCHEM</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/hybridization-assessmentCHEM">&lt;hr /&gt;
+&lt;h1 id=&quot;혼성화---화학&quot;&gt;혼성화 - 화학&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221106_화학_혼성화.zip&quot;&gt;20221106_화학_혼성화.hwp&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">혼성화 - 화학</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">공유결합 - 화학</title>
+      <link href="https://hweejoon-chung.github.io/covalent-bond-assessmentCHEM" rel="alternate" type="text/html" title="공유결합 - 화학" />
+      <published>2022-11-06T13:21:00+09:00</published>
+      <updated>2022-11-06T13:21:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/covalent%20bond-assessmentCHEM</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/covalent-bond-assessmentCHEM">&lt;hr /&gt;
+&lt;h1 id=&quot;공유결합---화학&quot;&gt;공유결합 - 화학&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221106_화학_공유결합.zip&quot;&gt;20221106_화학_공유결합.hwp&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">공유결합 - 화학</summary>
       
 
       
@@ -795,310 +1110,6 @@ factory 패턴은 adapter 패턴 생성에 쓰일 때 객체 간의 응집도를
 
       
         <summary type="html">소논문 관련연구 (Related Studies of Extended Essay)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">영어 보고서 2022</title>
-      <link href="https://hweejoon-chung.github.io/english202209-assessment" rel="alternate" type="text/html" title="영어 보고서 2022" />
-      <published>2022-09-29T13:47:00+09:00</published>
-      <updated>2022-09-29T13:47:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/english202209-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/english202209-assessment">&lt;hr /&gt;
-&lt;h1 id=&quot;영어-보고서&quot;&gt;영어 보고서&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_영어.zip&quot;&gt;202209_영어.docx&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">영어 보고서</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Unity 설정</title>
-      <link href="https://hweejoon-chung.github.io/setup-unity" rel="alternate" type="text/html" title="Unity 설정" />
-      <published>2022-09-26T04:54:00+09:00</published>
-      <updated>2022-09-26T04:54:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/setup-unity</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/setup-unity">&lt;h2 id=&quot;unity-설정&quot;&gt;UNITY 설정&lt;/h2&gt;
-
-&lt;p&gt;www.unity3d.com 로 들어가서 Unity Hub를 먼저 다운로드해서 설치&lt;/p&gt;
-
-&lt;p&gt;회원가입해서 로그인하면 라이선스 관리 창에서 Unity Personal 선택&lt;/p&gt;
-
-&lt;p&gt;(저는 고등학생이라 학생용 라이센스를 발급받았습니다.-.-;)&lt;/p&gt;
-
-&lt;p&gt;원하는 Unity Editor 버전을 설치 (가급적 LTS 버전)&lt;/p&gt;
-
-&lt;p&gt;(버전별로 기능동작이 상이하므로 동일한 버전 상에서 개발하는 것이 좋음)&lt;/p&gt;
-
-&lt;h2 id=&quot;project-설정&quot;&gt;Project 설정&lt;/h2&gt;
-
-&lt;p&gt;Unity Hub의 Project 탭에서 새 프로젝트 생성&lt;/p&gt;
-
-&lt;p&gt;원하는 Unity Editor 버전 선택 (설치한 버전들만 가능)&lt;/p&gt;
-
-&lt;p&gt;프로젝트 이름과 저장위치 선택&lt;/p&gt;
-
-&lt;p&gt;생성 완료 후 Unity Editor 열림&lt;/p&gt;
-
-&lt;h2 id=&quot;unity-editor-내-window들-역할기능&quot;&gt;Unity Editor 내 Window들 역할/기능&lt;/h2&gt;
-
-&lt;h3 id=&quot;scene-view&quot;&gt;Scene View&lt;/h3&gt;
-
-&lt;p&gt;Scene이라는 개념은 일종의 맵/레벨임&lt;/p&gt;
-
-&lt;p&gt;Scene View는 현재 프로젝트에서 내가 제작 중인 전체를 볼 수 있어, 배경/캐랙터/소품 등을 배치하기 위한 용도로 사용&lt;/p&gt;
-
-&lt;h3 id=&quot;hierarchy-window&quot;&gt;Hierarchy Window&lt;/h3&gt;
-
-&lt;p&gt;Scene View에 배치되어 있는 물체(Object)들을 보여줌&lt;/p&gt;
-
-&lt;p&gt;Scene 이름, 포함된 Object들&lt;/p&gt;
-
-&lt;p&gt;기본 Object : Main Camera / Directional Light&lt;/p&gt;
-
-&lt;h3 id=&quot;project-window&quot;&gt;Project Window&lt;/h3&gt;
-
-&lt;p&gt;현재 프로젝트에 포함된 텍스처/모델링/스크립트/Scene 등의 Asset을 보여줌&lt;/p&gt;
-
-&lt;p&gt;실제 프로젝트 구성에 필요한 모든 자료(Asset)들이 모여있는 곳&lt;/p&gt;
-
-&lt;p&gt;필요한 Asset들을 Asset Store에서 다운로드하거나, 새로운 스크립트를 생성하여 Object에 기능을 부여할 때 등 모든 Asset들을 관리&lt;/p&gt;
-
-&lt;h3 id=&quot;inspector-window&quot;&gt;Inspector Window&lt;/h3&gt;
-
-&lt;p&gt;Scene View나 Hierarchy/Project Window에 있는 Object나 Asset을 선택하면 자세한 내용들을 보여줌&lt;/p&gt;
-
-&lt;p&gt;Object나 Asset의 자세한 정보를 확인하고 수정할 수 있음&lt;/p&gt;
-
-&lt;h3 id=&quot;game-view&quot;&gt;Game View&lt;/h3&gt;
-
-&lt;p&gt;Scene View와 유사하지만 다른 점은 카메라가 보여주는 것만을 볼 수 있음&lt;/p&gt;
-
-&lt;p&gt;실제로 우리가 개발한 프로그램이 실행될 때 보게 될 장면을 보여주는 창&lt;/p&gt;
-
-&lt;h3 id=&quot;asset-store&quot;&gt;Asset Store&lt;/h3&gt;
-
-&lt;p&gt;프로젝트에 사용할 수 있는 다양한 에셋들을 다운로드할 수 있는 곳&lt;/p&gt;
-
-&lt;p&gt;Avatar/네트워킹관련/가구나 과일 같은 Object 등 다른 사람이 만든 Asset들을 다운받아 사용 가능&lt;/p&gt;
-
-&lt;h3 id=&quot;console-window&quot;&gt;Console Window&lt;/h3&gt;
-
-&lt;p&gt;프로그래밍을 할 때 필수적인 로그라는 형태의 다양한 메시지들이 나타남&lt;/p&gt;
-
-&lt;p&gt;개발 도중 발생한 에러/경고 확인 가능&lt;/p&gt;
-
-&lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
-
-&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="unity" />
-      
-
-      
-        <summary type="html">UNITY 설정</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Metaverse와 Unity</title>
-      <link href="https://hweejoon-chung.github.io/metaverse-unity" rel="alternate" type="text/html" title="Metaverse와 Unity" />
-      <published>2022-09-24T18:24:00+09:00</published>
-      <updated>2022-09-24T18:24:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/metaverse-unity</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/metaverse-unity">&lt;h2 id=&quot;metaverse&quot;&gt;METAVERSE&lt;/h2&gt;
-
-&lt;p&gt;META(가상/초월) + uniVERSE(세계/우주)&lt;/p&gt;
-
-&lt;p&gt;(협의) 우리가 함께 공존할 수 있는 현실 같은 3차원 가상 세계&lt;/p&gt;
-
-&lt;p&gt;(광의) 정치/경제/사회/문화 전반적 측면에서 현실과 비현실 모두 공존할 수 있는 생활형/게임형 가상 세계&lt;/p&gt;
-
-&lt;h2 id=&quot;unity&quot;&gt;UNITY&lt;/h2&gt;
-
-&lt;p&gt;2005년 Apple 세계 개발자 회의(WWD)에서 OS X용 게임엔진으로 최초 공개&lt;/p&gt;
-
-&lt;p&gt;전세계 게임엔진 시장의 40~50% 차지&lt;/p&gt;
-
-&lt;p&gt;등록된 개발자 수 5백만명 넘음&lt;/p&gt;
-
-&lt;p&gt;자체 라이트 매핑, 물리 엔진 등 미들웨어 탑재&lt;/p&gt;
-
-&lt;p&gt;에디터에 내장된 Asset Store를 통해 다양한 Asset 다운로드/사용 가능&lt;/p&gt;
-
-&lt;h2 id=&quot;metaverse와-unity&quot;&gt;Metaverse와 Unity&lt;/h2&gt;
-
-&lt;p&gt;Metaverse를 구현하기 위해 3D 특화 실시간 개발 플랫폼인 Unity를 사용&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;직관적인 개발이 가능하고 원하는 기능들을 사용자가 원하는 대로 개발 가능&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="unity" />
-      
-
-      
-        <summary type="html">METAVERSE</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">수학을 이용한 실생활 연구 질문</title>
-      <link href="https://hweejoon-chung.github.io/mathreallife202209-assessment" rel="alternate" type="text/html" title="수학을 이용한 실생활 연구 질문" />
-      <published>2022-09-20T19:59:00+09:00</published>
-      <updated>2022-09-20T19:59:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/mathreallife202209-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/mathreallife202209-assessment">&lt;hr /&gt;
-&lt;h1 id=&quot;수학을-이용한-실생활-연구-질문&quot;&gt;수학을 이용한 실생활 연구 질문&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_문제지_고2_1수학을이용한실생활연구질문.zip&quot;&gt;202209_문제지_고2_1수학을이용한실생활연구질문.hwp&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">수학을 이용한 실생활 연구 질문</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">자기평가 IB수학HL</title>
-      <link href="https://hweejoon-chung.github.io/mathHLself202209-assessment" rel="alternate" type="text/html" title="자기평가 IB수학HL" />
-      <published>2022-09-14T15:18:00+09:00</published>
-      <updated>2022-09-14T15:18:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/mathHLself202209-assessment</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/mathHLself202209-assessment">&lt;hr /&gt;
-&lt;h1 id=&quot;자기평가---ib수학hl&quot;&gt;자기평가 - IB수학HL&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/202209_자기평가_2022학년도2학년2학기_IB수학HL.zip&quot;&gt;202209_자기평가_2022학년도2학년2학기_IB수학HL.hwp&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">자기평가 - IB수학HL</summary>
       
 
       
