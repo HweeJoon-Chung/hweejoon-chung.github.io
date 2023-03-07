@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-02-25T14:03:34+09:00</updated>
+  <updated>2023-03-07T21:23:05+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/python/feed.xml</id>
 
   
@@ -153,7 +153,83 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;자료를 거꾸로 출력하기&lt;/p&gt;
+    &lt;h3 id=&quot;python-사용-시-주의사항&quot;&gt;Python 사용 시 주의사항&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;기본적으로 위에서 아래로 순차 처리된다.(Interpreter 언어)&lt;/li&gt;
+      &lt;li&gt;중간에 오류가 발생하면, 그 다음 행은 실행되지 않는다.&lt;/li&gt;
+      &lt;li&gt;들여쓰기(Tab)도 명령의 일종으로 아무 곳에서 탭을 만들면 안된다.&lt;/li&gt;
+      &lt;li&gt;주석은 한줄주석(#기호), 여러줄주석(‘’’ ‘’’ 또는 “”” “””) 으로 표시한다.&lt;/li&gt;
+      &lt;li&gt;대/소문자를 구별한다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;자료형&quot;&gt;자료형&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;숫자형(Number)
+        &lt;ul&gt;
+          &lt;li&gt;Integer&lt;/li&gt;
+          &lt;li&gt;Floating&lt;/li&gt;
+          &lt;li&gt;Binary digit&lt;/li&gt;
+          &lt;li&gt;Octal digit&lt;/li&gt;
+          &lt;li&gt;Hexadecimal digit&lt;/li&gt;
+          &lt;li&gt;Complex number&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;문자열(String)
+        &lt;ul&gt;
+          &lt;li&gt;’ ‘ 또는 “ “ 안에 들어가 있는 모든 글자&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;참/거짓(Boolean)
+        &lt;ul&gt;
+          &lt;li&gt;True/ False&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;리스트(List)
+        &lt;ul&gt;
+          &lt;li&gt;`[ ] 괄호 안에 데이터 지정&lt;/li&gt;
+          &lt;li&gt;list() 함수로 데이터 지정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;튜플(Tuple)
+        &lt;ul&gt;
+          &lt;li&gt;( ) 괄호 안에 데이터 지정&lt;/li&gt;
+          &lt;li&gt;tuple() 함수로 데이터 지정&lt;/li&gt;
+          &lt;li&gt;( )를 생략 가능, 항목이 하나인 튜플은 뒤에 쉼표(,) 붙임&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;딕셔너리(Dictionary)
+        &lt;ul&gt;
+          &lt;li&gt;인덱스를 의미하는 Key와 자료의 내용인 Value의 쌍으로 묶임 자료형 { Key:Value }으로 데이터 지정&lt;/li&gt;
+          &lt;li&gt;자료의 순서가 없음&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;집합형(Set)
+        &lt;ul&gt;
+          &lt;li&gt;Key만 모아놓은 Dictionary의 특수한 형태로 Value는 항상 유일함&lt;/li&gt;
+          &lt;li&gt;{ }로 데이터 지정&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;변수-사용시-주의사항&quot;&gt;&lt;strong&gt;변수 사용시 주의사항&lt;/strong&gt;&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;첫 글자는 영문, 혹은 _로 시작해야 한다.(한글도 가능)&lt;/li&gt;
+      &lt;li&gt;영문자, 숫자, _만으로 구성해야 한다.(공백문자 불가)&lt;/li&gt;
+      &lt;li&gt;대/소문자 구분해서 사용한다.&lt;/li&gt;
+      &lt;li&gt;이미 다른 용도로 사용되는 예약어는 변수명으로 사용할 수 없다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;​&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;자료를-거꾸로-출력하기&quot;&gt;자료를 거꾸로 출력하기&lt;/h3&gt;
 
     &lt;div class=&quot;language-py highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
@@ -173,8 +249,6 @@
 2
 1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;​&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content>
 
