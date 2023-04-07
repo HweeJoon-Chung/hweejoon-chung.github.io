@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-03-07T21:32:52+09:00</updated>
+  <updated>2023-04-07T18:17:51+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,121 @@
   
   
 
+  
+    <entry>
+      <title type="html">소논문(Extended Essay) 3000단어</title>
+      <link href="https://hweejoon-chung.github.io/ee3000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 3000단어" />
+      <published>2023-04-01T03:23:00+09:00</published>
+      <updated>2023-04-01T03:23:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/ee3000words-paper</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/ee3000words-paper">&lt;hr /&gt;
+&lt;h1 id=&quot;소논문extended-essay-3000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 3000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
+
+&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul class=&quot;task-list&quot;&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230331_3000wordsExtendedEssay_ChungHweeJoon.pdf&quot;&gt;20230331_3000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		**연구배경 : 탄도슈팅게임 소개	**&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		**평가 방법 **&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">소논문(Extended Essay) 3000단어 (IB컴퓨터과학 SL)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">AI(인공지능)와 Python</title>
@@ -443,6 +558,306 @@ rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
     </entry>
   
     <entry>
+      <title type="html">소논문(Extended Essay) 2000단어</title>
+      <link href="https://hweejoon-chung.github.io/ee2000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 2000단어" />
+      <published>2023-01-05T04:13:00+09:00</published>
+      <updated>2023-01-05T04:13:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/ee2000words-paper</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/ee2000words-paper">&lt;hr /&gt;
+&lt;h1 id=&quot;소논문extended-essay-2000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 2000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
+
+&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul class=&quot;task-list&quot;&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230123_2000wordsExtendedEssay_ChungHweeJoon.pdf&quot;&gt;20230123_2000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		**연구배경 : 탄도슈팅게임 소개	**&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​		**평가 방법 **&lt;/p&gt;
+
+&lt;p&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">소논문(Extended Essay) 2000단어 (IB컴퓨터과학 SL)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">소논문(Extended Essay) 1000단어</title>
+      <link href="https://hweejoon-chung.github.io/ee1000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 1000단어" />
+      <published>2022-12-16T08:31:00+09:00</published>
+      <updated>2022-12-16T08:31:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/ee1000words-paper</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/ee1000words-paper">&lt;hr /&gt;
+&lt;h1 id=&quot;소논문extended-essay-1000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 1000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
+
+&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul class=&quot;task-list&quot;&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;제목 후보 :&lt;/p&gt;
+
+&lt;p&gt;게임 로봇의 탄도궤적 연산과 메모리 사용량 변화 확인을 통한 다수 개체 생성 설계 전략에 대한 연구&lt;/p&gt;
+
+&lt;p&gt;A Study on Design Strategies of Multiple Entities(Objects) Generation by Checking Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/p&gt;
+
+&lt;p&gt;A Study on Design Strategies of Multiple Object Generation based on Identifying Changes of Ballistic Trajectory Computation and Memory Usage for Game Robots&lt;/p&gt;
+
+&lt;p&gt;A Study on Design Strategies by Identifying Ballistic Trajectory Computation Volume &amp;amp; Memory Changes when Creating Multiple &lt;strong&gt;Entities&lt;/strong&gt;(Objects) in the Game&lt;/p&gt;
+
+&lt;p&gt;게임플랫폼의 탄도궤적 연산량과 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
+
+&lt;p&gt;Design and Implementation about Creation Approach of Game &lt;strong&gt;Entities&lt;/strong&gt;(Objects) for improving Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
+
+&lt;p&gt;Design and Implementation of Multiple Game Object Creation Approach to Improve Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
+
+&lt;p&gt;키워드 : Game Entities Creation, Ballistic Trajectory Computation, Memory Usage, Game Object&lt;/p&gt;
+
+&lt;h2 id=&quot;1000-words&quot;&gt;1000 words&lt;/h2&gt;
+
+&lt;p&gt;서론&lt;/p&gt;
+
+&lt;p&gt;​	탄도 슈팅 게임 소개&lt;/p&gt;
+
+&lt;p&gt;요즘 청소년들이나 MZ세대들에게 게임은 학업 스트레스를 풀거나 여가 시간을 보내기 좋은 수단 중 하나이다. 미래에 사람들에게 도움이 되는 로봇과 소프트웨어을 만들고 싶은 연구자 본인도 복잡해진 머리를 식히려 게임을 즐기고 직접 프로그래밍을 통해 만들어 보기도 한다.&lt;/p&gt;
+
+&lt;p&gt;​	게임 내 효율성/성능 요인&lt;/p&gt;
+
+&lt;p&gt;얼마 전 엔트리와 파이썬으로 탄도 슈팅 게임을 만들어 즐기던 중, 게임 속 로봇이 발사한 다수의 총알이나 화살이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생했다. 그 원인들을 분석하다 보니 탄도 개체의 궤적에 대한 연산량과 탄도 개체에 대한 메모리 사용량이 로봇 동작에 영향을 줄 수 있는 주원인이었고, 제대로 연구를 통한 개선 방안을 찾아보고 싶어졌다.&lt;/p&gt;
+
+&lt;p&gt;현재 컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 사용 제약이 존재하기 때문에 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 연산 기법 과 메모리 관리 방안이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;또한 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 표현하기 위한 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;본 연구에서는 먼저 탄도 궤적 연산과 메모리 관련 연구와 자료들을 분석한다. 객체 지향 프로그래밍 관점에서 연산이나 메모리에 대한 효율성을 고려한 다수의 탄도 개체 생성 전략을 연구/도출하여 실제 탄도 개체, 궤적 연산 함수와 메모리 사용 함수를 설계/구현한다. 그리고, 전략 별로 연산량과 메모리 사용량의 변화를 측정하여 비교/분석한 후 개선 효율성을 검증/평가해보고자 한다. 또한, 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행하여 추후 본 연구를 통한 추가 연구의 기반을 마련하고자 한다.&lt;/p&gt;
+
+&lt;p&gt;관련 연구&lt;/p&gt;
+
+&lt;p&gt;​	게임 소프트웨어의 품질 중 사용자 요구사항이 가장 많은 부분은 규정된 조건에서 사용되는 자원의 양에 따라 요구된 성능을 제공하는 소프트웨어의 능력인 효율성[1]이다. 효율성에 영향을 주는 주요인인 궤적 연산과 메모리 사용 기법들에 대한 관련 연구들을 분석해본다.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;[1] 게임 소프트웨어의 품질 평가 모델&lt;/dt&gt;
+  &lt;dd&gt;정혜정한국인터넷정보학회인터넷정보학회논문지8(6)pp.115~1252007.12컴퓨터학&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;​	탄도 궤적 연산&lt;/p&gt;
+
+&lt;p&gt;탄도 슈팅 게임에서 슈팅로봇이 탄도를 발사하면 발사체의 경로를 계산할 필요가 있는데 이 때 복잡한 연산을 수행한다. 구체적으로 거리를 입력받아 각도, 도달시간, 탄도궤적 등을 계산하는데 미분과 적분 개념을 이용한 연산이 필요하고[3], 이는 전체 프로그램의 시간이나 속도에 대한 효율성에 영향을 미친다.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;[2] 수학을 이용한 실생활 연구 보고서&lt;/dt&gt;
+  &lt;dd&gt;정휘준 https://hweejoon-chung.github.io&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;​	메모리 사용&lt;/p&gt;
+
+&lt;p&gt;자원에 대한 사용 제약 사항 내에서 게임 소프트웨어의 질을 높일 수 있는 효과적인 메모리 관리 및 활용 기법이 필요하다. 이를 통해 게임 반응 속도 역시 효과적으로 높일 수 있다.[2]&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;[2] 메모리가 제한적인 자바가상기계에서의 지역 재사용&lt;/dt&gt;
+  &lt;dd&gt;김태인김성건한환수한국정보과학회정보과학회논문지 : 소프트웨어 및 응용34(6)pp.562~5712007.06컴퓨터학&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;​	OOD와 디자인 패턴&lt;/p&gt;
+
+&lt;p&gt;대규모의 게임을 만들 때 객체지향개념을 충분히 활용할 수 있는 설계기법이 유용하다.[3]&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;[3] Observer패턴을 적용한MMORPG파티 시스템 아이템 배분 방법&lt;/dt&gt;
+  &lt;dd&gt;김태석김신환김종수한국멀티미디어학회멀티미디어학회논문지10(8)pp.1060~10672007.08전자/정보통신공학&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;궤적 연산 기법과 개체 생성 방안 모델링&lt;/p&gt;
+
+&lt;p&gt;​	탄도 궤적 연산 기법&lt;/p&gt;
+
+&lt;p&gt;​	개체 생성 방안&lt;/p&gt;
+
+&lt;p&gt;모의 테스트(실험) 및 평가&lt;/p&gt;
+
+&lt;p&gt;​	시스템 구현/테스트 환경&lt;/p&gt;
+
+&lt;p&gt;​	비교 구현&lt;/p&gt;
+
+&lt;p&gt;​	평가 방법&lt;/p&gt;
+
+&lt;p&gt;​	성능평가&lt;/p&gt;
+
+&lt;p&gt;결론 및 향후 과제&lt;/p&gt;
+
+&lt;p&gt;참고. 연구 관련 용어집&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;현황 파악 - 탄도 객체 발사 시 느려지는 문제 분석 : 탄도 궤적 연산, 메모리 사용 분석&lt;/p&gt;
+
+&lt;p&gt;관련 연구 - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/p&gt;
+
+&lt;p&gt;전략 설정 - 탄도 객체 발사 관련 연산과 메모리 사용 확인방안 및 개선 전략 설정&lt;/p&gt;
+
+&lt;p&gt;탄도 개체 설계&lt;/p&gt;
+
+&lt;p&gt;다수의 탄도 개체 발사 설계 및 구현 (테스트 용도)&lt;/p&gt;
+
+&lt;p&gt;탄도 개체 발사 수에 따른 탄도 궤적 연산과 메모리 사용량 확인 (설계/구현)&lt;/p&gt;
+
+&lt;p&gt;개선전략 적용 설계/구현&lt;/p&gt;
+
+&lt;p&gt;전략에 대한 연산과 메모리 사용량 비교&lt;/p&gt;
+
+&lt;p&gt;요즘 청소년들이나 MZ세대들에게 게임은 학업 스트레스를 풀거나 여가 시간을 보내기 좋은 수단 중 하나이다. 미래에 사람들에게 도움이 되는 로봇과 소프트웨어을 만들고 싶은 연구자 본인도 복잡해진 머리를 식히려 게임을 즐기고 직접 프로그래밍을 통해 만들어 보기도 한다.&lt;/p&gt;
+
+&lt;p&gt;얼마 전 엔트리와 파이썬으로 탄도 슈팅 게임을 만들어 즐기던 중, 게임 속 로봇이 발사한 다수의 총알이나 화살이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생했다. 그 원인들을 분석하다 보니 단순히 탄도 궤적 연산 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었고, 제대로 연구를 통한 개선 방안을 찾아보고 싶어졌다.&lt;/p&gt;
+
+&lt;p&gt;현재 컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 사용 제약이 존재하기 때문에 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 연산 기법 과 메모리 관리 방안이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;또한 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 표현하기 위한 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;본 연구에서는 먼저 탄도 궤적 연산과 메모리 관련 연구와 자료들을 분석한다. 객체 지향 프로그래밍 관점에서 연산이나 메모리에 대한 효율성을 고려한 다수의 탄도 개체 생성 전략을 연구/도출하여 실제 탄도 개체, 궤도 연산 함수와 메모리 사용 함수를 설계/구현한다. 그리고, 전략 별로 연산량과 메모리 사용량의 변화를 측정하여 비교/분석한 후 개선 효율성을 검증/평가해보고자 한다. 또한, 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행하여 추후 본 연구를 통한 추가 연구의 기반을 마련하고자 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">소논문(Extended Essay) 1000단어 (IB컴퓨터과학 SL)</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">유니티 스크립트</title>
       <link href="https://hweejoon-chung.github.io/scripts-unity" rel="alternate" type="text/html" title="유니티 스크립트" />
       <published>2022-12-12T04:53:00+09:00</published>
@@ -614,7 +1029,7 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 &lt;h1 id=&quot;미적분-탄도-미사일-구현&quot;&gt;미적분 탄도 미사일 구현&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.zip&quot;&gt;20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.hwp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_미적분 탄도 미사일 구현.pdf&quot;&gt;20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.hwp&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
@@ -624,7 +1039,27 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
 &lt;p&gt;탄도궤적 운동의 수직운동과 수평운동을 구분하고, 각 운동들에 대해 미분, 적분, 삼각함수 등 수학적 개념을 활용하여 이차함수를 유도.&lt;/p&gt;
 
-&lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도궤적 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;</content>
+&lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도궤적 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_10.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -736,218 +1171,6 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
       
         <summary type="html">유니티 객체 (Unity Object)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">공유결합 - 화학</title>
-      <link href="https://hweejoon-chung.github.io/covalent-bond-assessmentCHEM" rel="alternate" type="text/html" title="공유결합 - 화학" />
-      <published>2022-11-06T13:21:00+09:00</published>
-      <updated>2022-11-06T13:21:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/covalent%20bond-assessmentCHEM</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/covalent-bond-assessmentCHEM">&lt;hr /&gt;
-&lt;h1 id=&quot;공유결합---화학&quot;&gt;공유결합 - 화학&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221106_화학_공유결합.zip&quot;&gt;20221106_화학_공유결합.hwp&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">공유결합 - 화학</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">혼성화 - 화학</title>
-      <link href="https://hweejoon-chung.github.io/hybridization-assessmentCHEM" rel="alternate" type="text/html" title="혼성화 - 화학" />
-      <published>2022-11-06T13:21:00+09:00</published>
-      <updated>2022-11-06T13:21:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/hybridization-assessmentCHEM</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/hybridization-assessmentCHEM">&lt;hr /&gt;
-&lt;h1 id=&quot;혼성화---화학&quot;&gt;혼성화 - 화학&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221106_화학_혼성화.zip&quot;&gt;20221106_화학_혼성화.hwp&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">혼성화 - 화학</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">용어 정리</title>
-      <link href="https://hweejoon-chung.github.io/terms-unity" rel="alternate" type="text/html" title="용어 정리" />
-      <published>2022-10-16T22:31:00+09:00</published>
-      <updated>2022-10-16T22:31:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/terms-unity</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/terms-unity">&lt;h1 id=&quot;unity-용어-정리&quot;&gt;UNITY 용어 정리&lt;/h1&gt;
-
-&lt;p&gt;Scene : 하나의 게임 월드&lt;/p&gt;
-
-&lt;p&gt;Game Object : Scene에 추가하고 관리할 게임 객체.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Main Camera 객체와 Directional Light 객체는 새로운 Scene을 만들 때 자동 생성됨.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Scene Gizmo : Scene View의 우측 상단에 나타나는 Scene 전체의 나침반처럼 쓰이는 좌표계 장치.&lt;/p&gt;
-
-&lt;p&gt;Component : Game Object의 정보. (Game Object는 다양한 Component들의 구성으로 이뤄짐.)&lt;/p&gt;
-
-&lt;p&gt;Scene Edit Tool : Scene View 외곽 상단에 나타나는 핸드/평행이동/회전/스케일/렉트 툴 아이콘 모음.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;핸드툴(단축키 q) : Game Object을 조작할 수는 없고 Scene에서 바라보고 있는 시점 변경
-평행이동 툴(단축키 w) : Game Object을 화살표(빨강/파랑/초록) 방향으로 이동
-회전 툴(단축키 e) : 선택 시 나타나는 곡선을 기준으로 회전
-스케일 툴(단축키 r) : Game Object의 크기 변경
-렉트 툴 : 한 축을 무시하고 다른 두 축으로 이루어진 평면의 크기 변경&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Asset Store : 원하는 키워드를 검색해 다양한 Asset들을 다운로드 가능&lt;/p&gt;
-
-&lt;p&gt;Package Manager : 프로젝트에 추가할 Asset을 다운로드하여 Import(추가) 가능&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Asset Store =&amp;gt; 검색 =&amp;gt; 원하는 Asset을 “내 에셋에 추가하기” =&amp;gt; 
-다운로드 후 “유니티에서 열기” &amp;gt; “Unity Editor 열기” =&amp;gt; 
-Pakage Manager =&amp;gt; Packages in Project &amp;gt; My Assets =&amp;gt;
-원하는 Asset을 다운로드하고 Import 후 Install/Upgrade =&amp;gt;
-Import Unity Package &amp;gt; Import 선택 =&amp;gt; Project 창 내 Assets에 추가된 내용 확인 가능&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;참고로 지난 설정 포스트 글에서 정리했던 Unity Editor 내 Window들 역할/기능들은 아래와 같다.&lt;/p&gt;
-
-&lt;h2 id=&quot;unity-editor-내-window들-역할기능&quot;&gt;Unity Editor 내 Window들 역할/기능&lt;/h2&gt;
-
-&lt;h3 id=&quot;scene-view&quot;&gt;Scene View&lt;/h3&gt;
-
-&lt;p&gt;Scene이라는 개념은 일종의 맵/레벨임&lt;/p&gt;
-
-&lt;p&gt;Scene View는 현재 프로젝트에서 내가 제작 중인 전체를 볼 수 있어, 배경/캐랙터/소품 등을 배치하기 위한 용도로 사용&lt;/p&gt;
-
-&lt;h3 id=&quot;hierarchy-window&quot;&gt;Hierarchy Window&lt;/h3&gt;
-
-&lt;p&gt;Scene View에 배치되어 있는 물체(Object)들을 보여줌&lt;/p&gt;
-
-&lt;p&gt;Scene 이름, 포함된 Object들&lt;/p&gt;
-
-&lt;p&gt;기본 Object : Main Camera / Directional Light&lt;/p&gt;
-
-&lt;h3 id=&quot;project-window&quot;&gt;Project Window&lt;/h3&gt;
-
-&lt;p&gt;현재 프로젝트에 포함된 텍스처/모델링/스크립트/Scene 등의 Asset을 보여줌&lt;/p&gt;
-
-&lt;p&gt;실제 프로젝트 구성에 필요한 모든 자료(Asset)들이 모여있는 곳&lt;/p&gt;
-
-&lt;p&gt;필요한 Asset들을 Asset Store에서 다운로드하거나, 새로운 스크립트를 생성하여 Object에 기능을 부여할 때 등 모든 Asset들을 관리&lt;/p&gt;
-
-&lt;h3 id=&quot;inspector-window&quot;&gt;Inspector Window&lt;/h3&gt;
-
-&lt;p&gt;Scene View나 Hierarchy/Project Window에 있는 Object나 Asset을 선택하면 자세한 내용들을 보여줌&lt;/p&gt;
-
-&lt;p&gt;Object나 Asset의 자세한 정보를 확인하고 수정할 수 있음&lt;/p&gt;
-
-&lt;h3 id=&quot;game-view&quot;&gt;Game View&lt;/h3&gt;
-
-&lt;p&gt;Scene View와 유사하지만 다른 점은 카메라가 보여주는 것만을 볼 수 있음&lt;/p&gt;
-
-&lt;p&gt;실제로 우리가 개발한 프로그램이 실행될 때 보게 될 장면을 보여주는 창&lt;/p&gt;
-
-&lt;h3 id=&quot;asset-store&quot;&gt;Asset Store&lt;/h3&gt;
-
-&lt;p&gt;프로젝트에 사용할 수 있는 다양한 에셋들을 다운로드할 수 있는 곳&lt;/p&gt;
-
-&lt;p&gt;Avatar/네트워킹관련/가구나 과일 같은 Object 등 다른 사람이 만든 Asset들을 다운받아 사용 가능&lt;/p&gt;
-
-&lt;h3 id=&quot;console-window&quot;&gt;Console Window&lt;/h3&gt;
-
-&lt;p&gt;프로그래밍을 할 때 필수적인 로그라는 형태의 다양한 메시지들이 나타남&lt;/p&gt;
-
-&lt;p&gt;개발 도중 발생한 에러/경고 확인 가능&lt;/p&gt;
-
-&lt;p&gt;구현한 기능들을 테스트하거나 값들을 확인 가능&lt;/p&gt;
-
-&lt;p&gt;출력된 로그들을 더블클릭하면 코드를 입력하고 수정할 수 있는 Visual Studio가 열리고 해당 로그가 출력된 스크립트 위치로 이동&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="unity" />
-      
-
-      
-        <summary type="html">UNITY 용어 정리</summary>
       
 
       
