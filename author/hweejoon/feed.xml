@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-04-08T14:11:07+09:00</updated>
+  <updated>2023-04-08T14:24:35+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -998,23 +998,23 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
   &lt;li&gt;회전체를 적분하면 밑면은 포함되지 않음&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -1067,25 +1067,25 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
 &lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도(탄 궤적) 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_10.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_10.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;</content>
 
       
       
