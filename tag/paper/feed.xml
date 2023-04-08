@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-04-08T13:28:07+09:00</updated>
+  <updated>2023-04-08T13:53:12+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -532,7 +532,10 @@
       <updated>2022-12-09T12:40:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/calculusReallife-assessmentMATH</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH">&lt;hr /&gt;
-&lt;h1 id=&quot;부피를-미분한-결과가-겉넓이가-되는-입체도형의-조건---미적분을-활용한-실생활-문제-해결&quot;&gt;부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건 - 미적분을 활용한 실생활 문제 해결&lt;/h1&gt;
+&lt;h1 id=&quot;부피를-미분한-결과가-겉넓이가-되는-입체도형의-조건&quot;&gt;부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/h1&gt;
+
+&lt;h1 id=&quot;--미적분을-활용한-실생활-문제해결-탐구보고서&quot;&gt;- 미적분을 활용한 실생활 문제해결 탐구보고서&lt;/h1&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/built/data/20221209_2514정휘준_부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건.pdf&quot;&gt;20221209_2514정휘준_부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/a&gt;&lt;/p&gt;
@@ -587,7 +590,7 @@
       
 
       
-        <summary type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건 - 미적분을 활용한 실생활 문제 해결</summary>
+        <summary type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건</summary>
       
 
       
@@ -602,6 +605,9 @@
       <id>https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH">&lt;hr /&gt;
 &lt;h1 id=&quot;탄도탄-궤적-함수-유도-및-그래프-구현&quot;&gt;탄도(탄 궤적) 함수 유도 및 그래프 구현&lt;/h1&gt;
+
+&lt;h1 id=&quot;--수학을-이용한-실생활-연구&quot;&gt;- 수학을 이용한 실생활 연구&lt;/h1&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_미적분 탄도 미사일 구현.pdf&quot;&gt;20221203_미적분 탄도 미사일 구현&lt;/a&gt;&lt;/p&gt;
