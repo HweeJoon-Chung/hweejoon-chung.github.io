@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-04-07T18:17:51+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문(Extended Essay) 3000단어</title><link href="https://hweejoon-chung.github.io/ee3000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 3000단어" /><published>2023-04-01T03:23:00+09:00</published><updated>2023-04-01T03:23:00+09:00</updated><id>https://hweejoon-chung.github.io/ee3000words-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee3000words-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-04-08T13:28:07+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문(Extended Essay) 3000단어</title><link href="https://hweejoon-chung.github.io/ee3000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 3000단어" /><published>2023-04-01T03:23:00+09:00</published><updated>2023-04-01T03:23:00+09:00</updated><id>https://hweejoon-chung.github.io/ee3000words-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee3000words-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문extended-essay-3000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 3000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
@@ -693,26 +693,46 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
 &lt;p&gt;​	Vector3.right : (1,0,0). x축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)&lt;/p&gt;
 
-&lt;p&gt;​	Vector3.up : (0,1,0). y축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">유니티 스크립트 (Unity Script)</summary></entry><entry><title type="html">부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결</title><link href="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH" rel="alternate" type="text/html" title="부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결" /><published>2022-12-09T12:40:00+09:00</published><updated>2022-12-09T12:40:00+09:00</updated><id>https://hweejoon-chung.github.io/calculusReallife-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH">&lt;hr /&gt;
-&lt;h1 id=&quot;부피-미분과-겉넓이---미적분을-활용한-실생활-문제-해결&quot;&gt;부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결&lt;/h1&gt;
+&lt;p&gt;​	Vector3.up : (0,1,0). y축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">유니티 스크립트 (Unity Script)</summary></entry><entry><title type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건</title><link href="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH" rel="alternate" type="text/html" title="부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건" /><published>2022-12-09T12:40:00+09:00</published><updated>2022-12-09T12:40:00+09:00</updated><id>https://hweejoon-chung.github.io/calculusReallife-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;부피를-미분한-결과가-겉넓이가-되는-입체도형의-조건---미적분을-활용한-실생활-문제-해결&quot;&gt;부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건 - 미적분을 활용한 실생활 문제 해결&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221209_2514 정휘준 - 미적분을 활용한 실생활 문제 해결 탐구 보고서.zip&quot;&gt;20221209_2514 정휘준 - 미적분을 활용한 실생활 문제 해결 탐구 보고서.hwp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221209_2514정휘준_부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건.pdf&quot;&gt;20221209_2514정휘준_부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/p&gt;
+&lt;h5 id=&quot;요약&quot;&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;부피를 미분한 결과와 겉넓이의 동일 여부와 특징에 따른 입체도형의 분류&lt;/li&gt;
   &lt;li&gt;회전체를 적분하면 밑면은 포함되지 않음&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">부피 미분과 겉넓이 - 미적분을 활용한 실생활 문제 해결</summary></entry><entry><title type="html">미적분 탄도 미사일 구현</title><link href="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH" rel="alternate" type="text/html" title="미적분 탄도 미사일 구현" /><published>2022-12-03T17:25:00+09:00</published><updated>2022-12-03T17:25:00+09:00</updated><id>https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH">&lt;hr /&gt;
-&lt;h1 id=&quot;미적분-탄도-미사일-구현&quot;&gt;미적분 탄도 미사일 구현&lt;/h1&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를 미분 겉넓이_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건 - 미적분을 활용한 실생활 문제 해결</summary></entry><entry><title type="html">탄도(탄 궤적) 함수 유도 및 그래프 구현</title><link href="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH" rel="alternate" type="text/html" title="탄도(탄 궤적) 함수 유도 및 그래프 구현" /><published>2022-12-03T17:25:00+09:00</published><updated>2022-12-03T17:25:00+09:00</updated><id>https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;탄도탄-궤적-함수-유도-및-그래프-구현&quot;&gt;탄도(탄 궤적) 함수 유도 및 그래프 구현&lt;/h1&gt;
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_미적분 탄도 미사일 구현.pdf&quot;&gt;20221203_수행평가 양식_고2_미적분 탄도 미사일 구현.hwp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_미적분 탄도 미사일 구현.pdf&quot;&gt;20221203_미적분 탄도 미사일 구현&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
@@ -720,9 +740,9 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
 &lt;p&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/p&gt;
 
-&lt;p&gt;탄도궤적 운동의 수직운동과 수평운동을 구분하고, 각 운동들에 대해 미분, 적분, 삼각함수 등 수학적 개념을 활용하여 이차함수를 유도.&lt;/p&gt;
+&lt;p&gt;탄도(탄 궤적) 운동의 수직운동과 수평운동을 구분하고, 각 운동들에 대해 미분, 적분, 삼각함수 등 수학적 개념을 활용하여 이차함수를 유도.&lt;/p&gt;
 
-&lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도궤적 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;
+&lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도(탄 궤적) 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
@@ -742,7 +762,7 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_10.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">미적분 탄도 미사일 구현</summary></entry><entry><title type="html">유니티 객체</title><link href="https://hweejoon-chung.github.io/object-unity" rel="alternate" type="text/html" title="유니티 객체" /><published>2022-11-12T03:12:00+09:00</published><updated>2022-11-12T03:12:00+09:00</updated><id>https://hweejoon-chung.github.io/object-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/object-unity">&lt;h1 id=&quot;유니티-객체-unity-object&quot;&gt;유니티 객체 (Unity Object)&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분 탄도 미사일 구현_10.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">탄도(탄 궤적) 함수 유도 및 그래프 구현</summary></entry><entry><title type="html">유니티 객체</title><link href="https://hweejoon-chung.github.io/object-unity" rel="alternate" type="text/html" title="유니티 객체" /><published>2022-11-12T03:12:00+09:00</published><updated>2022-11-12T03:12:00+09:00</updated><id>https://hweejoon-chung.github.io/object-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/object-unity">&lt;h1 id=&quot;유니티-객체-unity-object&quot;&gt;유니티 객체 (Unity Object)&lt;/h1&gt;
 
 &lt;h3 id=&quot;환경-관련&quot;&gt;환경 관련&lt;/h3&gt;
 
