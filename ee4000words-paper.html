@@ -66,8 +66,8 @@
     <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/paper.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2023-04-16T08:48:00+09:00" />
-    <meta property="article:modified_time" content="2023-04-16T08:48:00+09:00" />
+    <meta property="article:published_time" content="2023-04-16T08:58:00+09:00" />
+    <meta property="article:modified_time" content="2023-04-16T08:58:00+09:00" />
     <meta property="article:tag" content="Paper" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="소논문(Extended Essay) 4000단어" />
@@ -233,75 +233,55 @@ into the {body} of the default.hbs template -->
   <p><strong>저작권법 / 무단전재 및 재배포 금지</strong></p>
 </blockquote>
 
-<p><a href="/assets/built/data/20230415_EE_comps_CHUNG.HWEE.JOON_en.pdf">20230415_4000wordsExtendedEssay_ChungHweeJoon_EN.pdf</a></p>
+<p><a href="/assets/built/data/20230415_EE_정휘준_KR.pdf">20230415_4000wordsExtendedEssay_ChungHweeJoon.pdf</a></p>
 
-<h3 id="extended-essay"><strong>Extended Essay</strong></h3>
+<p><strong>슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots</strong></p>
 
-<h2 id="computer-science"><strong>Computer Science</strong></h2>
+<p><strong>목차</strong></p>
 
-<h1 id="a-study-on-software-design-approachfor-improving-trajectory-computation-time-and-memory-usagefor-creating-a-large-number-of-shooting-robots-objects"><strong>A Study on Software Design Approachfor Improving Trajectory Computation Time and Memory Usagefor Creating A Large Number of Shooting-Robots’ Objects</strong></h1>
+<p>​	<strong>서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량</strong></p>
 
-<h4 id="word-count--3968"><strong>Word Count : 3968</strong></h4>
+<p>​		**연구배경 : 탄도슈팅게임 소개	**</p>
 
-<p><strong>Pyoseon-High School</strong></p>
+<p>​		<strong>연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량</strong></p>
 
-<p><strong>Senior, class 2, number 16</strong></p>
+<p>​		<strong>연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후</strong></p>
 
-<p><strong>Chung, Hwee Joon (Chung, H. J.)</strong></p>
+<p>​	<strong>관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문</strong></p>
 
-<p><strong>hweejoonchung@gmail.com</strong></p>
+<p>​		<strong>게임 소프트웨어 품질평가</strong></p>
 
-<p><strong>https://hweejoon-chung.github.io</strong></p>
+<p>​		<strong>탄도궤적연산</strong></p>
 
-<p><u>**Table of Contents**</u></p>
+<p>​		<strong>메모리 사용</strong></p>
 
-<p><strong>I. Introduction	3</strong></p>
+<p>​		<strong>OOD와 디자인 패턴</strong></p>
 
-<p>​	<strong>1. Background	3</strong></p>
+<p>​	<strong>분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정</strong></p>
 
-<p>​	<strong>2. Objectives and Target Environment	3</strong></p>
+<p>​		**탄도 궤적 연산 기법 도출	**</p>
 
-<p>​	<strong>3. Structure	4</strong></p>
+<p>​		<strong>개체 생성 방안 분석 및 적용패턴 선정</strong></p>
 
-<p><strong>II. Related Research	5</strong></p>
+<p>​	<strong>연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)</strong></p>
 
-<p>​	<strong>1. Software Quality	5</strong></p>
+<p>​		<strong>다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)</strong></p>
 
-<p>​	<strong>2. Projectile Trajectory Computation	6</strong></p>
+<p>​		<strong>시스템 구현/테스트 환경</strong></p>
 
-<p>​	<strong>3. Memory Efficiency	7</strong></p>
+<p>​		<strong>탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)</strong></p>
 
-<p>​	<strong>4. Object-oriented Design Patterns	7</strong></p>
+<p>​		<strong>비교 구현 - 개선전략 적용 설계/구현</strong></p>
 
-<p><strong>III. Analysis and Strategy Derivation	8</strong></p>
+<p>​	<strong>결과 고찰 - 평가</strong></p>
 
-<p>​	<strong>1. Basis	8</strong></p>
+<p>​		**평가 방법 **</p>
 
-<p>​	<strong>2. Derivation of Formulas for computing Projectile Trajectories	9</strong></p>
+<p>​		<strong>성능평가 - 전략에 대한 연산과 메모리 사용량 비교</strong></p>
 
-<p>​	<strong>3. Analysis and Selection of Object Creation Method	13</strong></p>
+<p>​	<strong>결론 및 향후 과제 (주장/시사점)</strong></p>
 
-<p>​	<strong>4. Design with Improvement Strategy	14</strong></p>
-
-<p><strong>IV. Implementation	15</strong></p>
-
-<p>​	<strong>1. Overall System Structure	15</strong></p>
-
-<p>​	<strong>2. Implementation of Formulas for Projectile Trajectory Computation	16</strong></p>
-
-<p>​	<strong>3. Implementation of Pattern-based Projectile Generation	17</strong></p>
-
-<p>​	<strong>4. Experimental Test	18</strong></p>
-
-<p><strong>V. Verification	18</strong></p>
-
-<p>​	<strong>1. Comparison of Formulas for Projectile Trajectory Computation	18</strong></p>
-
-<p>​	<strong>2. Comparison of Memory Usage for Object Creation	20</strong></p>
-
-<p><strong>VI. Conclusion and Future Tasks	23</strong></p>
-
-<p><strong>Works Cited	24</strong></p>
+<p>​	<strong>참고문헌</strong></p>
 
 <p><img src="/assets/built/images/favicon_64x64.png" alt="hweejoon-chung.github.io" /></p>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-04-16T21:38:13+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문(Extended Essay) 4000단어</title><link href="https://hweejoon-chung.github.io/ee4000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 4000단어" /><published>2023-04-16T08:48:00+09:00</published><updated>2023-04-16T08:48:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000words-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000words-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-04-16T21:41:17+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">소논문(Extended Essay) 4000단어</title><link href="https://hweejoon-chung.github.io/ee4000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 4000단어" /><published>2023-04-16T08:58:00+09:00</published><updated>2023-04-16T08:58:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000words-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000words-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;소논문extended-essay-4000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 4000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
@@ -25,75 +25,55 @@
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230415_EE_comps_CHUNG.HWEE.JOON_en.pdf&quot;&gt;20230415_4000wordsExtendedEssay_ChungHweeJoon_EN.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230415_EE_정휘준_KR.pdf&quot;&gt;20230415_4000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;extended-essay&quot;&gt;&lt;strong&gt;Extended Essay&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;computer-science&quot;&gt;&lt;strong&gt;Computer Science&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;a-study-on-software-design-approachfor-improving-trajectory-computation-time-and-memory-usagefor-creating-a-large-number-of-shooting-robots-objects&quot;&gt;&lt;strong&gt;A Study on Software Design Approachfor Improving Trajectory Computation Time and Memory Usagefor Creating A Large Number of Shooting-Robots’ Objects&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;word-count--3968&quot;&gt;&lt;strong&gt;Word Count : 3968&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;​		**연구배경 : 탄도슈팅게임 소개	**&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Pyoseon-High School&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Senior, class 2, number 16&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Chung, Hwee Joon (Chung, H. J.)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;hweejoonchung@gmail.com&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;https://hweejoon-chung.github.io&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;u&gt;**Table of Contents**&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;I. Introduction	3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Background	3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Objectives and Target Environment	3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Structure	4&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;II. Related Research	5&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Software Quality	5&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Projectile Trajectory Computation	6&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Memory Efficiency	7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;4. Object-oriented Design Patterns	7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;III. Analysis and Strategy Derivation	8&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Basis	8&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		**평가 방법 **&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Derivation of Formulas for computing Projectile Trajectories	9&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Analysis and Selection of Object Creation Method	13&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;​	&lt;strong&gt;4. Design with Improvement Strategy	14&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;IV. Implementation	15&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	&lt;strong&gt;1. Overall System Structure	15&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	&lt;strong&gt;2. Implementation of Formulas for Projectile Trajectory Computation	16&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	&lt;strong&gt;3. Implementation of Pattern-based Projectile Generation	17&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	&lt;strong&gt;4. Experimental Test	18&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;V. Verification	18&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	&lt;strong&gt;1. Comparison of Formulas for Projectile Trajectory Computation	18&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	&lt;strong&gt;2. Comparison of Memory Usage for Object Creation	20&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;VI. Conclusion and Future Tasks	23&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Works Cited	24&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
