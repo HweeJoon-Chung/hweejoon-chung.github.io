@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-04-16T21:41:17+09:00</updated>
+  <updated>2023-05-03T20:38:38+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,141 @@
   
   
 
+  
+    <entry>
+      <title type="html">Extended Essay in English</title>
+      <link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" />
+      <published>2023-05-03T07:31:00+09:00</published>
+      <updated>2023-05-03T07:31:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
+&lt;h1 id=&quot;extended-essay-in-english-computer-science&quot;&gt;Extended Essay in English (Computer Science)&lt;/h1&gt;
+
+&lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;ul class=&quot;task-list&quot;&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022/08/29 : Proposal&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022/09 : &lt;strong&gt;1st mandatory reflection session&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022/11 : 1,000 words&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022/12 : 2,000 words - &lt;strong&gt;2nd mandatory reflection session&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2023/03 : 3,000 words&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2023/05 : 4,000 words&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2023/05/31 : Deadline for final version submission - &lt;strong&gt;viva voce: final mandatory reflection session&lt;/strong&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;EE Coordinator (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Copyright Act / Prohibition of Unauthorized Reproduction and Redistribution&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/EE_comps_CHUNG.HWEE.JOON_en.pdf&quot;&gt;EE_comps_CHUNG.HWEE.JOON_en.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;extended-essay&quot;&gt;&lt;strong&gt;Extended Essay&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h2 id=&quot;computer-science&quot;&gt;&lt;strong&gt;Computer Science&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;a-study-on-software-design-approach-for-improving-trajectory-computation-time-and-memory-usage-for-creating-a-large-number-of-shooting-robots-objects&quot;&gt;&lt;strong&gt;A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h4 id=&quot;word-count--3968&quot;&gt;&lt;strong&gt;Word Count : 3968&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Pyoseon-High School&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Senior, class 2, number 16&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chung, Hwee Joon (Chung, H. J.)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;hweejoonchung@gmail.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;https://hweejoon-chung.github.io&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;**Table of Contents**&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I. Introduction	3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;1. Background	3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;2. Objectives and Target Environment	3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;3. Structure	4&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;II. Related Research	5&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;1. Software Quality	5&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;2. Projectile Trajectory Computation	6&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;3. Memory Efficiency	7&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;4. Object-oriented Design Patterns	7&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;III. Analysis and Strategy Derivation	8&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;1. Basis	8&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;2. Derivation of Formulas for computing Projectile Trajectories	9&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;3. Analysis and Selection of Object Creation Method	13&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;4. Design with Improvement Strategy	14&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IV. Implementation	15&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;1. Overall System Structure	15&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;2. Implementation of Formulas for Projectile Trajectory Computation	16&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;3. Implementation of Pattern-based Projectile Generation	17&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;4. Experimental Test	18&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;V. Verification	18&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;1. Comparison of Formulas for Projectile Trajectory Computation	18&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;​	&lt;strong&gt;2. Comparison of Memory Usage for Object Creation	20&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VI. Conclusion and Future Tasks	23&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Works Cited	24&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Copyright Act / Prohibition of Unauthorized Reproduction and Redistribution&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">Extended Essay in English (Computer Science)</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">소논문(Extended Essay) 4000단어</title>
@@ -1292,78 +1427,6 @@ PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
 
       
         <summary type="html">유니티 스크립트 (Unity Script)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건</title>
-      <link href="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH" rel="alternate" type="text/html" title="부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건" />
-      <published>2022-12-09T12:40:00+09:00</published>
-      <updated>2022-12-09T12:40:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/calculusReallife-assessmentMATH</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/calculusReallife-assessmentMATH">&lt;hr /&gt;
-&lt;h1 id=&quot;부피를-미분한-결과가-겉넓이가-되는-입체도형의-조건&quot;&gt;부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/h1&gt;
-
-&lt;h1 id=&quot;--미적분을-활용한-실생활-문제해결-탐구보고서&quot;&gt;- 미적분을 활용한 실생활 문제해결 탐구보고서&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221209_2514정휘준_부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건.pdf&quot;&gt;20221209_2514정휘준_부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 id=&quot;요약&quot;&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/h5&gt;
-
-&lt;p&gt;부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;부피를 미분한 결과와 겉넓이의 동일 여부와 특징에 따른 입체도형의 분류&lt;/li&gt;
-  &lt;li&gt;회전체를 적분하면 밑면은 포함되지 않음&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221209_부피를미분겉넓이_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건</summary>
       
 
       
