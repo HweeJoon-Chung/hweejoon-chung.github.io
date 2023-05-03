@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-05-03T20:38:38+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Extended Essay in English</title><link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" /><published>2023-05-03T07:31:00+09:00</published><updated>2023-05-03T07:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-05-03T21:03:08+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Extended Essay in English</title><link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" /><published>2023-05-03T07:31:00+09:00</published><updated>2023-05-03T07:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;extended-essay-in-english-computer-science&quot;&gt;Extended Essay in English (Computer Science)&lt;/h1&gt;
 
 &lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
@@ -31,7 +31,7 @@
 
 &lt;h2 id=&quot;computer-science&quot;&gt;&lt;strong&gt;Computer Science&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;h1 id=&quot;a-study-on-software-design-approach-for-improving-trajectory-computation-time-and-memory-usage-for-creating-a-large-number-of-shooting-robots-objects&quot;&gt;&lt;strong&gt;A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects&lt;/strong&gt;&lt;/h1&gt;
+&lt;h3 id=&quot;a-study-on-software-design-approach-for-improving-trajectory-computation-time-and-memory-usage-for-creating-a-large-number-of-shooting-robots-objects&quot;&gt;&lt;strong&gt;A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;h4 id=&quot;word-count--3968&quot;&gt;&lt;strong&gt;Word Count : 3968&lt;/strong&gt;&lt;/h4&gt;
 
@@ -43,57 +43,57 @@
 
 &lt;p&gt;&lt;strong&gt;hweejoonchung@gmail.com&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;https://hweejoon-chung.github.io&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hweejoon-chung.github.io&quot;&gt;https://hweejoon-chung.github.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;u&gt;**Table of Contents**&lt;/u&gt;&lt;/p&gt;
+&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;I. Introduction	3&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;i-introduction-3&quot;&gt;&lt;strong&gt;I. Introduction	3&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Background	3&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-background-3&quot;&gt;&lt;strong&gt;1. Background	3&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Objectives and Target Environment	3&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;2-objectives-and-target-environment-3&quot;&gt;&lt;strong&gt;2. Objectives and Target Environment	3&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Structure	4&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;3-structure-4&quot;&gt;&lt;strong&gt;3. Structure	4&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;II. Related Research	5&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ii-related-research-5&quot;&gt;&lt;strong&gt;II. Related Research	5&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Software Quality	5&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-software-quality-5&quot;&gt;&lt;strong&gt;1. Software Quality	5&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Projectile Trajectory Computation	6&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;2-projectile-trajectory-computation-6&quot;&gt;&lt;strong&gt;2. Projectile Trajectory Computation	6&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Memory Efficiency	7&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;3-memory-efficiency-7&quot;&gt;&lt;strong&gt;3. Memory Efficiency	7&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;4. Object-oriented Design Patterns	7&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;4-object-oriented-design-patterns-7&quot;&gt;&lt;strong&gt;4. Object-oriented Design Patterns	7&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;III. Analysis and Strategy Derivation	8&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;iii-analysis-and-strategy-derivation-8&quot;&gt;&lt;strong&gt;III. Analysis and Strategy Derivation	8&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Basis	8&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-basis-8&quot;&gt;&lt;strong&gt;1. Basis	8&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Derivation of Formulas for computing Projectile Trajectories	9&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;2-derivation-of-formulas-for-computing-projectile-trajectories-9&quot;&gt;&lt;strong&gt;2. Derivation of Formulas for computing Projectile Trajectories	9&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Analysis and Selection of Object Creation Method	13&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;3-analysis-and-selection-of-object-creation-method-13&quot;&gt;&lt;strong&gt;3. Analysis and Selection of Object Creation Method	13&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;4. Design with Improvement Strategy	14&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;4-design-with-improvement-strategy-14&quot;&gt;&lt;strong&gt;4. Design with Improvement Strategy	14&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;IV. Implementation	15&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;iv-implementation-15&quot;&gt;&lt;strong&gt;IV. Implementation	15&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Overall System Structure	15&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-overall-system-structure-15&quot;&gt;&lt;strong&gt;1. Overall System Structure	15&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Implementation of Formulas for Projectile Trajectory Computation	16&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;2-implementation-of-formulas-for-projectile-trajectory-computation-16&quot;&gt;&lt;strong&gt;2. Implementation of Formulas for Projectile Trajectory Computation	16&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;3. Implementation of Pattern-based Projectile Generation	17&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;3-implementation-of-pattern-based-projectile-generation-17&quot;&gt;&lt;strong&gt;3. Implementation of Pattern-based Projectile Generation	17&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;4. Experimental Test	18&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;4-experimental-test-18&quot;&gt;&lt;strong&gt;4. Experimental Test	18&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;V. Verification	18&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;v-verification-18&quot;&gt;&lt;strong&gt;V. Verification	18&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;1. Comparison of Formulas for Projectile Trajectory Computation	18&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-comparison-of-formulas-for-projectile-trajectory-computation-18&quot;&gt;&lt;strong&gt;1. Comparison of Formulas for Projectile Trajectory Computation	18&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;2. Comparison of Memory Usage for Object Creation	20&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;2-comparison-of-memory-usage-for-object-creation-20&quot;&gt;&lt;strong&gt;2. Comparison of Memory Usage for Object Creation	20&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;&lt;strong&gt;VI. Conclusion and Future Tasks	23&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;vi-conclusion-and-future-tasks-23&quot;&gt;&lt;strong&gt;VI. Conclusion and Future Tasks	23&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;strong&gt;Works Cited	24&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;works-cited-24&quot;&gt;&lt;strong&gt;Works Cited	24&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -128,53 +128,53 @@
 
 &lt;p&gt;&lt;a href=&quot;/assets/built/data/20230415_EE_정휘준_KR.pdf&quot;&gt;20230415_4000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;슈팅-로봇의-탄도궤적-연산시간과-메모리-사용량-개선을-위한-다수-개체-생성-설계-기법에-대한-연구a-study-on-design-approach-of-multiple-entitiesobjects-generation-for-improving-ballistic-trajectory-computation-volume-and-memory-usage-of-game-robots&quot;&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;목차&quot;&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**연구배경 : 탄도슈팅게임 소개	**&lt;/p&gt;
+&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개-&quot;&gt;**연구배경 : 탄도슈팅게임 소개	**&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;연구구성--관련연구-분석개선전략-설계구현테스트실험--평가-결론향후&quot;&gt;&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;관련연구이론적배경선행연구--연구가설과-관련된-정보---탄도-궤적-논문-객체-메모리-사용-논문&quot;&gt;&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;게임-소프트웨어-품질평가&quot;&gt;&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;탄도궤적연산&quot;&gt;&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;메모리-사용&quot;&gt;&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;ood와-디자인-패턴&quot;&gt;&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/p&gt;
+&lt;h5 id=&quot;탄도-궤적-연산-기법-도출-&quot;&gt;**탄도 궤적 연산 기법 도출	**&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-연구결과분석결과가설검정-탄도개체-설계---모의-테스트실험&quot;&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;다수의-탄도-개체-생성-설계-및-구현-테스트-용도&quot;&gt;&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;시스템-구현테스트-환경&quot;&gt;&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;탄도-개체-생성-수에-따른-탄도-궤적-연산량과-메모리-사용량-확인-설계구현&quot;&gt;&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;비교-구현---개선전략-적용-설계구현&quot;&gt;&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**평가 방법 **&lt;/p&gt;
+&lt;h5 id=&quot;평가-방법-&quot;&gt;**평가 방법 **&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결론-및-향후-과제-주장시사점&quot;&gt;&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;참고문헌&quot;&gt;&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -209,53 +209,53 @@
 
 &lt;p&gt;&lt;a href=&quot;/assets/built/data/20230331_3000wordsExtendedEssay_ChungHweeJoon.pdf&quot;&gt;20230331_3000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;슈팅-로봇의-탄도궤적-연산시간과-메모리-사용량-개선을-위한-다수-개체-생성-설계-기법에-대한-연구a-study-on-design-approach-of-multiple-entitiesobjects-generation-for-improving-ballistic-trajectory-computation-volume-and-memory-usage-of-game-robots&quot;&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;목차&quot;&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**연구배경 : 탄도슈팅게임 소개	**&lt;/p&gt;
+&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개-&quot;&gt;**연구배경 : 탄도슈팅게임 소개	**&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;연구구성--관련연구-분석개선전략-설계구현테스트실험--평가-결론향후&quot;&gt;&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;관련연구이론적배경선행연구--연구가설과-관련된-정보---탄도-궤적-논문-객체-메모리-사용-논문&quot;&gt;&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--게임-소프트웨어-품질평가&quot;&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--탄도궤적연산&quot;&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--메모리-사용&quot;&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--ood와-디자인-패턴&quot;&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/p&gt;
+&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출-&quot;&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-연구결과분석결과가설검정-탄도개체-설계---모의-테스트실험&quot;&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--다수의-탄도-개체-생성-설계-및-구현-테스트-용도&quot;&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--시스템-구현테스트-환경&quot;&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--탄도-개체-생성-수에-따른-탄도-궤적-연산량과-메모리-사용량-확인-설계구현&quot;&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--비교-구현---개선전략-적용-설계구현&quot;&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**평가 방법 **&lt;/p&gt;
+&lt;h5 id=&quot;--평가-방법-&quot;&gt;​		**평가 방법 **&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결론-및-향후-과제-주장시사점&quot;&gt;&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;참고문헌&quot;&gt;&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -593,53 +593,53 @@ rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
 
 &lt;p&gt;&lt;a href=&quot;/assets/built/data/20230123_2000wordsExtendedEssay_ChungHweeJoon.pdf&quot;&gt;20230123_2000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;슈팅-로봇의-탄도궤적-연산시간과-메모리-사용량-개선을-위한-다수-개체-생성-설계-기법에-대한-연구a-study-on-design-approach-of-multiple-entitiesobjects-generation-for-improving-ballistic-trajectory-computation-volume-and-memory-usage-of-game-robots&quot;&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;목차&quot;&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**연구배경 : 탄도슈팅게임 소개	**&lt;/p&gt;
+&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개-&quot;&gt;**연구배경 : 탄도슈팅게임 소개	**&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;연구구성--관련연구-분석개선전략-설계구현테스트실험--평가-결론향후&quot;&gt;&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;관련연구이론적배경선행연구--연구가설과-관련된-정보---탄도-궤적-논문-객체-메모리-사용-논문&quot;&gt;&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--게임-소프트웨어-품질평가&quot;&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--탄도궤적연산&quot;&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--메모리-사용&quot;&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--ood와-디자인-패턴&quot;&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/p&gt;
+&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출-&quot;&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;-연구결과분석결과가설검정-탄도개체-설계---모의-테스트실험&quot;&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--다수의-탄도-개체-생성-설계-및-구현-테스트-용도&quot;&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--시스템-구현테스트-환경&quot;&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--탄도-개체-생성-수에-따른-탄도-궤적-연산량과-메모리-사용량-확인-설계구현&quot;&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--비교-구현---개선전략-적용-설계구현&quot;&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​		**평가 방법 **&lt;/p&gt;
+&lt;h5 id=&quot;--평가-방법-&quot;&gt;​		**평가 방법 **&lt;/h5&gt;
 
-&lt;p&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;--성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
 
-&lt;p&gt;​	&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결론-및-향후-과제-주장시사점&quot;&gt;&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;​	&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;참고문헌&quot;&gt;&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
