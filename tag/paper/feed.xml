@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-05-03T21:03:08+09:00</updated>
+  <updated>2023-05-04T19:38:55+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -213,7 +213,7 @@
 
 &lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개-&quot;&gt;**연구배경 : 탄도슈팅게임 소개	**&lt;/h5&gt;
+&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개&quot;&gt;&lt;strong&gt;연구배경 : 탄도슈팅게임 소개&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
 
@@ -231,7 +231,7 @@
 
 &lt;h4 id=&quot;분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;탄도-궤적-연산-기법-도출-&quot;&gt;**탄도 궤적 연산 기법 도출	**&lt;/h5&gt;
+&lt;h5 id=&quot;탄도-궤적-연산-기법-도출&quot;&gt;&lt;strong&gt;탄도 궤적 연산 기법 도출&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
 
@@ -247,7 +247,7 @@
 
 &lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;평가-방법-&quot;&gt;**평가 방법 **&lt;/h5&gt;
+&lt;h5 id=&quot;평가-방법&quot;&gt;&lt;strong&gt;평가 방법&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
 
@@ -328,7 +328,7 @@
 
 &lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개-&quot;&gt;**연구배경 : 탄도슈팅게임 소개	**&lt;/h5&gt;
+&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개&quot;&gt;&lt;strong&gt;연구배경 : 탄도슈팅게임 소개&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;--연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
 
@@ -346,7 +346,7 @@
 
 &lt;h4 id=&quot;-분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출-&quot;&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/h5&gt;
+&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출&quot;&gt;​		&lt;strong&gt;탄도 궤적 연산 기법 도출&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;--개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
 
@@ -362,7 +362,7 @@
 
 &lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;--평가-방법-&quot;&gt;​		**평가 방법 **&lt;/h5&gt;
+&lt;h5 id=&quot;--평가-방법&quot;&gt;​		&lt;strong&gt;평가 방법&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;--성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
 
@@ -516,7 +516,7 @@
 
 &lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개-&quot;&gt;**연구배경 : 탄도슈팅게임 소개	**&lt;/h5&gt;
+&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개&quot;&gt;&lt;strong&gt;연구배경 : 탄도슈팅게임 소개&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;--연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
 
@@ -534,7 +534,7 @@
 
 &lt;h4 id=&quot;-분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출-&quot;&gt;​		**탄도 궤적 연산 기법 도출	**&lt;/h5&gt;
+&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출&quot;&gt;​		&lt;strong&gt;탄도 궤적 연산 기법 도출&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;--개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
 
@@ -550,7 +550,7 @@
 
 &lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;h5 id=&quot;--평가-방법-&quot;&gt;​		**평가 방법 **&lt;/h5&gt;
+&lt;h5 id=&quot;--평가-방법&quot;&gt;​		&lt;strong&gt;평가 방법&lt;/strong&gt;&lt;/h5&gt;
 
 &lt;h5 id=&quot;--성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
 
