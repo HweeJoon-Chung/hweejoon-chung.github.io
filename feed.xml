@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-05-15T07:34:02+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Extended Essay in English</title><link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" /><published>2023-05-03T07:31:00+09:00</published><updated>2023-05-03T07:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-05-18T07:41:57+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Extended Essay in English</title><link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" /><published>2023-05-03T07:31:00+09:00</published><updated>2023-05-03T07:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;extended-essay-in-english-computer-science&quot;&gt;Extended Essay in English (Computer Science)&lt;/h1&gt;
 
 &lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
@@ -25,7 +25,9 @@
   &lt;p&gt;&lt;strong&gt;Copyright Act / Prohibition of Unauthorized Reproduction and Redistribution&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/EE_comps_CHUNG.HWEE.JOON_en.pdf&quot;&gt;EE_comps_CHUNG.HWEE.JOON_en.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/EE_comps_CHUNG.HWEE.JOON_en.zip&quot;&gt;EE_comps_CHUNG.HWEE.JOON_en.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;== 무단도용 방지를 위해, IB 인증 이후 링크 복구하겠습니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;extended-essay&quot;&gt;&lt;strong&gt;Extended Essay&lt;/strong&gt;&lt;/h3&gt;
 
@@ -126,7 +128,9 @@
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230415_EE_정휘준_KR.pdf&quot;&gt;20230415_4000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230415_EE_정휘준_KR.zip&quot;&gt;20230415_4000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;== 무단도용 방지를 위해, IB 인증 이후 링크 복구하겠습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;슈팅-로봇의-탄도궤적-연산시간과-메모리-사용량-개선을-위한-다수-개체-생성-설계-기법에-대한-연구a-study-on-design-approach-of-multiple-entitiesobjects-generation-for-improving-ballistic-trajectory-computation-volume-and-memory-usage-of-game-robots&quot;&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/h2&gt;
 
