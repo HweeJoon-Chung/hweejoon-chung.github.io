@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-05-18T12:37:51+09:00</updated>
+  <updated>2023-06-18T21:01:09+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -36,6 +36,161 @@
   
   
 
+  
+    <entry>
+      <title type="html">기하를 활용한 창작물 제작 - 수학 IB HL</title>
+      <link href="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH" rel="alternate" type="text/html" title="기하를 활용한 창작물 제작 - 수학 IB HL" />
+      <published>2023-06-18T17:18:00+09:00</published>
+      <updated>2023-06-18T17:18:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/geometricCreation-assessmentMATH</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;기하를-활용한-창작물-제작&quot;&gt;기하를 활용한 창작물 제작&lt;/h1&gt;
+
+&lt;h1 id=&quot;--수학-ib-hl&quot;&gt;- 수학 IB HL&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230618_기하를 활용한 창작물 제작2.pdf&quot;&gt;20230618_기하를 활용한 창작물 제작 중 물분자 예시&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;요약&quot;&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;기하를 활용한 창작물 제작&lt;/p&gt;
+
+&lt;p&gt;3차원 물분자 그리기, 삼각함수 그래프 그리기, 피보나치 나선 그리기, 3차원 아르키메데스 나선그리기, 스트링아트 그리기, 이중원뿔 단면 그리기, 토러스 그리기, 3차원 회오리 그리기 등의 창작물을 제작하였음.&lt;/p&gt;
+
+&lt;p&gt;사용툴은 지오지브라(GEOGEBRA)와 엔트리(ENTRY)임.&lt;/p&gt;
+
+&lt;p&gt;본 블로그를 통해 공개하는 것은 3차원 물분자 그리기임.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2001.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2002.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2003.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2004.png&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">기하를 활용한 창작물 제작</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">벡터의 내적과 평면 방정식을 이용한 3차원 상에서의 기울기</title>
+      <link href="https://hweejoon-chung.github.io/calcSlope-assessmentMATH" rel="alternate" type="text/html" title="벡터의 내적과 평면 방정식을 이용한 3차원 상에서의 기울기" />
+      <published>2023-06-15T20:59:00+09:00</published>
+      <updated>2023-06-15T20:59:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/calcSlope-assessmentMATH</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/calcSlope-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;벡터의-내적과-평면-방정식을-이용하여-3차원-상에서의-기울기를-파악하고-이를-알리는-프로그램을-구현할-수-있을까&quot;&gt;벡터의 내적과 평면 방정식을 이용하여 3차원 상에서의 기울기를 파악하고 이를 알리는 프로그램을 구현할 수 있을까?&lt;/h1&gt;
+
+&lt;h1 id=&quot;--수학-연구-보고서&quot;&gt;- 수학 연구 보고서&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230615_3216 정휘준_고3_수학 연구 보고서_최종.pdf&quot;&gt;20230615_벡터의 내적과 평면 방정식을 이용한 3차원 상에서의 기울기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;요약&quot;&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;벡터의 내적과 평면 방정식을 이용하여 3차원 상에서의 기울기를 파악하고 이를 알리는 프로그램&lt;/p&gt;
+
+&lt;p&gt;본 연구의 결과로 산출된 프로그램을 쓰지 않더라도 기울기 측정 등과 같은 분야에서 활용할 수 있는 
+센서는 이미 많이 존재하고 있다. 하지만 비용, 물체의 구조 등의 또 다른 현실적인 문제로 센서의 사용이 제
+한적일 경우가 있는데, 그럴 경우에 이 프로그램을 이용하면 간단한 벡터의 계산으로도 물체의 기울어진 정도
+를 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종001.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종002.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종003.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종004.png&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종005.png&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종006.png&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종007.png&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종008.png&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종009.png&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종010.png&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종011.png&quot; alt=&quot;11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">벡터의 내적과 평면 방정식을 이용하여 3차원 상에서의 기울기를 파악하고 이를 알리는 프로그램을 구현할 수 있을까?</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Extended Essay in English</title>
@@ -1058,119 +1213,6 @@
 
       
         <summary type="html">부피를 미분한 결과가 겉넓이가 되는 입체도형의 조건</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">탄도(탄 궤적) 함수 유도 및 그래프 구현</title>
-      <link href="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH" rel="alternate" type="text/html" title="탄도(탄 궤적) 함수 유도 및 그래프 구현" />
-      <published>2022-12-03T17:25:00+09:00</published>
-      <updated>2022-12-03T17:25:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/calculusTrajectory-assessmentMATH">&lt;hr /&gt;
-&lt;h1 id=&quot;탄도탄-궤적-함수-유도-및-그래프-구현&quot;&gt;탄도(탄 궤적) 함수 유도 및 그래프 구현&lt;/h1&gt;
-
-&lt;h1 id=&quot;--수학을-이용한-실생활-연구&quot;&gt;- 수학을 이용한 실생활 연구&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221203_미적분 탄도 미사일 구현.pdf&quot;&gt;20221203_미적분 탄도 미사일 구현&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/p&gt;
-
-&lt;p&gt;탄도(탄 궤적) 운동의 수직운동과 수평운동을 구분하고, 각 운동들에 대해 미분, 적분, 삼각함수 등 수학적 개념을 활용하여 이차함수를 유도.&lt;/p&gt;
-
-&lt;p&gt;유도된 이차함수식을 이용하여 거리, 시간, 발사각 계산하여, 탄도(탄 궤적) 그래프를 엔트리 프로그래밍으로 구현&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_4.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_5.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_6.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_7.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_8.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_9.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/20221203_미적분탄도미사일구현_10.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">탄도(탄 궤적) 함수 유도 및 그래프 구현</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">공유결합 - 화학</title>
-      <link href="https://hweejoon-chung.github.io/covalent-bond-assessmentCHEM" rel="alternate" type="text/html" title="공유결합 - 화학" />
-      <published>2022-11-06T13:21:00+09:00</published>
-      <updated>2022-11-06T13:21:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/covalent%20bond-assessmentCHEM</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/covalent-bond-assessmentCHEM">&lt;hr /&gt;
-&lt;h1 id=&quot;공유결합---화학&quot;&gt;공유결합 - 화학&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20221106_화학_공유결합.zip&quot;&gt;20221106_화학_공유결합.hwp&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">공유결합 - 화학</summary>
       
 
       

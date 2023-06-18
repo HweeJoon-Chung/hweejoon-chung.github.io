@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-05-18T12:37:51+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">Extended Essay in English</title><link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" /><published>2023-05-03T07:31:00+09:00</published><updated>2023-05-03T07:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-06-18T21:01:09+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">기하를 활용한 창작물 제작 - 수학 IB HL</title><link href="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH" rel="alternate" type="text/html" title="기하를 활용한 창작물 제작 - 수학 IB HL" /><published>2023-06-18T17:18:00+09:00</published><updated>2023-06-18T17:18:00+09:00</updated><id>https://hweejoon-chung.github.io/geometricCreation-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;기하를-활용한-창작물-제작&quot;&gt;기하를 활용한 창작물 제작&lt;/h1&gt;
+
+&lt;h1 id=&quot;--수학-ib-hl&quot;&gt;- 수학 IB HL&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230618_기하를 활용한 창작물 제작2.pdf&quot;&gt;20230618_기하를 활용한 창작물 제작 중 물분자 예시&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;요약&quot;&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;기하를 활용한 창작물 제작&lt;/p&gt;
+
+&lt;p&gt;3차원 물분자 그리기, 삼각함수 그래프 그리기, 피보나치 나선 그리기, 3차원 아르키메데스 나선그리기, 스트링아트 그리기, 이중원뿔 단면 그리기, 토러스 그리기, 3차원 회오리 그리기 등의 창작물을 제작하였음.&lt;/p&gt;
+
+&lt;p&gt;사용툴은 지오지브라(GEOGEBRA)와 엔트리(ENTRY)임.&lt;/p&gt;
+
+&lt;p&gt;본 블로그를 통해 공개하는 것은 3차원 물분자 그리기임.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2001.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2002.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2003.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230618_기하를 활용한 창작물 제작2004.png&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">기하를 활용한 창작물 제작</summary></entry><entry><title type="html">벡터의 내적과 평면 방정식을 이용한 3차원 상에서의 기울기</title><link href="https://hweejoon-chung.github.io/calcSlope-assessmentMATH" rel="alternate" type="text/html" title="벡터의 내적과 평면 방정식을 이용한 3차원 상에서의 기울기" /><published>2023-06-15T20:59:00+09:00</published><updated>2023-06-15T20:59:00+09:00</updated><id>https://hweejoon-chung.github.io/calcSlope-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/calcSlope-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;벡터의-내적과-평면-방정식을-이용하여-3차원-상에서의-기울기를-파악하고-이를-알리는-프로그램을-구현할-수-있을까&quot;&gt;벡터의 내적과 평면 방정식을 이용하여 3차원 상에서의 기울기를 파악하고 이를 알리는 프로그램을 구현할 수 있을까?&lt;/h1&gt;
+
+&lt;h1 id=&quot;--수학-연구-보고서&quot;&gt;- 수학 연구 보고서&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230615_3216 정휘준_고3_수학 연구 보고서_최종.pdf&quot;&gt;20230615_벡터의 내적과 평면 방정식을 이용한 3차원 상에서의 기울기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;요약&quot;&gt;&lt;u&gt;요약&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;벡터의 내적과 평면 방정식을 이용하여 3차원 상에서의 기울기를 파악하고 이를 알리는 프로그램&lt;/p&gt;
+
+&lt;p&gt;본 연구의 결과로 산출된 프로그램을 쓰지 않더라도 기울기 측정 등과 같은 분야에서 활용할 수 있는 
+센서는 이미 많이 존재하고 있다. 하지만 비용, 물체의 구조 등의 또 다른 현실적인 문제로 센서의 사용이 제
+한적일 경우가 있는데, 그럴 경우에 이 프로그램을 이용하면 간단한 벡터의 계산으로도 물체의 기울어진 정도
+를 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종001.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종002.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종003.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종004.png&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종005.png&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종006.png&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종007.png&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종008.png&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종009.png&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종010.png&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/20230615_3216 정휘준_고3_수학 연구 보고서_최종011.png&quot; alt=&quot;11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">벡터의 내적과 평면 방정식을 이용하여 3차원 상에서의 기울기를 파악하고 이를 알리는 프로그램을 구현할 수 있을까?</summary></entry><entry><title type="html">Extended Essay in English</title><link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" /><published>2023-05-03T07:31:00+09:00</published><updated>2023-05-03T07:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
 &lt;h1 id=&quot;extended-essay-in-english-computer-science&quot;&gt;Extended Essay in English (Computer Science)&lt;/h1&gt;
 
 &lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
@@ -828,234 +915,4 @@ rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
 
 &lt;p&gt;​	attack(Target): Position&lt;/p&gt;
 
-&lt;p&gt;​	shoot(Target): Position&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 구현설계</summary></entry><entry><title type="html">소논문(Extended Essay) 1000단어</title><link href="https://hweejoon-chung.github.io/ee1000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 1000단어" /><published>2022-12-16T08:31:00+09:00</published><updated>2022-12-16T08:31:00+09:00</updated><id>https://hweejoon-chung.github.io/ee1000words-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee1000words-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문extended-essay-1000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 1000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
-
-&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;제목 후보 :&lt;/p&gt;
-
-&lt;p&gt;게임 로봇의 탄도궤적 연산과 메모리 사용량 변화 확인을 통한 다수 개체 생성 설계 전략에 대한 연구&lt;/p&gt;
-
-&lt;p&gt;A Study on Design Strategies of Multiple Entities(Objects) Generation by Checking Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/p&gt;
-
-&lt;p&gt;A Study on Design Strategies of Multiple Object Generation based on Identifying Changes of Ballistic Trajectory Computation and Memory Usage for Game Robots&lt;/p&gt;
-
-&lt;p&gt;A Study on Design Strategies by Identifying Ballistic Trajectory Computation Volume &amp;amp; Memory Changes when Creating Multiple &lt;strong&gt;Entities&lt;/strong&gt;(Objects) in the Game&lt;/p&gt;
-
-&lt;p&gt;게임플랫폼의 탄도궤적 연산량과 메모리 사용량 개선을 위한 다수 게임개체 생성 기법 설계/구현&lt;/p&gt;
-
-&lt;p&gt;Design and Implementation about Creation Approach of Game &lt;strong&gt;Entities&lt;/strong&gt;(Objects) for improving Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
-
-&lt;p&gt;Design and Implementation of Multiple Game Object Creation Approach to Improve Ballistic Trajectory Computation and Memory Usage in Game Platform&lt;/p&gt;
-
-&lt;p&gt;키워드 : Game Entities Creation, Ballistic Trajectory Computation, Memory Usage, Game Object&lt;/p&gt;
-
-&lt;h2 id=&quot;1000-words&quot;&gt;1000 words&lt;/h2&gt;
-
-&lt;p&gt;서론&lt;/p&gt;
-
-&lt;p&gt;​	탄도 슈팅 게임 소개&lt;/p&gt;
-
-&lt;p&gt;요즘 청소년들이나 MZ세대들에게 게임은 학업 스트레스를 풀거나 여가 시간을 보내기 좋은 수단 중 하나이다. 미래에 사람들에게 도움이 되는 로봇과 소프트웨어을 만들고 싶은 연구자 본인도 복잡해진 머리를 식히려 게임을 즐기고 직접 프로그래밍을 통해 만들어 보기도 한다.&lt;/p&gt;
-
-&lt;p&gt;​	게임 내 효율성/성능 요인&lt;/p&gt;
-
-&lt;p&gt;얼마 전 엔트리와 파이썬으로 탄도 슈팅 게임을 만들어 즐기던 중, 게임 속 로봇이 발사한 다수의 총알이나 화살이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생했다. 그 원인들을 분석하다 보니 탄도 개체의 궤적에 대한 연산량과 탄도 개체에 대한 메모리 사용량이 로봇 동작에 영향을 줄 수 있는 주원인이었고, 제대로 연구를 통한 개선 방안을 찾아보고 싶어졌다.&lt;/p&gt;
-
-&lt;p&gt;현재 컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 사용 제약이 존재하기 때문에 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 연산 기법 과 메모리 관리 방안이 필요하다.&lt;/p&gt;
-
-&lt;p&gt;또한 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 표현하기 위한 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;본 연구에서는 먼저 탄도 궤적 연산과 메모리 관련 연구와 자료들을 분석한다. 객체 지향 프로그래밍 관점에서 연산이나 메모리에 대한 효율성을 고려한 다수의 탄도 개체 생성 전략을 연구/도출하여 실제 탄도 개체, 궤적 연산 함수와 메모리 사용 함수를 설계/구현한다. 그리고, 전략 별로 연산량과 메모리 사용량의 변화를 측정하여 비교/분석한 후 개선 효율성을 검증/평가해보고자 한다. 또한, 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행하여 추후 본 연구를 통한 추가 연구의 기반을 마련하고자 한다.&lt;/p&gt;
-
-&lt;p&gt;관련 연구&lt;/p&gt;
-
-&lt;p&gt;​	게임 소프트웨어의 품질 중 사용자 요구사항이 가장 많은 부분은 규정된 조건에서 사용되는 자원의 양에 따라 요구된 성능을 제공하는 소프트웨어의 능력인 효율성[1]이다. 효율성에 영향을 주는 주요인인 궤적 연산과 메모리 사용 기법들에 대한 관련 연구들을 분석해본다.&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;[1] 게임 소프트웨어의 품질 평가 모델&lt;/dt&gt;
-  &lt;dd&gt;정혜정한국인터넷정보학회인터넷정보학회논문지8(6)pp.115~1252007.12컴퓨터학&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;​	탄도 궤적 연산&lt;/p&gt;
-
-&lt;p&gt;탄도 슈팅 게임에서 슈팅로봇이 탄도를 발사하면 발사체의 경로를 계산할 필요가 있는데 이 때 복잡한 연산을 수행한다. 구체적으로 거리를 입력받아 각도, 도달시간, 탄도궤적 등을 계산하는데 미분과 적분 개념을 이용한 연산이 필요하고[3], 이는 전체 프로그램의 시간이나 속도에 대한 효율성에 영향을 미친다.&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;[2] 수학을 이용한 실생활 연구 보고서&lt;/dt&gt;
-  &lt;dd&gt;정휘준 https://hweejoon-chung.github.io&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;​	메모리 사용&lt;/p&gt;
-
-&lt;p&gt;자원에 대한 사용 제약 사항 내에서 게임 소프트웨어의 질을 높일 수 있는 효과적인 메모리 관리 및 활용 기법이 필요하다. 이를 통해 게임 반응 속도 역시 효과적으로 높일 수 있다.[2]&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;[2] 메모리가 제한적인 자바가상기계에서의 지역 재사용&lt;/dt&gt;
-  &lt;dd&gt;김태인김성건한환수한국정보과학회정보과학회논문지 : 소프트웨어 및 응용34(6)pp.562~5712007.06컴퓨터학&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;​	OOD와 디자인 패턴&lt;/p&gt;
-
-&lt;p&gt;대규모의 게임을 만들 때 객체지향개념을 충분히 활용할 수 있는 설계기법이 유용하다.[3]&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;[3] Observer패턴을 적용한MMORPG파티 시스템 아이템 배분 방법&lt;/dt&gt;
-  &lt;dd&gt;김태석김신환김종수한국멀티미디어학회멀티미디어학회논문지10(8)pp.1060~10672007.08전자/정보통신공학&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;궤적 연산 기법과 개체 생성 방안 모델링&lt;/p&gt;
-
-&lt;p&gt;​	탄도 궤적 연산 기법&lt;/p&gt;
-
-&lt;p&gt;​	개체 생성 방안&lt;/p&gt;
-
-&lt;p&gt;모의 테스트(실험) 및 평가&lt;/p&gt;
-
-&lt;p&gt;​	시스템 구현/테스트 환경&lt;/p&gt;
-
-&lt;p&gt;​	비교 구현&lt;/p&gt;
-
-&lt;p&gt;​	평가 방법&lt;/p&gt;
-
-&lt;p&gt;​	성능평가&lt;/p&gt;
-
-&lt;p&gt;결론 및 향후 과제&lt;/p&gt;
-
-&lt;p&gt;참고. 연구 관련 용어집&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;현황 파악 - 탄도 객체 발사 시 느려지는 문제 분석 : 탄도 궤적 연산, 메모리 사용 분석&lt;/p&gt;
-
-&lt;p&gt;관련 연구 - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/p&gt;
-
-&lt;p&gt;전략 설정 - 탄도 객체 발사 관련 연산과 메모리 사용 확인방안 및 개선 전략 설정&lt;/p&gt;
-
-&lt;p&gt;탄도 개체 설계&lt;/p&gt;
-
-&lt;p&gt;다수의 탄도 개체 발사 설계 및 구현 (테스트 용도)&lt;/p&gt;
-
-&lt;p&gt;탄도 개체 발사 수에 따른 탄도 궤적 연산과 메모리 사용량 확인 (설계/구현)&lt;/p&gt;
-
-&lt;p&gt;개선전략 적용 설계/구현&lt;/p&gt;
-
-&lt;p&gt;전략에 대한 연산과 메모리 사용량 비교&lt;/p&gt;
-
-&lt;p&gt;요즘 청소년들이나 MZ세대들에게 게임은 학업 스트레스를 풀거나 여가 시간을 보내기 좋은 수단 중 하나이다. 미래에 사람들에게 도움이 되는 로봇과 소프트웨어을 만들고 싶은 연구자 본인도 복잡해진 머리를 식히려 게임을 즐기고 직접 프로그래밍을 통해 만들어 보기도 한다.&lt;/p&gt;
-
-&lt;p&gt;얼마 전 엔트리와 파이썬으로 탄도 슈팅 게임을 만들어 즐기던 중, 게임 속 로봇이 발사한 다수의 총알이나 화살이 특정 개수를 넘어서면 전체 게임 동작이 심각하게 느려지거나 심지어 몇몇 기능들은 정상적으로 동작하지 않기도 하는 상황이 발생했다. 그 원인들을 분석하다 보니 단순히 탄도 궤적 연산 처리속도의 문제보다 메모리 사용량이 많아진 것이 주원인이었고, 제대로 연구를 통한 개선 방안을 찾아보고 싶어졌다.&lt;/p&gt;
-
-&lt;p&gt;현재 컴퓨터 하드웨어 사양이 발전하면서 고성능의 기기에서 동작하는 게임 플랫폼 또한 복잡해지는 경향을 보이고 있다. 하지만 게임 플랫폼 자체는 사용 기기 내 자원들에 대한 사용 제약이 존재하기 때문에 대기시간이나 반응속도에 대한 품질을 보장할 수 있는 효율적인 연산 기법 과 메모리 관리 방안이 필요하다.&lt;/p&gt;
-
-&lt;p&gt;또한 새로운 게임이 출시될 때마다 매번 가지고 있는 기기의 사양보다 높은 사양을 요구하는데, 이는 게임 내에 다양한 종류의 수많은 게임 개체들이 존재하고 그 개체들을 표현하기 위한 효율성, 특히 연산시간이나 메모리에 대한 효율성을 요구하기 때문이다.&lt;/p&gt;
-
-&lt;p&gt;본 연구에서는 먼저 탄도 궤적 연산과 메모리 관련 연구와 자료들을 분석한다. 객체 지향 프로그래밍 관점에서 연산이나 메모리에 대한 효율성을 고려한 다수의 탄도 개체 생성 전략을 연구/도출하여 실제 탄도 개체, 궤도 연산 함수와 메모리 사용 함수를 설계/구현한다. 그리고, 전략 별로 연산량과 메모리 사용량의 변화를 측정하여 비교/분석한 후 개선 효율성을 검증/평가해보고자 한다. 또한, 연구 관련 용어집 정리와 관련 자료 리서치는 연구 중에 지속적으로 수행하여 추후 본 연구를 통한 추가 연구의 기반을 마련하고자 한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) 1000단어 (IB컴퓨터과학 SL)</summary></entry><entry><title type="html">유니티 스크립트</title><link href="https://hweejoon-chung.github.io/scripts-unity" rel="alternate" type="text/html" title="유니티 스크립트" /><published>2022-12-12T04:53:00+09:00</published><updated>2022-12-12T04:53:00+09:00</updated><id>https://hweejoon-chung.github.io/scripts-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/scripts-unity">&lt;h1 id=&quot;유니티-스크립트-unity-script&quot;&gt;유니티 스크립트 (Unity Script)&lt;/h1&gt;
-
-&lt;h2 id=&quot;지난-정리&quot;&gt;지난 정리&lt;/h2&gt;
-
-&lt;h3 id=&quot;객체에-대한-스크립트-추가&quot;&gt;객체에 대한 스크립트 추가&lt;/h3&gt;
-
-&lt;p&gt;객체의 Inspector 창에서 Add Component 버튼 눌러 New script 검색해 추가&lt;/p&gt;
-
-&lt;p&gt;스크립트 Name 입력하고 Create and Add 클릭하여 생성&lt;/p&gt;
-
-&lt;p&gt;Inspector 창의 Script 항목에서 입력했던 Name을 더블클릭하면 Visual Studio 창이 뜸&lt;/p&gt;
-
-&lt;h2 id=&quot;새로운-정리&quot;&gt;새로운 정리&lt;/h2&gt;
-
-&lt;p&gt;Frame : 프레임. 동영상은 사진들을 시간상 연속해서 보여준다고 볼 수 있고, 사진 하나를 한 프레임이라 봄.&lt;/p&gt;
-
-&lt;p&gt;Frame rate : 프레임율. 1초에 프레임(사진 하나)이 몇장 보이는지 프레임이 보이는 속도. 
-초기영화는 초당 16(무성영화) ~ 24프레임(유성영화. 음향품질을 유지할 수 있는 최소 프레임률이 초당 24프레임).
-PAL TV는 초당 25프레임 / NTSC TV는 초당 30프레임
-(초기 CRT는 전원인 교류전류 주파수에 맞추어 화면 refresh. 유럽 50Hz교류전류이고 미국 60Hz교류전류.). 
-캠코더 동영상 초당 50프레임(유럽기준). 
-비디오게임/UHD TV는 초당 60프레임.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;void Start();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	첫번째 프레임이 업데이트되기 전에 호출됨. 프로그램에 사용할 변수나 초기 세팅 시 사용.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;void Update()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	프레임마다 호출됨. 보통 컴퓨터 활용시 초당 60프레임까지 가능.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private Transform tr;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	Transform은 위치정보를 담은 객체 변수 유형&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tr = GetComponent&amp;lt;Transform&amp;gt;();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	해당 클래스가 포함된 GameObject의 Transform 컴포넌트 가져와서 tr에 대입&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tr.Translate();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	해당 GameObject의 좌표를 괄호 안 값만큼 변경. 좌표값(Translation) 변경.&lt;/p&gt;
-
-&lt;p&gt;​	Time.deltaTime : 한 프레임이 차지하는 시간&lt;/p&gt;
-
-&lt;p&gt;​	.normalized : 해당 성분들의 제곱을 더해 루트를 씌운 값이 1이 되게 변경(방향 성분만 남기고 크기는 1로 변경). 크기 영향은 받지 않고 방향 성분만 활용하기 위해 사용.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tr.transform.Rotate();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	해당 GameObject의 회전정보 변경&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Input.GetAxis(&quot;VerticalUI&quot;);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	유니티 창 Edit &amp;gt; Project Settings 클릭하고 Input Manager 클릭하면&lt;/p&gt;
-
-&lt;p&gt;​	VerticalUI와 HorizontalUI Name보이는데, 각각의 ‘Positive Button’과 ‘Negative Button’을 확인해보자!&lt;/p&gt;
-
-&lt;p&gt;​	VerticalUI : 컴퓨터 입력키 w와 s에 대응하는 단축어. w키 누르면 0부터 1씩 증가하고 s키 누르면 1씩 감소.&lt;/p&gt;
-
-&lt;p&gt;​	HorizontalUI : 컴퓨터 입력키 d와 a에 대응하는 단축어. d키 누르면 1씩 증가하고 a키 누르면 1씩 감소&lt;/p&gt;
-
-&lt;p&gt;​	(Name을 변경하면 바꾼 이름을 코딩 시 활용 가능)&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Vector3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	(x, y, z) 방향을 나타내는 변수 타입&lt;/p&gt;
-
-&lt;p&gt;​	Vector3.forward : (0,0,1). z축 방향으로 1만큼 크기 가진 벡터. (유니티에서 자주 사용되는 값이라 미리 저장	된 변수)&lt;/p&gt;
-
-&lt;p&gt;​	Vector3.right : (1,0,0). x축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)&lt;/p&gt;
-
-&lt;p&gt;​	Vector3.up : (0,1,0). y축 방향으로 1만큼 크기 가진 벡터.  (유니티에서 자주 사용되는 값이라 미리 저장된 변수)&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">유니티 스크립트 (Unity Script)</summary></entry></feed>
+&lt;p&gt;​	shoot(Target): Position&lt;/p&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문 구현설계</summary></entry></feed>
