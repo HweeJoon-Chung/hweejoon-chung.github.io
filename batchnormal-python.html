@@ -11,7 +11,7 @@
 
 
 
-    <title>Visual Studio Code 환경설정</title>
+    <title>딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -54,30 +54,30 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="CHUNG HWEE JOON's Personal Blog" />
     <link rel="shortcut icon" href="https://hweejoon-chung.github.io/assets/built/images/favicon_16x16.png" type="image/png" />
-    <link rel="canonical" href="https://hweejoon-chung.github.io/vscodeenv-dev" />
+    <link rel="canonical" href="https://hweejoon-chung.github.io/batchnormal-python" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="HWEE JOON's Persona" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Visual Studio Code 환경설정" />
-    <meta property="og:description" content="Visual Studio Code 환경설정 Language Pack을 설치하여 표시언어를 한국어로 변경 Notifications 윈도우가 떠서 설치 알려줌 Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치 추가 확장팩 설치 Auto Complete Tag 설치 html/xml 태그들을 자동으로 닫고 이름변경 자동적용 Auto Rename Tag와 Auto Close Tag" />
-    <meta property="og:url" content="https://hweejoon-chung.github.io/vscodeenv-dev" />
-    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/dev.png" />
+    <meta property="og:title" content="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" />
+    <meta property="og:description" content="20230711_딥러닝과대적합문제해결을위한배치정규화구현검증 저작권법 / 무단전재 및 재배포 금지 학습 목표 딥러닝 학습 시 문제사항? 관심 분야(소프트웨어, 인공지능,/딥러닝 등) 및 흥미를 기반으로 한 지식의 확장 컴퓨팅 사고력 기반 창의성, 논리적 사고력 및 문제해결력 신장 요약 딥러닝 학습단계에서 발생하는 문제들 중 가장 해결이 힘든 문제 중 하나인 Overfitting(과대적합)문제를 분석하여 여러 해결책 중 하나인" />
+    <meta property="og:url" content="https://hweejoon-chung.github.io/batchnormal-python" />
+    <meta property="og:image" content="https://hweejoon-chung.github.io/assets/built/images/python.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="2021-06-23T07:48:00+09:00" />
-    <meta property="article:modified_time" content="2021-06-23T07:48:00+09:00" />
-    <meta property="article:tag" content="Dev" />
+    <meta property="article:published_time" content="2023-07-11T20:36:00+09:00" />
+    <meta property="article:modified_time" content="2023-07-11T20:36:00+09:00" />
+    <meta property="article:tag" content="Python" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Visual Studio Code 환경설정" />
-    <meta name="twitter:description" content="Visual Studio Code 환경설정 Language Pack을 설치하여 표시언어를 한국어로 변경 Notifications 윈도우가 떠서 설치 알려줌 Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치 추가 확장팩 설치 Auto Complete Tag 설치 html/xml 태그들을 자동으로 닫고 이름변경 자동적용 Auto Rename Tag와 Auto Close Tag" />
+    <meta name="twitter:title" content="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" />
+    <meta name="twitter:description" content="20230711_딥러닝과대적합문제해결을위한배치정규화구현검증 저작권법 / 무단전재 및 재배포 금지 학습 목표 딥러닝 학습 시 문제사항? 관심 분야(소프트웨어, 인공지능,/딥러닝 등) 및 흥미를 기반으로 한 지식의 확장 컴퓨팅 사고력 기반 창의성, 논리적 사고력 및 문제해결력 신장 요약 딥러닝 학습단계에서 발생하는 문제들 중 가장 해결이 힘든 문제 중 하나인 Overfitting(과대적합)문제를 분석하여 여러 해결책 중 하나인" />
     <meta name="twitter:url" content="https://hweejoon-chung.github.io/" />
-    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/dev.png" />
+    <meta name="twitter:image" content="https://hweejoon-chung.github.io/assets/built/images/python.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="HWEE JOON's Persona" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Dev" />
+    <meta name="twitter:data2" content="Python" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
     <meta property="og:image:width" content="1400" />
@@ -92,18 +92,18 @@
         "name": "HWEE JOON's Persona",
         "logo": "https://hweejoon-chung.github.io/"
     },
-    "url": "https://hweejoon-chung.github.io/vscodeenv-dev",
+    "url": "https://hweejoon-chung.github.io/batchnormal-python",
     "image": {
         "@type": "ImageObject",
-        "url": "https://hweejoon-chung.github.io/assets/built/images/dev.png",
+        "url": "https://hweejoon-chung.github.io/assets/built/images/python.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://hweejoon-chung.github.io/vscodeenv-dev"
+        "@id": "https://hweejoon-chung.github.io/batchnormal-python"
     },
-    "description": "Visual Studio Code 환경설정 Language Pack을 설치하여 표시언어를 한국어로 변경 Notifications 윈도우가 떠서 설치 알려줌 Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치 추가 확장팩 설치 Auto Complete Tag 설치 html/xml 태그들을 자동으로 닫고 이름변경 자동적용 Auto Rename Tag와 Auto Close Tag"
+    "description": "20230711_딥러닝과대적합문제해결을위한배치정규화구현검증 저작권법 / 무단전재 및 재배포 금지 학습 목표 딥러닝 학습 시 문제사항? 관심 분야(소프트웨어, 인공지능,/딥러닝 등) 및 흥미를 기반으로 한 지식의 확장 컴퓨팅 사고력 기반 창의성, 논리적 사고력 및 문제해결력 신장 요약 딥러닝 학습단계에서 발생하는 문제들 중 가장 해결이 힘든 문제 중 하나인 Overfitting(과대적합)문제를 분석하여 여러 해결책 중 하나인"
 }
     </script>
 
@@ -116,7 +116,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Visual Studio Code 환경설정" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" href="/feed.xml" />
 
 
 </head>
@@ -182,191 +182,80 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <article class="post-full  tag-dev post tag-dev ">
+        <article class="post-full  tag-python post tag-python ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="23 June 2021">23 June 2021</time>
+                    <time class="post-full-meta-date" datetime="11 July 2023">11 July 2023</time>
                     
                         <span class="date-divider">/</span>
                         
                             
-                               <a href='/tag/dev/'>DEV</a>
+                               <a href='/tag/python/'>PYTHON</a>
                             
                         
                     
                 </section>
-                <h1 class="post-full-title">Visual Studio Code 환경설정</h1>
+                <h1 class="post-full-title">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</h1>
             </header>
 <!-- post 화면 위 image 출력되니 번거로워 지움
             
-            <figure class="post-full-image" style="background-image: url(/assets/built/images/dev.png)">
+            <figure class="post-full-image" style="background-image: url(/assets/built/images/python.png)">
             </figure>
             
 -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <h2 id="visual-studio-code-환경설정">Visual Studio Code 환경설정</h2>
+                    <p><a href="/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현검증.pdf">20230711_딥러닝과대적합문제해결을위한배치정규화구현검증</a></p>
 
-<h4 id="language-pack을-설치하여-표시언어를-한국어로-변경">Language Pack을 설치하여 표시언어를 한국어로 변경</h4>
+<p><img src="D:/_JOON/blog/_posts/paper/assets/built/images/favicon_64x64.png" alt="hweejoon-chung.github.io" /></p>
 
-<ul>
-  <li>Notifications 윈도우가 떠서 설치 알려줌</li>
-  <li>Ctrl + Shift + x 를 눌러 확장팩 **Korean Language Pack for Visual Studio Code **설치</li>
-</ul>
+<blockquote>
+  <p><strong>저작권법 / 무단전재 및 재배포 금지</strong></p>
+</blockquote>
 
-<h4 id="추가-확장팩-설치">추가 확장팩 설치</h4>
+<h2 id="학습-목표">학습 목표</h2>
 
-<ul>
-  <li><strong>Auto Complete Tag</strong> 설치
-    <ul>
-      <li>html/xml 태그들을 자동으로 닫고 이름변경 자동적용</li>
-      <li>Auto Rename Tag와 Auto Close Tag 확장팩들을 통합한 도구</li>
-    </ul>
-  </li>
-  <li><strong>MinifyAll</strong> 설치
-    <ul>
-      <li>JSON, CSS, Javascript, HTML, XML 등 파일크기를 줄이기 위한 일종의 경량화 지원</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="git-bash를-vs-code의-기본-터미널로-설정">git bash를 VS Code의 기본 터미널로 설정</h4>
+<blockquote>
+  <p>딥러닝 학습 시 문제사항?</p>
+</blockquote>
 
 <ul>
   <li>
-    <p>VS Code 실행하면 좌측하단의 설정아이콘(Manage) 클릭하여 <strong>Settings</strong> 선택</p>
+    <h3 id="관심-분야소프트웨어-인공지능딥러닝-등-및-흥미를-기반으로-한-지식의-확장">관심 분야(소프트웨어, 인공지능,/딥러닝 등) 및 흥미를 기반으로 한 지식의 확장</h3>
   </li>
   <li>
-    <p>Search settings 입력란에 <strong>terminal</strong>을 입력</p>
-
-    <ul>
-      <li>Terminal: Explorer Kind 항목을 <strong>external</strong>로 변경</li>
-    </ul>
+    <h3 id="컴퓨팅-사고력-기반-창의성-논리적-사고력-및-문제해결력-신장">컴퓨팅 사고력 기반 창의성, 논리적 사고력 및 문제해결력 신장</h3>
   </li>
-  <li>Search settings 입력란에 <strong>terminal integrated profiles windows</strong>를 입력
-    <ul>
-      <li>
-        <p>Terminal &gt; Integrated &gt; Profiles: Windows 항목의 Edit in settings.json 클릭해서 수정</p>
-
-        <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-    </span><span class="nl">"workbench.colorTheme"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Default Dark+"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"terminal.integrated.profiles.windows"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"PowerShell"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"source"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PowerShell"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"icon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terminal-powershell"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"Command Prompt"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-                </span><span class="s2">"${env:windir}</span><span class="se">\\</span><span class="s2">Sysnative</span><span class="se">\\</span><span class="s2">cmd.exe"</span><span class="p">,</span><span class="w">
-                </span><span class="s2">"${env:windir}</span><span class="se">\\</span><span class="s2">System32</span><span class="se">\\</span><span class="s2">cmd.exe"</span><span class="w">
-            </span><span class="p">],</span><span class="w">
-            </span><span class="nl">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
-            </span><span class="nl">"icon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terminal-cmd"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"GitBash"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"D:</span><span class="se">\\</span><span class="s2">Dev</span><span class="se">\\</span><span class="s2">Git</span><span class="se">\\</span><span class="s2">bin</span><span class="se">\\</span><span class="s2">bash.exe"</span><span class="p">],</span><span class="w">
-            </span><span class="nl">"icon"</span><span class="p">:</span><span class="w"> </span><span class="s2">"terminal-bash"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        
-    </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"terminal.integrated.defaultProfile.windows"</span><span class="p">:</span><span class="w"> </span><span class="s2">"GitBash"</span><span class="p">,</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div>        </div>
-
-        <blockquote>
-          <p>실제 수정된 부분은</p>
-
-          <p><strong><em>“GitBash”: {</em></strong>
-            “path”: [“D:\Dev\Git\bin\bash.exe”],
-            “icon”: “terminal-bash”
-        },
-    },
-<strong><em>“terminal.integrated.defaultProfile.windows”: “GitBash”,</em></strong></p>
-
-          <p>이고 Git Bash의 경로(path)는 본인 환경에 맞게 수정.</p>
-
-          <p>주의할 점은 공백없이 GitBash임!</p>
-        </blockquote>
-      </li>
-    </ul>
-  </li>
-  <li>VS Code 재기동</li>
 </ul>
 
-<h4 id="python-개발환경-설정">Python 개발환경 설정</h4>
+<h2 id="요약">요약</h2>
 
 <ul>
-  <li><strong>Python</strong> 추가 확장팩 설치
-    <ul>
-      <li>윈도우 시스템 내 고급시스템 설정에서 시스템 환경변수에 아래 3항목 추가
-        <ul>
-          <li>Python(또는 Anaconda) 설치폴더 (ex. D:\Dev\anaconda3)</li>
-          <li>Python(또는 Anaconda) 설치폴더\Library  (ex. D:\Dev\anaconda3\Library)</li>
-          <li>Python(또는 Anaconda) 설치폴더\Scripts  (ex. D:\Dev\anaconda3\Scripts)</li>
-        </ul>
-      </li>
-      <li>F5를 눌러 디버그 구성 선택 가능
-        <ul>
-          <li>현재 활성 Python 파일 / 모듈(‘-m’ 사용) / 프로세스 ID를 사용하여 연결 등</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Python Extenstion Pack</strong> 추가 확장팩  설치
-    <ul>
-      <li>구문, 스니펫 및 린팅 지원</li>
-    </ul>
-  </li>
-  <li><strong>Python Type Hint</strong> 추가 확장팩 설치
-    <ul>
-      <li>입력모듈 완성 및 type 힌트 자동완성 지원</li>
-    </ul>
-  </li>
   <li>
-    <p><strong>Code Runner</strong> 추가 확장팩 설치</p>
-
-    <ul>
-      <li>
-        <p>입력모듈 완성 및 type 힌트 자동완성 지원</p>
-      </li>
-      <li>
-        <p>Settings(Ctrl+,) 띄워 <strong>Code-runner: Executor Map</strong> 에서 Edit in settings.json 클릭해 한글출력(utf8) 설정</p>
-
-        <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"code-runner.executorMap"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    
-     </span><span class="nl">"python"</span><span class="p">:</span><span class="w"> </span><span class="s2">"set PYTHONIOENCODING=utf8 &amp;&amp; D:</span><span class="se">\\</span><span class="s2">Dev</span><span class="se">\\</span><span class="s2">anaconda3</span><span class="se">\\</span><span class="s2">python.exe -u"</span><span class="p">,</span><span class="w">
-</span></code></pre></div>        </div>
-      </li>
-      <li>
-        <p>Settings(Ctrl+,) 띄워 <strong>Code-runner: Run In Terminal</strong> 에서 코드 실행 가능하도록 선택</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <p>Interpreter 선택</p>
-
-    <ul>
-      <li>Command palette(Ctrl+Shift+p) 띄워 <strong>python: Select Interpreter</strong> 에서 원하는 버전 선택</li>
-    </ul>
-  </li>
-  <li>
-    <p>Anaconda 환경설정 (Anaconda 설치하여 python 사용 시)</p>
-
-    <ul>
-      <li>Settings(Ctrl+,) 띄워 <strong>python: conda path</strong> 에서 경로 지정
-        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>D:<span class="se">\D</span>ev<span class="se">\a</span>naconda3<span class="se">\S</span>cripts<span class="se">\c</span>onda.exe
-</code></pre></div>        </div>
-      </li>
-      <li>python 사용 터미널을 <strong>Command Prompt</strong>로 사용!!!!</li>
-    </ul>
-
-    <p>​</p>
-
-    <p>​</p>
+    <h3 id="딥러닝-학습단계에서-발생하는-문제들-중-가장-해결이-힘든-문제-중-하나인-overfitting과대적합문제를-분석하여-여러-해결책-중-하나인-batch-normalization배치-정규화를-도입하여-python-프로그래밍으로-구현하였다">딥러닝 학습단계에서 발생하는 문제들 중 가장 해결이 힘든 문제 중 하나인 Overfitting(과대적합)문제를 분석하여 여러 해결책 중 하나인 batch normalization(배치 정규화)를 도입하여 Python 프로그래밍으로 구현하였다.</h3>
   </li>
 </ul>
 
+<h2 id="개인적-감상">개인적 감상</h2>
+
+<ul>
+  <li>
+    <h3 id="가장-인상-깊었던-점은-딥러닝-자체가-미분-확률-정규분포-등-다양한-수학적-개념들을-기반으로-하고-있다는-것이다">가장 인상 깊었던 점은 딥러닝 자체가 미분, 확률, 정규분포 등 다양한 수학적 개념들을 기반으로 하고 있다는 것이다.</h3>
+  </li>
+  <li>
+    <h3 id="지금껏-개인적으로-관심있고-재미있는-프로그래밍을-하기-위해서-불필요하다-생각했던-개념들은-배제하고-개발에-꼭-필요한-것들만-쏙쏙-빼내어-공부했던-나로서는-앞으로-딥러닝-분야에서-활동하려면-다양한-개념의-수학-공부가-더-많이-필요하다는-반성을-하게-되었다">지금껏 개인적으로 관심있고 재미있는 프로그래밍을 하기 위해서 불필요하다 생각했던 개념들은 배제하고 개발에 꼭 필요한 것들만 쏙쏙 빼내어 공부했던 나로서는 앞으로 딥러닝 분야에서 활동하려면 다양한 개념의 수학 공부가 더 많이 필요하다는 반성을 하게 되었다.</h3>
+  </li>
+  <li>
+    <h3 id="학교-수업-수행평가-기말-시험-등이-좀처럼-개인-시간을-내주지-않아-힘들었지만-구현을-끝마치고-보람을-느낄-수-있었다">학교 수업, 수행평가, 기말 시험 등이 좀처럼 개인 시간을 내주지 않아 힘들었지만, 구현을 끝마치고 보람을 느낄 수 있었다.</h3>
+  </li>
+</ul>
+
+<p><img src="D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png" alt="hweejoon-chung.github.io" /></p>
+
+<blockquote>
+  <p><strong>저작권법 / 무단전재 및 재배포 금지</strong></p>
+</blockquote>
 
                 </div>
             </section>
@@ -468,7 +357,7 @@ into the {body} of the default.hbs template -->
                         <header class="read-next-card-header">
                             <small class="read-next-card-header-sitetitle">&mdash; HWEE JOON's Persona &mdash;</small>
                             
-                                <h3 class="read-next-card-header-title"><a href="/tag/dev/">Dev</a></h3>
+                                <h3 class="read-next-card-header-title"><a href="/tag/python/">Python</a></h3>
                             
                         </header>
                         <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
@@ -478,7 +367,7 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
-                                
+                                    
                                   
                                 
                                   
@@ -492,33 +381,12 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
-                                  
-                                
+                                    
+                                        
+                                        
+                                            <li><a href="/ai-python">AI(인공지능)와 Python</a></li>
+                                        
+                                    
                                   
                                 
                                   
@@ -575,7 +443,7 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/webfont-dev">웹폰트 (WebFont)</a></li>
+                                            <li><a href="/devenv-python">Python 개발환경</a></li>
                                         
                                     
                                   
@@ -585,16 +453,11 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                    
-                                        
-                                        
-                                            <li><a href="/minification-dev">파일 경량화 (Minification)</a></li>
-                                        
-                                    
+                                
                                   
                                 
                                   
-                                    
+                                
                                   
                                 
                                   
@@ -611,9 +474,35 @@ into the {body} of the default.hbs template -->
                                     
                                         
                                         
-                                            <li><a href="/devenvbasic-dev">개발환경설정 기본</a></li>
+                                            <li><a href="/python-basic">Python - 기본</a></li>
                                         
                                     
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
                                   
                                 
                                   
@@ -631,7 +520,7 @@ into the {body} of the default.hbs template -->
                             </ul>
                         </div>
                         <footer class="read-next-card-footer">
-                            <a href="/tag/dev/">
+                            <a href="/tag/python/">
                                 
                                     See all 3 posts  →
                                 
@@ -643,57 +532,6 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             
-                
-
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/minification-dev">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/dev.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/minification-dev">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Dev</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">파일 경량화 (Minification)</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>파일 경량화
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/favicon_32x32.ico" alt="Hwee Joon Chung" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/hweejoon/">Hwee Joon Chung</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-            
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
@@ -701,12 +539,12 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/mathreport202106-assessment">
-                <div class="post-card-image" style="background-image: url(/assets/images/202106_수학연구보고서_1322정휘준001.jpg)"></div>
+            <a class="post-card-image-link" href="/geometricCreation-assessmentMATH">
+                <div class="post-card-image" style="background-image: url(/assets/images/20230618_기하를활용한창작물제작2001.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/mathreport202106-assessment">
+            <a class="post-card-content-link" href="/geometricCreation-assessmentMATH">
                 <header class="post-card-header">
                     
                         
@@ -716,12 +554,12 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">저글링을 할 때 이차함수를 이용하여 가장 안정적인 양손의 위치</h2>
+                    <h2 class="post-card-title">기하를 활용한 창작물 제작 - 수학 IB HL</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
                         <p>
-저글링을 할 때 이차함수를 이용하여 가장 안정적인 양손의 위치
+기하를 활용한 창작물 제작
 
 </p>
                     
@@ -763,18 +601,18 @@ into the {body} of the default.hbs template -->
         </a>
     </div>
     <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">Visual Studio Code 환경설정</div>
+    <div class="floating-header-title">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=Visual+Studio+Code+%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95&amp;url=https://hweejoon-chung.github.io/vscodeenv-dev"
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=%EB%94%A5%EB%9F%AC%EB%8B%9D+%ED%95%99%EC%8A%B5+%EC%8B%9C+Overfitting+%EB%AC%B8%EC%A0%9C+%ED%95%B4%EA%B2%B0%EC%9D%84+%EC%9C%84%ED%95%9C+Batch+Normalization+%EA%B5%AC%ED%98%84&amp;url=https://hweejoon-chung.github.io/batchnormal-python"
             onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
 
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://hweejoon-chung.github.io/vscodeenv-dev"
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://hweejoon-chung.github.io/batchnormal-python"
             onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
 

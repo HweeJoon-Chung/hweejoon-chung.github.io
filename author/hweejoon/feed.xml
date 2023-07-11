@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/author/hweejoon/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-06-18T21:38:33+09:00</updated>
+  <updated>2023-07-12T07:19:40+09:00</updated>
   <id>https://hweejoon-chung.github.io/author/hweejoon/feed.xml</id>
 
   
@@ -36,6 +36,89 @@
   
   
 
+  
+    <entry>
+      <title type="html">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title>
+      <link href="https://hweejoon-chung.github.io/batchnormal-python" rel="alternate" type="text/html" title="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" />
+      <published>2023-07-11T20:36:00+09:00</published>
+      <updated>2023-07-11T20:36:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/batchnormal-python</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/batchnormal-python">&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현검증.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현검증&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/paper/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;학습-목표&quot;&gt;학습 목표&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;딥러닝 학습 시 문제사항?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;관심-분야소프트웨어-인공지능딥러닝-등-및-흥미를-기반으로-한-지식의-확장&quot;&gt;관심 분야(소프트웨어, 인공지능,/딥러닝 등) 및 흥미를 기반으로 한 지식의 확장&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;컴퓨팅-사고력-기반-창의성-논리적-사고력-및-문제해결력-신장&quot;&gt;컴퓨팅 사고력 기반 창의성, 논리적 사고력 및 문제해결력 신장&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;요약&quot;&gt;요약&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;딥러닝-학습단계에서-발생하는-문제들-중-가장-해결이-힘든-문제-중-하나인-overfitting과대적합문제를-분석하여-여러-해결책-중-하나인-batch-normalization배치-정규화를-도입하여-python-프로그래밍으로-구현하였다&quot;&gt;딥러닝 학습단계에서 발생하는 문제들 중 가장 해결이 힘든 문제 중 하나인 Overfitting(과대적합)문제를 분석하여 여러 해결책 중 하나인 batch normalization(배치 정규화)를 도입하여 Python 프로그래밍으로 구현하였다.&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;개인적-감상&quot;&gt;개인적 감상&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;가장-인상-깊었던-점은-딥러닝-자체가-미분-확률-정규분포-등-다양한-수학적-개념들을-기반으로-하고-있다는-것이다&quot;&gt;가장 인상 깊었던 점은 딥러닝 자체가 미분, 확률, 정규분포 등 다양한 수학적 개념들을 기반으로 하고 있다는 것이다.&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;지금껏-개인적으로-관심있고-재미있는-프로그래밍을-하기-위해서-불필요하다-생각했던-개념들은-배제하고-개발에-꼭-필요한-것들만-쏙쏙-빼내어-공부했던-나로서는-앞으로-딥러닝-분야에서-활동하려면-다양한-개념의-수학-공부가-더-많이-필요하다는-반성을-하게-되었다&quot;&gt;지금껏 개인적으로 관심있고 재미있는 프로그래밍을 하기 위해서 불필요하다 생각했던 개념들은 배제하고 개발에 꼭 필요한 것들만 쏙쏙 빼내어 공부했던 나로서는 앞으로 딥러닝 분야에서 활동하려면 다양한 개념의 수학 공부가 더 많이 필요하다는 반성을 하게 되었다.&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;학교-수업-수행평가-기말-시험-등이-좀처럼-개인-시간을-내주지-않아-힘들었지만-구현을-끝마치고-보람을-느낄-수-있었다&quot;&gt;학교 수업, 수행평가, 기말 시험 등이 좀처럼 개인 시간을 내주지 않아 힘들었지만, 구현을 끝마치고 보람을 느낄 수 있었다.&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;D:\_JOON\blog\_posts\paper\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">20230711_딥러닝과대적합문제해결을위한배치정규화구현검증</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">기하를 활용한 창작물 제작 - 수학 IB HL</title>
@@ -1076,219 +1159,6 @@ rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
 
       
         <summary type="html">소논문(Extended Essay) 2000단어 (IB컴퓨터과학 SL)</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">소논문 구현설계</title>
-      <link href="https://hweejoon-chung.github.io/eedesign-paper" rel="alternate" type="text/html" title="소논문 구현설계" />
-      <published>2022-12-31T08:19:00+09:00</published>
-      <updated>2022-12-31T08:19:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/eedesign-paper</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/eedesign-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문-구현설계&quot;&gt;소논문 구현설계&lt;/h1&gt;
-
-&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션&lt;/strong&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
-
-&lt;h2 id=&quot;weapon-class&quot;&gt;Weapon Class&lt;/h2&gt;
-
-&lt;p&gt;무기 최상위 클래스&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;properties:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	none&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;methods:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	__init__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	__del__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	get(): bool&lt;/p&gt;
-
-&lt;p&gt;​	release(): bool&lt;/p&gt;
-
-&lt;p&gt;​	attack(Target): Position&lt;/p&gt;
-
-&lt;h2 id=&quot;ranged-weapon-class--weapon-class&quot;&gt;Ranged Weapon Class : Weapon Class&lt;/h2&gt;
-
-&lt;p&gt;원거리 무기 클래스. Weapon 클래스의 자식 클래스.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;properties:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	ammo: Ammunition&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;methods:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	__init__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	__del__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	get(): bool&lt;/p&gt;
-
-&lt;p&gt;​	release(): bool&lt;/p&gt;
-
-&lt;p&gt;​	attack(Target): Position&lt;/p&gt;
-
-&lt;p&gt;​	shoot(Target): Position&lt;/p&gt;
-
-&lt;h2 id=&quot;melee-weapon-class--weapon-class&quot;&gt;Melee Weapon Class : Weapon Class&lt;/h2&gt;
-
-&lt;p&gt;근거리 무기 클래스. Weapon 클래스의 자식 클래스.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;properties:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	none&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;methods:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	__init__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	__del__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	get(): bool&lt;/p&gt;
-
-&lt;p&gt;​	release(): bool&lt;/p&gt;
-
-&lt;p&gt;​	attack(Target): Position&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;h2 id=&quot;gun-class--ranged-weapon-class&quot;&gt;Gun Class : Ranged Weapon Class&lt;/h2&gt;
-
-&lt;p&gt;총 클래스. 원거리 무기 클래스의 자식 클래스.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;properties:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	ammo: Ammunition&lt;/p&gt;
-
-&lt;p&gt;​	gunType: GunType		// 총 종류&lt;/p&gt;
-
-&lt;p&gt;​	gunMode: GunMode		// 단발/연사/광선&lt;/p&gt;
-
-&lt;p&gt;​	rateOfShoot: float		// 발사속도&lt;/p&gt;
-
-&lt;p&gt;​	effectiveDistance: float	// 유효사거리&lt;/p&gt;
-
-&lt;p&gt;​	reloadTime: float			// 장전시간&lt;/p&gt;
-
-&lt;p&gt;​	numberOfAmmo: int		// 총 총알개수&lt;/p&gt;
-
-&lt;p&gt;​	numberOfShoot: int		// 한번 쏠 때 나가는 총알개수&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;methods:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	__init__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	__del__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	get(): bool&lt;/p&gt;
-
-&lt;p&gt;​	release(): bool&lt;/p&gt;
-
-&lt;p&gt;​	attack(Target): Position&lt;/p&gt;
-
-&lt;p&gt;​	shoot(Target): Position&lt;/p&gt;
-
-&lt;h2 id=&quot;ammunition-class&quot;&gt;Ammunition Class&lt;/h2&gt;
-
-&lt;p&gt;발사체 클래스. 원거리 무기 클래스가 가짐.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;properties:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	ammoType: AmmunitionType	// bullet / arrow / beam&lt;/p&gt;
-
-&lt;p&gt;​	weight: int					// 무게&lt;/p&gt;
-
-&lt;p&gt;​	damage: int					// 파괴력&lt;/p&gt;
-
-&lt;p&gt;​	speed: float					// 속도&lt;/p&gt;
-
-&lt;p&gt;​	color: rgb					// 색&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;methods:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	__init__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	__del__(self): void&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;h2 id=&quot;bow-class&quot;&gt;Bow Class&lt;/h2&gt;
-
-&lt;p&gt;활 클래스. 원거리 무기 클래스의 자식 클래스.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;properties:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	ammo: Ammunition&lt;/p&gt;
-
-&lt;p&gt;​	bowType: BowType		// 총 종류&lt;/p&gt;
-
-&lt;p&gt;​	bowMode: bowMode		// 단발/연사&lt;/p&gt;
-
-&lt;p&gt;​	rateOfShoot: float		// 발사속도&lt;/p&gt;
-
-&lt;p&gt;​	effectiveDistance: float	// 유효사거리&lt;/p&gt;
-
-&lt;p&gt;​	reloadTime: float			// 장전시간&lt;/p&gt;
-
-&lt;p&gt;​	numberOfAmmo: int		// 총 화살개수&lt;/p&gt;
-
-&lt;p&gt;​	numberOfShoot: int		// 한번 쏠 때 나가는 화살개수&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;methods:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;​	__init__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	__del__(self): void&lt;/p&gt;
-
-&lt;p&gt;​	get(): bool&lt;/p&gt;
-
-&lt;p&gt;​	release(): bool&lt;/p&gt;
-
-&lt;p&gt;​	attack(Target): Position&lt;/p&gt;
-
-&lt;p&gt;​	shoot(Target): Position&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">소논문 구현설계</summary>
       
 
       
