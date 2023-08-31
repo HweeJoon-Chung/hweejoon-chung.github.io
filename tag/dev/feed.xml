@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/dev/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-08-31T19:17:33+09:00</updated>
+  <updated>2023-08-31T19:31:06+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/dev/feed.xml</id>
 
   
@@ -137,11 +137,11 @@
   
     <entry>
       <title type="html">파일 경량화 (Minification)</title>
-      <link href="https://hweejoon-chung.github.io/minification-dev" rel="alternate" type="text/html" title="파일 경량화 (Minification)" />
+      <link href="https://hweejoon-chung.github.io/Minification-dev" rel="alternate" type="text/html" title="파일 경량화 (Minification)" />
       <published>2021-07-29T03:27:00+09:00</published>
       <updated>2021-07-29T03:27:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/minification-dev</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/minification-dev">&lt;h2 id=&quot;파일-경량화&quot;&gt;파일 경량화&lt;/h2&gt;
+      <id>https://hweejoon-chung.github.io/Minification-dev</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/Minification-dev">&lt;h2 id=&quot;파일-경량화&quot;&gt;파일 경량화&lt;/h2&gt;
 
 &lt;p&gt;크기가 큰 파일(JSON, CSS, HTML, XML, Javascript 등)은 축소(압축)할 필요가 있어 minified되어야 사용 용이&lt;/p&gt;
 
