@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-07-12T07:36:56+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title><link href="https://hweejoon-chung.github.io/batchnormal-python" rel="alternate" type="text/html" title="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" /><published>2023-07-11T20:36:00+09:00</published><updated>2023-07-11T20:36:00+09:00</updated><id>https://hweejoon-chung.github.io/batchnormal-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/batchnormal-python">&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-08-31T19:17:33+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">자기소개서</title><link href="https://hweejoon-chung.github.io/coverletter-paper" rel="alternate" type="text/html" title="자기소개서" /><published>2023-08-30T08:39:00+09:00</published><updated>2023-08-30T08:39:00+09:00</updated><id>https://hweejoon-chung.github.io/coverletter-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/coverletter-paper">&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;대학이라는 곳을 들어가기 위해서 나 자신이 어떤 사람인지 소개해야 한다고 합니다.&lt;/p&gt;
+
+&lt;p&gt;그냥 나는 나인데, 있는 그대로의 나를 알아봐주고 인정하는 또 다른 방법들은 없는 걸까? 시험점수나 면접만으로 나를 판단하기는 힘들 것 같은데…&lt;/p&gt;
+
+&lt;p&gt;일단 4가지 타이틀로 ““나”“를 표현할 수 있을것 같습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;start-from-the-scratch&quot;&gt;Start From The Scratch&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;남들 다 한다는 선행학습도, 학원도 다니지 못했지만, 관심 있고 궁금한 건 스스로 공부하고 좌절해보고 실패를 경험하는 게 저에게는 평범한 일상이었습니다. 컴퓨터를 다루기 시작하면서는 구글링이 조언자였고, 시행착오가 또 다른 선생님이었습니다. 모든 현상에 그 이면이 존재하고 세상에 변하지 않는 것이 없다는 평소 생각대로, 현재 제 가능성과 지금껏 밑바닥부터 노력해온 자신을 믿고 있기에 제가 현재 집중하고 싶은 것들만이라도 조금씩 도전하고 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;조용한-모범학생-자유로운-괴짜&quot;&gt;조용한 모범학생? 자유로운 괴짜?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;다양한 활동을 했던 중학교 시절과는 달리 고등학교에서 제게 의미있는 상은 친구들의 추천으로 받은 모범학생상입니다. 나서기를 좋아하지 않고 개인적인 상처로 힘든 시기였던 탓도 있지만, 외부의 활동보다 제 내면의 단단함이 더 필요했던 이유이기도 합니다. 대부분 친구들에게는 똑똑하지만 소심해 보였을 것이고, 얘기를 조금이라도 나눠봤던 친구라면 자유로운 괴짜처럼 보였을 것 같습니다. 저는 차분하고 침착하며 유전적으로 머리가 좋은 편입니다. 야외활동을 즐기지 않고 정적이며 강압을 싫어하고 자유롭습니다. 약속은 잘 지키려 노력하고 친구들 돕는 것을 즐깁니다. 손재주가 있는 편이고 꼼꼼합니다. 부모님의 기분을 잘 살피며 동생을 잘 챙깁니다. 퀴즈를 즐기고, 일상에서는 겸손한 편이지만 뭐든 제 주관이 꽂히면 똥고집이 강합니다. 애니메이션과 만화광이고, 밀리터리 덕후이며, 게임은 RPG, 슈팅, 격투 등 골고루 즐깁니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;호기심으로-시작한-나의-꿈-소프트웨어-아키텍트&quot;&gt;호기심으로 시작한 나의 꿈, 소프트웨어 아키텍트!&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;어려서부터 여가시간에 즐겼던 마인크래프트, 방과후 수업에 배운 엔트리, 가족과 함께 했던 포트리스와 스타크래프트, 취미로 즐기던 다양한 게임들을 직접 만들고 싶어 도전하였고 모방은 창조의 어머니라는 말을 이해할 수 있었던 첫 자작 슈팅게임, 문제해결을 반영한 설계를 진행했던 탄도 로봇. 취미에서 시작한 소프트웨어에 대한 관심이 구현 알고리즘을 익혀 나가며 자연스레 제 꿈은 인간에게 도움이 되는 다양한 건축물을 만드는 아키텍트와 같이 소프트웨어를 설계하고 만들어내는 소프트웨어 아키텍트가 되었습니다. 제가 추구하는 건강하고 따뜻한 소프트웨어의 전체적인 구조를 설계하는 소프트웨어 아키텍트가 되기 위해 시야를 점차 넓혀갈 사람, 새로운 기술을 두려워하지 않는 사람으로 하루하루 조금씩 발전하는 저는 미래의 소프트웨어 전문가입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;단순한-엔지니어가-아닌-지구에-도움이-되는-건강하고-따뜻한-소프트웨어-응용-과학자&quot;&gt;단순한 엔지니어가 아닌 지구에 도움이 되는 건강하고 따뜻한 소프트웨어 응용 과학자&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;예전 초등학교, 중학교 때의 저는 지구에 도움이 되는 건강하고 따뜻한 소프트웨어에 대해 지구에 해악을 끼치는 유일한 존재인 인간의 오염활동을 감시하거나 방지/처리하는 것만으로 한정지었었습니다. 하지만 현재 저는 인간의 욕심을 인정하고 직면한 인공지능의 도덕적 결함을 보완하는 AMA와 같은 기술이 지구에 도움이 되는 소프트웨어라고 생각합니다. 물론 몇 년 후 더 많은 것들을 배우며 발전한다면 제가 생각하는 지구를 위한 소프트웨어는 또 다른 모습이거나 더 진화된 형태일 수 있을 것 같습니다. 다양한 분야를 공부하고 관심 모임이나 활동도 적극 참여하여 저의 부족함들을 하루하루 채워나가 현재는 조금 추상적인 제 꿈,  지구에 도움이 되는 응용과 연구를 구체적으로 실체화하고 싶습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;###&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\assets\built\images\favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html"></summary></entry><entry><title type="html">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title><link href="https://hweejoon-chung.github.io/batchnormal-python" rel="alternate" type="text/html" title="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" /><published>2023-07-11T20:36:00+09:00</published><updated>2023-07-11T20:36:00+09:00</updated><id>https://hweejoon-chung.github.io/batchnormal-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/batchnormal-python">&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -705,85 +747,4 @@ rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">게임 총알 (Game Bullet)</summary></entry><entry><title type="html">소논문(Extended Essay) 2000단어</title><link href="https://hweejoon-chung.github.io/ee2000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 2000단어" /><published>2023-01-05T04:13:00+09:00</published><updated>2023-01-05T04:13:00+09:00</updated><id>https://hweejoon-chung.github.io/ee2000words-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/ee2000words-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문extended-essay-2000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 2000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
-
-&lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230123_2000wordsExtendedEssay_ChungHweeJoon.pdf&quot;&gt;20230123_2000wordsExtendedEssay_ChungHweeJoon.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;슈팅-로봇의-탄도궤적-연산시간과-메모리-사용량-개선을-위한-다수-개체-생성-설계-기법에-대한-연구a-study-on-design-approach-of-multiple-entitiesobjects-generation-for-improving-ballistic-trajectory-computation-volume-and-memory-usage-of-game-robots&quot;&gt;&lt;strong&gt;슈팅 로봇의 탄도궤적 연산시간과 메모리 사용량 개선을 위한 다수 개체 생성 설계 기법에 대한 연구A Study on Design Approach of Multiple Entities(Objects) Generation for improving Ballistic Trajectory Computation Volume and Memory Usage of Game Robots&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;목차&quot;&gt;&lt;strong&gt;목차&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&quot;-서론연구목적연구필요성-현황파악---탄도-객체-발사-시-느려지는-문제-정의--탄도-궤적-연산시간-메모리-사용량&quot;&gt;​	&lt;strong&gt;서론(연구목적/연구필요성, 현황파악) - 탄도 객체 발사 시 느려지는 문제 정의 : 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h5 id=&quot;연구배경--탄도슈팅게임-소개&quot;&gt;&lt;strong&gt;연구배경 : 탄도슈팅게임 소개&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--연구목적의의공헌점--품질-문제-정의---효율성성능---탄도-궤적-연산시간-메모리-사용량&quot;&gt;​		&lt;strong&gt;연구목적(의의/공헌점) : 품질 문제 정의 - 효율성/성능 - 탄도 궤적 연산시간, 메모리 사용량&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;연구구성--관련연구-분석개선전략-설계구현테스트실험--평가-결론향후&quot;&gt;&lt;strong&gt;연구구성 : 관련연구-분석/개선전략-설계/구현/테스트/실험- 평가-결론/향후&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h4 id=&quot;관련연구이론적배경선행연구--연구가설과-관련된-정보---탄도-궤적-논문-객체-메모리-사용-논문&quot;&gt;&lt;strong&gt;관련연구(이론적배경/선행연구 : 연구가설과 관련된 정보) - 탄도 궤적 논문, 객체 메모리 사용 논문&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h5 id=&quot;--게임-소프트웨어-품질평가&quot;&gt;​		&lt;strong&gt;게임 소프트웨어 품질평가&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--탄도궤적연산&quot;&gt;​		&lt;strong&gt;탄도궤적연산&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--메모리-사용&quot;&gt;​		&lt;strong&gt;메모리 사용&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--ood와-디자인-패턴&quot;&gt;​		&lt;strong&gt;OOD와 디자인 패턴&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h4 id=&quot;-분석개선전략연구내용가설설정연구방법-전략-설정---탄도-객체-발사-관련-연산시간과-메모리-사용-확인방안-및-개선-전략-설정&quot;&gt;​	&lt;strong&gt;분석/개선전략(연구내용/가설설정/연구방법, 전략 설정) - 탄도 객체 발사 관련 연산시간과 메모리 사용 확인방안 및 개선 전략 설정&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h5 id=&quot;--탄도-궤적-연산-기법-도출&quot;&gt;​		&lt;strong&gt;탄도 궤적 연산 기법 도출&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--개체-생성-방안-분석-및-적용패턴-선정&quot;&gt;​		&lt;strong&gt;개체 생성 방안 분석 및 적용패턴 선정&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h4 id=&quot;-연구결과분석결과가설검정-탄도개체-설계---모의-테스트실험&quot;&gt;​	&lt;strong&gt;연구결과(분석결과/가설검정, 탄도개체 설계) - 모의 테스트(실험)&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h5 id=&quot;--다수의-탄도-개체-생성-설계-및-구현-테스트-용도&quot;&gt;​		&lt;strong&gt;다수의 탄도 개체 생성 설계 및 구현 (테스트 용도)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--시스템-구현테스트-환경&quot;&gt;​		&lt;strong&gt;시스템 구현/테스트 환경&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--탄도-개체-생성-수에-따른-탄도-궤적-연산량과-메모리-사용량-확인-설계구현&quot;&gt;​		&lt;strong&gt;탄도 개체 생성 수에 따른 탄도 궤적 연산량과 메모리 사용량 확인 (설계/구현)&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--비교-구현---개선전략-적용-설계구현&quot;&gt;​		&lt;strong&gt;비교 구현 - 개선전략 적용 설계/구현&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h4 id=&quot;결과-고찰---평가&quot;&gt;&lt;strong&gt;결과 고찰 - 평가&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h5 id=&quot;--평가-방법&quot;&gt;​		&lt;strong&gt;평가 방법&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h5 id=&quot;--성능평가---전략에-대한-연산과-메모리-사용량-비교&quot;&gt;​		&lt;strong&gt;성능평가 - 전략에 대한 연산과 메모리 사용량 비교&lt;/strong&gt;&lt;/h5&gt;
-
-&lt;h4 id=&quot;결론-및-향후-과제-주장시사점&quot;&gt;&lt;strong&gt;결론 및 향후 과제 (주장/시사점)&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;h4 id=&quot;참고문헌&quot;&gt;&lt;strong&gt;참고문헌&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">소논문(Extended Essay) 2000단어 (IB컴퓨터과학 SL)</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">게임 총알 (Game Bullet)</summary></entry></feed>

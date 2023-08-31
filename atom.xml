@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>자기소개서</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 30 Aug 2023 08:39:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/coverletter-paper</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/coverletter-paper</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title>
         
           <description>&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현&lt;/a&gt;&lt;/p&gt;
