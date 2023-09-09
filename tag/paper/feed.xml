@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://hweejoon-chung.github.io/tag/paper/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" />
-  <updated>2023-09-09T13:01:50+09:00</updated>
+  <updated>2023-09-09T15:07:36+09:00</updated>
   <id>https://hweejoon-chung.github.io/tag/paper/feed.xml</id>
 
   
@@ -182,6 +182,97 @@
 
       
         <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects - 학술연구 활동보고서</title>
+      <link href="https://hweejoon-chung.github.io/reportOnAcademicResearchActivities-paper" rel="alternate" type="text/html" title="A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects - 학술연구 활동보고서" />
+      <published>2023-07-29T10:54:00+09:00</published>
+      <updated>2023-07-29T10:54:00+09:00</updated>
+      <id>https://hweejoon-chung.github.io/reportOnAcademicResearchActivities-paper</id>
+      <content type="html" xml:base="https://hweejoon-chung.github.io/reportOnAcademicResearchActivities-paper">&lt;hr /&gt;
+&lt;h1 id=&quot;a-study-on-software-design-approach-for-improving-trajectory-computation-time-and-memory-usage-for-creating-a-large-number-of-shooting-robots-objects&quot;&gt;A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects&lt;/h1&gt;
+
+&lt;h2 id=&quot;학술연구-활동보고서---소프트웨어수학탐구-융합&quot;&gt;학술연구 활동보고서 - 소프트웨어/수학탐구 융합&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Copyright Act / Prohibition of Unauthorized Reproduction and Redistribution&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;partial-disclosure-to-prevent-plagiarism&quot;&gt;&lt;u&gt;Partial disclosure to prevent plagiarism&lt;/u&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_2.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_3.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_5.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_8.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_10.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_11.jpg&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_14.jpg&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_15.jpg&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_18.jpg&quot; alt=&quot;10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_19.jpg&quot; alt=&quot;11&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_23.jpg&quot; alt=&quot;12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/학술연구활동보고서_소프트웨어수학탐구융합_24.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Copyright Act / Prohibition of Unauthorized Reproduction and Redistribution&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Hwee Joon Chung</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="paper" />
+      
+
+      
+        <summary type="html">A Study on Software Design Approach for Improving Trajectory Computation Time and Memory Usage for Creating A Large Number of Shooting-Robots’ Objects</summary>
       
 
       
@@ -412,13 +503,13 @@
     </entry>
   
     <entry>
-      <title type="html">Extended Essay in English</title>
-      <link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="Extended Essay in English" />
+      <title type="html">EE in English</title>
+      <link href="https://hweejoon-chung.github.io/ee4000wordsEN-paper" rel="alternate" type="text/html" title="EE in English" />
       <published>2023-05-03T07:31:00+09:00</published>
       <updated>2023-05-03T07:31:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/ee4000wordsEN-paper</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/ee4000wordsEN-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;extended-essay-in-english-computer-science&quot;&gt;Extended Essay in English (Computer Science)&lt;/h1&gt;
+&lt;h1 id=&quot;ee-in-english-computer-science&quot;&gt;EE in English (Computer Science)&lt;/h1&gt;
 
 &lt;h2 id=&quot;schedule&quot;&gt;Schedule&lt;/h2&gt;
 
@@ -447,8 +538,6 @@
 &lt;p&gt;&lt;a href=&quot;/assets/built/data/EE_comps_CHUNG.HWEE.JOON_en.zip&quot;&gt;EE_comps_CHUNG.HWEE.JOON_en.pdf&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;lt;== 무단도용 방지를 위해, IB 인증 이후 링크 복구하겠습니다.&lt;/p&gt;
-
-&lt;h3 id=&quot;extended-essay&quot;&gt;&lt;strong&gt;Extended Essay&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;h2 id=&quot;computer-science&quot;&gt;&lt;strong&gt;Computer Science&lt;/strong&gt;&lt;/h2&gt;
 
@@ -541,7 +630,7 @@
       
 
       
-        <summary type="html">Extended Essay in English (Computer Science)</summary>
+        <summary type="html">EE in English (Computer Science)</summary>
       
 
       
@@ -549,31 +638,31 @@
     </entry>
   
     <entry>
-      <title type="html">소논문(Extended Essay) 4000단어</title>
-      <link href="https://hweejoon-chung.github.io/ee4000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 4000단어" />
+      <title type="html">EE 4000단어</title>
+      <link href="https://hweejoon-chung.github.io/ee4000words-paper" rel="alternate" type="text/html" title="EE 4000단어" />
       <published>2023-04-16T08:58:00+09:00</published>
       <updated>2023-04-16T08:58:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/ee4000words-paper</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/ee4000words-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문extended-essay-4000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 4000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
+&lt;h1 id=&quot;ee-4000단어-ib컴퓨터과학-sl&quot;&gt;EE 4000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 제안서 제출 마감&lt;/li&gt;
     &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 1,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 3,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 4,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;관련 문의 : 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -658,7 +747,7 @@
       
 
       
-        <summary type="html">소논문(Extended Essay) 4000단어 (IB컴퓨터과학 SL)</summary>
+        <summary type="html">EE 4000단어 (IB컴퓨터과학 SL)</summary>
       
 
       
@@ -666,31 +755,31 @@
     </entry>
   
     <entry>
-      <title type="html">소논문(Extended Essay) 3000단어</title>
-      <link href="https://hweejoon-chung.github.io/ee3000words-paper" rel="alternate" type="text/html" title="소논문(Extended Essay) 3000단어" />
+      <title type="html">EE 3000단어</title>
+      <link href="https://hweejoon-chung.github.io/ee3000words-paper" rel="alternate" type="text/html" title="EE 3000단어" />
       <published>2023-04-01T03:23:00+09:00</published>
       <updated>2023-04-01T03:23:00+09:00</updated>
       <id>https://hweejoon-chung.github.io/ee3000words-paper</id>
       <content type="html" xml:base="https://hweejoon-chung.github.io/ee3000words-paper">&lt;hr /&gt;
-&lt;h1 id=&quot;소논문extended-essay-3000단어-ib컴퓨터과학-sl&quot;&gt;소논문(Extended Essay) 3000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
+&lt;h1 id=&quot;ee-3000단어-ib컴퓨터과학-sl&quot;&gt;EE 3000단어 (IB컴퓨터과학 SL)&lt;/h1&gt;
 
 &lt;h2 id=&quot;참고-일정&quot;&gt;참고 일정&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;ul class=&quot;task-list&quot;&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 소논문 제안서 제출 마감&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;~ 2022년 8월 29일 : 제안서 제출 마감&lt;/li&gt;
     &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;9월 중 : 지도교사 배정 - &lt;strong&gt;첫번째 필수성찰세션 (1st mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 소논문 1,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 소논문 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 소논문 3,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 소논문 4,000단어 분량 작성&lt;/li&gt;
-    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 소논문 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;11월 말 : 1,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;12월 말 : 2,000단어 분량 작성 - &lt;strong&gt;두번째 필수성찰세션 (2nd mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 3월 중순 : 3,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 중순 : 4,000단어 분량 작성&lt;/li&gt;
+    &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;2023년 5월 31일 : 최종본 제출 마감 - &lt;strong&gt;마지막 필수성찰세션(viva voce: final mandatory reflection session)&lt;/strong&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;관련 문의 : 소논문 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;관련 문의 : 코디네이터 (064-786-5577, &lt;a href=&quot;mailto:hatsal@korea.kr&quot;&gt;hatsal@korea.kr&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -773,7 +862,7 @@
       
 
       
-        <summary type="html">소논문(Extended Essay) 3000단어 (IB컴퓨터과학 SL)</summary>
+        <summary type="html">EE 3000단어 (IB컴퓨터과학 SL)</summary>
       
 
       
@@ -847,67 +936,6 @@
 
       
         <summary type="html">2021 ~ 2023년 수상경력 및 자격/수료증</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">캡사이신을 빠르게 용해시키는 우유의 조건에 대한 연구 - 화학</title>
-      <link href="https://hweejoon-chung.github.io/capsaicin_paper" rel="alternate" type="text/html" title="캡사이신을 빠르게 용해시키는 우유의 조건에 대한 연구 - 화학" />
-      <published>2023-01-26T10:32:00+09:00</published>
-      <updated>2023-01-26T10:32:00+09:00</updated>
-      <id>https://hweejoon-chung.github.io/capsaicin_paper</id>
-      <content type="html" xml:base="https://hweejoon-chung.github.io/capsaicin_paper">&lt;hr /&gt;
-&lt;h1 id=&quot;캡사이신을-빠르게-용해시키는-우유의-조건에-대한-연구&quot;&gt;캡사이신을 빠르게 용해시키는 우유의 조건에 대한 연구&lt;/h1&gt;
-
-&lt;h1 id=&quot;--화학&quot;&gt;- 화학&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2514정휘준_과과연수행평가001.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2514정휘준_과과연수행평가002.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2514정휘준_과과연수행평가003.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2514정휘준_과과연수행평가004.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2514정휘준_과과연수행평가005.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Hwee Joon Chung</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="paper" />
-      
-
-      
-        <summary type="html">캡사이신을 빠르게 용해시키는 우유의 조건에 대한 연구</summary>
       
 
       
