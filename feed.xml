@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-08-31T19:31:06+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">자기소개서</title><link href="https://hweejoon-chung.github.io/coverletter-paper" rel="alternate" type="text/html" title="자기소개서" /><published>2023-08-30T08:39:00+09:00</published><updated>2023-08-30T08:39:00+09:00</updated><id>https://hweejoon-chung.github.io/coverletter-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/coverletter-paper">&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://hweejoon-chung.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hweejoon-chung.github.io/" rel="alternate" type="text/html" /><updated>2023-09-09T12:52:22+09:00</updated><id>https://hweejoon-chung.github.io/feed.xml</id><title type="html">HWEE JOON’s Persona</title><subtitle>CHUNG HWEE JOON&apos;s Personal Blog</subtitle><author><name>Chung Hwee Joon</name></author><entry><title type="html">자기소개서</title><link href="https://hweejoon-chung.github.io/coverletter-paper" rel="alternate" type="text/html" title="자기소개서" /><published>2023-08-30T08:39:00+09:00</published><updated>2023-08-30T08:39:00+09:00</updated><id>https://hweejoon-chung.github.io/coverletter-paper</id><content type="html" xml:base="https://hweejoon-chung.github.io/coverletter-paper">&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
@@ -40,7 +40,44 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html"></summary></entry><entry><title type="html">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title><link href="https://hweejoon-chung.github.io/batchnormal-python" rel="alternate" type="text/html" title="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" /><published>2023-07-11T20:36:00+09:00</published><updated>2023-07-11T20:36:00+09:00</updated><id>https://hweejoon-chung.github.io/batchnormal-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/batchnormal-python">&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html"></summary></entry><entry><title type="html">My First Mystery Novel in English</title><link href="https://hweejoon-chung.github.io/englishMysteryNovel-python" rel="alternate" type="text/html" title="My First Mystery Novel in English" /><published>2023-08-12T10:58:00+09:00</published><updated>2023-08-12T10:58:00+09:00</updated><id>https://hweejoon-chung.github.io/englishMysteryNovel-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/englishMysteryNovel-python">&lt;hr /&gt;
+&lt;h1 id=&quot;my-first-mystery-novel&quot;&gt;My First Mystery Novel&lt;/h1&gt;
+
+&lt;h1 id=&quot;--and-then-there-were-none&quot;&gt;- And Then There Were None&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone01.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone02.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone03.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone04.png&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone05.png&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone06.png&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone07.png&quot; alt=&quot;7&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;디렉토리-구조&quot;&gt;&lt;u&gt;디렉토리 구조&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone00.png&quot; alt=&quot;8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/AndThenThereWereNone0.png&quot; alt=&quot;9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">My First Mystery Novel</summary></entry><entry><title type="html">딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title><link href="https://hweejoon-chung.github.io/batchnormal-python" rel="alternate" type="text/html" title="딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현" /><published>2023-07-11T20:36:00+09:00</published><updated>2023-07-11T20:36:00+09:00</updated><id>https://hweejoon-chung.github.io/batchnormal-python</id><content type="html" xml:base="https://hweejoon-chung.github.io/batchnormal-python">&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
 
@@ -89,7 +126,40 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">20230711_딥러닝과대적합문제해결을위한배치정규화구현</summary></entry><entry><title type="html">기하를 활용한 창작물 제작 - 수학 IB HL</title><link href="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH" rel="alternate" type="text/html" title="기하를 활용한 창작물 제작 - 수학 IB HL" /><published>2023-06-18T17:18:00+09:00</published><updated>2023-06-18T17:18:00+09:00</updated><id>https://hweejoon-chung.github.io/geometricCreation-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH">&lt;hr /&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">20230711_딥러닝과대적합문제해결을위한배치정규화구현</summary></entry><entry><title type="html">확장된 회오리 형태의 아르키메데스 나선식 펌프 - 토러스</title><link href="https://hweejoon-chung.github.io/geometricCreationEx-assessmentMATH" rel="alternate" type="text/html" title="확장된 회오리 형태의 아르키메데스 나선식 펌프 - 토러스" /><published>2023-06-25T10:47:00+09:00</published><updated>2023-06-25T10:47:00+09:00</updated><id>https://hweejoon-chung.github.io/geometricCreationEx-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/geometricCreationEx-assessmentMATH">&lt;hr /&gt;
+&lt;h1 id=&quot;확장된-회오리-형태의-아르키메데스-나선식-펌프&quot;&gt;확장된 회오리 형태의 아르키메데스 나선식 펌프&lt;/h1&gt;
+
+&lt;h1 id=&quot;--토러스&quot;&gt;- 토러스&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;확장된-회오리-형태의-아르키메데스-나선식-펌프-1&quot;&gt;확장된 회오리 형태의 아르키메데스 나선식 펌프&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/확장된회오리형태의아르키메데스나선식펌프001.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/확장된회오리형태의아르키메데스나선식펌프002.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/확장된회오리형태의아르키메데스나선식펌프003.jpg&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;토러스&quot;&gt;토러스&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/토러스001.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/토러스002.jpg&quot; alt=&quot;5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/토러스003.jpg&quot; alt=&quot;6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">확장된 회오리 형태의 아르키메데스 나선식 펌프</summary></entry><entry><title type="html">기하를 활용한 창작물 제작 - 수학 IB HL</title><link href="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH" rel="alternate" type="text/html" title="기하를 활용한 창작물 제작 - 수학 IB HL" /><published>2023-06-18T17:18:00+09:00</published><updated>2023-06-18T17:18:00+09:00</updated><id>https://hweejoon-chung.github.io/geometricCreation-assessmentMATH</id><content type="html" xml:base="https://hweejoon-chung.github.io/geometricCreation-assessmentMATH">&lt;hr /&gt;
 &lt;h1 id=&quot;기하를-활용한-창작물-제작&quot;&gt;기하를 활용한 창작물 제작&lt;/h1&gt;
 
 &lt;h1 id=&quot;--수학-ib-hl&quot;&gt;- 수학 IB HL&lt;/h1&gt;
@@ -608,143 +678,4 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">Python과 인공지능(AI)</summary></entry><entry><title type="html">2021 ~ 2023년 수상경력 및 자격/수료증</title><link href="https://hweejoon-chung.github.io/awards2023pre" rel="alternate" type="text/html" title="2021 ~ 2023년 수상경력 및 자격/수료증" /><published>2023-02-12T01:11:00+09:00</published><updated>2023-02-12T01:11:00+09:00</updated><id>https://hweejoon-chung.github.io/awards2023pre</id><content type="html" xml:base="https://hweejoon-chung.github.io/awards2023pre">&lt;hr /&gt;
-&lt;h1 id=&quot;2021--2023년-수상경력-및-자격수료증&quot;&gt;2021 ~ 2023년 수상경력 및 자격/수료증&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;*2023.02. KAIST 사이버영재교육 수료&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;*2023.01. SW미래채움 AI 인공지능 수료&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;*2023.01. 모범학생 표창상&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;*2022.01. 교과우수상 (정보:컴퓨터과학)&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;*2021.12. 유네스코청소년기자단 수료증 &amp;amp; 상장&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;*2021.07. 교과우수상 (통합사회, 통합과학, 정보:컴퓨터과학)&lt;/strong&gt;*&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20230202_KAIST사이버영재교육_이수증.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20230115_AI인공지능수료증.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20230106_모범학생표창장_표선고.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20220104_정보_교과우수상.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20211218_한국유네스코기자.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20211218_유네스코청소년기자단.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/20210715_통합사회통합과학정보_교과우수상.jpg&quot; alt=&quot;2021~2023년&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="paper" /><summary type="html">2021 ~ 2023년 수상경력 및 자격/수료증</summary></entry><entry><title type="html">게임 총알</title><link href="https://hweejoon-chung.github.io/bullet-unity" rel="alternate" type="text/html" title="게임 총알" /><published>2023-01-08T05:14:00+09:00</published><updated>2023-01-08T05:14:00+09:00</updated><id>https://hweejoon-chung.github.io/bullet-unity</id><content type="html" xml:base="https://hweejoon-chung.github.io/bullet-unity">&lt;h1 id=&quot;게임-총알-game-bullet&quot;&gt;게임 총알 (Game Bullet)&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;총알을-발사하는-총-비행기-대포-전함-등과-같은-발사체-객체는-존재한다고-가정&quot;&gt;&lt;strong&gt;총알을 발사하는 총, 비행기, 대포, 전함 등과 같은 발사체 객체는 존재한다고 가정!&lt;/strong&gt;&lt;/h4&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;총알-객체-prefab-만들기&quot;&gt;총알 객체 Prefab 만들기&lt;/h2&gt;
-
-&lt;p&gt;Unity Hierarchy 창에서 오른쪽 마우스 클릭 &amp;gt; 3D Object &amp;gt; Sphere 클릭&lt;/p&gt;
-
-&lt;p&gt;​	Bullet이라고 Name 변경&lt;/p&gt;
-
-&lt;p&gt;(필요시) Hierarchy 창에서 Bullet 선택 &amp;gt; Inspector 창 &amp;gt; Transform 내 Scale 변경&lt;/p&gt;
-
-&lt;p&gt;총알에 물리엔진 적용하기 위해 Inspector 창 &amp;gt; Add Component &amp;gt; RigidBody 클릭하여 RigidBody Component 추가&lt;/p&gt;
-
-&lt;p&gt;Bullet을 Drag해서 Project 창의 Prefab 폴더로 Drop해서 Prefab으로 만들어 재사용.&lt;/p&gt;
-
-&lt;p&gt;Hierarchy 창 Bullet 클릭하여 Delete.&lt;/p&gt;
-
-&lt;h2 id=&quot;총알-발사-위치-설정하기&quot;&gt;총알 발사 위치 설정하기&lt;/h2&gt;
-
-&lt;p&gt;발사체 객체에서 총알이 발사되는 위치 설정&lt;/p&gt;
-
-&lt;p&gt;Hierarchy 창에서 오른쪽 마우스 클릭 &amp;gt; Create Empty 클릭&lt;/p&gt;
-
-&lt;p&gt;​	ShootPos이라고 Name 변경&lt;/p&gt;
-
-&lt;p&gt;(Scene창에서 총알 발사 위치 설정) Hierarchy 창에서 ShootPos 선택 &amp;gt; Inspector 창 &amp;gt; Transform 내 Position 변경 확인&lt;/p&gt;
-
-&lt;p&gt;(총, 비행기, 대포, 전함 등이 이동할 때 발사 위치도 같이 이동위해 ShootPos을 해당 발사체 객체의 Child화) Hierarchy 창에서 ShootPos을 Drag해서 Hierarchy 창의 발사체 객체 이름 위에 Drop하여 Child화&lt;/p&gt;
-
-&lt;p&gt;Hierarchy에서 발사체 객체를 클릭 &amp;gt; Inspector 창 &amp;gt; Overrides 클릭하여 ShootPos 추가 확인 &amp;gt; Apply All 클릭&lt;/p&gt;
-
-&lt;h2 id=&quot;총알-발사-스크립트&quot;&gt;총알 발사 스크립트&lt;/h2&gt;
-
-&lt;p&gt;Hierarchy 창에서 발사체 객체를 선택 &amp;gt; Inspector창 &amp;gt; Add Component 클릭&lt;/p&gt;
-
-&lt;p&gt;​	ShootCtrl이라고 이름 입력하고 New script 클릭 &amp;gt; Create and Add 클릭하여 ShootCtrl 스크립트 생성&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public GameObject bullet;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	총알 객체 변수&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public Transform shootPos;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	총알 위치 정보 변수&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (Input.GetMouseButtonDown(0))
-{
-	Shoot();
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	마우스 클릭 시 총알 발사함수&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;void Shoot()
-{
-    Instantiate(bullet, shootPos.position, shootPos.rotation);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	Instantiate()는 GameObject을 새로 생성하는 역할을 하는 함수.  Prefab 총알을 필요할때마다 복사해서 생성함.&lt;/p&gt;
-
-&lt;p&gt;Project &amp;gt; Prefabs &amp;gt; Bullet을 Drag하여, Inspector &amp;gt; ShootCtrl (Script) &amp;gt; Bullet에(None 위로) Drop&lt;/p&gt;
-
-&lt;p&gt;Hierarcy 창에서 발사체의 Child로 포함된 ShootPos을 Drag하여, Inspector &amp;gt; ShootCtrl (Script) &amp;gt; ShootPos에(None 위로) Drop&lt;/p&gt;
-
-&lt;h2 id=&quot;총알-발사-강도-조정&quot;&gt;총알 발사 강도 조정&lt;/h2&gt;
-
-&lt;p&gt;Prefab &amp;gt; Bullet을 Drag하여 Hierarchy 창에 Drop 
-(Prefab의 Bullet을 다시 Hierarchy창으로 가져와 수정하고 재반영해야 함)&lt;/p&gt;
-
-&lt;p&gt;​	Add Component 클릭 &amp;gt; BulletCtrl이라고 이름 입력하고 New script 클릭 &amp;gt; Create and Add 클릭하여 스크립트 생성&lt;/p&gt;
-
-&lt;p&gt;힘을 가하기 위해 힘을 받을 대상으로 Bullet의 RigidBody Component활용&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private Rigidbody rb;
-...
-rb = GetComponent&amp;lt;Rigidbody&amp;gt;();
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	해당 클래스가 포함된 GameObject(Bullet)의 Rigidbody 컴포넌트 가져와서 rb에 대입&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rb.AddRelativeForce(Vector3.forward * 1000.0f);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;​	Vector3.forward(z축) 방향으로 1000.0f의 속도로 힘을 줌&lt;/p&gt;
-
-&lt;p&gt;Bullet Prefab의 Inspector 창 Overrides 클릭하고 Bullet Ctrl 스크립트를 Apply All 클릭하여 변경사항 적용.
-	Bullet Prefab 내 정보를 변경했으니 Prefab에 재반영.&lt;/p&gt;
-
-&lt;p&gt;Hierarchy 창에 남아있는 Bullet 클릭하여 Delete.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;D:/_JOON/blog/_posts/assets/built/images/favicon_64x64.png&quot; alt=&quot;hweejoon-chung.github.io&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;저작권법 / 무단전재 및 재배포 금지&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Hwee Joon Chung</name></author><category term="unity" /><summary type="html">게임 총알 (Game Bullet)</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Hwee Joon Chung</name></author><category term="python" /><summary type="html">Python과 인공지능(AI)</summary></entry></feed>

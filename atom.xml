@@ -23,6 +23,22 @@
     
       
       <item>
+        <title>My First Mystery Novel in English</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h1 id=&quot;my-first-mystery-novel&quot;&gt;My First Mystery Novel&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sat, 12 Aug 2023 10:58:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/englishMysteryNovel-python</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/englishMysteryNovel-python</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>딥러닝 학습 시 Overfitting 문제 해결을 위한 Batch Normalization 구현</title>
         
           <description>&lt;p&gt;&lt;a href=&quot;/assets/built/data/20230711_딥러닝과대적합문제해결을위한배치정규화구현.pdf&quot;&gt;20230711_딥러닝과대적합문제해결을위한배치정규화구현&lt;/a&gt;&lt;/p&gt;
@@ -33,6 +49,22 @@
         <link>
         https://hweejoon-chung.github.io/batchnormal-python</link>
         <guid isPermaLink="true">https://hweejoon-chung.github.io/batchnormal-python</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>확장된 회오리 형태의 아르키메데스 나선식 펌프 - 토러스</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h1 id=&quot;확장된-회오리-형태의-아르키메데스-나선식-펌프&quot;&gt;확장된 회오리 형태의 아르키메데스 나선식 펌프&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Jun 2023 10:47:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/geometricCreationEx-assessmentMATH</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/geometricCreationEx-assessmentMATH</guid>
       </item>
       
     
@@ -144,6 +176,38 @@
         <link>
         https://hweejoon-chung.github.io/awards2023pre</link>
         <guid isPermaLink="true">https://hweejoon-chung.github.io/awards2023pre</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>캡사이신을 빠르게 용해시키는 우유의 조건에 대한 연구 - 화학</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h1 id=&quot;캡사이신을-빠르게-용해시키는-우유의-조건에-대한-연구&quot;&gt;캡사이신을 빠르게 용해시키는 우유의 조건에 대한 연구&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Thu, 26 Jan 2023 10:32:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/capsaicin_paper</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/capsaicin_paper</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>지식 제시 문맥의 영향</title>
+        
+          <description>&lt;hr /&gt;
+&lt;h1 id=&quot;지식-제시-문맥의-영향&quot;&gt;지식 제시 문맥의 영향&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 17 Jan 2023 07:48:00 +0900</pubDate>
+        <link>
+        https://hweejoon-chung.github.io/knowledgeContext-paper</link>
+        <guid isPermaLink="true">https://hweejoon-chung.github.io/knowledgeContext-paper</guid>
       </item>
       
     
